@@ -16,7 +16,7 @@
           },
           {
             "id": "b",
-            "text": "Basisrente mit Hinterbliebenen-Zusatzversicherung Q"
+            "text": "Basisrente mit Hinterbliebenen-Zusatzversicherung"
           },
           {
             "id": "c",
@@ -54,11 +54,18 @@
           {
             "id": "d",
             "text": "als Sonderausgaben unbegrenzt geltend gemacht werden, weil die Leistungen nachgelagert besteuert werden. i"
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: A, E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a",
+          "e"
+        ],
+        "solution": "Richtige Antwort: A, E.",
+        "manualGrade": false
       },
       {
         "id": "frage-003",
@@ -76,7 +83,7 @@
           },
           {
             "id": "c",
-            "text": "Beitragsfreistellung für die Restlaufzeit Q"
+            "text": "Beitragsfreistellung für die Restlaufzeit"
           },
           {
             "id": "d",
@@ -92,7 +99,7 @@
       {
         "id": "frage-004",
         "type": "multiple",
-        "prompt": "F''•·.!1~:~-~-~,::tl Doris Lenz hat nach Durchsicht ihrer Renteninformation den Bedarf erkannt, zusätzlich etwas für ihre Vorsorge zu tun. Aus steuerlichen Gründen empfehlen Sie ihr eine private kapitalgedeckte Leibrentenversicherung (Basisrente). Welche Zusatzversicherung können Sie Frau Lenz anbieten und was ist zu beachten, damit der Gesamtbeitrag steuerlich abzugsfähig ist?",
+        "prompt": "Sie ihr eine private kapitalgedeckte Leibrentenversicherung (Basisrente). Welche Zusatzversicherung können Sie Frau Lenz anbieten und was ist zu beachten, damit der Gesamtbeitrag steuerlich abzugsfähig ist?",
         "points": 1,
         "options": [
           {
@@ -105,21 +112,28 @@
           },
           {
             "id": "c",
-            "text": "Eine Berufsunfähigkeits-Zusatzversicherung ohne Berücksichtigung der Höhe des Beitragsanteils. Q"
+            "text": "Eine Berufsunfähigkeits-Zusatzversicherung ohne Berücksichtigung der Höhe des Beitragsanteils."
           },
           {
             "id": "d",
-            "text": "Eine Berufsunfähigkeits-Zusatzversicherung, wobei der Beitragsanteil weniger als 50 % des Gesamtbeitrages betragen muss. ~"
+            "text": "Eine Berufsunfähigkeits-Zusatzversicherung, wobei der Beitragsanteil weniger als 50 % des Gesamtbeitrages betragen muss."
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: D, E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d",
+          "e"
+        ],
+        "solution": "Richtige Antwort: D, E.",
+        "manualGrade": false
       },
       {
         "id": "frage-005",
         "type": "multiple",
-        "prompt": ".; ·,:' ~-: :: ~ir~: •',•~· ~-r1~J. r' ,.._c .. · ~.;, ... ~. · 'i~~~ ,., LV, ,,,, .. ··· ,. ~1·_,,·. ;1~,·:. -- • n ~ - ·- • Waldemar Kerz (43) hat sich anhand einer Versorgungsanalyse für den Abschluss einer privaten Rentenversicherung entschlossen, die zum 67. Lebensjahr seine gesetzliche Altersrente ergänzen soll. Zusätzlich sprechen Sie auch die Option einer 15-jährigen Rentengarantiezeit an. Herr Kerz möchte wissen, was unter dieser Option zu verstehen ist. Wenn der Versicherte ...",
+        "prompt": "Rentenversicherung entschlossen, die zum 67. Lebensjahr seine gesetzliche Altersrente ergänzen soll. Zusätzlich sprechen Sie auch die Option einer 15-jährigen Rentengarantiezeit an. Herr Kerz möchte wissen, was unter dieser Option zu verstehen ist. Wenn der Versicherte ...",
         "points": 1,
         "options": [
           {
@@ -132,7 +146,7 @@
           },
           {
             "id": "c",
-            "text": "ahren. Q"
+            "text": "ahren."
           },
           {
             "id": "d",
@@ -211,7 +225,7 @@
       {
         "id": "frage-009",
         "type": "single",
-        "prompt": "l=-■ = -~ . -··. 1!&4:Wi.i .\". · - ·---~.: ...,-. - ;oi::.. • •·. - - ·•''-\"\" _, \"c._.:;p• ....:;.,... '-\"'\" ,·:;< :r!·~:,~~~-f~r~.:1s~:~.,.:-_:_. ·,. .~:;J,~~~r;1i4':4'.W Sie beraten das Ehepaar Hagen zu einem Altersvorsorgevertrag im Rahmen der Zulagenförderung nach § 1 0a EStG. Herr Hagen ist angestellter Großhandelskaufmann mit einem Einkommen von 35.000,- € jährlich. Seine Ehefrau ist Hausfrau und erzieht den 7-jährigen Sohn. Frau Hagen fragt Sie, ob ihr als Hausfrau die staatliche Förderung zusteht. Sie erklären Frau Hagen richtigerweise, dass ...",
+        "prompt": "Sie beraten das Ehepaar Hagen zu einem Altersvorsorgevertrag im Rahmen der Zulagenförderung nach § 1 0a EStG. Herr Hagen ist angestellter Großhandelskaufmann mit einem Einkommen von 35.000,- € jährlich. Seine Ehefrau ist Hausfrau und erzieht den 7-jährigen Sohn. Frau Hagen fragt Sie, ob ihr als Hausfrau die staatliche Förderung zusteht. Sie erklären Frau Hagen richtigerweise, dass ...",
         "points": 1,
         "options": [
           {
@@ -220,7 +234,7 @@
           },
           {
             "id": "b",
-            "text": "ihre Förderung auf den Vertrag des Ehemannes überwiesen wird, wenn er zum begünstigten Personenkreis gehört. Q"
+            "text": "ihre Förderung auf den Vertrag des Ehemannes überwiesen wird, wenn er zum begünstigten Personenkreis gehört."
           },
           {
             "id": "c",
@@ -249,7 +263,7 @@
           },
           {
             "id": "b",
-            "text": "Die Kapitalauszahlung der Versicherung wird mit dem Ertragsanteil von 18 % steuerpflichtig. Q"
+            "text": "Die Kapitalauszahlung der Versicherung wird mit dem Ertragsanteil von 18 % steuerpflichtig."
           },
           {
             "id": "c",
@@ -269,7 +283,7 @@
       {
         "id": "frage-011",
         "type": "single",
-        "prompt": "t~f~\\•t:, -~1'1-\" ''.t•. -~-•• .;~f,•~~~~v,( :••rc,J . .,;_0ere1ch·A·4•··~,• ~~\"\"- ,, :;, _':1 ·-~~ ·- ---- ..,,, i,,,t~. , Claudia Schubert will bei Ihnen eine Berufsunfähigkeitsversicherung beantragen. Sie weisen sie darauf hin, dass auch ein Pflegefall Leistungen auslöst. In diesem Zusammenhang erkundigt fragt Frau Schubert, nach welchem Bewertungsmaßstab der Pflegefall im Sinne der Berufsunfähigkeitsbedingungen eingestuft wird. Die Einstufung erfolgt nach ... Q",
+        "prompt": "Berufsunfähigkeitsversicherung beantragen. Sie weisen sie darauf hin, dass auch ein Pflegefall Leistungen auslöst. In diesem Zusammenhang erkundigt fragt Frau Schubert, nach welchem Bewertungsmaßstab der Pflegefall im Sinne der Berufsunfähigkeitsbedingungen eingestuft wird. Die Einstufung erfolgt nach ... Q",
         "points": 1,
         "options": [
           {
@@ -308,6 +322,16 @@
         "manualGrade": false
       },
       {
+        "id": "frage-012",
+        "type": "text",
+        "prompt": "19.10.2020 [1 2137953996] [f L1?.. 2137946732] 'r: Sie führen~,t Gerd Heinrich ein Beratungsgespräch Sie beraten Henning Förster (36, unverheiratet und zu seiner p vaten Altersvorsorge und stellen ihm kinderlos) zu einem Altersvorsorgevertrag im verschieden Formen der privaten vor. Rahmen der Zulagenförderung nach § 1 Oa EStG. Dabei erklären Sie ihm, dass er 4% seines Herr Heinrich i~insbesondere an eiJiler privaten Vorjahresbruttoeinkommens aufbringen muss, um kapitalqedeckt Leibrentenversicbärunq die volle Zulage zu erhalten: in seinem Fall wären (Basisrente) int ressiert. dies 1 .600 EUR insgesamt. Herr Förster möchte Jedoch ledigllch einen Eigenbeitrag in Höhe von 723 EUR zahlen. Dazu möchte er von Ihnen wissen, welche anteilige a Zulage er erhält, wenn sein eigener Beitrag 723 EUR beträgt. 88,79 € b - BU/EU-Rente/f¾n~ie maximal 15% der Beiträge aufg'ew \\det werden dürfen C Hinterbli~enenren~ für den Ehegatten und für kinde geldberec tigte Kinder sowie eine BU/EM/ ente d Hintc/bliebenenrente f\\ den Ehegatten bzw. für d'ie Kinder \\ e erbsminderungsrente, für die maximal 0% der Beiträge aufgewendet werden dürfen 5 - : Seite 5 \"·. - . - . . . -·-- - ,_ =-(\\ ,:. ·- --- , ,\\ J_:_,.._ -11/\\ ..J-:-n-:-t-n- ......... - ......... ~'1--~ .... .-J ...... -D .. : .... t-T,..,, .... +o,.....,rl ..... 1-inrtR.fiolrl-=o~Nqfn!:lo-t::;.l::;,-l~_ll..nQR-:=1RrP-h~Rfr.hhrl1 A~RRn. !'1/Rfi",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-013",
         "type": "single",
         "prompt": ".... r,o - - -- - - Manuela Hinck interessiert sich für eine fondsgebundene Rentenversicherung. Während des Beratungsgesprächs hat sie insbesondere Fragen zu den Überschusssystemen. Frau Hinck möchte wissen, was mit laufenden Überschussanteilen vor Rentenbeginn geschieht. Laufende Überschussanteile werden ... Q",
@@ -339,7 +363,7 @@
       {
         "id": "frage-014",
         "type": "single",
-        "prompt": ". . ..,, \"':'~~ ~ - ... ~. ... ;;:.::•:.J:~ Ihr Kunde Dieter Bertram hat im Wirtschaftsteil seiner Tageszeitung die Begriffe unwiderrufliches und widerrufliches Bezugsrecht in der kapitalbildenden Lebensversicherung gelesen. Bei einem Beratungsgespräch bittet er Sie um Klärung der beiden Begriffe. Welche der nachfolgenden Erklärungen treffen zu?",
+        "prompt": "Ihr Kunde Dieter Bertram hat im Wirtschaftsteil seiner Tageszeitung die Begriffe unwiderrufliches und widerrufliches Bezugsrecht in der kapitalbildenden Lebensversicherung gelesen. Bei einem Beratungsgespräch bittet er Sie um Klärung der beiden Begriffe. Welche der nachfolgenden Erklärungen treffen zu?",
         "points": 1,
         "options": [
           {
@@ -352,7 +376,7 @@
           },
           {
             "id": "c",
-            "text": "Stirbt die widerruflich bezugsberechtigte Person vor Ablauf des Vertrags, geht das Bezugsrecht auf den Versicherungsnehmer über. :7x Das unwiderrufliche Bezugsrecht kann nur mit Zustimmung des unwiderruflich Bezugsberechtigten geändert werden. ~ @"
+            "text": "Stirbt die widerruflich bezugsberechtigte Person vor Ablauf des Vertrags, geht das Bezugsrecht auf den Versicherungsnehmer über. :7x Das unwiderrufliche Bezugsrecht kann nur mit Zustimmung des unwiderruflich Bezugsberechtigten geändert werden. ~ @®"
           }
         ],
         "answerIds": [
@@ -399,11 +423,11 @@
         "options": [
           {
             "id": "a",
-            "text": "Bei Tod infolge Krieg oder innerer Unruhen werden die eingezahlten Beiträge und die erwirtschafteten Überschüsse ausgezahlt. 0"
+            "text": "Bei Tod"
           },
           {
             "id": "b",
-            "text": "Bei Tod infolge Krieg oder innerer Unruhen werden die volle Versicherungssumme und die erwirtschafteten Überschüsse ausgezahlt."
+            "text": "Bei Tod"
           },
           {
             "id": "c",
@@ -444,12 +468,18 @@
           },
           {
             "id": "e",
-            "text": "Bei vereinbarter Dynamik steigt die Versicherungssumme im gleichen Verhältnis wie der Beitrag. Inﬂa%ons-Schutz & keine weiteren Gesundheitsfragen ~"
+            "text": "Bei vereinbarter Dynamik steigt die Versicherungssumme im gleichen Verhältnis wie der Beitrag. Inﬂa%ons-Schutz & keine weiteren Gesundheitsfragen"
+          },
+          {
+            "id": "f",
+            "text": "[Antwort F im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: F. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "f"
+        ],
+        "solution": "Richtige Antwort: F.",
+        "manualGrade": false
       },
       {
         "id": "frage-019",
@@ -467,16 +497,23 @@
           },
           {
             "id": "c",
-            "text": "Der Anspruch auf Halbwaisenrente besteht nach dem Tod eines Elternteils nur bis zur Vollendung des 18. Lebensjahres. Q"
+            "text": "Der Anspruch auf Halbwaisenrente besteht nach dem Tod eines Elternteils nur bis zur Vollendung des 18. Lebensjahres."
           },
           {
             "id": "d",
             "text": "Der Anspruch auf Halbwaisenrente besteht längstens bis zur Vollendung des 27. Lebensjahres, wenn sie sich in einer Schul- oder Berufsausbildung befindet oder ein freiwilliges soziales Jahr leistet. i"
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: D, E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d",
+          "e"
+        ],
+        "solution": "Richtige Antwort: D, E.",
+        "manualGrade": false
       },
       {
         "id": "frage-020",
@@ -498,12 +535,19 @@
           },
           {
             "id": "d",
-            "text": "nach Erfüllung der 5-jährigen Beitragszeit und mit Vollendung des 25. Lebensjahres automatisch seine Renteninformation erhält. ~"
+            "text": "nach Erfüllung der 5-jährigen Beitragszeit und mit Vollendung des 25. Lebensjahres automatisch seine Renteninformation erhält."
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: A, E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a",
+          "e"
+        ],
+        "solution": "Richtige Antwort: A, E.",
+        "manualGrade": false
       },
       {
         "id": "frage-021",
@@ -521,7 +565,7 @@
           },
           {
             "id": "c",
-            "text": "das Bruttoarbeitsentgelt des Versicherten ~"
+            "text": "das Bruttoarbeitsentgelt des Versicherten"
           },
           {
             "id": "d",
@@ -547,7 +591,7 @@
         "options": [
           {
             "id": "a",
-            "text": "erhält er einen Zuschlag von 0,5 % pro Monat auf seine Altersrente aus der GRV. Q"
+            "text": "erhält er einen Zuschlag von 0,5 % pro Monat auf seine Altersrente aus der GRV."
           },
           {
             "id": "b",
@@ -571,7 +615,7 @@
       {
         "id": "frage-024",
         "type": "multiple",
-        "prompt": "' fs•:,~f;\\::)_ ?;·GRV ~ ~... ~~ ,. ,. t-..,. ~,_ ~-?. . : ,h ~l, 1 '- ' -· l lili1 Gerda Manfeld (29) arbeitet seit ihrer Ausbildung als Bürokauffrau bei der Firma Greve und Partner. Heute beraten Sie Frau Manfeld zu ihrer Altersvorsorge und gehen zunächst auf die steuerliche Behandlung der Beiträge zur Gesetzlichen Rentenversicherung (GRV) ein. Ihre Kundin möchte wissen, wie sich diese steuerlich auswirken. Die Beiträge ...",
+        "prompt": "Sie Frau Manfeld zu ihrer Altersvorsorge und gehen zunächst auf die steuerliche Behandlung der Beiträge zur Gesetzlichen Rentenversicherung (GRV) ein. Ihre Kundin möchte wissen, wie sich diese steuerlich auswirken. Die Beiträge ...",
         "points": 1,
         "options": [
           {
@@ -603,9 +647,19 @@
         "manualGrade": false
       },
       {
+        "id": "frage-025",
+        "type": "text",
+        "prompt": "]'2-- 1576 37954388 [~ 2.5 2137954410] Bei der Antragsaufr\\ hme ,efibt Thomas Schaf Diabetes als Vorerkr n~✓ ng an. Sie erläutern ihm, dass diese Vorer fankunq zu einer Leistungskürzung f\" re kann. Entscheidend ist Ihr Kunde Walter Mertens hat durch einen der Mitwirkungs/teil. Unfall einen Trümmerbruch am rechten Bein erlitten. Es besteht eine Private Wie hoch (r·n P bzent) muss'dieser mindestens sein, damit e zu einer Leistu'h~kürzung lnvaliditätssumme. kommt? \\ Die Heilung verlief so schlecht, dass die Ärzte das rechte Bein bis zur Mitte des Oberschenkels abnehmen mussten (60% Invalidität laut Gliedertaxe). Dr. Bock, Chefarzt der Chirurgie, bestätigte, dass eine Zuckerkrankheit zu 20% an den Unfallfolgen mitgewirkt hat. Welche lnvaliditätsleistung erhält Herr Mertens? a - 30.000 EUR b - 20.000 EUR x c - 60.000 EUR d - 40.000 EUR e - 48.000 EUR Ab dem Moment wo eine Krankheit zu 25% oder mehr an den Unfall-Folgen mit gewirkt hat, dann muss dies entsprechend mit berücksichBg werden. 789 - : Seite 789",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-026",
         "type": "single",
-        "prompt": ",,., - - ... -- - \" - n -,· • ·•- •, .; .. ·.:.,·_·., _, ··\"-\"' • --•=•· ' •-•··-~ .. r,o_ -- . ...,._ Für Ralf Schwarz (29) besteht seit 2 Jahren bei Ihrer Gesellschaft eine Direktversicherung durch Entgeltumwandlung (bAV). Er möchte jetzt den Arbeitgeber wechseln. Von einem Bekannten hat er die Information erhalten, dass der Versicherungsvertrag mit allen Rechten und Pflichten beim bisherigen Arbeitgeber verbleibt. Ist diese Aussage richtig?",
+        "prompt": "Für Ralf Schwarz (29) besteht seit 2 Jahren bei Ihrer Gesellschaft eine Direktversicherung durch Entgeltumwandlung (bAV). Er möchte jetzt den Arbeitgeber wechseln. Von einem Bekannten hat er die Information erhalten, dass der Versicherungsvertrag mit allen Rechten und Pflichten beim bisherigen Arbeitgeber verbleibt. Ist diese Aussage richtig?",
         "points": 1,
         "options": [
           {
@@ -614,7 +668,7 @@
           },
           {
             "id": "b",
-            "text": "Ja, weil auch bei einer bAV der Arbeitgeber Versicherungsnehmer ist. Q"
+            "text": "Ja, weil auch bei einer bAV der Arbeitgeber Versicherungsnehmer ist."
           },
           {
             "id": "c",
@@ -647,7 +701,7 @@
           },
           {
             "id": "c",
-            "text": "4 % der Beitragsbemessungsgrenze der Gesetzlichen Rentenversicherung zuzüglich 2.100 Euro investiert werden. Q"
+            "text": "4 % der Beitragsbemessungsgrenze der Gesetzlichen Rentenversicherung zuzüglich 2.100 Euro investiert werden."
           },
           {
             "id": "d",
@@ -676,7 +730,7 @@
           },
           {
             "id": "c",
-            "text": "Nein, eine vorzeitige Auszahlung der Erlebensfallleistung zum 63. Lebensjahr ist in einem solchen Fall ausgeschlossen. Q"
+            "text": "Nein, eine vorzeitige Auszahlung der Erlebensfallleistung zum 63. Lebensjahr ist in einem solchen Fall ausgeschlossen."
           },
           {
             "id": "d",
@@ -690,9 +744,19 @@
         "manualGrade": false
       },
       {
+        "id": "frage-029",
+        "type": "text",
+        "prompt": "19.10.2020 L.. ,z ~ 21379543841 34 2137954440 Für Franziska Kalon besteht bei Ihrer Gesellschaft Als Sie Ihrer K~din Magdalena Münter die Vorteile eine Private Unfallversicherung einer Privaten nfallversicherung e;~lären, kommen mit Krankenhaustagegeld (KHT) in Höhe von 40 Sie auch auf da Thema Ges~~ine EUR. Nach einem Fahrradunfall im Urlaub musste Unfallversicherurr~ (GUV) zu s/_chen. sie sich zunächst für 56 Tage in stationäre Behandlung begeben. Danach war sie noch für 6 Sie erfahren, dass\\~rau Mün~er jeden Mittwoch bei _ Wochen arbeitsunfähig. einem Nachbarn fü 225 EUR im Monat den Haushalt in Ordnun hält. Nach zweieinhalb Jahren ist eine Folgeoperation erforderlich; Dauer des Krankenhausaufenthaltes r sie bei der GUV melden zwei Wochen mit anschließender Arbeitsunfähigkeit muss. von einer Woche. Wie hoch (in EUR) ist insgesamt der KHT-Anspruch aus der Privaten Unfallversicherung? a 2.800,- € b - Nein/ da sie nicht Achtung aber je Unfall hat man nur soz/alversicherungsp 3 Jahre lang Anspruch. C ein, da es sich nicht u\\n einen sogenannten Mini-Job handelt. d - Ja, da sie in der GUV pflic'tiitversichert ist. 18 - : Seite 18",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-030",
         "type": "single",
-        "prompt": "r :,,, 11~~ .,.- v.,:n•~·,.•\"'C7.. _,,,'i\" ,._ ~ ~'<t,.,.., 'i....,. i\\_,\\f~~,Bereich tA~gif:!Jit ._, 1'_ ,t,.,•,_~. ,' ~• ar~•;i:i><':!oYC,,,:\\o.~ Ihre Kundin Ruth Maisei hat bei Ihrer Gesellschaft eine Direktversicherung durch Entgeltumwandlung nach § 40b EStG. Sie werden von Ihrer Kundin auf die Besteuerung der Kapitalleistungen im Rentenbezugsalter angesprochen. Welche Information hierzu ist richtig? Kapitalleistungen werden ... Q",
+        "prompt": "Ihre Kundin Ruth Maisei hat bei Ihrer Gesellschaft eine Direktversicherung durch Entgeltumwandlung nach § 40b EStG. Sie werden von Ihrer Kundin auf die Besteuerung der Kapitalleistungen im Rentenbezugsalter angesprochen. Welche Information hierzu ist richtig? Kapitalleistungen werden ... Q",
         "points": 1,
         "options": [
           {
@@ -734,16 +798,23 @@
           },
           {
             "id": "c",
-            "text": "keine Leistungen, da ein Erstickungstod nicht plötzlich eintritt. Q"
+            "text": "keine Leistungen, da ein Erstickungstod nicht plötzlich eintritt."
           },
           {
             "id": "d",
-            "text": "Leistungen in vereinbarter Höhe. ~"
+            "text": "Leistungen in vereinbarter Höhe."
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: D, E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d",
+          "e"
+        ],
+        "solution": "Richtige Antwort: D, E.",
+        "manualGrade": false
       },
       {
         "id": "frage-032",
@@ -761,7 +832,7 @@
           },
           {
             "id": "c",
-            "text": "keinen Versicherungsschutz, denn dieser besteht nur auf dem direkten Weg von der eigenen Wohnung zur Arbeitsstätte. Q"
+            "text": "keinen Versicherungsschutz, denn dieser besteht nur auf dem direkten Weg von der eigenen Wohnung zur Arbeitsstätte."
           },
           {
             "id": "d",
@@ -777,12 +848,12 @@
       {
         "id": "frage-033",
         "type": "multiple",
-        "prompt": ".:;;t~ff?}~;llJ-r~ ~'v,~~r:~/~i:~:t~ ~'1,;'1:) •:1 uv.'I: . , ~~, .111/'.-t' - ~ - ..,, - ;, t:,-~--i, \"~ .;' \"\"', ~~ :, ,,-.;t~.. ,\"': :---,•\\!~~ ...... Unfallversicherung Fritz Miegel ist am vergangenen Sonntag dem Aufruf des Deutschen Roten Kreuzes zur Blutspende gefolgt. Auf dem Rückweg ist er beim Überqueren einer Straße von einem Radfahrer angefahren worden. Er stürzte und erlitt erhebliche Verletzungen. ,=, Da Herr Miegel im öffentlichen Interesse unterwegs war, hat er Versicherungsschutz. über die Gesetz.liehe",
+        "prompt": "Unfallversicherung Fritz Miegel ist am vergangenen Sonntag dem Aufruf des Deutschen Roten Kreuzes zur Blutspende gefolgt. Auf dem Rückweg ist er beim Überqueren einer Straße von einem Radfahrer angefahren worden. Er stürzte und erlitt erhebliche Verletzungen. ,=, Da Herr Miegel im öffentlichen Interesse unterwegs war, hat er Versicherungsschutz. über die Gesetz.liehe",
         "points": 1,
         "options": [
           {
             "id": "a",
-            "text": "Herr Miegel kann lediglich aus dem Schadenersatzanspruch gegenüber dem Radfahrer eine finanzielle Entschädigung erhalten. Q"
+            "text": "Herr Miegel kann lediglich aus dem Schadenersatzanspruch gegenüber dem Radfahrer eine finanzielle Entschädigung erhalten."
           },
           {
             "id": "b",
@@ -791,11 +862,18 @@
           {
             "id": "c",
             "text": "Herr Miegel kann lediglich aus dem Schadenersatzanspruch gegenüber dem Deutschen Roten Kreuz eine finanzielle Entschädigung erhalten. ~ Verbleibende Zerr"
+          },
+          {
+            "id": "d",
+            "text": "[Antwort D im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: B, D. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b",
+          "d"
+        ],
+        "solution": "Richtige Antwort: B, D.",
+        "manualGrade": false
       },
       {
         "id": "frage-034",
@@ -848,6 +926,16 @@
         "manualGrade": true
       },
       {
+        "id": "frage-036",
+        "type": "text",
+        "prompt": "11-- [ 1581 '16' 2137977870 l [ 1582 2137954386] Im Beratungsgespräch zu einer Karl Jost (angestellter Arzt) hat bei Ihrer er Ihnen vom Unfall eines seiner Bekannten in folgenden Versicherungssummen: den Alpen. Dieser wurde nach aufwendiger Suche mit einem Hubschrauber abtransportiert. • 75.000 EUR Todesfall-Leistung Es entstanden Kosten in Höhe von • 150.000 EUR lnvaliditätsleistung 8.000 Euro für die Suche 7.500 Euro für den Rettungseinsatz der Bergwacht 13.000 Euro für den Rettungshubschrauber Durch einen Unfall verliert er ein Bein (60%) und eine Hand (55%). Herr Scholze möchte von Ihnen wissen, in welcher Höhe in so einem Fall Welche Summe (in EUR) kann Herrn Jost Versicherungsschutz durch eine private bedingungsgemäß vor Abschluss des ausgezahlt werden? In welcher Höhe würden die nachgewiesenen Kosten durch die Unfallversicherung erstattet? a - 28.500 EUR b - 25.000 EUR c - 21.000 EUR d - 20.500 EUR e - 15.500 EUR 792 - : Seite 792",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-037",
         "type": "single",
         "prompt": "Unfallversicherung. Josef Steinhuber bezog dieses Jahr aufgrund eines Arbeitsunfalls Verletztengeld von der Berufsgenossenschaft in Höhe von 1.800,- €. Er fragt Sie, wie diese Leistung steuerlich behandelt wird. Das Verletztengeld …",
@@ -879,7 +967,7 @@
       {
         "id": "frage-038",
         "type": "single",
-        "prompt": ".:·~il.; ~re•....~h. B~'. ·.r~;>j •...-~-;,iB•,; ._ ,>~. •!'~ ,,,,;_ .'ifY::~. .,_ \": Eberhard Streit besitzt bei Ihrer Gesellschaft seit einigen Jahren eine private Unfallversicherung. Da er in Kürze sein 67. Lebensjahr vollendet, bittet er um Überprüfung seines Versicherungsvertrages. Was geschieht zu diesem Zeitpunkt mit seinem Vertrag? Der Vertrag ...",
+        "prompt": "Unfallversicherung. Da er in Kürze sein 67. Lebensjahr vollendet, bittet er um Überprüfung seines Versicherungsvertrages. Was geschieht zu diesem Zeitpunkt mit seinem Vertrag? Der Vertrag ...",
         "points": 1,
         "options": [
           {
@@ -937,7 +1025,7 @@
       {
         "id": "frage-040",
         "type": "single",
-        "prompt": "=- ~r,~,1*-;!'~~ ~I'.. : \\ ,,:'1·'-~,;;c.,klKV < .. - . , • • - ... - - - - .... ft::t: ~•;ttYt. ~~: ~\" ,. : ,: Krankenversicherung/ Pflegeversicherung •1:..1,::..H loit ■ :; Für Sandra Niemann besteht bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung inklusive Pflegepflichtversicherung. Seit 3 Wochen wird Sie auf Grund einer chronischen Darmerkrankung stationär im Krankenhaus behandelt. Ihre Kundin fragt bei Ihnen nach, für welchen Zeitraum die Heilbehandlungskosten übernommen werden. Die Kosten werden übernommen bis ...",
+        "prompt": "Krankenversicherung/ Pflegeversicherung •1:..1,::..H loit ■ :; Für Sandra Niemann besteht bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung inklusive Pflegepflichtversicherung. Seit 3 Wochen wird Sie auf Grund einer chronischen Darmerkrankung stationär im Krankenhaus behandelt. Ihre Kundin fragt bei Ihnen nach, für welchen Zeitraum die Heilbehandlungskosten übernommen werden. Die Kosten werden übernommen bis ...",
         "points": 1,
         "options": [
           {
@@ -962,9 +1050,19 @@
         "manualGrade": true
       },
       {
+        "id": "frage-041",
+        "type": "text",
+        "prompt": "19.10.2020 149 2137953729] G7 2137968608] Die pfl;htversicherte Angestellte Silvj/Meißner Maria Drugg (44), ledig und kinderlos, ist seit Jahren versteh nicht, wozu sie eine /.. freiwillig bei der AOK versichert (Beitragssatz 15,5% Kranken~ egeldversicherung a?Jchließen soll. Sie [14,6 + 0,9]). Sie lebt und arbeitet in Essen. Ihr meint, da das ihr zustehende,f~ankengeld der monatliches Einkommen liegt bei 4.800 EUR Brutto, Krankenka se auch bei längei;er Arbeitsunfähigkeit bzw. 2.700 EUR Netto. Im Krankheitsfall würde der völlig ausrei ht. Arbeitgeber für 6 Wochen den Lohn in voller Höhe weiterzahlen. Danach übernimmt ihre Krankenkasse die Zahlungen. Frau Drugg möchte sich hinsichtlich eines Krankentagegeldes beraten lassen, um gegebenenfalls eine finanzielle Versorgungslücke im Krankheitsfall schließen zu können. a ßßG; ~ 6 8~15c * C ''Z.(1-Z.O J) Wie hoch ist die monatliche Versorgungslücke? b a - . 5 CS i t5\"c: b - 563,42 EUR C c - 270,00 EUR d Arbeitnehmeranteil z~. f K ranken-, Renten- und Pflegeversicherun\\. d - 757,82 EUR l-G·'k,, ~ C>'J ~ ~ L°'~ C> / zr > D 26 - : Seite 26",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-042",
         "type": "single",
-        "prompt": ",,, \"\"- ... i)~-?~{\\'. \\ t<v..~.1lfi5,:~~;~ -~ - ;;~ m= Meike Rother ist als Hausfrau und Mutter in der GesetzJichen Krankenversicherung familienversichert. In den Sommerferien wird sie vom 15.06. bis 31.07. eine Aushilfstätigkeit in einem Bekleidungsgeschäft annehmen. Ihr Einkommen in dieser Zeit wird 2.600,- € betragen. Inwieweit hat die Tätigkeit von Frau Rother Auswirkungen auf ihren Status als Familienversicherte? Die Tätigkeit von Frau Rother hat keine Auswirkungen, da ...",
+        "prompt": "Krankenversicherung familienversichert. In den Sommerferien wird sie vom 15.06. bis 31.07. eine Aushilfstätigkeit in einem Bekleidungsgeschäft annehmen. Ihr Einkommen in dieser Zeit wird 2.600,- € betragen. Inwieweit hat die Tätigkeit von Frau Rother Auswirkungen auf ihren Status als Familienversicherte? Die Tätigkeit von Frau Rother hat keine Auswirkungen, da ...",
         "points": 1,
         "options": [
           {
@@ -991,7 +1089,7 @@
       {
         "id": "frage-043",
         "type": "single",
-        "prompt": ",..,,,,,.,,;:·. ,_ ''KV' - 7-~-· . ·M.'{ ~~;, ~ ~~:z., 1,-..1 \"r'\";~{;tl:,..~l,\"1,,..1,f ~ \") - n ,... -- - - - - - - f~w'~.::.,._.:_, .. ',~•<ll· ,..·)·.;;~•'i. ••,V~- .,.., •1(1.:,.'I~ IJ \"'',.'':~~CJ.r'1;ß :; Sie beraten Rüdiger Dünnwald (42 Jahre) zu einer Krankheitskostenvollversicherung. Herr Dünnwald hat in der Zeitung gelesen, dass der Basistarif eine Versorgung zu bezahlbaren Beiträgen bietet. Er möchte nun von Ihnen wissen, wie es sich damit verhält. Der Beitrag im Basistarif ...",
+        "prompt": "Sie beraten Rüdiger Dünnwald (42 Jahre) zu einer Krankheitskostenvollversicherung. Herr Dünnwald hat in der Zeitung gelesen, dass der Basistarif eine Versorgung zu bezahlbaren Beiträgen bietet. Er möchte nun von Ihnen wissen, wie es sich damit verhält. Der Beitrag im Basistarif ...",
         "points": 1,
         "options": [
           {
@@ -1074,6 +1172,16 @@
         "manualGrade": true
       },
       {
+        "id": "frage-046",
+        "type": "text",
+        "prompt": "20.10.2020 143 21379570731 il 2137953737] Herr Kurt Klinger, le~der lngenieur,1.ressiert Martin Kautz hat bei Ihrer Gesellschaft eine sich für eine Krankheitskostenvollvejsicherunq. Er Krankheitskostenvollversicherung mit einem fragt Sie, was denn paseiert, wenn/ir unerwartet in Krankentagegeld in Höhe von 150 EUR täglich ab Zahlunqsschwieriqkeites geraten würde. dem 43. Tag. Wegen einer schweren Erkrankung war er vom 16.04. bis 20.07. des Jahres arbeitsunfähig. Hierzu zeigen Sie Ihrem : Wechsels in den Notlage Herr Kautz fragt nach der Höhe der Leistung aus seiner Krankentagegeldversicherung. Der NLT ... a - 7.950 EUR 1 - ist ein Tarif für Ver,si~herte in vorübergehendei/ fin\\rnziellen Notlagen. b - 8.100 EUR 2 - ist ein Tarif für persicH~rte in C - 13.350 EUR vorüberge' e den fina ziellen Notlagen, kann aber a eh für Preisbewusste im Neugeschä angebote werden. d - 14.400 EUR 3 - ist ein vesbandseinheitlicber Tarif. 4 - ist ein Jarif in dem keine gsrückstellungen gJbildet werden. 5 - erstttet Leistungen zur Behandlung von aku en Erkrankungen und Sch erzzuständen sowie bei Schwangerschaft und Mutterschaft. 23 ° : Seite 23 https ://www .viversa.biz/Viversa/ Adm in Tool/Ad min PrintPage.aspx?render=PrintTestRendering&field=32549c0f-f993-4 f87-aaa 7 -2f68 77 4048fd &p. . . 23/85",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-047",
         "type": "single",
         "prompt": "...... \"l'll'TI -- - - \" - KV ,, Krankenversicherung/ Pflegeversicherung Ihr Kunde Martin Grödinger ist immer in der Gesetzlichen Krankenversicherung (GKV) versichert gewesen, in den letzten zehn Jahren als freiwilliges Mitglied. Er wird in Kürze die gesetzliche Altersrente beantragen. Er fragt Sie, wie er im Alter krankenversichert sein wird. Herr Grödinger ...",
@@ -1113,7 +1221,7 @@
       {
         "id": "frage-049",
         "type": "single",
-        "prompt": ".. - -.-. - - - ;t?~-~!\\[\\\\~- ',· - ::f:!T=lr.! m: Walter Richter will seine freiwillige Mitgliedschaft in der Gesetzlichen Krankenversicherung (GKV) kündigen und in die private Krankenversicherung (PKV) wechseln. Seine Ehefrau wird weiterhin für 510,- € monatlich beschäftigt bleiben. Er fragt Sie, wie seine Ehefrau dann versichert ist. Seine Ehefrau ...",
+        "prompt": "Krankenversicherung (GKV) kündigen und in die private Krankenversicherung (PKV) wechseln. Seine Ehefrau wird weiterhin für 510,- € monatlich beschäftigt bleiben. Er fragt Sie, wie seine Ehefrau dann versichert ist. Seine Ehefrau ...",
         "points": 1,
         "options": [
           {
@@ -1130,7 +1238,7 @@
           },
           {
             "id": "d",
-            "text": "bleibt beitragsfrei in der GKV versichert. ~"
+            "text": "bleibt beitragsfrei in der GKV versichert."
           }
         ],
         "answerIds": [],
@@ -1203,7 +1311,7 @@
           },
           {
             "id": "b",
-            "text": "beim Putzen die Spiegeltüren zerkratzt werden. Q"
+            "text": "beim Putzen die Spiegeltüren zerkratzt werden."
           },
           {
             "id": "c",
@@ -1221,6 +1329,16 @@
         "manualGrade": false
       },
       {
+        "id": "frage-053",
+        "type": "text",
+        "prompt": "2027 2137953561 [ \"\"\"'3 2. 21379536061 hat ~ei Ihrer Gesellschaft Bei der Aufnahme des Antrages von Frau eine Verbundene\\Hayl,ratversicherung. Sein Kirsch ermitteln Sie einen Gesamtwert des Sohn studiert zurzll;it/8etriebswirtschaft in Kiel. Hausrates von 100.000 EUR. Darin enthalten sind 120 Jahre alte Uhren (Wert 3.000 EUR), Gestern wurde im 1t~dentenwohnheim Pelze (Wert 6.000 EUR), sein Spind aufgeb[~~,en und 100 EUR sowie Schmuck (Wert 17.500 EUR), Ölgemälde (Wert seine Armbanduhr ge ohlen. 1.500 EUR), ein 140 Jahre alter Eckschrank (Wert 9.000 EUR) sowie Herr Feldkamp fragt Sie, ob hierfür Silberbesteck (Wert 2.000 EUR). versicherunqsschutz be eht. Sie geben Frau Kirsch gegenüber zu bedenken, a - Ja, Vtrsicherungs hutz besteht im dass die Entschädigungsgrenze für Wertsachen Rah?hen der Vorso geversicherung bis in Höhe von 20% der Versicherungssumme 10°/J der Versicherun~ssumme. nicht ausreicht. Sie empfehlen ihr folglich, die Entschädigungsgrenze zu erhöhen. b - N~in, da sich die Wert1pchen nicht am Frau Kirsch möchte von Ihnen wissen, auf wie Vkrsicherungsort befanäen. viel Prozent. C - ,-ia, während der Ausbildung besteht in diesem Fall Versicherungsschutz. 30% d . Nein, da sein Sohn in jedem Fall eine ! eigene Hausratversicherung benötigt. Möbelstücke, wenn Antiquitäten, extra versichern! 1015 - : Seite 1015",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-054",
         "type": "single",
         "prompt": "In einem Mehrfamilienhaus ist in die Wohnung von Lothar Peschke eingebrochen worden. Die Täter haben einige Gegenstände entwendet, das Sofa aufgeschlitzt und die Wände innerhalb und außerhalb der Wohnung mit Farbe besprüht. Herr Peschke fragt Sie, ob seine Hausratversicherunq die Kosten für den Wandanstrich im Treppenhaus übernimmt.",
@@ -1228,7 +1346,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Ja, da in der Hausratversicherung auch Vandalismus mitversichert ist. Q"
+            "text": "Ja, da in der Hausratversicherung auch Vandalismus mitversichert ist."
           },
           {
             "id": "b",
@@ -1283,9 +1401,19 @@
         "manualGrade": false
       },
       {
+        "id": "frage-056",
+        "type": "text",
+        "prompt": "5 i$:. [2049 21379535181 [2050 21379535631 Franz Hartmann hat bei Ihrer Gesellschaft eine Pascal Knorr hat\\ei Ihrer Gesellschaft eine Versicherungssumme. Er meldet Ihnen einen Ihnen an, dass er von Dortmund nach Kr!i!Teld Feuerschaden in Höhe von 15.000 EUR. umziehen wird. Der tatsächliche Versicherungswert beträgt s wird- auf eli 1ne Parkplatz 80.000 EUR und Unterversicherungsverzicht ist der Möbelwagen de Spedition auf ebrochen. nicht eingeschlossen. Dabei werden mehre e hochwerti e Hausratgegenstände ntwende . Mit welcher Entschädigung kann Herr Hartmann hierfür Versicherungssct,u hat. a - 7.500 EUR a x b - 8.250 EUR C - 16.500 EUR b d - 15.000 EUR c - Nein, oa sich die Geger\\stände nicht am erungsort befunden haben. d - Nejh, da es sich nicht um ~nen er.satzpflichtigen Schaden handelt. e - (Ja, weil in diesem Fall der Möbelwagen .einem Gebäude gleich gestellt ist. 1026 - : Seite 1026",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-057",
         "type": "single",
-        "prompt": "tt[&'./;'.':~rm:1m@'.@·':t~t:;] Martin Funke teilt Ihnen mit, dass sein Sohn Lars (21) vor einem halben Jahr sein Studium in Göttingen begonnen hat. Dort hat er zusammen mit seiner Freundin gleich zu Beginn eine eigene Wohnung angemietet und einen eigenen Hausstand gegründet. Letzte Woche ereignete sich in der Wohnung ein Feuerschaden (Schadenhöhe 8.000,- €). Martin Funke hat bei Ihrer Gesellschaft eine Hausratversicherung mit einer Versicherungssumme in Höhe von ,60.000,- €. Der Wert der mitgenommenen Hausratgegenstände seines Sohnes beträgt 15.000,- €. Herr Funke möchte wissen, ob der Schaden von seiner Hausratversicherung reguliert wird.",
+        "prompt": "Hausratversicherung mit einer Versicherungssumme in Höhe von ,60.000,- €. Der Wert der mitgenommenen Hausratgegenstände seines Sohnes beträgt 15.000,- €. Herr Funke möchte wissen, ob der Schaden von seiner Hausratversicherung reguliert wird.",
         "points": 1,
         "options": [
           {
@@ -1294,7 +1422,7 @@
           },
           {
             "id": "b",
-            "text": "Nein, da voller Versicherungsschutz nur für die ersten 3 Monate bestand. Q"
+            "text": "Nein, da voller Versicherungsschutz nur für die ersten 3 Monate bestand."
           },
           {
             "id": "c",
@@ -1327,7 +1455,7 @@
           },
           {
             "id": "c",
-            "text": "Reparaturkosten in Höhe von 1.000,- €. Q"
+            "text": "Reparaturkosten in Höhe von 1.000,- €."
           },
           {
             "id": "d",
@@ -1418,16 +1546,23 @@
           },
           {
             "id": "c",
-            "text": "der Kosten für 100 Tage, begrenzt auf 500,-€. Q"
+            "text": "der Kosten für 100 Tage, begrenzt auf 500,-€."
           },
           {
             "id": "d",
-            "text": "der Kosten für 100 Tage. ~"
+            "text": "der Kosten für 100 Tage."
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: D, E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d",
+          "e"
+        ],
+        "solution": "Richtige Antwort: D, E.",
+        "manualGrade": false
       },
       {
         "id": "frage-062",
@@ -1463,9 +1598,19 @@
         "manualGrade": false
       },
       {
+        "id": "frage-063",
+        "type": "text",
+        "prompt": "19.10.2020 [ 81 2137953568] Verbundene Gebäudeversicherung Ihr Kunde Karl R~ngnick hat bei lhnenl:{e la ;1Z 2137946737] Hausratversicherünq abgeschlossen un meldet Ihnen einen Schad'en. Er verbrachtes men Urlaub an der Nordsee in ~lland mit einer . ltausrüstung, die er von seiner mi ihm in häuslich r Gemeinschaft Jürgen Schreiner hat bei Ihrer Gesellschaft für sein lebenden Freundin g liehen hatte. vermietetes Zweifamilienhaus eine Wohngebäudeversicherung. Jetzt möchte er die In der letzten Nacht wµrden das elt und sein Außenfassade in Eigenleistung streichen. Dazu hat persönliches Reiseqepäck bei inem Brand zerstört. er Fassadenfarbe im Wert von 2.000 EUR sowie ein kleines, fahrbares Gerüst im Wert von 1.000 EUR Welche Entschädigun~kan7 Herr Rang nick von gekauft und im Keller zwischengelagert. seiner Hausratversichejund erwarten? Dort kommt es durch ein Feuer zu folgendem Schaden: a • Außenfassadenfarbe 2.000 EUR • kleines fahrbares Gerüst 1.000 EUR • gelagerte Reservedachziegel 850 EUR b - Ersetzt wer en das ~ersönliche Reisegepäck· • Gartenmöbel des Mieters 380 EUR. und die Ze ausrüstunp im Rahmen der Entschädl unqsqrenzsn für die Außenv sicherung. Mit welcher Entschädigung (in EUR) kann Herr C - Keil versi hert ist, wenn das F~~ .1r in einem Ge äude ausgebrochen ist. 3.850,- € d ine Entschädigung, da für eliehene achen kein Außenversicherungsschutz esteht. Alles versichert, was das Haus betriftt, auch z.B. die Farbe um das Haus zu renovieren. 7 - : Seite 7",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-065",
         "type": "single",
-        "prompt": "p···· .. ·•~ Das Nachbarhaus Ihres Kunden Günther Brecht brennt ab. Herumfliegende Asche und Ruß gelangen auf das Wohnhaus von Herrn Brecht und verursachen dort Verrußungen und Sengschäden. Für Herrn Brecht besteht bei der Proximus AG eine Wohngebäudeversicherung zum Gleitenden Neuwert mit den Gefahren Feuer und Leitungswasser. Er fragt Sie, wie sein Schaden reguliert wird. Q",
+        "prompt": "Das Nachbarhaus Ihres Kunden Günther Brecht brennt ab. Herumfliegende Asche und Ruß gelangen auf das Wohnhaus von Herrn Brecht und verursachen dort Verrußungen und Sengschäden. Für Herrn Brecht besteht bei der Proximus AG eine Wohngebäudeversicherung zum Gleitenden Neuwert mit den Gefahren Feuer und Leitungswasser. Er fragt Sie, wie sein Schaden reguliert wird. Q",
         "points": 1,
         "options": [
           {
@@ -1492,6 +1637,16 @@
         "manualGrade": false
       },
       {
+        "id": "frage-066",
+        "type": "text",
+        "prompt": "rr MJ /fS 1811 2137971388 [ 1812 2137954613] Ihre Kundin laudia Bensch h~t ein Ihr Kunde Theo Claßen möchte sein Haus mit Mehrfamilien aus erworben. fn diesem Haus Einliegerwohnung bei Ihnen versichern. Sie vermietet sie ier Wohnun~n und im kommen während des Verkaufsgespräches auf Erdgeschoss inen Friseur alon. den versicherten Mietausfall zu sprechen. Die Frau Bensch rkundigt si9 bei Ihnen nach dem Einliegerwohnung hat eine Größe von 50 qm. Versicherungs chutz, faljs die Immobilie nach Herr Claßen erhält einen Mietpreis von 10 EUR 7 einem Schade fall unb nutzbar sein sollte. pro qm. Der ortsübliche Mietwert beträgt zur Zeit 8 EUR pro qm. Welche Aussaqen da-z;G sind richtig? Herr Claßen möchte wissen, welche Entschädigung er erhalten würde, wenn die Wiederherstellung der Einliegerwohnung - den ortsüb).~fhen Mietwert für alle beispielsweise fünf Monate dauerte. vermietetr \\Einheiten 2.500,- € 2 den Mie\\kusfa\\1-, und -wert höchstens für 12 M'onate @b Schadeneintritt 3 ··r selbstbewohnte 4 - bei gesonderter V¾einbarung den ortsüblichen Mietw rt oder den Mi7tausfall auch fü gewerblich glutzte Räume 5 en ortsüblichen Mietwert und ietausfall - nach behördlicher egutachtung - für die Dauer von sechs Monaten. 907 - : Seite 907",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-067",
         "type": "text",
         "prompt": "Frank Sommer hat in seinem Eigenheim eine Einliegerwohnung von 60 qm zu einem Quadratmeterpreis von 10,- € an Herrn Winter vermietet. Nach einem Brandschaden ist die Wohnung des Mieters nicht mehr bewohnbar. Die Wiederherstellung der Wohnung wird voraussichtlich 14 Monate dauern. Der ortsübliche Mietwert beträgt: 8,- €/qm. 1 7200,- [Euro Hinweis Eintrag in Euro ohne Trennpunkte, also z.B. 1212 für eintausendzweihundertzwölf Euro.",
@@ -1513,7 +1668,7 @@
           },
           {
             "id": "b",
-            "text": "Ja, für die Schäden am Gebäude wird geleistet. Q"
+            "text": "Ja, für die Schäden am Gebäude wird geleistet."
           },
           {
             "id": "c",
@@ -1546,7 +1701,7 @@
           },
           {
             "id": "c",
-            "text": "Wertsteigerungen sind über die Vorsorge bis zu 1 O % der Versicherungssumme Wert 1914 mitversichert. Q"
+            "text": "Wertsteigerungen sind über die Vorsorge bis zu 1 O % der Versicherungssumme Wert 1914 mitversichert."
           },
           {
             "id": "d",
@@ -1558,6 +1713,16 @@
         ],
         "solution": "Richtige Antwort: D.",
         "manualGrade": false
+      },
+      {
+        "id": "frage-070",
+        "type": "text",
+        "prompt": "Ein Sturm mit ~ -ndstärke 10 entwurzelte einen Reihenhaus gekauft und möchte es bei Ihnen vor dem Haus I res Kunden Waldemar Osmer.l versichern. Im Beratungsgespräch ermitteln Sie die Versicherungssumme korrekt in Höhe stehenden Bau Der Baum fiel auf dz aHa i und zerstörte eini e Fensterscheiben im von 50.000 Mark (Wert 1914). Obergeschoss. Bisher war das Haus mit 30.000 Mark (Wert Der Kunde hatte b~der Antraqsaufna me zur 1914) versichert. Frau Hunt möchte genau Wohngebäudeversi herung ausdrücklich darauf diesen Wert für den neuen Vertrag bei Ihrer verzichtet, eine Glas ersicherung Gesellschaft übernehmen. Anhand der abzuschließen. · Entschädigungsformel verdeutlichen Sie Frau Hunt die Unterversicherung. Jetzt befürchtet Herr Qsmers/dass er den Schaden selbst tragen Mit welcher Entschädigung (in EUR) kann Frau Hunt bei einem Brandschaden in Höhe von Was sagen Sie ihm? 24.000,- € a b - Der S~ h den ist ni~t versichert, da ein derarti er Schaden ur über eine Glasv rsicherung g deckt ist. c - Def Schaden wird ersetzt, da es sich UJiTI einen Folgeschaden eines Sturmes andelt. d J Der Schaden ist leider nicht versichert, da der Sturm nicht mittelbar auf die versicherten Sachen eingewirkt hat. 906 - : Seite 906",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
       },
       {
         "id": "frage-071",
@@ -1593,12 +1758,12 @@
       {
         "id": "frage-072",
         "type": "single",
-        "prompt": "?:(;.,.~~1~~ #:):! ~{~i-~~•:.::j L Maximilian Plöger hat ein 3 Jahre altes Haus gekauft, das bei Ihrer Gesellschaft versichert werden soll. Als Sie zur Ermittlung der Versicherungssumme kommen, legt Herr Plöger Ihnen ein Wertgutachten der Bank über das gekaufte",
+        "prompt": "Sie zur Ermittlung der Versicherungssumme kommen, legt Herr Plöger Ihnen ein Wertgutachten der Bank über das gekaufte",
         "points": 1,
         "options": [
           {
             "id": "a",
-            "text": "bjekt vor. Können Sie dieses Gutachten zur Ermittlung der Versicherungssumme verwenden? Q"
+            "text": "bjekt vor. Können Sie dieses Gutachten zur Ermittlung der Versicherungssumme verwenden?"
           },
           {
             "id": "b",
@@ -1624,6 +1789,16 @@
         "manualGrade": false
       },
       {
+        "id": "frage-073",
+        "type": "text",
+        "prompt": "1#- 2 z ---- .- 21379545571 -.---~-------~-~- ... --· - ---·------ ------ 188 213 ~~~~5~_1 J .... Elias Eilers meldet Ihnen folgenden Schaden: Sie beraten ;· Schlenzig zu einer Bei einem Gewitter schlägt ein Blitz in den Wohngebäud versicherung für sei Baum vor seinem Haus ein. Der Baum fällt auf Einfamilienha s. das Dach seines Hauses und verursacht einen Schaden in Höhe von 120.000 EUR. Für das Einfamilienhaus besteht eine Versicherungssumme 1914 beträgt 14.000 Welche der folqenden K(lsten sind versichert? Mark, der Versicherungswert 21.000 Mark 1914. Der Anpassungsfaktor liegt bei 18,55, der Baupreisindex bei 1454,3. Herr Eilers fragt Sie, wie hoch die 2 Entschädigung sein wird. 3 Der Versicherer ... 4 a - entschädigt 120.000 EUR. 5 b - entschädigt 88.000 EUR. 6 - Löschkosten der Feuerwehr x C - entschädigt 80.000 EUR. d - leistet keine Entschädigung. 10 - : Seite 10",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-074",
         "type": "multiple",
         "prompt": "Familie Hornung wurde in Deutschland unverschuldet in einen Unfall mit einem PKW mit spanischem Kennzeichen verwickelt. Dabei wurde Frau Hornung schwer verletzt. Herr Hornung befürchtet, dass die Versicherungssummen des Unfallgegners nicht ausreichen, um den Schaden zu decken. Welche richtige Auskunft geben Sie Ihrem Kunden? Sie erklären Ihrem Kunden, dass ...",
@@ -1635,7 +1810,7 @@
           },
           {
             "id": "b",
-            "text": "Versicherungsschutz in Höhe der Versicherungssummen des ausländischen Versicherungsvertrags besteht. Eine eventuelle Differenz muss gerichtlich geltend gemacht werden. Q"
+            "text": "Versicherungsschutz in Höhe der Versicherungssummen des ausländischen Versicherungsvertrags besteht. Eine eventuelle Differenz muss gerichtlich geltend gemacht werden."
           },
           {
             "id": "c",
@@ -1644,21 +1819,28 @@
           {
             "id": "d",
             "text": "Versicherungsschutz in Höhe der Versicherungssummen des ausländischen Versicherungsvertrags besteht. i Eine eventuelle Differenz kann über die eigene Kraftfahrt-Haftpflichtversicherung geltend gemacht werden."
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: C, E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c",
+          "e"
+        ],
+        "solution": "Richtige Antwort: C, E.",
+        "manualGrade": false
       },
       {
         "id": "frage-075",
         "type": "single",
-        "prompt": "....~,.:--'; ·~ -~,,- ..iKFZ- ~:\\.lo:):o'f' ~ ' ~ , , Kraftfahrtversicherung Wolfgang Maurer meldet Ihnen, dass er mit seinem Auto in einer Kurve plötzlich aufgrund eines geplatzten Bremsschlauches ins Schleudern geriet und gegen einen Baum prallte. Dabei wurde seine Ehefrau Sybille schwer verletzt. Es entstanden Krankenhaus- und Arztkosten in Höhe von 20.000,- €. Werden die Krankenhaus- und Arztkosten der Ehefrau vom Kraftfahrt-Haftpflichtversicherer erstattet?",
+        "prompt": "KFZ- ~:\\.lo:):o'f' ~ ' ~ , , Kraftfahrtversicherung Wolfgang Maurer meldet Ihnen, dass er mit seinem Auto in einer Kurve plötzlich aufgrund eines geplatzten Bremsschlauches ins Schleudern geriet und gegen einen Baum prallte. Dabei wurde seine Ehefrau Sybille schwer verletzt. Es entstanden Krankenhaus- und Arztkosten in Höhe von 20.000,- €. Werden die Krankenhaus- und Arztkosten der Ehefrau vom Kraftfahrt-Haftpflichtversicherer erstattet?",
         "points": 1,
         "options": [
           {
             "id": "a",
-            "text": "Nein, der Versicherer leistet nicht, da es sich um ein unabwendbares Ereignis handelte. Q"
+            "text": "Nein, der Versicherer leistet nicht, da es sich um ein unabwendbares Ereignis handelte."
           },
           {
             "id": "b",
@@ -1713,6 +1895,16 @@
         "manualGrade": false
       },
       {
+        "id": "frage-077",
+        "type": "text",
+        "prompt": "20.10.2020 Adm inPrintPage I• ?C 2137974310] 108 2137953295 Heinz Gulde hat für seinen Pkw eine Eduard Weiß hat b~ · Ihrer Gesellschaty/i'ne Vollkaskoversicherung mit 500 EUR Kraftfahrt-Haftpflicht ersicherung. Se)t' kurzem Selbstbeteiligung abgeschlossen. Bei Schneetreiben trainiert er regelmäßi für ein qenepfniqtes ist er mit seinem Pkw gegen eine Litfaß-Säule Autorennen auf einer'[cennstrecke. Während des gefahren. Der Pkw ist in der Zwischenzeit von einem Trainings ist er mit einer Leitplanke kollidiert. vereidigten Sachverständigen besichtigt worden, der folgendes festgestellt hat: Wird dieser Schaden v~n di Kraftfahrt- Wiederbeschaffungswert des Pkw: 6.000 EUR Haftpflichtversicherung tb,ernommen? Restwert des Pkw: 400 EUR Windschutzscheibe: 800 EUR a Scheinwerferglas: 50 EUR Karosseriearbeiten: 6.250 EUR Mit welcher Entschädigungsleistung (in EUR) kann b - Ja, Trainjriqsfahrten sind versichert. Die lnahriie an Rennen ist nicht versichert. 5.100,- € C - Nei , hierfür ist der Be~~iber der Re nstrecke haftbar z \\achen . d -/.in, denn die Teilnahme an Autorennen oder Trainings ist vom Versichungsschutz . ausgeschlossen. Wirtschaftlicher Totalschaden: Reparaturkosten höher als Wiederbeschaffunsgwert! Kunde erhält Wiederbeschaffungswert abzgl. Restwert & Selbstbeteiligung. 20 - : Seite 20 https://www.viversa.bizNiversa/AdminToo1/ .aspx?render=PrintTestRendering&field=32549cOf-f993-4f87-aaa7-2f68774048fd&p... 56/85",
+        "points": 1,
+        "options": [],
+        "answerIds": [],
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "manualGrade": true
+      },
+      {
         "id": "frage-079",
         "type": "single",
         "prompt": "m Der 17-jährige Stefan Moor nimmt sich ohne Zustimmung seiner Eltern das Cabrio der Mutter für eine Spritztour. Dabei beschädigt er den Carport des Nachbarn. Die Reparaturkosten betragen 2.500,- €. Besteht Versicherungsschutz über die Kraftfahrt-Haftpflichtversicherung der Mutter? Versicherungsschutz besteht ...",
@@ -1724,7 +1916,7 @@
           },
           {
             "id": "b",
-            "text": "anteilig (Quotelung), da grobe Fahrlässigkeit vorliegt. Q"
+            "text": "anteilig (Quotelung), da grobe Fahrlässigkeit vorliegt."
           },
           {
             "id": "c",
@@ -1749,7 +1941,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Der Schaden wird von der KH nur übernommen, wenn er den Erstbeitrag innerhalb von 30 Tagen zahlt. Q"
+            "text": "Der Schaden wird von der KH nur übernommen, wenn er den Erstbeitrag innerhalb von 30 Tagen zahlt."
           },
           {
             "id": "b",
@@ -1822,11 +2014,27 @@
           },
           {
             "id": "d",
-            "text": "01.07. eines Jahres eine voraussichtliche Schadenzunahme von mindestens 5 % für das Folgejahr errechnet. ~"
+            "text": "01.07. eines Jahres eine voraussichtliche Schadenzunahme von mindestens 5 % für das Folgejahr errechnet."
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
+        "answerIds": [
+          "e"
+        ],
+        "solution": "Richtige Antwort: E.",
+        "manualGrade": false
+      },
+      {
+        "id": "frage-083",
+        "type": "text",
+        "prompt": "20.10.2020 KtW:llf&! 1111 l!S iiii ...___ 104 2137968701 1- ~2. 2137953346] Im Kollegenkreis wird das l~ema Kontrahierungszwang disku iert, Ein neuer Kollege möchte wissen, ob der Versi herer gemäß Pflichtversicherungsgesetz t tsächlich jeden Kunaen Herbert Kolloch hat bei Ihrer Gesellschaft eine annehmen muss. Kraftfahrt-Haftpflichtversicherung und eine Sie erläutern, dass ein Antrag\\auf Abschluss.einer Teilkaskoversichung mit 150 EUR SB. Kraftfahrt-Haftpflichtversichenkiq abgelehn.fwerden darf, wenn ... Auf der Heimfahrt von einer Weihnachtsfeier verursacht er einen Verkehrsunfall; dabei entstand ein Sachschaden an einem anderen PKW in Höhe von 7.500 EUR sowie ein Personenschaden in Höhe von 4.000 EUR. · Die Polizei stellt einen Blutalkoholgehalt von 1,4 2 - der Antragsteller bereit ei dem Promille fest. Versicherungsunte~ n m' n versichert war und der Versicherer eg Verletzung der Herr Kolloch erkundigt sich bei Ihnen, bis zu welcher vorvertraglichen A eige licht vom Vertrag Höhe der Versicherer Regress nehmen kann. zurückgetreten ist/. 5.000,- € 3 4 - der Antr~steller bei unterjährrger Zahlung eise kein Lastschrif\\verfahren vereinb rt. 5 - der Ve'rsicherer einen vorherige~. Vertrag wegen Prämienverzugs qekündiqt hat. 18 - : Seite 18 https:/ /www . viversa. bizNiversa/Ad min Tool/ Admi n PrintPage .aspx?render=PrintTestRendering&field=32549c0f-f993-4 f87 -aaa 7 -2f68 77 4048fd&p. . . 54/85",
+        "points": 1,
+        "options": [],
         "answerIds": [],
-        "solution": "Richtige Antwort: E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
         "manualGrade": true
       },
       {
@@ -1845,7 +2053,7 @@
           },
           {
             "id": "c",
-            "text": "nur die Schmerzensgeldansprüche angemessen erfüllen. Q"
+            "text": "nur die Schmerzensgeldansprüche angemessen erfüllen."
           },
           {
             "id": "d",
@@ -1866,7 +2074,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Nein, weil er als Tierhüter nur durch die Hundehalter-Haftpflichtversicherung Versicherungsschutz hat. Q"
+            "text": "Nein, weil er als Tierhüter nur durch die Hundehalter-Haftpflichtversicherung Versicherungsschutz hat."
           },
           {
             "id": "b",
@@ -1890,7 +2098,7 @@
       {
         "id": "frage-086",
         "type": "single",
-        "prompt": "..1'1i~7·','A--.::..~~i\":'!:;'/''-..:1 ~:,;-..,!~·1 ~ t:';.:'-1.\"\"\"\"-~: \"J PHV,1,:·; ~- t~~ Haftpflichtversicherung ~'.:, .... ' _'I .. ·,- •.~ ~' ........ y„1;,t,j -f\"~,, ,~ Gregor Schling hat bei der Proximus AG eine Privathaftpflichtversicherung (PHV). Im Anschluss an seinen Florida- Urlaub meldet er Ihnen folgenden Schaden: Versehentlich hat er in seinem Hotelzimmer eine Fensterscheibe zerbrochen. Herr Schling musste vor Ort den Schaden in Höhe von umgerechnet 450,- € bezahlen. Er fragt, ob diese Auslagen von seiner PHV erstattet werden. Sie erklären ihm richtigerweise, dass er seine Auslagen in diesem Falle ...",
+        "prompt": "Haftpflichtversicherung ~'.:, .... ' _'I .. ·,- •.~ ~' ........ y„1;,t,j -f\"~,, ,~ Gregor Schling hat bei der Proximus AG eine Privathaftpflichtversicherung (PHV). Im Anschluss an seinen Florida- Urlaub meldet er Ihnen folgenden Schaden: Versehentlich hat er in seinem Hotelzimmer eine Fensterscheibe zerbrochen. Herr Schling musste vor Ort den Schaden in Höhe von umgerechnet 450,- € bezahlen. Er fragt, ob diese Auslagen von seiner PHV erstattet werden. Sie erklären ihm richtigerweise, dass er seine Auslagen in diesem Falle ...",
         "points": 1,
         "options": [
           {
@@ -1899,7 +2107,7 @@
           },
           {
             "id": "b",
-            "text": "zurückerhält, da Auslandsschäden ohne Zustimmung des Versicherers bis 500,- € beglichen werden können. Q"
+            "text": "zurückerhält, da Auslandsschäden ohne Zustimmung des Versicherers bis 500,- € beglichen werden können."
           },
           {
             "id": "c",
@@ -1977,7 +2185,7 @@
       {
         "id": "frage-089",
         "type": "single",
-        "prompt": "1 r.1f,•,r;,· '·,~,~ -..~·1: •r:!!HV'· ''•\"\" · · '!'i ~~-;;..~~);~·,'..: - - •· ~•~ f.'.!,,~l:i::(,) '\"~\"\"f\";;:; • ; •;:. .;~, - ~.1., .-'f.:~t .. ~·t,-~- ,, ~ ,\" :' ..., ' ' Haftpflichtversicherung Rudolf Dahmen ruft Sie aus dem Urlaub an. Seine Tochter (14 Jahre) hatte sich auf einem Ponyhof ein Pferd ausgeliehen. Beim Ausritt verlor Sie die Kontrolle über das Pferd. Das Pferd scheute und verletzte einen Spaziergänger erheblich. Herr Dahmen möchte von Ihnen wissen, ob dieser Schaden über se.ine Privathaftpflichtversicherung versichert ist.",
+        "prompt": "Haftpflichtversicherung Rudolf Dahmen ruft Sie aus dem Urlaub an. Seine Tochter (14 Jahre) hatte sich auf einem Ponyhof ein Pferd ausgeliehen. Beim Ausritt verlor Sie die Kontrolle über das Pferd. Das Pferd scheute und verletzte einen Spaziergänger erheblich. Herr Dahmen möchte von Ihnen wissen, ob dieser Schaden über se.ine Privathaftpflichtversicherung versichert ist.",
         "points": 1,
         "options": [
           {
@@ -1990,7 +2198,7 @@
           },
           {
             "id": "c",
-            "text": "Ja, der Schaden ist im Rahmen der Vorsorgeversicherung mitversichert. Q"
+            "text": "Ja, der Schaden ist im Rahmen der Vorsorgeversicherung mitversichert."
           },
           {
             "id": "d",
@@ -2015,7 +2223,7 @@
           },
           {
             "id": "b",
-            "text": "Versicherungsschutz, sobald ein rechtskräftiges Urteil vorliegt. Q"
+            "text": "Versicherungsschutz, sobald ein rechtskräftiges Urteil vorliegt."
           },
           {
             "id": "c",
@@ -2040,7 +2248,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Ja, der Versicherer wird in Vorleistung treten, kann ihn allerdings in Regress nehmen. Q"
+            "text": "Ja, der Versicherer wird in Vorleistung treten, kann ihn allerdings in Regress nehmen."
           },
           {
             "id": "b",
@@ -2048,11 +2256,11 @@
           },
           {
             "id": "c",
-            "text": "Nein, da Schäden infolge von Bewusstseinsstörungen bedingungsgemäß ausgeschlossen sind."
+            "text": "Nein, da Schäden"
           },
           {
             "id": "d",
-            "text": "Nein, da Schäden infolge von Alkoholeinfluss bedingungsgemäß ausgeschlossen sind. ~ Prüfung"
+            "text": "Nein, da Schäden"
           }
         ],
         "answerIds": [
@@ -2077,16 +2285,23 @@
           },
           {
             "id": "c",
-            "text": "das Segelboot bis zur nächsten Prämienfälligkeit beitragsfrei mitversichert ist und anschließend mit einem Zuschlag .in die PHV eingeschlossen werden muss. Q"
+            "text": "das Segelboot bis zur nächsten Prämienfälligkeit beitragsfrei mitversichert ist und anschließend mit einem Zuschlag .in die PHV eingeschlossen werden muss."
           },
           {
             "id": "d",
             "text": "der Besitz eines eigenen Segelbootes ohne Motor in der PHV beitragsfrei mitversichert ist. i Segelboote OHNE Motor sind automatisch in der Privat-Haftpflicht-Versicherung mitversichert!"
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: D, E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d",
+          "e"
+        ],
+        "solution": "Richtige Antwort: D, E.",
+        "manualGrade": false
       },
       {
         "id": "frage-093",
@@ -2104,7 +2319,7 @@
           },
           {
             "id": "c",
-            "text": "reguliert, da die Haushaltshilfe nicht vorsätzlich gehandelt hat. Q"
+            "text": "reguliert, da die Haushaltshilfe nicht vorsätzlich gehandelt hat."
           },
           {
             "id": "d",
@@ -2120,12 +2335,12 @@
       {
         "id": "frage-094",
         "type": "multiple",
-        "prompt": ",:,[\"...:wl ,,', r.,,.,.,._ .,,~•1 ~ ~~ .,.,~ ... ..,..~ •.:.1,;; ., • -'f) ,;,d'>' ;,,\"'~ 'i~~~ !~-• .:;,1j Dirk Benser hat bei Ihrer Gesellschaft einen Privat-, Berufs- und Verkehrs-Rechtsschutz für sich und seine Familie. Am letzten Montag verstarb Herr Benser. Frau Benser fragt Sie, welche Auswirkung der Tod ihres Mannes auf den Versicherungsvertrag hat.",
+        "prompt": "Rechtsschutz für sich und seine Familie. Am letzten Montag verstarb Herr Benser. Frau Benser fragt Sie, welche Auswirkung der Tod ihres Mannes auf den Versicherungsvertrag hat.",
         "points": 1,
         "options": [
           {
             "id": "a",
-            "text": "Da sie gesetzliche Erbin ist, kann sie den Vertrag frühestens zum Ende der Vertragslaufzeit kündigen. Q"
+            "text": "Da sie gesetzliche Erbin ist, kann sie den Vertrag frühestens zum Ende der Vertragslaufzeit kündigen."
           },
           {
             "id": "b",
@@ -2137,12 +2352,19 @@
           },
           {
             "id": "d",
-            "text": "Der Versicherungsvertrag wird wegen Risikowegfalls beendet. ~"
+            "text": "Der Versicherungsvertrag wird wegen Risikowegfalls beendet."
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: B, E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b",
+          "e"
+        ],
+        "solution": "Richtige Antwort: B, E.",
+        "manualGrade": false
       },
       {
         "id": "frage-095",
@@ -2152,7 +2374,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Straf-Rechtsschutz Q"
+            "text": "Straf-Rechtsschutz"
           },
           {
             "id": "b",
@@ -2181,7 +2403,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Nein, familien- und erbrechtliche Streitigkeiten sind im Privat- und Berufs-Rechtsschutz nicht versicherbar. Q"
+            "text": "Nein, familien- und erbrechtliche Streitigkeiten sind im Privat- und Berufs-Rechtsschutz nicht versicherbar."
           },
           {
             "id": "b",
@@ -2205,7 +2427,7 @@
       {
         "id": "frage-097",
         "type": "single",
-        "prompt": "w - ft ;l{f ?• 1'1i:'!-::~- -,:·,j{!l:':~!f~ 'ii~••;-\";-!!, .... r~~E~~ Fritz Pöhl hat seit Jahren bei Ihrer Gesellschaft einen Privat-, Berufs- und Verkehrs-Rechtsschutz. Ein anstehender Rechtsstreit vor dem Finanzgericht macht ihm zu schaffen. Das Finanzamt erkennt Teile seiner Aufwendungen nicht als steuermindernd an. Herr Pöhl möchte sich vor Gericht von einem Steuerberater vertreten lassen. Erhält er dafür Rechtsschutz?",
+        "prompt": "Rechtsschutz. Ein anstehender Rechtsstreit vor dem Finanzgericht macht ihm zu schaffen. Das Finanzamt erkennt Teile seiner Aufwendungen nicht als steuermindernd an. Herr Pöhl möchte sich vor Gericht von einem Steuerberater vertreten lassen. Erhält er dafür Rechtsschutz?",
         "points": 1,
         "options": [
           {
@@ -2214,7 +2436,7 @@
           },
           {
             "id": "b",
-            "text": "Nein, da das Rechtsanwaltsvergütungsgesetz (RVG) hierfür keine Möglichkeit vorsieht. Q"
+            "text": "Nein, da das Rechtsanwaltsvergütungsgesetz (RVG) hierfür keine Möglichkeit vorsieht."
           },
           {
             "id": "c",
@@ -2251,7 +2473,7 @@
           },
           {
             "id": "d",
-            "text": "nur für Streitigkeiten aus Kaufverträgen. ~"
+            "text": "nur für Streitigkeiten aus Kaufverträgen."
           },
           {
             "id": "e",
@@ -2276,7 +2498,7 @@
           },
           {
             "id": "b",
-            "text": "Privat-, Berufs- und Verkehrs-Rechtsschutz. Q"
+            "text": "Privat-, Berufs- und Verkehrs-Rechtsschutz."
           },
           {
             "id": "c",
@@ -2284,12 +2506,19 @@
           },
           {
             "id": "d",
-            "text": "Privat-, Berufs- sowie Wohnungs- und Grundstücks-Rechtsschutz. ~"
+            "text": "Privat-, Berufs- sowie Wohnungs- und Grundstücks-Rechtsschutz."
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: C, E. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c",
+          "e"
+        ],
+        "solution": "Richtige Antwort: C, E.",
+        "manualGrade": false
       }
     ]
   },
@@ -2301,7 +2530,7 @@
       {
         "id": "frage-001",
         "type": "single",
-        "prompt": "~;:::~;;, ~ ~·:~11~ ,.... ~k '~~ 'Y;~.~~; ► ;-,,11, tLV· ~ . , 'l!-+' M ~J.'{,,,-, ~ )'-.•, ~~.:; -~~:\"'1\"$.t'i,;~,(:?.1~,: -t~~i: Mareike Fischer (20, Single) hat eine Ausbildung zur Bankkauffrau begonnen. Sie interessiert sich jetzt für den Abschluss einer zulagengeförderten Altersvorsorge nach § 1 0a EStG. Welche Zulagen kann Frau Fischer erhalten? Die Grundzulage in Höhe von 175,- € ....",
+        "prompt": "Sie interessiert sich jetzt für den Abschluss einer zulagengeförderten Altersvorsorge nach § 1 0a EStG. Welche Zulagen kann Frau Fischer erhalten? Die Grundzulage in Höhe von 175,- € ....",
         "points": 1,
         "options": [
           {
@@ -2318,7 +2547,7 @@
           },
           {
             "id": "d",
-            "text": "und der Kinderzulage in Höhe von 185,- € jährlich, solange sie sich in einer Ausbildung befindet. ~"
+            "text": "und der Kinderzulage in Höhe von 185,- € jährlich, solange sie sich in einer Ausbildung befindet."
           }
         ],
         "answerIds": [
@@ -2330,7 +2559,7 @@
       {
         "id": "frage-002",
         "type": "single",
-        "prompt": "\" ... ---: .. ~- - ----~.;.: ··~ ---·.,,;!/ Der Schwager von Vincent Müller {28) ist bei einem Autounfall tödlich verunglückt. Er hinterlässt eine Ehefrau und 3 kleine Kinder. Eine Versorge hatte er nicht getroffen. Einen solchen Fall möchte Herr Müller vermeiden und für den Fall vorsorgen, dass er als Ernährer der Familie vorzeitig verstirbt Im Moment stehen der Familie nur geringe finanzielle Mittel zur Verfügung. Er fragt Sie, welche Angebotsform in seinem Fall die beste Absicherung bietet.",
+        "prompt": "Der Schwager von Vincent Müller {28) ist bei einem Autounfall tödlich verunglückt. Er hinterlässt eine Ehefrau und 3 kleine Kinder. Eine Versorge hatte er nicht getroffen. Einen solchen Fall möchte Herr Müller vermeiden und für den Fall vorsorgen, dass er als Ernährer der Familie vorzeitig verstirbt Im Moment stehen der Familie nur geringe finanzielle Mittel zur Verfügung. Er fragt Sie, welche Angebotsform in seinem Fall die beste Absicherung bietet.",
         "points": 1,
         "options": [
           {
@@ -2347,7 +2576,7 @@
           },
           {
             "id": "d",
-            "text": "Risikolebensversicherung ~"
+            "text": "Risikolebensversicherung"
           },
           {
             "id": "e",
@@ -2409,7 +2638,7 @@
           },
           {
             "id": "d",
-            "text": "Sie kann den Vertrag bei ihrer Bank in Höhe der Ablaufleistung beleihen. ~"
+            "text": "Sie kann den Vertrag bei ihrer Bank in Höhe der Ablaufleistung beleihen."
           }
         ],
         "answerIds": [
@@ -2438,7 +2667,7 @@
           },
           {
             "id": "d",
-            "text": "weiterhin die Zulagen und den Steuervorteil. ~"
+            "text": "weiterhin die Zulagen und den Steuervorteil."
           }
         ],
         "answerIds": [
@@ -2450,7 +2679,7 @@
       {
         "id": "frage-006",
         "type": "single",
-        "prompt": "' \\;D~ti1~)(~1~ifi~~k Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung Während eines Servicebesuchs bei Torsren Wilhelms erfahren Sie, dass Herr Wilhelms an einer Krebserkrankung leidet, die zu einer Berufsunfähigkeit von 70 % führen könnte. Da er eine private Berufsunfähigkeits- Zusatzversicherung mit einer Rente in Höhe von 1.000,-€ monatlich hat, empfehlen Sie Ihrem Kunden, einen Antrag auf Berufsunfähigkeitsleistungen zu stellen. Welche Leistungen hätte Herr Wilhelms in diesem Fall tu erwarten? Eine monatliche Berufsunfähigkeitsrente in Höhe von ...",
+        "prompt": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung Während eines Servicebesuchs bei Torsren Wilhelms erfahren Sie, dass Herr Wilhelms an einer Krebserkrankung leidet, die zu einer Berufsunfähigkeit von 70 % führen könnte. Da er eine private Berufsunfähigkeits- Zusatzversicherung mit einer Rente in Höhe von 1.000,-€ monatlich hat, empfehlen Sie Ihrem Kunden, einen Antrag auf Berufsunfähigkeitsleistungen zu stellen. Welche Leistungen hätte Herr Wilhelms in diesem Fall tu erwarten? Eine monatliche Berufsunfähigkeitsrente in Höhe von ...",
         "points": 1,
         "options": [
           {
@@ -2500,7 +2729,7 @@
           },
           {
             "id": "e",
-            "text": "Ja, allerdings muss er die erhaltene Förderung zurückerstatten. ~"
+            "text": "Ja, allerdings muss er die erhaltene Förderung zurückerstatten."
           },
           {
             "id": "f",
@@ -2537,11 +2766,7 @@
           },
           {
             "id": "e",
-            "text": "Kostenanteil ~"
-          },
-          {
-            "id": "f",
-            "text": "® . ~"
+            "text": "Kostenanteil"
           }
         ],
         "answerIds": [
@@ -2584,7 +2809,7 @@
       {
         "id": "frage-011",
         "type": "single",
-        "prompt": ",;~~;'•{~~· ~ 1:1 ~··:'~-:~~1;~l &~t '{ } -.f,,c.-1;'' -, -~V-. \" , ~~ ~ •;~·,r, lG.ti:.~ ':>-~. :..., ,,,.., •• ' · ., \"'':. ,::~-r.. ;-.;. :.,., .. \"Tr!m Sie beraten Familie Baumfäller im Rahmen der Zulagenförderung nach § 1 Oa EStG zu einer Absicherung im Alter. Herr Baumfäller 1st angestellter Industriekaufmann, seine Frau Rita ist selbständige Werbegrafiker:in. Das Ehepaar hat Zwillinge im Alter von 7 Jahren. Können Herr und Frau Baumfäller einen Vertrag abschließen? Sie antworten richtiqerweise, dass ...",
+        "prompt": "Sie beraten Familie Baumfäller im Rahmen der Zulagenförderung nach § 1 Oa EStG zu einer Absicherung im Alter. Herr Baumfäller 1st angestellter Industriekaufmann, seine Frau Rita ist selbständige Werbegrafiker:in. Das Ehepaar hat Zwillinge im Alter von 7 Jahren. Können Herr und Frau Baumfäller einen Vertrag abschließen? Sie antworten richtiqerweise, dass ...",
         "points": 1,
         "options": [
           {
@@ -2611,7 +2836,7 @@
       {
         "id": "frage-012",
         "type": "single",
-        "prompt": "~t-' -,,_ . :~~ . ·,-,:·~;~ \"'f\":,/,•\"' ;.<. - ·: -~.:._~. . ,.-~ -;- ·. LV · ~ -~ •,, \". - .,, ,•.;.o.> :,: -~,~:; ~:i s-, Renten- und Berufsunfähigkeitsversicherung '> Sie haben Herrn Merten bedarfsgerecht zu einer kapitalbildenden Lebensversicherung beraten und nehmen einen Antrag auf. Herr Merten ist grundsätzlich überzeugt, dass eine Altersvorsorge dynamisch gestaltet sein sollte. Er zögert aber noch, weil er fürchtet, die Beiträge könnten viel schneller steigen als sein Einkommen. Sie informieren Ihren Kunden über die bedingungsgemäße Regelung.",
+        "prompt": "Berufsunfähigkeitsversicherung '> Sie haben Herrn Merten bedarfsgerecht zu einer kapitalbildenden Lebensversicherung beraten und nehmen einen Antrag auf. Herr Merten ist grundsätzlich überzeugt, dass eine Altersvorsorge dynamisch gestaltet sein sollte. Er zögert aber noch, weil er fürchtet, die Beiträge könnten viel schneller steigen als sein Einkommen. Sie informieren Ihren Kunden über die bedingungsgemäße Regelung.",
         "points": 1,
         "options": [
           {
@@ -2628,7 +2853,7 @@
           },
           {
             "id": "d",
-            "text": "Maximal 3x hintereinander kann die Dynamik ausgesetzt werden, ohne dass der Anspruch auf Fortführung verloren geht. ~"
+            "text": "Maximal 3x hintereinander kann die Dynamik ausgesetzt werden, ohne dass der Anspruch auf Fortführung verloren geht."
           }
         ],
         "answerIds": [
@@ -2661,7 +2886,11 @@
           },
           {
             "id": "e",
-            "text": "®"
+            "text": "[Antwort E im Scan nicht lesbar]"
+          },
+          {
+            "id": "f",
+            "text": "[Antwort F im Scan nicht lesbar]"
           }
         ],
         "answerIds": [
@@ -2723,11 +2952,11 @@
           },
           {
             "id": "d",
-            "text": "Direktversicherung durch Entgeltumwandlung I' j Private kapitalgedeckte Leibrentenversicherung (Basisrente)"
+            "text": "Direktversicherung durch Entgeltumwandlung I' j Private kapitalgedeckte Leibrentenversicherung (Basisrente"
           },
           {
             "id": "e",
-            "text": "Kapitalbildende Lebensversicherung ~"
+            "text": "Kapitalbildende Lebensversicherung"
           }
         ],
         "answerIds": [],
@@ -2750,7 +2979,7 @@
           },
           {
             "id": "c",
-            "text": "nicht einkommensteuerfrei sind. ~"
+            "text": "nicht einkommensteuerfrei sind."
           },
           {
             "id": "d",
@@ -2783,7 +3012,7 @@
           },
           {
             "id": "d",
-            "text": "nicht versteuern werden. ~"
+            "text": "nicht versteuern werden."
           },
           {
             "id": "e",
@@ -2816,7 +3045,7 @@
           },
           {
             "id": "d",
-            "text": "Die bereits angelegten und die zukünftigen Sparanteile können auf neue Fonds verteilt werden. ~"
+            "text": "Die bereits angelegten und die zukünftigen Sparanteile können auf neue Fonds verteilt werden."
           }
         ],
         "answerIds": [
@@ -2828,7 +3057,7 @@
       {
         "id": "frage-019",
         "type": "single",
-        "prompt": "Schriftlicher Prüfunqsteil 1 ~ :X~1 ... ; •• ~r,-·t~~•\"' ,.7~•~'§ t~;/~,\\3~N <J~.-~J{l}~ Gesetzliche Rentenversicherung Nach dem Tod von Hannes Breitenbach, der 22 Jahre lang ;in der Gesetzlichen Rentenversicherung (GRV) pflichtversichert war, führen Sie ein Gespräch mit seiner Witwe. Frau Breitenbach ist 42 Jahre alt, Hausfrau, hat eine 21-jährige Tochter (Studentin) und einen 16-jährigen Sohn (Schüler). Sie möchte von Ihnen wissen, welche Rentenansprüche durch den Tod ihres Mannes aus der GRV entstanden sind.",
+        "prompt": "Rentenversicherung Nach dem Tod von Hannes Breitenbach, der 22 Jahre lang ;in der Gesetzlichen Rentenversicherung (GRV) pflichtversichert war, führen Sie ein Gespräch mit seiner Witwe. Frau Breitenbach ist 42 Jahre alt, Hausfrau, hat eine 21-jährige Tochter (Studentin) und einen 16-jährigen Sohn (Schüler). Sie möchte von Ihnen wissen, welche Rentenansprüche durch den Tod ihres Mannes aus der GRV entstanden sind.",
         "points": 1,
         "options": [
           {
@@ -2878,7 +3107,7 @@
           },
           {
             "id": "e",
-            "text": "Er bleibt als Arbeitnehmer versicherungspflichtig. ~"
+            "text": "Er bleibt als Arbeitnehmer versicherungspflichtig."
           }
         ],
         "answerIds": [
@@ -2907,7 +3136,11 @@
           },
           {
             "id": "d",
-            "text": "Rentenbescheid .~, ~"
+            "text": "Rentenbescheid .~,"
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
         "answerIds": [
@@ -2936,7 +3169,7 @@
           },
           {
             "id": "d",
-            "text": "Nein, da die Wartezeit von 60 Monaten nicht erfüllt 1st. ~"
+            "text": "Nein, da die Wartezeit von 60 Monaten nicht erfüllt 1st."
           }
         ],
         "answerIds": [
@@ -2969,7 +3202,7 @@
           },
           {
             "id": "e",
-            "text": "der Bundesfreiwilligendienst. ~"
+            "text": "der Bundesfreiwilligendienst."
           },
           {
             "id": "f",
@@ -2977,7 +3210,7 @@
           },
           {
             "id": "g",
-            "text": "®"
+            "text": "[Antwort G im Scan nicht lesbar]"
           }
         ],
         "answerIds": [],
@@ -3008,7 +3241,7 @@
           },
           {
             "id": "e",
-            "text": "Die hohe Geburtenrate in den letzten Jahren. ~"
+            "text": "Die hohe Geburtenrate in den letzten Jahren."
           }
         ],
         "answerIds": [
@@ -3020,7 +3253,7 @@
       {
         "id": "frage-025",
         "type": "single",
-        "prompt": "a1o::--r: ,~~, ~ . -.,8 ,;.M··/ : ~,,., ...:,:! • \" ~\"-,' • ;'.f? ~-,i.(~ .... 'I. Grundzüge der betrieblichen Altersversorgung Ihr Kunde Hans Rampf hat seit 2 Jahren bei Ihrer Gesellschaft eine Pensionskasse durch Entgeltumwandlung, die er jährlich mit 3 ..000,- € bespart. Während des jährlichen Kundenbesuchs berichtet Ihr Kunde von anstehenden Modernisierungsmaßnahmen an seinem Haus, für die er noch weitere finanzielle Mittel benötigt. Ist die Beleihung des bestehenden Vertrages möglich? Eine Beleihung ist ...",
+        "prompt": "Ihr Kunde Hans Rampf hat seit 2 Jahren bei Ihrer Gesellschaft eine Pensionskasse durch Entgeltumwandlung, die er jährlich mit 3 ..000,- € bespart. Während des jährlichen Kundenbesuchs berichtet Ihr Kunde von anstehenden Modernisierungsmaßnahmen an seinem Haus, für die er noch weitere finanzielle Mittel benötigt. Ist die Beleihung des bestehenden Vertrages möglich? Eine Beleihung ist ...",
         "points": 1,
         "options": [
           {
@@ -3037,7 +3270,7 @@
           },
           {
             "id": "d",
-            "text": "möglich, jedoch muss Herr Rampf den beliehenen Wert inklusive Zinsen bis zum Rentenbeginn zurückzahlen. ~"
+            "text": "möglich, jedoch muss Herr Rampf den beliehenen Wert inklusive Zinsen bis zum Rentenbeginn zurückzahlen."
           }
         ],
         "answerIds": [
@@ -3155,7 +3388,7 @@
           },
           {
             "id": "d",
-            "text": "erst ein, wenn ein leitender 30-jähriger Angestellter 10 Jahre für die Firma tätig ist. ~"
+            "text": "erst ein, wenn ein leitender 30-jähriger Angestellter 10 Jahre für die Firma tätig ist."
           }
         ],
         "answerIds": [
@@ -3188,7 +3421,7 @@
           },
           {
             "id": "e",
-            "text": "Rentenleistung nachgelagert voll zu versteuern ist. ~"
+            "text": "Rentenleistung nachgelagert voll zu versteuern ist."
           }
         ],
         "answerIds": [],
@@ -3227,7 +3460,7 @@
       {
         "id": "frage-032",
         "type": "single",
-        "prompt": "t;' '.:·· / .'_:::· .•~t,• ~. ·:'\\, • ~ ,..\"!z, '.'j~·:, .. .lr!m Karl Bauer hat einen Arbeitsunfall erlitten, der eine dauerhafte Minderung der Erwerbsfähigkeit zur Folge hat. Ungeklärt ist noch der Prozentsatz der Minderung .. Herr Bauer fragt Sie, wie viel Prozent diese Minderung mindestens betragen muss, um aus der Gesetzlichen",
+        "prompt": "Herr Bauer fragt Sie, wie viel Prozent diese Minderung mindestens betragen muss, um aus der Gesetzlichen",
         "points": 1,
         "options": [
           {
@@ -3243,8 +3476,8 @@
             "text": "} 25%"
           },
           {
-            "id": "d",
-            "text": "50%"
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
         "answerIds": [
@@ -3327,7 +3560,7 @@
           },
           {
             "id": "d",
-            "text": "Nein, weil Kapselrisse in der Gliedertaxe nicht erfasst sind. ~"
+            "text": "Nein, weil Kapselrisse in der Gliedertaxe nicht erfasst sind."
           }
         ],
         "answerIds": [
@@ -3360,11 +3593,7 @@
           },
           {
             "id": "e",
-            "text": "Keine Leistung, da der lnvaliditätsgrad unter 20 % liegt ~"
-          },
-          {
-            "id": "f",
-            "text": "\" Info"
+            "text": "Keine Leistung, da der lnvaliditätsgrad unter 20 % liegt"
           }
         ],
         "answerIds": [
@@ -3393,11 +3622,15 @@
           },
           {
             "id": "d",
-            "text": "keine Leistung ~"
+            "text": "keine Leistung"
           },
           {
             "id": "e",
-            "text": "®"
+            "text": "[Antwort E im Scan nicht lesbar]"
+          },
+          {
+            "id": "f",
+            "text": "[Antwort F im Scan nicht lesbar]"
           }
         ],
         "answerIds": [
@@ -3426,7 +3659,7 @@
           },
           {
             "id": "d",
-            "text": "50.000,-€ ~"
+            "text": "50.000,-€"
           }
         ],
         "answerIds": [
@@ -3455,7 +3688,7 @@
           },
           {
             "id": "d",
-            "text": "den Vertrag sofort auf den Erwachsenentarif umstellen muss. ~"
+            "text": "den Vertrag sofort auf den Erwachsenentarif umstellen muss."
           }
         ],
         "answerIds": [
@@ -3488,7 +3721,7 @@
           },
           {
             "id": "e",
-            "text": "einen Vorschuss auf die lnvaliditätsleistung. ~"
+            "text": "einen Vorschuss auf die lnvaliditätsleistung."
           }
         ],
         "answerIds": [],
@@ -3527,7 +3760,7 @@
       {
         "id": "frage-042",
         "type": "single",
-        "prompt": "Schriftlicher Prüfung,steil 1 ~~. '-'~!~~ •,t~.:>;.~r;;t,,, ~~•J• ... ~:~~~ ~'.{~~ -~- :_-;- . :·. /1;t'.t~' Krankenversicherung/ Pflegeversicherung Katrin Grissemann {34, verheiratet) arbeitet als Angestellte in einem großen Möbe[haus. Sie ist in einer gesetzlichen Krankenkasse pflichtversichert. Ihr Ehemann kümmert sich als Hausmann um die 4-jährige Tochter und den Haushalt. Nun übernimmt Herr Grissemann 2 Urlaubsvertretungen von insgesamt 2 Monaten Dauer und wird dafür ein Einkommen von insgesamt 4.000,-€ erzielen. Kann Herr Grissemann während dieser Zeit farnilienversichert bleiben?",
+        "prompt": "Krankenversicherung/ Pflegeversicherung Katrin Grissemann {34, verheiratet) arbeitet als Angestellte in einem großen Möbe[haus. Sie ist in einer gesetzlichen Krankenkasse pflichtversichert. Ihr Ehemann kümmert sich als Hausmann um die 4-jährige Tochter und den Haushalt. Nun übernimmt Herr Grissemann 2 Urlaubsvertretungen von insgesamt 2 Monaten Dauer und wird dafür ein Einkommen von insgesamt 4.000,-€ erzielen. Kann Herr Grissemann während dieser Zeit farnilienversichert bleiben?",
         "points": 1,
         "options": [
           {
@@ -3544,7 +3777,7 @@
           },
           {
             "id": "d",
-            "text": "Ja, solange seine Ehefrau ein höheres Einkommen hat. ~"
+            "text": "Ja, solange seine Ehefrau ein höheres Einkommen hat."
           }
         ],
         "answerIds": [
@@ -3569,7 +3802,7 @@
           },
           {
             "id": "c",
-            "text": "Für die Abrechnung gelten die in der Gebührenordnung für Ärzte festgelegten Beträge, eine höhere Abrechnung ist nur nach Absprache mit der PKV möglich. ~"
+            "text": "Für die Abrechnung gelten die in der Gebührenordnung für Ärzte festgelegten Beträge, eine höhere Abrechnung ist nur nach Absprache mit der PKV möglich."
           }
         ],
         "answerIds": [
@@ -3668,7 +3901,7 @@
       {
         "id": "frage-047",
         "type": "multiple",
-        "prompt": "re !.~,;._,.:i:: ~ ~~~~,,,,~-,,--;.:-)-::.(1,~~ ?i~--·~; .. ,rr;'~\";...,~:,~-~;' ,}j!\"::r,Äi' .-~ -:r~YKV<:~,~.:_;·~Äl .'.t.t, ,J~~... ,t;~~ Ingeborg und Dieter Hilgers sind als Angestellte in einer GesetzJichen Krankenversicherung freiwillig versichert. Das Ehepaar interessiert sich jetzt für eine Krankheitskostenvollversicherung. Im Beratungsgespräch erläutern Sle, von welchen Faktoren der individuelle Beitrag abhängt",
+        "prompt": "Krankenversicherung freiwillig versichert. Das Ehepaar interessiert sich jetzt für eine Krankheitskostenvollversicherung. Im Beratungsgespräch erläutern Sle, von welchen Faktoren der individuelle Beitrag abhängt",
         "points": 1,
         "options": [
           {
@@ -3768,7 +4001,7 @@
           },
           {
             "id": "d",
-            "text": "keine Leistunq gibt, lediglich die Sachkosten werden erstattet. ~"
+            "text": "keine Leistunq gibt, lediglich die Sachkosten werden erstattet."
           }
         ],
         "answerIds": [
@@ -3803,7 +4036,7 @@
       {
         "id": "frage-053",
         "type": "single",
-        "prompt": "r.~~'; ~1J-:-r, ~h(i,;1~:~Cll.tt~• ~jl;•.'::~;,KEIJI ;-';¾:1;;·.:::'.); J'J!il$!-;;,M~~;),;~, \"'\"'$:,\" '~e-'!i Um das Jahresendgeschäft anzukurbeln, bereitet Franz Feller eine Aktion zum Thema private Rentenversicherung vor. In der Ausschreibung teilt er seinen Kunden mit, dass jeder Kunde, der eine private Rentenversicherung mit einem Monatsbeitrag von mindestens 200,- € abschließt, 50 % der ersten Jahresprämie erhält. Entspricht dieses Verhalten dem Gesetz und/oder den Wettbewerbsrkhtlinien? Es ist ...",
+        "prompt": "Rentenversicherung vor. In der Ausschreibung teilt er seinen Kunden mit, dass jeder Kunde, der eine private Rentenversicherung mit einem Monatsbeitrag von mindestens 200,- € abschließt, 50 % der ersten Jahresprämie erhält. Entspricht dieses Verhalten dem Gesetz und/oder den Wettbewerbsrkhtlinien? Es ist ...",
         "points": 1,
         "options": [
           {
@@ -3820,7 +4053,7 @@
           },
           {
             "id": "d",
-            "text": "zulässig, da Herr Feiler nicht mit unlauteren Mitteln Neugeschäft akquiriert. ~"
+            "text": "zulässig, da Herr Feiler nicht mit unlauteren Mitteln Neugeschäft akquiriert."
           }
         ],
         "answerIds": [
@@ -3849,7 +4082,7 @@
           },
           {
             "id": "d",
-            "text": "Versicherungsschutz, allerdings kann der Versicherer von Beginn an eine höhere Prämie verlangen. ~"
+            "text": "Versicherungsschutz, allerdings kann der Versicherer von Beginn an eine höhere Prämie verlangen."
           }
         ],
         "answerIds": [
@@ -3878,7 +4111,11 @@
           },
           {
             "id": "d",
-            "text": "eine anteilige Jahresprämie abzüglich einer angemessenen Geschäftsgebühr erstattet wird. ~"
+            "text": "eine anteilige Jahresprämie abzüglich einer angemessenen Geschäftsgebühr erstattet wird."
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
         "answerIds": [
@@ -3903,11 +4140,7 @@
           },
           {
             "id": "c",
-            "text": "Der Versicherer ist leistungsfrei. ~"
-          },
-          {
-            "id": "d",
-            "text": "."
+            "text": "Der Versicherer ist leistungsfrei."
           }
         ],
         "answerIds": [
@@ -3965,7 +4198,7 @@
           },
           {
             "id": "d",
-            "text": "eine gemeinsame Datensammlung mit Versicherern der gleichen Versicherungsgruppe geführt werden kann. ~"
+            "text": "eine gemeinsame Datensammlung mit Versicherern der gleichen Versicherungsgruppe geführt werden kann."
           }
         ],
         "answerIds": [
@@ -4027,7 +4260,7 @@
           },
           {
             "id": "d",
-            "text": "bis zum Erhalt des Versicherungsscheins. ~"
+            "text": "bis zum Erhalt des Versicherungsscheins."
           }
         ],
         "answerIds": [
@@ -4060,7 +4293,7 @@
           },
           {
             "id": "e",
-            "text": "das Bestehen einer Berufshaftpflichtversicherung ~"
+            "text": "das Bestehen einer Berufshaftpflichtversicherung"
           }
         ],
         "answerIds": [
@@ -4079,23 +4312,27 @@
         "options": [
           {
             "id": "a",
-            "text": "der Bundesverband Deutscher Versicherungskaufleute e.V. (BVK)"
+            "text": "der Bundesverband Deutscher Versicherungskaufleute e.V. (BVK"
           },
           {
             "id": "b",
-            "text": "die Auskunftsstelle über Versicherungs-/Bausparkassenaußendienst und Versicherungsmakler in Deutschland e.V. (AVAD)"
+            "text": "die Auskunftsstelle über Versicherungs-/Bausparkassenaußendienst und Versicherungsmakler in Deutschland e.V. (AVAD"
           },
           {
             "id": "c",
-            "text": "das Berufsbildungswerk der Deutschen Versicherungswirtschaft e.V. (BWV)"
+            "text": "das Berufsbildungswerk der Deutschen Versicherungswirtschaft e.V. (BWV"
           },
           {
             "id": "d",
-            "text": "der Gesamtverband der Deutschen Verskherungswirtschaft e.V. {GDV) ~"
+            "text": "der Gesamtverband der Deutschen Verskherungswirtschaft e.V. {GDV)"
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           },
           {
             "id": "f",
-            "text": "®"
+            "text": "[Antwort F im Scan nicht lesbar]"
           }
         ],
         "answerIds": [
@@ -4124,7 +4361,7 @@
           },
           {
             "id": "d",
-            "text": "innerhalb eines Monats vom Vertrag zurücktreten, ist aber in diesem Fall aufgrund fehlender Kausalität leistungspflichtig. ~"
+            "text": "innerhalb eines Monats vom Vertrag zurücktreten, ist aber in diesem Fall aufgrund fehlender Kausalität leistungspflichtig."
           }
         ],
         "answerIds": [
@@ -4207,7 +4444,7 @@
           },
           {
             "id": "c",
-            "text": "wenn der Beitrag unveszüqlich bezahlt wird. ~"
+            "text": "wenn der Beitrag unveszüqlich bezahlt wird."
           }
         ],
         "answerIds": [
@@ -4228,7 +4465,11 @@
           },
           {
             "id": "b",
-            "text": "zur Unterzeichnung des Antrags. ~"
+            "text": "zur Unterzeichnung des Antrags."
+          },
+          {
+            "id": "c",
+            "text": "[Antwort C im Scan nicht lesbar]"
           }
         ],
         "answerIds": [],
@@ -4255,7 +4496,7 @@
           },
           {
             "id": "d",
-            "text": "30.05. ~"
+            "text": "30.05."
           }
         ],
         "answerIds": [
@@ -4284,7 +4525,7 @@
           },
           {
             "id": "d",
-            "text": "Fahrrad und Fernseher f ~"
+            "text": "Fahrrad und Fernseher f"
           },
           {
             "id": "e",
@@ -4375,11 +4616,15 @@
           },
           {
             "id": "d",
-            "text": "Nein, weil es einer besonderen Vereinbarung der Mitversicherung bedarf. ~"
+            "text": "Nein, weil es einer besonderen Vereinbarung der Mitversicherung bedarf."
           },
           {
             "id": "e",
-            "text": "®"
+            "text": "[Antwort E im Scan nicht lesbar]"
+          },
+          {
+            "id": "f",
+            "text": "[Antwort F im Scan nicht lesbar]"
           }
         ],
         "answerIds": [
@@ -4544,7 +4789,7 @@
           },
           {
             "id": "f",
-            "text": "Badezimmerspiegel ~"
+            "text": "Badezimmerspiegel"
           }
         ],
         "answerIds": [],
@@ -4610,7 +4855,7 @@
       {
         "id": "frage-084",
         "type": "single",
-        "prompt": "1m . Schriftlicher Prüfungsteil 2 .1111111 lrene W:illmann hat bei Ihrer Gesellschaft eine Wohngebäudeversicherung zum Gleitenden Neuwert gegen die Gefahren Feuer und Leitungswasser. Letzte Nacht brach im Haus ihres Nachbarn ein Feuer aus und zerstörte das Gebäude vollständig. Durch Rauch und Ruß entstand ebenfalls ein erheblicher Schaden an der Fassade des Hauses Ihrer Kundin. Frau Willrnann erkundigt sich bei Ihnen, ob dieser Schaden versichert ist.",
+        "prompt": "1m . 2 .1111111 lrene W:illmann hat bei Ihrer Gesellschaft eine Wohngebäudeversicherung zum Gleitenden Neuwert gegen die Gefahren Feuer und Leitungswasser. Letzte Nacht brach im Haus ihres Nachbarn ein Feuer aus und zerstörte das Gebäude vollständig. Durch Rauch und Ruß entstand ebenfalls ein erheblicher Schaden an der Fassade des Hauses Ihrer Kundin. Frau Willrnann erkundigt sich bei Ihnen, ob dieser Schaden versichert ist.",
         "points": 1,
         "options": [
           {
@@ -4627,7 +4872,7 @@
           },
           {
             "id": "d",
-            "text": "Nein, da der Schaden über die Haftpflichtversicherung des Nachbarn reguliert ward. ~"
+            "text": "Nein, da der Schaden über die Haftpflichtversicherung des Nachbarn reguliert ward."
           }
         ],
         "answerIds": [
@@ -4656,7 +4901,7 @@
           },
           {
             "id": "d",
-            "text": "den Wert 1914 nach Größe, Ausbau und Ausstattungsmerkmalen ermitteln. ~"
+            "text": "den Wert 1914 nach Größe, Ausbau und Ausstattungsmerkmalen ermitteln."
           }
         ],
         "answerIds": [
@@ -4668,7 +4913,7 @@
       {
         "id": "frage-086",
         "type": "text",
-        "prompt": "11!1?1 \"··~~~ ·~----=~--- Ihr Kunde Ralf Tomic ist Besitzer eines Einfamilienhauses mit Einliegerwohnung. Die Wohnfläche der Einliegerwohnung beträgt 55 Quadratmeter (qm) und ist mit 12,- €/qm vermietet. Nach einem Brand im Haus ist die vermietete Wohnung unbewohnbar. Die Reparaturarbeiten werden wahrscheinlich 13 Monate dauern. Der ortsübliche Mietwert beträgt 8,- €/qm. Herr Tomic fragt Sie, wie hoch seine Entschädigung sein wird. Euro Hinweis Eintrag in Euro ohne Trennpunkte, also z.B. 1212 für elntausendzwelhundertzwött Euro.",
+        "prompt": "Ihr Kunde Ralf Tomic ist Besitzer eines Einfamilienhauses mit Einliegerwohnung. Die Wohnfläche der Einliegerwohnung beträgt 55 Quadratmeter (qm) und ist mit 12,- €/qm vermietet. Nach einem Brand im Haus ist die vermietete Wohnung unbewohnbar. Die Reparaturarbeiten werden wahrscheinlich 13 Monate dauern. Der ortsübliche Mietwert beträgt 8,- €/qm. Herr Tomic fragt Sie, wie hoch seine Entschädigung sein wird. Euro Hinweis Eintrag in Euro ohne Trennpunkte, also z.B. 1212 für elntausendzwelhundertzwött Euro.",
         "points": 1,
         "options": [],
         "answerIds": [],
@@ -4755,7 +5000,7 @@
           },
           {
             "id": "c",
-            "text": "Wandfarbe L Gelagerte Dachziegel ~"
+            "text": "Wandfarbe L Gelagerte Dachziegel"
           }
         ],
         "answerIds": [
@@ -4867,7 +5112,7 @@
           },
           {
             "id": "d",
-            "text": "Seide Schäden werden aufgrund des Pflichtversicherungsgesetzes im Rahmen der gesetzlichen Mindestdeckungssummen reguliert. ~"
+            "text": "Seide Schäden werden aufgrund des Pflichtversicherungsgesetzes im Rahmen der gesetzlichen Mindestdeckungssummen reguliert."
           }
         ],
         "answerIds": [
@@ -4946,7 +5191,7 @@
           },
           {
             "id": "b",
-            "text": "Verschmutzung der Sitzpolster anlässlich der Beförderung eines Unfallopfers ! ~ Zerschlagen der Windschutzscheibe Beschädigung des Fahrzeugs durch einen selbstverschuldeten Unfall ~"
+            "text": "Verschmutzung der Sitzpolster anlässlich der Beförderung eines Unfallopfers ! ~ Zerschlagen der Windschutzscheibe Beschädigung des Fahrzeugs durch einen selbstverschuldeten Unfall"
           }
         ],
         "answerIds": [],
@@ -5112,7 +5357,7 @@
           },
           {
             "id": "d",
-            "text": "außerhalb von EU-Staaten keinen Versicherungsschutz. ~"
+            "text": "außerhalb von EU-Staaten keinen Versicherungsschutz."
           }
         ],
         "answerIds": [
@@ -5286,7 +5531,7 @@
           },
           {
             "id": "d",
-            "text": "erstattet, weil die PHV nur in Ausnahmefällen den Zeitwert ersetzt. ~"
+            "text": "erstattet, weil die PHV nur in Ausnahmefällen den Zeitwert ersetzt."
           },
           {
             "id": "e",
@@ -5342,12 +5587,18 @@
           },
           {
             "id": "c",
-            "text": "Ja, aber nur in Höhe von 1.500,- €. ~"
+            "text": "Ja, aber nur in Höhe von 1.500,- €."
+          },
+          {
+            "id": "d",
+            "text": "[Antwort D im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
-        "solution": "Richtige Antwort: D. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Richtige Antwort: D.",
+        "manualGrade": false
       },
       {
         "id": "frage-113",
@@ -5468,7 +5719,7 @@
       {
         "id": "frage-118",
         "type": "single",
-        "prompt": "~-~·.~•-----.;,_w~ Antonia Riedlinger lässt sich von Ihnen zu einer Rechtsschutzversicherung bei der Proximus AG beraten . Sie wünscht sich zunächst einen Überblick darüber, welche verschiedenen Vertragsformen (Bereiche) es gibt. Welche Aufzählung ist richtiig? KJ Berufs-Rechtsschutz r Familien-Rechtsschutz",
+        "prompt": "Rechtsschutzversicherung bei der Proximus AG beraten . Sie wünscht sich zunächst einen Überblick darüber, welche verschiedenen Vertragsformen (Bereiche) es gibt. Welche Aufzählung ist richtiig? KJ Berufs-Rechtsschutz r Familien-Rechtsschutz",
         "points": 1,
         "options": [
           {
@@ -5481,7 +5732,7 @@
           },
           {
             "id": "c",
-            "text": "Tierhalter-Rechtsschutz ~"
+            "text": "Tierhalter-Rechtsschutz"
           }
         ],
         "answerIds": [
@@ -8328,7 +8579,7 @@
       {
         "id": "frage-002",
         "type": "single",
-        "prompt": "[_. --~ __ _J Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung Sonja Rostich hat bei Ihrer Gesellschaft vor kurzem eine Risikolebensversicherung mit eingeschlossener Berufsunfähigkeits-Zusatzversicherung (BUZ) abgeschlossen. Da sie jetzt ihre Steuererklärung abgeben möchte, hat sie noch eine Frage an Sie. Wie sind die Beiträge zu dieser Versicherung steuerlich zu behandeln? Im Rahmen der Vorsorgeaufwendungen ist ...",
+        "prompt": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung Sonja Rostich hat bei Ihrer Gesellschaft vor kurzem eine Risikolebensversicherung mit eingeschlossener Berufsunfähigkeits-Zusatzversicherung (BUZ) abgeschlossen. Da sie jetzt ihre Steuererklärung abgeben möchte, hat sie noch eine Frage an Sie. Wie sind die Beiträge zu dieser Versicherung steuerlich zu behandeln? Im Rahmen der Vorsorgeaufwendungen ist ...",
         "points": 1,
         "options": [
           {
@@ -8432,7 +8683,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Zulagen-Rente gemäß § 1 Oa EStG (AltZertG)"
+            "text": "Zulagen-Rente gemäß § 1 Oa EStG (AltZertG"
           },
           {
             "id": "b",
@@ -8559,7 +8810,7 @@
       {
         "id": "frage-012",
         "type": "single",
-        "prompt": "~rt~_:J·:;rf.~,l_:-.: _· :· :;~~; :i:-}t-~' ' • Jürgen Senft hat bei Ihrer Gesellschaft seit 10 Jahren eine kapitalbildende Lebensversicherung. Da er kurzfristig Zahlungsschwierigkeiten hat, möchte er von Ihnen zu den Möglichkeiten der Weiterführung seines Vertrags beraten werden. Nach einer detaillierten Darstellung seiner Situation, schlagen Sie die Zahlung eines Risikozwischenbeitrags vor. Bei einem Risikozwischenbeitrag wird der ...",
+        "prompt": "Lebensversicherung. Da er kurzfristig Zahlungsschwierigkeiten hat, möchte er von Ihnen zu den Möglichkeiten der Weiterführung seines Vertrags beraten werden. Nach einer detaillierten Darstellung seiner Situation, schlagen Sie die Zahlung eines Risikozwischenbeitrags vor. Bei einem Risikozwischenbeitrag wird der ...",
         "points": 1,
         "options": [
           {
@@ -8789,7 +9040,7 @@
       {
         "id": "frage-020",
         "type": "multiple",
-        "prompt": "'t: .. · ~:::' \"', GRV ,- : '\" ~: .,:: ~ .• i ' , :: Sie beraten Martin Marländer (37) im Bereich der Altersvorsorge. Bei der Darstellung der Gesetzlichen Rentenversicherung erklären Sie ihm, dass für den Anspruch auf Regelaltersrente eine Wartezeit von 5 Jahren mit Beitragszeiten belegt werden muss. Herr Marländer fragt nach, was er unter diesen Zeiten zu verstehen hat. Dazu zählen unter anderem ...",
+        "prompt": "Sie beraten Martin Marländer (37) im Bereich der Altersvorsorge. Bei der Darstellung der Gesetzlichen Rentenversicherung erklären Sie ihm, dass für den Anspruch auf Regelaltersrente eine Wartezeit von 5 Jahren mit Beitragszeiten belegt werden muss. Herr Marländer fragt nach, was er unter diesen Zeiten zu verstehen hat. Dazu zählen unter anderem ...",
         "points": 1,
         "options": [
           {
@@ -8857,7 +9108,7 @@
       {
         "id": "frage-022",
         "type": "single",
-        "prompt": "!~~:::;~~:~:~~v: : : :}: ti Gesetzliche Rentenversicherung Sie beraten Heiner Kluge zu seiner Altersvorsorge. Herr Kluge ist 35 Jahre alt und als Angestellter in einer Großhandelskette tätig. Zunächst gehen Sie auf die Gesetzliche Rentenversicherung (GRV) ein und erklären, dass die Finanzierung der GRV überwiegend durch Beitragseinnahmen von den Versicherten erfolgt. Die Höhe des Beitrags ist von verschiedenen Faktoren abhängig. Welche beeinflussenden Faktoren nennen Sie Herrn Kluge?",
+        "prompt": "Rentenversicherung Sie beraten Heiner Kluge zu seiner Altersvorsorge. Herr Kluge ist 35 Jahre alt und als Angestellter in einer Großhandelskette tätig. Zunächst gehen Sie auf die Gesetzliche Rentenversicherung (GRV) ein und erklären, dass die Finanzierung der GRV überwiegend durch Beitragseinnahmen von den Versicherten erfolgt. Die Höhe des Beitrags ist von verschiedenen Faktoren abhängig. Welche beeinflussenden Faktoren nennen Sie Herrn Kluge?",
         "points": 1,
         "options": [
           {
@@ -8903,7 +9154,7 @@
           },
           {
             "id": "d",
-            "text": "Die Geburtenrate liegt bereits seit Jahrzehnten oberhalb der Sterblichkeitsrate und belastet die GRV. ~"
+            "text": "Die Geburtenrate liegt bereits seit Jahrzehnten oberhalb der Sterblichkeitsrate und belastet die GRV."
           },
           {
             "id": "e",
@@ -9099,7 +9350,7 @@
       {
         "id": "frage-031",
         "type": "single",
-        "prompt": "f,..-!lt~i~~t};P,y/-! : <:~ :!: :. . , •· Silke Peters hat bei Ihrer Gesellschaft eine Unfallversicherung. Sie muss ihre Urlaubsreise im außereuropäischen Ausland wegen eines unerwarteten Bürgerkriegsausbruchs abbrechen. Die früheste Rückflugmöglichkeit ergibt sich für sie erst 9 Tage nach dem Beginn des Krieges. Auf dem Weg zum Flughafen wird Frau Peters in der Nähe einer Kampfhandlung angeschossen. Nach ihrer Rückkehr erkundigt Sie sich bei Ihnen, ob sie Leistungen aus ihrer Unfallversicherung erhält. Frau Peters erhält. ..",
+        "prompt": "Unfallversicherung. Sie muss ihre Urlaubsreise im außereuropäischen Ausland wegen eines unerwarteten Bürgerkriegsausbruchs abbrechen. Die früheste Rückflugmöglichkeit ergibt sich für sie erst 9 Tage nach dem Beginn des Krieges. Auf dem Weg zum Flughafen wird Frau Peters in der Nähe einer Kampfhandlung angeschossen. Nach ihrer Rückkehr erkundigt Sie sich bei Ihnen, ob sie Leistungen aus ihrer Unfallversicherung erhält. Frau Peters erhält. ..",
         "points": 1,
         "options": [
           {
@@ -9191,7 +9442,7 @@
           },
           {
             "id": "b",
-            "text": "Ja, da Herr Löffler infolge eines Unfalls verstarb."
+            "text": "Ja, da Herr Löffler"
           },
           {
             "id": "c",
@@ -9211,7 +9462,7 @@
       {
         "id": "frage-035",
         "type": "single",
-        "prompt": ",•,•\":·· ·.'· üv - ' '·. .. fflffll Bei einem Unfall vor .2 1/2 Jahren verletzte sich Jürgen Lott (34) schwer am rechten Arm. Damals wurde eine Funktionsbeeinträchtigung von 50 % festgestellt und er erhielt eine Entschädigungsleistung von 50.000,- € aus seiner privaten Unfallversicherung. Herr Lott klagt nun über eine weitergehende Funktionsbeeinträchtigung des Arms. Er möchte wissen, ob deshalb eine erneute Prüfung des lnvaliditätsgrades möglich ist. Sie erklären ihm richtigerweise, dass ...",
+        "prompt": "Bei einem Unfall vor .2 1/2 Jahren verletzte sich Jürgen Lott (34) schwer am rechten Arm. Damals wurde eine Funktionsbeeinträchtigung von 50 % festgestellt und er erhielt eine Entschädigungsleistung von 50.000,- € aus seiner privaten Unfallversicherung. Herr Lott klagt nun über eine weitergehende Funktionsbeeinträchtigung des Arms. Er möchte wissen, ob deshalb eine erneute Prüfung des lnvaliditätsgrades möglich ist. Sie erklären ihm richtigerweise, dass ...",
         "points": 1,
         "options": [
           {
@@ -9370,7 +9621,7 @@
           },
           {
             "id": "d",
-            "text": "Sachbezüge (z.B. firmeneigener Dienstwagen)"
+            "text": "Sachbezüge (z.B. firmeneigener Dienstwagen"
           },
           {
             "id": "e",
@@ -9657,7 +9908,7 @@
       {
         "id": "frage-051",
         "type": "single",
-        "prompt": "/-~?- ~ - - - ~~r : -, - , - -~· Krankenversicherung/ Pflegeversicherung Sie beraten Marten Hansen, der aktuell in der gesetzlichen Krankenversicherung (GKV) versichert ist, zu einer privaten Krankheitskostenvollversicherung (PKV) bei der Proximus AG. In diesem Zusammenhang spricht er Sie auf den Notlagentarif an, von dem er in den Medien gehört hat. Welche Aussage ist in diesem Zusammenhang richtig? Sie erläutern ihm, dass ...",
+        "prompt": "Krankenversicherung/ Pflegeversicherung Sie beraten Marten Hansen, der aktuell in der gesetzlichen Krankenversicherung (GKV) versichert ist, zu einer privaten Krankheitskostenvollversicherung (PKV) bei der Proximus AG. In diesem Zusammenhang spricht er Sie auf den Notlagentarif an, von dem er in den Medien gehört hat. Welche Aussage ist in diesem Zusammenhang richtig? Sie erläutern ihm, dass ...",
         "points": 1,
         "options": [
           {
@@ -9860,7 +10111,7 @@
       {
         "id": "frage-058",
         "type": "single",
-        "prompt": "j:~,f~~t;Diff :_: :,·. t\"' :_ ;;_:~} '.t~ .. mm Sie begleiten den neuen Außendienstmitarbeiter Ihrer Gesellschaft Jens Wagner bei seinen ersten Kundenbesuchen. Während der Beratung zu einer Hausratversicherung wünscht der Kunde eine vorläufige Deckung. Da Herr Wagner damit noch nicht vertraut ist, erläutern Sie dem Kunden die vorläufige Deckungszusage. Welche Aussagen sind in diesem Zusammenhang richtig? Die vorläufige Deckung ... kann im Schadenfall nur in Anspruch genommen werden, wenn auch der Hauptvertrag zustande kommt.",
+        "prompt": "Sie begleiten den neuen Außendienstmitarbeiter Ihrer Gesellschaft Jens Wagner bei seinen ersten Kundenbesuchen. Während der Beratung zu einer Hausratversicherung wünscht der Kunde eine vorläufige Deckung. Da Herr Wagner damit noch nicht vertraut ist, erläutern Sie dem Kunden die vorläufige Deckungszusage. Welche Aussagen sind in diesem Zusammenhang richtig? Die vorläufige Deckung ... kann im Schadenfall nur in Anspruch genommen werden, wenn auch der Hauptvertrag zustande kommt.",
         "points": 1,
         "options": [
           {
@@ -9902,7 +10153,7 @@
           },
           {
             "id": "c",
-            "text": "Ja, wenn die Kundin über die Nachteile der Vertragsbeendigung informiert worden ist."
+            "text": "Ja, wenn die Kundin über die Nachteile der Vertragsbeendigung"
           },
           {
             "id": "d",
@@ -10285,7 +10536,7 @@
           },
           {
             "id": "d",
-            "text": "nur ersetzt, wenn das Wasserbett zusätzlich über eine Klausel eingeschlossen wurde. Prüfung '@ Info beenden"
+            "text": "nur ersetzt, wenn das Wasserbett zusätzlich über eine Klausel eingeschlossen wurde. Prüfung '@®"
           }
         ],
         "answerIds": [
@@ -10426,6 +10677,10 @@
           {
             "id": "d",
             "text": "das Dachgeschoss beheizen und dies genügend häufig kontrollieren."
+          },
+          {
+            "id": "e",
+            "text": "[Antwort E im Scan nicht lesbar]"
           }
         ],
         "answerIds": [
@@ -10437,7 +10692,7 @@
       {
         "id": "frage-079",
         "type": "single",
-        "prompt": ".:., :· _:· VHV .. ~ ·1 • • III Florian Jonas schildert Ihnen folgenden Fall. Vor einer Woche hatte er sein Fernsehgerät zur Reparatur gegeben. Die Werkstatt stellte ihm für die Zeit der Reparatur ein Leihgerät zur Verfügung. In der vergangenen Nacht wurde bei ihm eingebrochen und unter anderem wurde der geliehene Fernseher entwendet. Herr Jonas erkundigt sich bei Ihnen, ob in diesem Fall das Leihgerät über seine Hausratversicherung versichert ist.",
+        "prompt": "Vor einer Woche hatte er sein Fernsehgerät zur Reparatur gegeben. Die Werkstatt stellte ihm für die Zeit der Reparatur ein Leihgerät zur Verfügung. In der vergangenen Nacht wurde bei ihm eingebrochen und unter anderem wurde der geliehene Fernseher entwendet. Herr Jonas erkundigt sich bei Ihnen, ob in diesem Fall das Leihgerät über seine Hausratversicherung versichert ist.",
         "points": 1,
         "options": [
           {
@@ -10466,7 +10721,7 @@
       {
         "id": "frage-080",
         "type": "single",
-        "prompt": "~,~~\\ .. wv: - ·__ ' . Leo Trichter hat bei Ihrer Gesellschaft eine Hausratversicherung. Die Versicherungssumme beträgt 50.000,- €; die Fahrraddiebstahlklausel ist mit 1 % vereinbart. Herr Trichter teilt Ihnen mit, dass sein Fahrrad während eines Kinobesuches gestohlen wurde. Das Fahrrad war mit einem verkehrsüblichen Schloss gesichert. Der Neuwert des Fahrrades beträgt 650,- €. Er fragt Sie, ob und in welcher Höhe er eine Entschädigung erhält.",
+        "prompt": "Hausratversicherung. Die Versicherungssumme beträgt 50.000,- €; die Fahrraddiebstahlklausel ist mit 1 % vereinbart. Herr Trichter teilt Ihnen mit, dass sein Fahrrad während eines Kinobesuches gestohlen wurde. Das Fahrrad war mit einem verkehrsüblichen Schloss gesichert. Der Neuwert des Fahrrades beträgt 650,- €. Er fragt Sie, ob und in welcher Höhe er eine Entschädigung erhält.",
         "points": 1,
         "options": [
           {
@@ -10677,7 +10932,7 @@
       {
         "id": "frage-087",
         "type": "single",
-        "prompt": "'i:· ·: t ~ • • Für Michael Meister besteht bei der Proximus AG eine Wohngebäudeversicherung zum Gleitenden Neuwert für die Gefahren Feuer, Leitungswasser und Sturm/Hagel mit der Hauptfälligkeit 01. Januar. Ein Unterversicherungsverzicht ist vereinbart. Im April lässt er sein Dachgeschoss ausbauen, um ein Gästezimmer einzurichten. Im September kommt es zu einem Feuer. Das Haus wird vollständig zerstört. Der Ausbau wurde dem Versicherer bisher nicht gemeldet. Ihr Kunde fragt Sie, welche Entschädigung er erhält.",
+        "prompt": "Für Michael Meister besteht bei der Proximus AG eine Wohngebäudeversicherung zum Gleitenden Neuwert für die Gefahren Feuer, Leitungswasser und Sturm/Hagel mit der Hauptfälligkeit 01. Januar. Ein Unterversicherungsverzicht ist vereinbart. Im April lässt er sein Dachgeschoss ausbauen, um ein Gästezimmer einzurichten. Im September kommt es zu einem Feuer. Das Haus wird vollständig zerstört. Der Ausbau wurde dem Versicherer bisher nicht gemeldet. Ihr Kunde fragt Sie, welche Entschädigung er erhält.",
         "points": 1,
         "options": [
           {
@@ -10716,7 +10971,7 @@
       {
         "id": "frage-089",
         "type": "single",
-        "prompt": ". '. ~:· .. ·.·vov .· ' ~ Bernd Hahn hat sein Haus an einem Hang gebaut. Durch einen Bruch der Hauptwasserleitung kam es zu einem Erdrutsch, der das Wohnhaus von Herrn Hahn beschädigte. Er besitzt bei Ihnen eine Wohngebäudeversicherung mit den versicherten Gefahren Feuer, Leitungswasser und weitere Naturgefahren. Er hat nun Fragen zur Regulierung des Schadens. Welche richtige Auskunft geben Sie ihm? Der Schaden wird ersetzt, ...",
+        "prompt": "Wohngebäudeversicherung mit den versicherten Gefahren Feuer, Leitungswasser und weitere Naturgefahren. Er hat nun Fragen zur Regulierung des Schadens. Welche richtige Auskunft geben Sie ihm? Der Schaden wird ersetzt, ...",
         "points": 1,
         "options": [
           {
@@ -10801,7 +11056,7 @@
       {
         "id": "frage-092",
         "type": "single",
-        "prompt": "if:11\"·. 1,~--- .. ; ·. ,; ... ~ ., ~: .. ::·.~ ; :<, ,.: .· ' - :VGV ' , .. -~ Gebäudeversicherung • .:~·. • •• '.[ •• ' ..... _ J- • Sebastian Witte hat sein Wohngebäude bei der Proximus AG gegen alle Gefahren versichert. In dem Gebäude befindet sich auf 20 % der Gesamtnutzfläche ein Tabakwarenladen. Durch Sturm werden das 11 qm große Schaufenster des Ladens und das 4,5 qm große Fenster des Wohnzimmers zerstört. Herr Witte fragt Sie, wie der Schaden ersetzt wird.",
+        "prompt": "Gebäudeversicherung • .:~·. • •• '.[ •• ' ..... _ J- • Sebastian Witte hat sein Wohngebäude bei der Proximus AG gegen alle Gefahren versichert. In dem Gebäude befindet sich auf 20 % der Gesamtnutzfläche ein Tabakwarenladen. Durch Sturm werden das 11 qm große Schaufenster des Ladens und das 4,5 qm große Fenster des Wohnzimmers zerstört. Herr Witte fragt Sie, wie der Schaden ersetzt wird.",
         "points": 1,
         "options": [
           {
@@ -11224,10 +11479,6 @@
           {
             "id": "e",
             "text": "Dieses Risiko sollte mit sofortiger Wirkung in seinen bestehenden Vertrag eingeschlossen werden."
-          },
-          {
-            "id": "f",
-            "text": "®"
           }
         ],
         "answerIds": [
@@ -11239,7 +11490,7 @@
       {
         "id": "frage-108",
         "type": "single",
-        "prompt": "it~-~/1 :t, lf.·, l \"J;1 • .,i 1 1 t '~ .:·\"i\"';:_·. .. '.:- ·,·., -;'PHV Haftpflichtversicherung _ ... Gerhard Debelstein ist seit 5 Jahren bei der Proximus AG mit einer Privathaftpflichtversicherung (PHV) versichert und hat vor einiger Zeit ein altes Bauernhaus erworben. Jetzt hat er sich 2 Ziegen gekauft, um für den Eigenbedarf seinen eigenen Ziegenkäse herstellen zu können. Herr Debelstein erkundigt sich bei Ihnen, ob er für Schäden, die von den Ziegen verursacht werden, über seine PHV Versicherungsschutz hat.",
+        "prompt": "Haftpflichtversicherung _ ... Gerhard Debelstein ist seit 5 Jahren bei der Proximus AG mit einer Privathaftpflichtversicherung (PHV) versichert und hat vor einiger Zeit ein altes Bauernhaus erworben. Jetzt hat er sich 2 Ziegen gekauft, um für den Eigenbedarf seinen eigenen Ziegenkäse herstellen zu können. Herr Debelstein erkundigt sich bei Ihnen, ob er für Schäden, die von den Ziegen verursacht werden, über seine PHV Versicherungsschutz hat.",
         "points": 1,
         "options": [
           {
@@ -11268,7 +11519,7 @@
       {
         "id": "frage-109",
         "type": "single",
-        "prompt": ",}·. :, ,·_, .._· .·.._ .. 'P. HV' -·. \"•. ,i l •• J• •••• ] •• , • • • Für Familie Mertens besteht bei Ihrer Gesellschaft eine Privathaftpflichtversicherung (PHV). Bei einem Besuch erzählt Herr Mertens, dass er vor kurzem ein versicherungspflichtiges Motorboot gekauft hat. In den Sommermonaten sind größere Ausflugsfahrten geplant. Besteht im Rahmen der PHV Versicherungsschutz aus dem Gebrauch des Bootes?",
+        "prompt": "Für Familie Mertens besteht bei Ihrer Gesellschaft eine Privathaftpflichtversicherung (PHV). Bei einem Besuch erzählt Herr Mertens, dass er vor kurzem ein versicherungspflichtiges Motorboot gekauft hat. In den Sommermonaten sind größere Ausflugsfahrten geplant. Besteht im Rahmen der PHV Versicherungsschutz aus dem Gebrauch des Bootes?",
         "points": 1,
         "options": [
           {
@@ -11355,7 +11606,7 @@
       {
         "id": "frage-112",
         "type": "single",
-        "prompt": "~ Für Tobias Berghausen besteht bei Ihrer Gesellschaft eine Privathaftpflichtversicherung (PHV). Nach dem Rasieren fällt ihm die Flasche mit Rasierwasser so unglücklich ins Waschbecken seiner Mietwohnung, dass dieses stark beschädigt wird. Herr Berghausen möchte von Ihnen wissen, ob der Schaden am Waschbecken von seiner PHV reguliert wird. Sie antworten ihm richtigerweise, dass ...",
+        "prompt": "Für Tobias Berghausen besteht bei Ihrer Gesellschaft eine Privathaftpflichtversicherung (PHV). Nach dem Rasieren fällt ihm die Flasche mit Rasierwasser so unglücklich ins Waschbecken seiner Mietwohnung, dass dieses stark beschädigt wird. Herr Berghausen möchte von Ihnen wissen, ob der Schaden am Waschbecken von seiner PHV reguliert wird. Sie antworten ihm richtigerweise, dass ...",
         "points": 1,
         "options": [
           {
@@ -11580,7 +11831,7 @@
         "options": [
           {
             "id": "a",
-            "text": "1"
+            "text": "[Antwort A im Scan nicht lesbar]"
           },
           {
             "id": "b",
@@ -12002,7 +12253,7 @@
           },
           {
             "id": "c",
-            "text": "ist nur in den ersten 1 O Jahren der Vertragslaufzeit möglich. · -• ist nur in den ersten 12 Jahren der Vertragslaufzeit möglich. arkieren Info"
+            "text": "ist nur in den ersten 1 O Jahren der Vertragslaufzeit möglich. · -• ist nur in den ersten 12 Jahren der Vertragslaufzeit möglich. arkieren"
           }
         ],
         "answerIds": [],
@@ -12097,7 +12348,7 @@
       {
         "id": "frage-021",
         "type": "single",
-        "prompt": "1 Gesetzliche Rentenversicheru_ ng __~~--~______, Kai Meißner macht sich Gedanken um seine Altersversorgung und fragt Sie im Rahmen eines Beratunqsqesj wie er sich einen Überblick über seine Anwartschaften aus der Gesetzlichen Rentenversicherung verschaffe Welche richtige Information können Sie Herrn Meißner geben? Sie informieren ihn richtig,erweise darüber, dass jeder Versicherte ...",
+        "prompt": "Sie im Rahmen eines Beratunqsqesj wie er sich einen Überblick über seine Anwartschaften aus der Gesetzlichen Rentenversicherung verschaffe Welche richtige Information können Sie Herrn Meißner geben? Sie informieren ihn richtig,erweise darüber, dass jeder Versicherte ...",
         "points": 1,
         "options": [
           {
@@ -12147,7 +12398,7 @@
       {
         "id": "frage-023",
         "type": "single",
-        "prompt": "1 Gesetzl'che Rentenversicherung _________.....;__....;;....;....=-.;....._..-- Sie sprechen mit Senem Yildirim über ihre Versorgungssituation im Alter. Die Themen „demographische Entw und „Generationenvertrag\" in der Gesetzlichen Rentenversicherung (GRV) beschäftigen Ihre Kundin. Welche Auswirkungen ergeben sich aus diesen beiden Themen für die GRV?",
+        "prompt": "Rentenversicherung _________.....;__....;;....;....=-.;....._..-- Sie sprechen mit Senem Yildirim über ihre Versorgungssituation im Alter. Die Themen „demographische Entw und „Generationenvertrag\" in der Gesetzlichen Rentenversicherung (GRV) beschäftigen Ihre Kundin. Welche Auswirkungen ergeben sich aus diesen beiden Themen für die GRV?",
         "points": 1,
         "options": [
           {
@@ -12336,7 +12587,7 @@
       {
         "id": "frage-030",
         "type": "single",
-        "prompt": "1 _ _;,;_ ...;...._;.. _ ~ Für Hubert Kanther (63) besteht eine betriebliche Altersversorgung in Form einer Direktversicherung durch Entgeltumwandlung, die auf das 65. Lebensjahr abgeschlossen worden ist. Er teilt Ihnen mit, dass er in 3 Mo die Altersrente aus der GesetzJichen Rentenversicherung (GRV) als Vollrente beziehen wird. Herr Kanther fragt Sie, ob er zu diesem Zeitpunkt auch Leistungen aus seiner Direktversicherung erhalten ka",
+        "prompt": "Für Hubert Kanther (63) besteht eine betriebliche Altersversorgung in Form einer Direktversicherung durch Entgeltumwandlung, die auf das 65. Lebensjahr abgeschlossen worden ist. Er teilt Ihnen mit, dass er in 3 Mo die Altersrente aus der GesetzJichen Rentenversicherung (GRV) als Vollrente beziehen wird. Herr Kanther fragt Sie, ob er zu diesem Zeitpunkt auch Leistungen aus seiner Direktversicherung erhalten ka",
         "points": 1,
         "options": [
           {
@@ -12552,7 +12803,7 @@
       {
         "id": "frage-038",
         "type": "text",
-        "prompt": "1 Unfallversicherung •iiri::;,.,t.. ~~~~~~-,,..,_.,.,.. _ •,\"\"\" ,,•. •- ,, .. .- ,.,,, •.·.- ·,· - ,-<---·-· , . , , , -..• SciM,'.r.!bn':raurna 20~ Bruell Veratzungen, Verlet- - Lakshmi Gupta hat sich bei einem Fahrradunfall die linke Hand verstaucht und das rung de# Hömhaut .,,o;,; Avges 20% rechte Bein gebrochen. Sie hat bei der Proximus AG eine private bä,der ~ 50•,b von 5.000,- € versichert. Es wurden keine dauerhaften Beeinträchtigungen fes tges tellt. Frau Gupta fragt Sie, welche Leistung sie aus dem Vertrag erhält. Ve-rbrennungen, V~rbrühungen, Vi;ratzungen dev Hautotle•1l~cr,e 70% Hinweis Eintrag in Euro ohne Trennpunkte, also z.B. 1212 für eintausendzweihundertzwölf Euro.",
+        "prompt": "Unfallversicherung •iiri::;,.,t.. ~~~~~~-,,..,_.,.,.. _ •,\"\"\" ,,•. •- ,, .. .- ,.,,, •.·.- ·,· - ,-<---·-· , . , , , -..• SciM,'.r.!bn':raurna 20~ Bruell Veratzungen, Verlet- - Lakshmi Gupta hat sich bei einem Fahrradunfall die linke Hand verstaucht und das rung de# Hömhaut .,,o;,; Avges 20% rechte Bein gebrochen. Sie hat bei der Proximus AG eine private bä,der ~ 50•,b von 5.000,- € versichert. Es wurden keine dauerhaften Beeinträchtigungen fes tges tellt. Frau Gupta fragt Sie, welche Leistung sie aus dem Vertrag erhält. Ve-rbrennungen, V~rbrühungen, Vi;ratzungen dev Hautotle•1l~cr,e 70% Hinweis Eintrag in Euro ohne Trennpunkte, also z.B. 1212 für eintausendzweihundertzwölf Euro.",
         "points": 1,
         "options": [],
         "answerIds": [],
@@ -12562,7 +12813,7 @@
       {
         "id": "frage-040",
         "type": "text",
-        "prompt": "1 _________________ __ Unfaflversicherung ;.........;...; ;.......;.;.. Verlust Für Dirk Zimmermann besteht bei der Proximus AG seit 6 Jahren eine private beid« Augen 100%, .,;.,.,, Auge 50% Vctlu,t d.,; G~ditnacks ss<:,, Unfall vor 2 Jahren blieb eine dauernde Schädigung des linken Zeigefingers zurück. Er erhielt damals eine lnvallditätsleistunq von 5.000,- €. Beim Arbeiten mit Fingc,r 5% Hllnd 55% einer Kreissäge werden ihm bei einem weiteren Unfall der Zeigefinger und der Mittelfinger der linken Hand vollständig abgetrennt. Welche lnvaliditätsleistung erhält Ihr Kunde aus dem zweiten Unfallereignis? 1 IEuro Hinweis Eintrag in Euro ohne Trennpunkte. also z.B. 1212 für eintausendzweihundertzwölf Euro. Gtoß,r,Zffle5%",
+        "prompt": "Für Dirk Zimmermann besteht bei der Proximus AG seit 6 Jahren eine private beid« Augen 100%, .,;.,.,, Auge 50% Vctlu,t d.,; G~ditnacks ss<:,, Unfall vor 2 Jahren blieb eine dauernde Schädigung des linken Zeigefingers zurück. Er erhielt damals eine lnvallditätsleistunq von 5.000,- €. Beim Arbeiten mit Fingc,r 5% Hllnd 55% einer Kreissäge werden ihm bei einem weiteren Unfall der Zeigefinger und der Mittelfinger der linken Hand vollständig abgetrennt. Welche lnvaliditätsleistung erhält Ihr Kunde aus dem zweiten Unfallereignis? 1 IEuro Hinweis Eintrag in Euro ohne Trennpunkte. also z.B. 1212 für eintausendzweihundertzwölf Euro. Gtoß,r,Zffle5%",
         "points": 1,
         "options": [],
         "answerIds": [],
@@ -12692,7 +12943,7 @@
       {
         "id": "frage-045",
         "type": "single",
-        "prompt": "1 Krankenversicherunq/ Pflegevers~heru_n_ g_~-~--- Sie haben einen Beratungstermin bei Familie Fischer. Franziska Fischer ist selbständige Buchhändlerin und einen Jahresgewinn von 53.500,- €. Jens Fischer ist angestellter Schreinermeister mit einem",
+        "prompt": "Sie haben einen Beratungstermin bei Familie Fischer. Franziska Fischer ist selbständige Buchhändlerin und einen Jahresgewinn von 53.500,- €. Jens Fischer ist angestellter Schreinermeister mit einem",
         "points": 1,
         "options": [
           {
@@ -12754,7 +13005,7 @@
       {
         "id": "frage-047",
         "type": "single",
-        "prompt": "1 Krankenversicherung/ Pflegeversich~e_r_ un_g~~------- Klaus Kehler (42) hat ein monatliches Bruttoeinkommen von 3.300,- € und ist damit pflichtversichert in einer Gesetzlichen Krankenversicherung (GKV) .. Seine Frau Bärbel (38) arbeitet als geringfügig Beschäftigte in eir Drogeriemarkt und verdient 520,- € im Monat. Seit einem Monat hat sie zusätzlich durch eine Erbschaft Mieteinnahmen in Höhe von 1.300,- € im Monat. Herr Kehler erkundigt sich, ob seine Frau beitragsfrei familienversichert bleiben kann.",
+        "prompt": "Krankenversicherung/ Pflegeversich~e_r_ un_g~~------- Klaus Kehler (42) hat ein monatliches Bruttoeinkommen von 3.300,- € und ist damit pflichtversichert in einer Gesetzlichen Krankenversicherung (GKV) .. Seine Frau Bärbel (38) arbeitet als geringfügig Beschäftigte in eir Drogeriemarkt und verdient 520,- € im Monat. Seit einem Monat hat sie zusätzlich durch eine Erbschaft Mieteinnahmen in Höhe von 1.300,- € im Monat. Herr Kehler erkundigt sich, ob seine Frau beitragsfrei familienversichert bleiben kann.",
         "points": 1,
         "options": [
           {
@@ -12816,7 +13067,7 @@
       {
         "id": "frage-049",
         "type": "single",
-        "prompt": "1 Krankenversicnerung/ Pflegeve_ rs_ic_h_ e_ru~ ng~-------- Ihre Kundin Karin Soltau ist Angestellte und bei der Proximus AG seit 2 Jahren privat krankenvollversichert. ~ ihre Arbeitszeit reduzieren und ihr Gehalt herabsetzen, um sich um die pflegebedürftige Mutter im Rahmen de Familienpflegezeit zuhause zu kümmern. Dadurch wird sie versicherungspflichtig in der gesetzJichen Frau Soltau fragt Sie, ob Sie sich in diesem Fall von der Versicherungspflicht befreien lassen kann.",
+        "prompt": "Ihre Kundin Karin Soltau ist Angestellte und bei der Proximus AG seit 2 Jahren privat krankenvollversichert. ~ ihre Arbeitszeit reduzieren und ihr Gehalt herabsetzen, um sich um die pflegebedürftige Mutter im Rahmen de Familienpflegezeit zuhause zu kümmern. Dadurch wird sie versicherungspflichtig in der gesetzJichen Frau Soltau fragt Sie, ob Sie sich in diesem Fall von der Versicherungspflicht befreien lassen kann.",
         "points": 1,
         "options": [
           {
@@ -12897,7 +13148,7 @@
       {
         "id": "frage-053",
         "type": "single",
-        "prompt": "1 Rechtliche Grundlagen ---~~~------.,.._._ _ Hans Kalper hat bei der Proximus AG eine private Unfallversicherung. Wegen der Vorbereitungen zu einer lä1 Reise vergisst er, die Folgeprämie zu zahlen und fliegt in den Urlaub. In seiner Abwesenheit schickt der Vers, ein qualifiziertes Mahn- und Kündigungsschreiben mit gesetzlicher Zahlungsfrist. Als Herr Kalper 3 Wochen n Zugang des Schreibens nach Hause kommt, möchte er die fällige Zahlung sofort nachholen. Er fragt Sie, ob seine private Unfallversicherung dann weiter besteht. Sie erklären richtigerweise, dass der Vertrag ...",
+        "prompt": "Unfallversicherung. Wegen der Vorbereitungen zu einer lä1 Reise vergisst er, die Folgeprämie zu zahlen und fliegt in den Urlaub. In seiner Abwesenheit schickt der Vers, ein qualifiziertes Mahn- und Kündigungsschreiben mit gesetzlicher Zahlungsfrist. Als Herr Kalper 3 Wochen n Zugang des Schreibens nach Hause kommt, möchte er die fällige Zahlung sofort nachholen. Er fragt Sie, ob seine private Unfallversicherung dann weiter besteht. Sie erklären richtigerweise, dass der Vertrag ...",
         "points": 1,
         "options": [
           {
@@ -13068,7 +13319,7 @@
           },
           {
             "id": "c",
-            "text": "Ja, wenn die Kundin über die Nachteile der Vertragsbeendigung informiert worden ist."
+            "text": "Ja, wenn die Kundin über die Nachteile der Vertragsbeendigung"
           },
           {
             "id": "d",
@@ -13472,7 +13723,7 @@
       {
         "id": "frage-074",
         "type": "single",
-        "prompt": "1 Hausratversicnerung_________________ ....;.;.....;.; _ Maria Schön hat kürzlich ihr neues Reihenhaus bezogen. Ein Teil der Gartengeräte und die Fahrräder befind- in einer Garage, die in der Nähe des Grundstücks liegt. Frau Schön fragt Sie, ob die aufgeführten Gegenstände auch dort in ihrer Hausratversicherung mitversichert",
+        "prompt": "Ein Teil der Gartengeräte und die Fahrräder befind- in einer Garage, die in der Nähe des Grundstücks liegt. Frau Schön fragt Sie, ob die aufgeführten Gegenstände auch dort in ihrer Hausratversicherung mitversichert",
         "points": 1,
         "options": [
           {
@@ -13503,7 +13754,7 @@
       {
         "id": "frage-075",
         "type": "single",
-        "prompt": "1 Hausratversicherung E , •. -.,~-·, i>• _ _ ,,, •.•.• _,_~••-··--·--·- ·---·~--c::-a.... . . .. rmmm:m: :::: a_,_,_,::n; ----• Hannes Weider bezieht zum ersten Mal eine eigene Wohnung. Da er bisher in einer Wohngemeinschaft lebte neue Küchenmöbel angeschafft. Das Wohn- und Schlafzimmer hat er mit schon vorhandenen Möbelstücken eingerichtet. Sie beraten Herrn Weider heute zu einer Hausratversicherung und möchten Ihrem Kunden auch Vorteile einer Neuwertversicherung im Schadenfall darstellen. Welchen Vorteil nennen Sie Herrn Weider? Der Kunde erhält im Schadenfall ....",
+        "prompt": "Hausratversicherung E , •. -.,~-·, i>• _ _ ,,, •.•.• _,_~••-··--·--·- ·---·~--c::-a.... . . .. rmmm:m: :::: a_,_,_,::n; ----• Hannes Weider bezieht zum ersten Mal eine eigene Wohnung. Da er bisher in einer Wohngemeinschaft lebte neue Küchenmöbel angeschafft. Das Wohn- und Schlafzimmer hat er mit schon vorhandenen Möbelstücken eingerichtet. Sie beraten Herrn Weider heute zu einer Hausratversicherung und möchten Ihrem Kunden auch Vorteile einer Neuwertversicherung im Schadenfall darstellen. Welchen Vorteil nennen Sie Herrn Weider? Der Kunde erhält im Schadenfall ....",
         "points": 1,
         "options": [
           {
@@ -13615,7 +13866,7 @@
       {
         "id": "frage-079",
         "type": "single",
-        "prompt": "1 Hausratversicherung a.w~~m:~:.i~:-_::,_;~-~-~!?, Nach dem Urlaub kommt Toni Mayer in Ihr Büro und schildert Ihnen folgendes Ereignis: Während seines Campingurlaubs in Kanada wurde er von einem Sturm der Windstärke 9 überrascht. Sein Zelt im Wert von 8( wurde erheblich beschädigt. Herr Mayer möchte wissen, welche Entschädigung er aus seiner Hausratversicherung erhält. Er erhält ...",
+        "prompt": "Hausratversicherung a.w~~m:~:.i~:-_::,_;~-~-~!?, Nach dem Urlaub kommt Toni Mayer in Ihr Büro und schildert Ihnen folgendes Ereignis: Während seines Campingurlaubs in Kanada wurde er von einem Sturm der Windstärke 9 überrascht. Sein Zelt im Wert von 8( wurde erheblich beschädigt. Herr Mayer möchte wissen, welche Entschädigung er aus seiner Hausratversicherung erhält. Er erhält ...",
         "points": 1,
         "options": [
           {
@@ -13669,7 +13920,7 @@
       {
         "id": "frage-082",
         "type": "single",
-        "prompt": "1 Gebäudeversicherung ,-,~~'.'r1~:.~_;:::..;_'7.° ·'-~!i'.l~~~gi:tct~/ . .i, ··:..• :,,., -~· Aufi.gaöe 1 •··.,. · ', Severin Müller beabsichtigt sein Einfamilienhaus bei der Proximus AG zum gleitenden Neuwert zu versichern. Nachdem Sie die Versicherungssumme Wert 1914 bestimmt haben und den Prämiensatz kennen, wollen Sie heutigen Jahresnettobeitrag bestimmen. Um den heutigen Jahresnettobeitrag korrekt zu bestimmen, benötigen Sie außerdem den ...",
+        "prompt": "Gebäudeversicherung ,-,~~'.'r1~:.~_;:::..;_'7.° ·'-~!i'.l~~~gi:tct~/ . .i, ··:..• :,,., -~· Aufi.gaöe 1 •··.,. · ', Severin Müller beabsichtigt sein Einfamilienhaus bei der Proximus AG zum gleitenden Neuwert zu versichern. Nachdem Sie die Versicherungssumme Wert 1914 bestimmt haben und den Prämiensatz kennen, wollen Sie heutigen Jahresnettobeitrag bestimmen. Um den heutigen Jahresnettobeitrag korrekt zu bestimmen, benötigen Sie außerdem den ...",
         "points": 1,
         "options": [
           {
@@ -14088,7 +14339,7 @@
       {
         "id": "frage-099",
         "type": "single",
-        "prompt": "1 Kraftfahrtvers~cherun_g ~--~~~--- Udo Klaasen kommt in Ihre Versicherungsagentur und möchte für sein neues Fahrzeug (PKW) sowohl eine Haftpflicht- als auch eine FahrzeugvoUversicherung abschließen. Sie stellen fest, dass Herr Klaasen schon e bei der Proximus AG mit einem PKW versichert war. Dieser Vertrag wurde wegen Nichtzahlung der Folgeprä 2 Jahren gekündigt. Welche Möglichkeit ergibt sich hinsichtlich der Antragsannahme?",
+        "prompt": "Kraftfahrtvers~cherun_g ~--~~~--- Udo Klaasen kommt in Ihre Versicherungsagentur und möchte für sein neues Fahrzeug (PKW) sowohl eine Haftpflicht- als auch eine FahrzeugvoUversicherung abschließen. Sie stellen fest, dass Herr Klaasen schon e bei der Proximus AG mit einem PKW versichert war. Dieser Vertrag wurde wegen Nichtzahlung der Folgeprä 2 Jahren gekündigt. Welche Möglichkeit ergibt sich hinsichtlich der Antragsannahme?",
         "points": 1,
         "options": [
           {
@@ -14312,7 +14563,7 @@
       {
         "id": "frage-107",
         "type": "single",
-        "prompt": "1 Haftpflichtversicherung ·-- - --~~~~~----- Während eines Beratungsgespräches zu einer Privathaftpflichtversicherung mit Ihrem Kunden Claus Wessel kommt er auch auf das Thema Ehrenamt zu sprechen. Herr Wessels ist kaufmännischer Angestellter und sei1 kurzem auch als Betriebsrat tätig. Herr Wessels möchte wissen, ob die Ausübung der zusätzJichen Tätigkeit mitversichert ist.",
+        "prompt": "Haftpflichtversicherung ·-- - --~~~~~----- Während eines Beratungsgespräches zu einer Privathaftpflichtversicherung mit Ihrem Kunden Claus Wessel kommt er auch auf das Thema Ehrenamt zu sprechen. Herr Wessels ist kaufmännischer Angestellter und sei1 kurzem auch als Betriebsrat tätig. Herr Wessels möchte wissen, ob die Ausübung der zusätzJichen Tätigkeit mitversichert ist.",
         "points": 1,
         "options": [
           {
@@ -14384,37 +14635,6 @@
           {
             "id": "d",
             "text": "Keinen der Schäden."
-          }
-        ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
-      },
-      {
-        "id": "frage-111",
-        "type": "single",
-        "prompt": "1 · ·™--·- - -~~~~. . . . - - - - - - - - - ---- Familie Bauer hat bei der Proximus AG eine Privathaftpflichtversicherung. Herr Bauer meldet Ihnen, dass sei",
-        "points": 1,
-        "options": [
-          {
-            "id": "a",
-            "text": "jähriger Sohn, den am Straßenrand ordnungsgemäß geparkten PKW des Nachbarn beschädigte, als er mit s, Fahrrad auf den Hof der Familie einbog. Herr Bauer fragt, ob sein Sohn haftbar gemacht werden kann. Nach der aktuellen Gesetzeslage haften ..."
-          },
-          {
-            "id": "b",
-            "text": "Eltern oder Aufsichtspflichtige für Kinder, wenn diese die notwendige Einsichtsfähigkeit haben."
-          },
-          {
-            "id": "c",
-            "text": "Eltern oder Aufsichtspflichtige für Kinder, wenn sie die Aufsichtspflicht nicht verletzt haben."
-          },
-          {
-            "id": "d",
-            "text": "Kinder ab Vollendung des 7. Lebensjahres je nach Einsichtsfähigkeit für Schäden im ruhenden Straßenv"
-          },
-          {
-            "id": "e",
-            "text": "Kinder über 7 Jahre für alle Schäden, da sie die entsprechende Einsichtsfähigkeit haben."
           }
         ],
         "answerIds": [],
@@ -14783,7 +15003,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Zulagen-Rente gemäß § 1 Oa EStG (AltZertG)"
+            "text": "Zulagen-Rente gemäß § 1 Oa EStG (AltZertG"
           },
           {
             "id": "b",
@@ -14821,7 +15041,7 @@
           },
           {
             "id": "b",
-            "text": "muss Herrn Müller über die Aussetzung informieren."
+            "text": "muss Herrn Müller über die Aussetzung"
           },
           {
             "id": "c",
@@ -14829,7 +15049,7 @@
           },
           {
             "id": "d",
-            "text": "wählt eine andere Kapitalverwaltungsgesellschaft mit einem ähnlichen Fonds. arkieren Info"
+            "text": "wählt eine andere Kapitalverwaltungsgesellschaft mit einem ähnlichen Fonds. arkieren"
           }
         ],
         "answerIds": [
@@ -15512,10 +15732,6 @@
           {
             "id": "c",
             "text": "40%"
-          },
-          {
-            "id": "d",
-            "text": "50%"
           }
         ],
         "answerIds": [
@@ -15693,7 +15909,7 @@
           },
           {
             "id": "d",
-            "text": "Sachbezüge (z.B. firmeneigener Dienstwagen)"
+            "text": "Sachbezüge (z.B. firmeneigener Dienstwagen"
           },
           {
             "id": "e",
@@ -15808,12 +16024,12 @@
       {
         "id": "frage-045",
         "type": "single",
-        "prompt": "1 Krankenversicnerurqr ~flegeve_rs ic_h_e_ru_n_g _ Sie klären gemeinsam mit Ihrem Kunden Lukas Winkelmann, ob er eine Krankheitskostenvollversicherung abschließen kann. Zu diesem Zweckschlüsseln Sie zunächst sein Gesamtbruttoeinkommen auf, um das maßgebliche Jahresarbeitsentgelt zu ermitteln. Welche der folgenden Positionen muss unberücksichtigt bleiben?",
+        "prompt": "Sie klären gemeinsam mit Ihrem Kunden Lukas Winkelmann, ob er eine Krankheitskostenvollversicherung abschließen kann. Zu diesem Zweckschlüsseln Sie zunächst sein Gesamtbruttoeinkommen auf, um das maßgebliche Jahresarbeitsentgelt zu ermitteln. Welche der folgenden Positionen muss unberücksichtigt bleiben?",
         "points": 1,
         "options": [
           {
             "id": "a",
-            "text": "Sachbezüge (z.B. firmeneigener Dienstwagen)"
+            "text": "Sachbezüge (z.B. firmeneigener Dienstwagen"
           },
           {
             "id": "b",
@@ -15821,7 +16037,7 @@
           },
           {
             "id": "c",
-            "text": "Q"
+            "text": "[Antwort C im Scan nicht lesbar]"
           },
           {
             "id": "d",
@@ -15871,7 +16087,7 @@
         "options": [
           {
             "id": "a",
-            "text": "onathan Denker ist gesetzlich krankenversichert. Seit dem 01.03. hat er bei der Proximus AG eine Krankheitskostenergänzungsversicherung für den stationären Bereich. Seine Frau informiert Sie darüber, da Mann seit dem 26.05. aufgrund eines Herzinfarktes im Krankenhaus liegt. Die Entlassunq wird voraussichtlicl"
+            "text": "onathan Denker ist gesetzlich krankenversichert. Seit dem 01.03. hat er bei der Proximus AG eine Krankheitskostenergänzungsversicherung für den stationären Bereich. Seine Frau"
           },
           {
             "id": "b",
@@ -15908,7 +16124,7 @@
         "options": [
           {
             "id": "a",
-            "text": "~.;;;.;__:,,;;._ _ Sie besuchen das Ehepaar Hans und Clara Petersen zum Jahresgespräch. Herr Petersen hatte bislang als Angestellter ein Jahresbruttoeinkommen von 60 .. 000,- €, seine Ehefrau hat als Angestellte ein"
+            "text": ".;;;.;__:,,;;._ _ Sie besuchen das Ehepaar Hans und Clara Petersen zum Jahresgespräch. Herr Petersen hatte bislang als Angestellter ein Jahresbruttoeinkommen von 60 .. 000,- €, seine Ehefrau hat als Angestellte ein"
           },
           {
             "id": "b",
@@ -15944,7 +16160,7 @@
       {
         "id": "frage-049",
         "type": "single",
-        "prompt": "1 Krankenversicherung/ Pflegeve~siche_ru_n_g _.;.___ Thorsten Markowski möchte mit seiner vor 4 Jahren abgeschlossenen Krankheitskostenvollversicherung vor- Mitbewerber zu ihrer Gesellschaft wechseln. Welche Aussage zu seiner Alterungsrückstellung ist korrekt? Die kalkulierte Alterungsrückstellung ...",
+        "prompt": "Krankenversicherung/ Pflegeve~siche_ru_n_g _.;.___ Thorsten Markowski möchte mit seiner vor 4 Jahren abgeschlossenen Krankheitskostenvollversicherung vor- Mitbewerber zu ihrer Gesellschaft wechseln. Welche Aussage zu seiner Alterungsrückstellung ist korrekt? Die kalkulierte Alterungsrückstellung ...",
         "points": 1,
         "options": [
           {
@@ -16128,19 +16344,19 @@
         "options": [
           {
             "id": "a",
-            "text": "Gesamtverband der Deutschen Versicherungswirtschaft e. V. (GDV)"
+            "text": "Gesamtverband der Deutschen Versicherungswirtschaft e. V. (GDV"
           },
           {
             "id": "b",
-            "text": "Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)"
+            "text": "Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin"
           },
           {
             "id": "c",
-            "text": "Interessenvertretung der Deutschen Handelsvertreter e. V. (IDH)"
+            "text": "Interessenvertretung der Deutschen Handelsvertreter e. V. (IDH"
           },
           {
             "id": "d",
-            "text": "Deutscher Berufsverband für Pflegeberufe e. V. (DBfP)"
+            "text": "Deutscher Berufsverband für Pflegeberufe e. V. (DBfP"
           }
         ],
         "answerIds": [
@@ -16703,7 +16919,7 @@
       {
         "id": "frage-076",
         "type": "single",
-        "prompt": "1 Hausratversicherunq ~--~-~~~~~~-~~------- Sybille Keller hat sich vor 4 Wochen von ihrem Mann getrennt und ist aus der gemeinsamen Wohnung ausge Sie hat ein preiswertes Appartement gefunden, das sie bereits mit einem Teil ihrer Möbel eingerichtet hat. HE Keller ist alleiniger Versicherungsnehmer der bisherigen Hausratversicherung. Die Scheidung wird noch eing, Frau Keller erkundigt sich, ob für ihren Hausrat weiterhin Versicherungsschutz besteht. Es besteht ...",
+        "prompt": "Sie hat ein preiswertes Appartement gefunden, das sie bereits mit einem Teil ihrer Möbel eingerichtet hat. HE Keller ist alleiniger Versicherungsnehmer der bisherigen Hausratversicherung. Die Scheidung wird noch eing, Frau Keller erkundigt sich, ob für ihren Hausrat weiterhin Versicherungsschutz besteht. Es besteht ...",
         "points": 1,
         "options": [
           {
@@ -16868,7 +17084,7 @@
       {
         "id": "frage-085",
         "type": "single",
-        "prompt": "1 Gebäudeversicherung r , • ~ _____,.._ ..::-;;;?.:i Sie beraten Ihren Kunden Jochen Grünert zu einer Wohngebäudeversicherung für sein neu errichtetes Einfamilienhaus. Dabei erklären Sie Herrn Grünert auch die Funktion des Anpassungsfaktors. Er möchte von Ihnen wissen, wodurch sich dieser Wert verändert. Der Wert ändert sich aufgrund ...",
+        "prompt": "Gebäudeversicherung r , • ~ _____,.._ ..::-;;;?.:i Sie beraten Ihren Kunden Jochen Grünert zu einer Wohngebäudeversicherung für sein neu errichtetes Einfamilienhaus. Dabei erklären Sie Herrn Grünert auch die Funktion des Anpassungsfaktors. Er möchte von Ihnen wissen, wodurch sich dieser Wert verändert. Der Wert ändert sich aufgrund ...",
         "points": 1,
         "options": [
           {
@@ -17206,7 +17422,7 @@
           },
           {
             "id": "b",
-            "text": "nur die Heckscheibe ~"
+            "text": "nur die Heckscheibe"
           },
           {
             "id": "c",
@@ -17282,7 +17498,7 @@
       {
         "id": "frage-102",
         "type": "single",
-        "prompt": "1 ~~~~-------- - - - - - - - ---- ·ThM:U ~ 32 Für Tobias Berghausen besteht bei lhrer Gesellschaft eine Privathaftpflichtversicherung (PHV). Nach dem R; fällt ihm die Flasche mit Rasierwasser so unglücklich ins Waschbecken seiner Mietwohnung, dass dieses st: beschädigt wird. Herr Berghausen möchte von Ihnen wissen, ob der Schaden am Waschbecken von seiner PHV reguliert wirc Sie antworten ihm richtigerweise, dass ...",
+        "prompt": "Für Tobias Berghausen besteht bei lhrer Gesellschaft eine Privathaftpflichtversicherung (PHV). Nach dem R; fällt ihm die Flasche mit Rasierwasser so unglücklich ins Waschbecken seiner Mietwohnung, dass dieses st: beschädigt wird. Herr Berghausen möchte von Ihnen wissen, ob der Schaden am Waschbecken von seiner PHV reguliert wirc Sie antworten ihm richtigerweise, dass ...",
         "points": 1,
         "options": [
           {
@@ -17398,7 +17614,7 @@
       {
         "id": "frage-106",
         "type": "multiple",
-        "prompt": "1 Haftpflichtversicherung ..•....... ··-\"··•--•-··• . •· ., . . - , •. • .~ .. ~-- ·····\"·-·«.,..,-.t ..:z=: .. ,~..:.m:_. , __:.s;;,::::::. . .:;rm rn m,□ :.m.m;;:a Bei einem Termin mit Ihrem Kunden Pedro Martinez erzählt dieser Ihnen, dass sein Sohn und die Schwiegert für 2 Wochen nach Südamerika reisen. In dieser Zeit wird die 4-jährige Enkelin bei Herrn Martinez wohnen. Ihr Kunde möchte wissen, wer haftet, wenn seine Enkelin in dieser Zeit einen Dritten schädigt.",
+        "prompt": "Haftpflichtversicherung ..•....... ··-\"··•--•-··• . •· ., . . - , •. • .~ .. ~-- ·····\"·-·«.,..,-.t ..:z=: .. ,~..:.m:_. , __:.s;;,::::::. . .:;rm rn m,□ :.m.m;;:a Bei einem Termin mit Ihrem Kunden Pedro Martinez erzählt dieser Ihnen, dass sein Sohn und die Schwiegert für 2 Wochen nach Südamerika reisen. In dieser Zeit wird die 4-jährige Enkelin bei Herrn Martinez wohnen. Ihr Kunde möchte wissen, wer haftet, wenn seine Enkelin in dieser Zeit einen Dritten schädigt.",
         "points": 1,
         "options": [
           {
