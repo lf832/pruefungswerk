@@ -7,7 +7,7 @@
       {
         "id": "frage-001",
         "type": "single",
-        "prompt": "r,_,,~~':f.·:f·~ ~t\"~~~~-;)!lr,;,., :fr~~~;,;\\!;: - .,, .... ~ T!I- ff [~~ .•_4,,.~ ...t1\">. -~-1.tt,.~f, .... -.• S':~ ~~~;~\\0 Z::~ ~,~r~:',} -~t; l:.n; Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung Monika und Heiner Stern (beide 30 Jahre alt) sind beide berufstätig und haben keine Kinder. Vor einem halben Jahr haben sie eine Eigentumswohnung gekauft, die sie weitgehend über Kredite finanziert haben. Sie möchten mit Familie Stern über ihre Vorsorge sprechen. Frau Stern erklärt, dass hierfür zurzeit kaum finanzielle Mittel vorhanden sind, da die Abzahlung der Kredite im Vordergrund steht. Welche Versicherungsform bieten Sie vorzugsweise an?",
+        "prompt": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung. Monika und Heiner Stern (beide 30 Jahre alt) sind beide berufstätig und haben keine Kinder. Vor einem halben Jahr haben sie eine Eigentumswohnung gekauft, die sie weitgehend über Kredite finanziert haben. Sie möchten mit Familie Stern über ihre Vorsorge sprechen. Frau Stern erklärt, dass hierfür zurzeit kaum finanzielle Mittel vorhanden sind, da die Abzahlung der Kredite im Vordergrund steht. Welche Versicherungsform bieten Sie vorzugsweise an?",
         "points": 1,
         "options": [
           {
@@ -850,34 +850,30 @@
       {
         "id": "frage-037",
         "type": "single",
-        "prompt": "ti;.~:,.::-':~ '\":~~-~;,t· ~ --,!~...t•••:t;'lr,-i'tl':~t~fi ,!~···~-:, ,_.,i··__~·.,\\·~, · · UV.:\"~;~· ' --··· f -. -~j({,•t~it:~%\"'~r. Unfallversicherung __ ....._ ........... ,-...u;. ··• 'lll: ::WC-.",
+        "prompt": "Unfallversicherung. Josef Steinhuber bezog dieses Jahr aufgrund eines Arbeitsunfalls Verletztengeld von der Berufsgenossenschaft in Höhe von 1.800,- €. Er fragt Sie, wie diese Leistung steuerlich behandelt wird. Das Verletztengeld …",
         "points": 1,
         "options": [
           {
             "id": "a",
-            "text": "osef Steinhuber bezog dieses Jahr aufgrund eines Arbeitsunfalls Verletztengeld von der Berufsgenossenschaft in Höhe von 1.800,- €. Er fragt Sie, wie diese Leistung steuerlich behandelt wird. Das Verletztengeld ..."
-          },
-          {
-            "id": "b",
             "text": "ist steuerfrei."
           },
           {
-            "id": "c",
+            "id": "b",
             "text": "wird pauschal besteuert."
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "ist mit dem Ertragsanteil zu besteuern."
           },
           {
-            "id": "e",
-            "text": "ist voll zu besteuern. ~ Verbleibend~ Zeit"
+            "id": "d",
+            "text": "ist voll zu besteuern."
           }
         ],
         "answerIds": [
           "a"
         ],
-        "solution": "Richtige Antwort: A.",
+        "solution": "Richtige Antwort: A. Verletztengeld aus der gesetzlichen Unfallversicherung ist steuerfrei.",
         "manualGrade": false
       },
       {
@@ -1144,7 +1140,7 @@
       {
         "id": "frage-050",
         "type": "single",
-        "prompt": "n~ - n ., - ~-, :~,~ /J;i~~~h.\"e:;ii ;j. ,,.. l....·.cl'.:i.,.~~ ... t-,,.»l~~-i • ..._ Peter Heinrichs ist Angestellter und verdient jährlich 45.000,- € (brutto). Jutta Heinrichs ist selbstständig und erzielt Einkünfte von 60.000,- € jährlich. Das Ehepaar hat 2 schulpflichtige Kinder. Frau Heinrichs möchte bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung (PKV) abschließen. Sie fragt, wie die Kinder zu versichern sind. Die Kinder ...",
+        "prompt": "Krankenversicherung/Pflegeversicherung. Peter Heinrichs ist Angestellter und verdient jährlich 45.000,- € (brutto). Jutta Heinrichs ist selbstständig und erzielt Einkünfte von 60.000,- € jährlich. Das Ehepaar hat 2 schulpflichtige Kinder. Frau Heinrichs möchte bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung (PKV) abschließen. Sie fragt, wie die Kinder zu versichern sind. Die Kinder …",
         "points": 1,
         "options": [
           {
@@ -1161,11 +1157,7 @@
           },
           {
             "id": "d",
-            "text": "können bei Herrn Heinrichs beitragsfrei in der Familienversicherung bleiben, da die Einkünfte von Frau Heinrichs unterhalb der Jahresarbeitsentgeltgrenze liegen. ~"
-          },
-          {
-            "id": "e",
-            "text": "0,füt~biHI· @"
+            "text": "können bei Herrn Heinrichs beitragsfrei in der Familienversicherung bleiben, da die Einkünfte von Frau Heinrichs unterhalb der Jahresarbeitsentgeltgrenze liegen."
           }
         ],
         "answerIds": [],
@@ -1569,21 +1561,29 @@
       },
       {
         "id": "frage-071",
-        "type": "single",
-        "prompt": "lß1':fi;~.r· ~g~~~,,~_ r~- =,l/,!('\"%~.VGV~-.1N,·\". 1 llili1 1~~ ,1·' ~ ~'--,,-AJ\\~~:-..-5;)~· ~1,\\~ · .• ·- ~' ''!'l -.,.·•· .",
+        "type": "multiple",
+        "prompt": "Herr Georg Pavlov beabsichtigt sein Einfamilienhaus bei der Proximus AG zu versichern. In Ihrer Beratung kommen Sie auf die Grundstücksbestandteile zu sprechen. Welche lassen sich nur auf zusätzliche Vereinbarung in den Versicherungsvertrag einschließen?",
         "points": 1,
         "options": [
           {
             "id": "a",
-            "text": "1,--- . -, F~;;' ..;f. ,,}M \"\"· • D{;i.i.'t_ ;, 1 \"'\""
+            "text": "Das Gewächshaus mit automatischer Fensterbelüftung"
           },
           {
             "id": "b",
-            "text": "<, , ~- -,'\" 1 ~"
+            "text": "Der Briefkasten mit integrierter Klingelanlage"
           },
           {
             "id": "c",
-            "text": "1.'.t.:/•~t°'.~!'W ...., Herr Georg Pavlov beabsichtigt sein Einfamilienhaus bei der Proximus AG zu versichern. In Ihrer Beratung kommen Sie auf die Grundstücksbestandteile zu sprechen. Welche lassen sich nur auf zusätzliche Vereinbarung in den Versicherungsvertrag einschließen? -0 r x- Das Gewächshaus mit automatischer Fensterbelüftung Der Briefkasten mit integrierter Klingelanlage L Die Photovoltaikanlage auf dem Haus- und Garagendach 0x Die Wegebeleuchtung auf dem Grundstück 0x Die selbstgebaute Hundehütte Photovoltaikanlage ist nach allgemeinen Bedingungen ~ grundsätzlich nicht versicherbar aber ist nun des öfteren doch Prüfung"
+            "text": "Die Photovoltaikanlage auf dem Haus- und Garagendach"
+          },
+          {
+            "id": "d",
+            "text": "Die Wegebeleuchtung auf dem Grundstück"
+          },
+          {
+            "id": "e",
+            "text": "Die selbstgebaute Hundehütte"
           }
         ],
         "answerIds": [],
@@ -3581,36 +3581,24 @@
       {
         "id": "frage-044",
         "type": "single",
-        "prompt": "Schriftlicher Prüfung:steil 1 ::: <\". _ .·:. _.__· ..< ...... ~ ~.,.",
+        "prompt": "Krankenversicherung/Pflegeversicherung. Sie besuchen das Ehepaar Hans und Clara Petersen zum Jahresgespräch. Herr Petersen ist als Angestellter in einer Gesetzlichen Krankenversicherung (GKV) pflichtversichert. Seine Ehefrau ist Hausfrau und wie der Sohn Max (7) über ihn familienversichert. Aufgrund eines Arbeitgeberwechsels wird das Gesamtbruttojahreseinkommen von Herrn Petersen im kommenden Jahr auf 68.000,- € steigen. Wie stellt sich die Versicherungssituation im kommenden Jahr dar? Für Familie Petersen …",
         "points": 1,
         "options": [
           {
             "id": "a",
-            "text": "~~ }}'"
-          },
-          {
-            "id": "b",
-            "text": "\"-.,...... Sie besuchen das Ehepaar Hans und Clara Petersen zum Jahresgespräch. Herr Petersen ist als Angestellter in einer Gesetzlichen Krankenversicherung (GKV) pflichtversichert. Seine Ehefrau ist Hausfrau und wie der Sohn Max"
-          },
-          {
-            "id": "c",
-            "text": "7) über ihn farnilienversichert. Aufgrund eines Arbeitgeberwechsels wird das Gesamtbruttojahreseinkommen von Herrn Petersen im kommenden Jahr auf 68.000,- € steigen. Wie stellt sich die Versicherungssituation im kommenden Jahr dar? Für Familie Petersen ..."
-          },
-          {
-            "id": "d",
             "text": "ändern sich die Voraussetzungen, Herr Petersen muss sich privat versichern. Die Ehefrau und der Sohn bleiben familienversichert in der GKV."
           },
           {
-            "id": "e",
-            "text": "ändern sich die Voraussetzungen, alle Familienmitplieder können sich in der G'KV oder der privaten"
+            "id": "b",
+            "text": "ändern sich die Voraussetzungen, alle Familienmitglieder können sich in der GKV oder der privaten Krankenversicherung versichern."
           },
           {
-            "id": "f",
+            "id": "c",
             "text": "ändert sich nichts, alle Familienmitglieder bleiben weiterhin in der GKV pflichtversichert."
           },
           {
-            "id": "g",
-            "text": "ändern sich die Voraussetzungen, Herr Petersen und der Sohn müssen sich privat krankenversichern. Die Ehefrau bleibt als Hausfrau pflichtversichert. ~ Prüfung"
+            "id": "d",
+            "text": "ändern sich die Voraussetzungen, Herr Petersen und der Sohn müssen sich privat krankenversichern. Die Ehefrau bleibt als Hausfrau pflichtversichert."
           }
         ],
         "answerIds": [
@@ -15985,40 +15973,28 @@
       {
         "id": "frage-050",
         "type": "multiple",
-        "prompt": "1 Krankenversicnerung/ Pflegeversich_e_ru_n_g",
+        "prompt": "Krankenversicherung/Pflegeversicherung. Xenia Kramer (47) ist Angestellte und hat eine Krankheitskostenvollversicherung (PKV). Sie wird ihre Arbeitszeit herabsetzen, damit sie sich um die pflegebedürftige Mutter im Rahmen der Familienpflegezeit kümmern kann. Ihr Gehalt fällt dadurch unter die Jahresarbeitsentgeltgrenze (JAEG). Frau Kramer fragt Sie, welche Auswirkungen die Herabsetzung der Arbeitszeit in diesem Fall hat.",
         "points": 1,
         "options": [
           {
             "id": "a",
-            "text": "enia Kramer (47) ist Angestellte und hat eine Krankheitskostenvollversicherung (PKV). Sie wird ihre Arbeits"
+            "text": "Sie kann sich für die Dauer der Familienpflegezeit befreien lassen, wenn sie mindestens fünf Jahre in der PKV versichert war."
           },
           {
             "id": "b",
-            "text": "z.Jl herabsetzen, damit sie sich um die pflegebedürftige Mutter im Rahmen der Familienpflegezeit kümmern kann."
-          },
-          {
-            "id": "c",
-            "text": "k~ Gehalt fällt dadurch unter die Jahresarbeitsentgeltgrenze (JAEG). Frau Kramer fragt Sie, welche Auswirkungen die Herabsetzung der Arbeitszeit in diesem Fall hat."
-          },
-          {
-            "id": "d",
-            "text": "Sie kann sich für die Dauer der Fam:ilienpflegezeit befreien lassen, wenn sie mindestens fünf Jahre in de versichert war."
-          },
-          {
-            "id": "e",
             "text": "Sie wird versicherungspflichtig in der gesetzlichen Krankenversicherung."
           },
           {
-            "id": "f",
+            "id": "c",
             "text": "Da sie die Familienpflegezeit in Anspruch nimmt, bleibt sie automatisch weiterhin in der PKV versichert."
           },
           {
-            "id": "g",
-            "text": "Sie kann sich für die Dauer der Familienpflegezeit von der eintretenden Versicherungspflicht befreien las"
+            "id": "d",
+            "text": "Sie kann sich für die Dauer der Familienpflegezeit von der eintretenden Versicherungspflicht befreien lassen."
           },
           {
-            "id": "h",
-            "text": "Sie kann sich in diesem Fall unwiderruflich, auch für die Dauer nach der Familienpflegezeit, befreien lass"
+            "id": "e",
+            "text": "Sie kann sich in diesem Fall unwiderruflich, auch für die Dauer nach der Familienpflegezeit, befreien lassen."
           }
         ],
         "answerIds": [
@@ -17364,7 +17340,7 @@
       {
         "id": "frage-104",
         "type": "single",
-        "prompt": "1 Haftpflichtversicherung ~ - - }~;5f~:~'.:f''.\\·:. )?~}~-:~_:::.·,:·~--~--: .\"A' ,.,_:.·: - ~•r•gaöe ·- - ~- ~· ·•!'1,,·r::·,~~-;,..J,):. :.,:,~.•·rr1:p, - - - 34,;;, ~!,.\"..!6.::._·;~•l;>;\"',:~i•.~ ,,~iitii',;,/;;;..J•.1,,,,>:Jic;•,·\"···'\"\"'· .. -- -·• ... Ihr Kunde Herr Peter Schiebler hat in seinem Versicherungsschein zur Privathaftpflichtversicherung die Prämienanpassungsklausel gefunden. Er las, dass die Prämien auch sinken können. Nun möchte er wissen, wann diese Regelung zum Tragen kommt. Sie erklären Herrn Schiebler richtiqerweise, dass ...",
+        "prompt": "Haftpflichtversicherung. Ihr Kunde Herr Peter Schiebler hat in seinem Versicherungsschein zur Privathaftpflichtversicherung die Prämienanpassungsklausel gefunden. Er las, dass die Prämien auch sinken können. Nun möchte er wissen, wann diese Regelung zum Tragen kommt. Sie erklären Herrn Schiebler richtigerweise, dass …",
         "points": 1,
         "options": [
           {
