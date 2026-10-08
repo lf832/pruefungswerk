@@ -34,5 +34,6 @@ function importProgress(){const f=$('#progressFileInput').files[0];if(!f)return;
 function downloadTemplate(){download('pruefungswerk-vorlage.json',JSON.stringify(template,null,2));showToast('JSON-Vorlage heruntergeladen')}
 function showToast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
 init();
-if(!data.exams.length&&location.protocol!=='file:')fetch('./pruefungen-quiz.json').then(r=>r.ok?r.json():null).then(exams=>{if(!Array.isArray(exams)||data.exams.length)return;exams.forEach(validateExam);data.exams=exams;save();render();showToast('Sechs Prüfungen wurden bereitgestellt')}).catch(()=>{});
+const BUNDLED_VERSION=2;
+if(location.protocol!=='file:')fetch('./pruefungen-quiz.json').then(r=>r.ok?r.json():null).then(exams=>{if(!Array.isArray(exams))return;if(data.exams.length&&(data.bundledVersion||0)>=BUNDLED_VERSION)return;exams.forEach(validateExam);const own=data.exams.filter(e=>!exams.some(x=>x.examId===e.examId));const had=data.exams.length>0;data.exams=[...exams,...own];data.bundledVersion=BUNDLED_VERSION;save();render();showToast(had?'Prüfungsinhalte wurden aktualisiert':'Sechs Prüfungen wurden bereitgestellt')}).catch(()=>{});
 if('serviceWorker'in navigator&&location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
