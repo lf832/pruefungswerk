@@ -19,3 +19,13 @@
 .answer-option{font-size:14px;line-height:1.55}
 .question-title, .answer-option span{overflow-wrap:anywhere;word-break:break-word}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Wissen / Lernhilfe */
+.wissen-search{width:100%;border:1px solid var(--line);background:var(--card);padding:13px 15px;font-size:14px;margin:4px 0 12px;border-radius:6px}
+.wissen-list{display:grid;gap:9px}
+.wissen-card{border:1px solid var(--line);background:var(--card);border-radius:6px;overflow:hidden}
+.wissen-card summary{padding:14px 15px;font-weight:700;font-size:14px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.wissen-card summary::-webkit-details-marker{display:none}
+.wissen-card summary::after{content:'+';color:var(--moss);font-weight:800;font-size:17px}
+.wissen-card[open] summary::after{content:'\2212'}
+.wissen-card p{margin:0;padding:9px 15px;font-size:13px;line-height:1.6;border-top:1px solid var(--line)}

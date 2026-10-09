@@ -2554,7 +2554,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 1"
       },
       {
         "id": "frage-002",
@@ -2587,7 +2588,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 2"
       },
       {
         "id": "frage-003",
@@ -2616,7 +2618,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 3"
       },
       {
         "id": "frage-004",
@@ -2645,7 +2648,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 4"
       },
       {
         "id": "frage-005",
@@ -2674,7 +2678,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 5"
       },
       {
         "id": "frage-006",
@@ -2703,7 +2708,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 6"
       },
       {
         "id": "frage-007",
@@ -2740,7 +2746,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 7"
       },
       {
         "id": "frage-008",
@@ -2775,7 +2782,8 @@
           "e"
         ],
         "solution": "Richtige Antwort: A, C, E.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 8"
       },
       {
         "id": "frage-009",
@@ -2804,11 +2812,12 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 9"
       },
       {
         "id": "frage-011",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Sie beraten Familie Baumfäller im Rahmen der Zulagenförderung nach § 1 Oa EStG zu einer Absicherung im Alter. Herr Baumfäller 1st angestellter Industriekaufmann, seine Frau Rita ist selbständige Werbegrafiker:in. Das Ehepaar hat Zwillinge im Alter von 7 Jahren. Können Herr und Frau Baumfäller einen Vertrag abschließen? Sie antworten richtiqerweise, dass ...",
         "points": 1,
         "options": [
@@ -2829,9 +2838,13 @@
             "text": "Frau BaumfäUer als Selbständige nicht die Möglichkeit hat, die Zulagenrente zu nutzen, da sie nicht zum ~ förderberechUgten Personenkreis gehört. Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "b",
+          "c"
+        ],
         "solution": "Musterlösung: 2,3. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 11"
       },
       {
         "id": "frage-012",
@@ -2860,7 +2873,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 12"
       },
       {
         "id": "frage-013",
@@ -2897,7 +2911,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 13"
       },
       {
         "id": "frage-014",
@@ -2930,11 +2945,12 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 14"
       },
       {
         "id": "frage-015",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Sie unterhalten sich mit Ihrer neuen Kollegin Franka Rosina über das 3-Schichten-Modell. Sie hat gehört, dass in der ersten Schicht (Basisversorgung) eine weitreichende steuerliche Förderung von Beitragszahlungen möglich ist. Sie fragt Sie nun, was unter anderem zu dieser Schicht gehört. Sie antworten ihr richtigerweise",
         "points": 1,
         "options": [
@@ -2959,9 +2975,13 @@
             "text": "Kapitalbildende Lebensversicherung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "a",
+          "e"
+        ],
         "solution": "Musterlösung: 1,5. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 15"
       },
       {
         "id": "frage-016",
@@ -2990,7 +3010,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 16"
       },
       {
         "id": "frage-017",
@@ -3023,7 +3044,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 17"
       },
       {
         "id": "frage-018",
@@ -3052,7 +3074,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 18"
       },
       {
         "id": "frage-019",
@@ -3081,7 +3104,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 19"
       },
       {
         "id": "frage-020",
@@ -3111,10 +3135,11 @@
           }
         ],
         "answerIds": [
-          "e"
+          "c"
         ],
         "solution": "Richtige Antwort: E.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 20"
       },
       {
         "id": "frage-021",
@@ -3147,7 +3172,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 21"
       },
       {
         "id": "frage-022",
@@ -3176,11 +3202,12 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 22"
       },
       {
         "id": "frage-023",
-        "type": "single",
+        "type": "multiple",
         "prompt": ".. 1T!m Im Beratungsgespräch bei Martina Richter {35) zu ihrer Altersvorsorge stellen Sie zunächst die Grundzüge der Gesetzlichen Rentenversicherung vor. Ihre Kundin weist darauf hin, dass sie kürzlich in der Tageszeitung etwas über beitragsfreie Zeiten in der Rentenversicherung gelesen hat. Da sie mit diesem Begriff nichts anfangen kann, fragt sie, was darunter zu verstehen ist. Sie erklären richtiqerweise, zu diesen Zeiten gehören ....",
         "points": 1,
         "options": [
@@ -3213,9 +3240,13 @@
             "text": "[Antwort G im Scan nicht lesbar]"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "b",
+          "d"
+        ],
         "solution": "Musterlösung: 2,4. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 23"
       },
       {
         "id": "frage-024",
@@ -3248,7 +3279,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 24"
       },
       {
         "id": "frage-025",
@@ -3277,7 +3309,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 25"
       },
       {
         "id": "frage-026",
@@ -3306,11 +3339,12 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 26"
       },
       {
         "id": "frage-027",
-        "type": "single",
+        "type": "multiple",
         "prompt": "III Sie machen sich Gedanken über Ihre anstehenden Kundenbesuche. Sie wollen Ihren Kunden die Vorteile einer betrieblichen Altersversorgung durch Entgeltumwandlung vorstellen. Welche der folgenden Kunden können davon profitieren?",
         "points": 1,
         "options": [
@@ -3335,9 +3369,13 @@
             "text": "Tanja Wild, mitarbeitende sozialversicherungspflichtige Ehefrau i Verbleibende Zen:: Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "a",
+          "d"
+        ],
         "solution": "Musterlösung: 1,4. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 27"
       },
       {
         "id": "frage-028",
@@ -3366,7 +3404,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 28"
       },
       {
         "id": "frage-029",
@@ -3395,11 +3434,12 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 29"
       },
       {
         "id": "frage-030",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Für Rudolf Zeller besteht bei Ihrer Gesellschaft seit 20 Jahren eine pauschal besteuerte Direktversicherung durch Entgeltumwandlung nach § 40b EStG. Herr Zeller möchte wissen, wie die Besteuerung von Leistungen bei Eintritt des Versorgungsfalls erfolgt, wenn er einen Tell seines Gehaltes weiterhin pauschal besteuert umwandelt. Welche Erklärung ist richtig? Sie erläutern ihm, dass die ...",
         "points": 1,
         "options": [
@@ -3424,9 +3464,13 @@
             "text": "Rentenleistung nachgelagert voll zu versteuern ist."
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "a",
+          "d"
+        ],
         "solution": "Musterlösung: 1,4. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 30"
       },
       {
         "id": "frage-031",
@@ -3455,7 +3499,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 31"
       },
       {
         "id": "frage-032",
@@ -3484,7 +3529,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 32"
       },
       {
         "id": "frage-033",
@@ -3509,7 +3555,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 33"
       },
       {
         "id": "frage-034",
@@ -3538,7 +3585,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 34"
       },
       {
         "id": "frage-035",
@@ -3567,7 +3615,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 35"
       },
       {
         "id": "frage-036",
@@ -3600,7 +3649,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 36"
       },
       {
         "id": "frage-037",
@@ -3637,7 +3687,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 37"
       },
       {
         "id": "frage-038",
@@ -3666,7 +3717,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 38"
       },
       {
         "id": "frage-039",
@@ -3695,11 +3747,12 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 39"
       },
       {
         "id": "frage-040",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Ihr Kunde Karl-Heinz Müller ist vergangene Woche im Alter von 42 Jahren schwer verunfallt. Voraussichtlich wird er dauerhaft zu mindestens 90 % beeinträchtigt bleiben. Derzeit ist die Heilbehandlung noch nicht abgeschlossen. Herr Müller hat bei Ihrer Gesellschaft eine private Unfallversicherung mit einer lnvaliditätsleistung von 200.000,- €, sowie einer monatlichen Unfallrente 50/90 in Höhe von 1.000,- € abgeschlossen. Weitere Einschlüsse wurden nicht vereinbart. Herr Müller fragt Sie, welche Leistungen er binnen der nächsten 4 Wochen erhält. Er erhält. ..",
         "points": 1,
         "options": [
@@ -3724,9 +3777,13 @@
             "text": "einen Vorschuss auf die lnvaliditätsleistung."
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "b",
+          "e"
+        ],
         "solution": "Musterlösung: 2,5. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 40"
       },
       {
         "id": "frage-041",
@@ -3755,7 +3812,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 41"
       },
       {
         "id": "frage-042",
@@ -3784,7 +3842,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 42"
       },
       {
         "id": "frage-043",
@@ -3809,7 +3868,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 43"
       },
       {
         "id": "frage-044",
@@ -3838,7 +3898,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 44"
       },
       {
         "id": "frage-045",
@@ -3867,7 +3928,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 45"
       },
       {
         "id": "frage-046",
@@ -3896,7 +3958,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 46"
       },
       {
         "id": "frage-047",
@@ -3927,7 +3990,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: B, C, D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 47"
       },
       {
         "id": "frage-049",
@@ -3979,7 +4043,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 50"
       },
       {
         "id": "frage-051",
@@ -4008,7 +4073,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 51"
       },
       {
         "id": "frage-052",
@@ -4060,7 +4126,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 53"
       },
       {
         "id": "frage-054",
@@ -4089,7 +4156,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 54"
       },
       {
         "id": "frage-055",
@@ -4122,7 +4190,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 55"
       },
       {
         "id": "frage-056",
@@ -4147,7 +4216,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 56"
       },
       {
         "id": "frage-058",
@@ -4176,7 +4246,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 58"
       },
       {
         "id": "frage-059",
@@ -4205,7 +4276,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 59"
       },
       {
         "id": "frage-060",
@@ -4238,7 +4310,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 60"
       },
       {
         "id": "frage-061",
@@ -4267,7 +4340,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 61"
       },
       {
         "id": "frage-062",
@@ -4302,7 +4376,8 @@
           "e"
         ],
         "solution": "Richtige Antwort: B, D, E.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 62"
       },
       {
         "id": "frage-063",
@@ -4339,7 +4414,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 63"
       },
       {
         "id": "frage-064",
@@ -4368,7 +4444,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 64"
       },
       {
         "id": "frage-065",
@@ -4397,7 +4474,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 65"
       },
       {
         "id": "frage-066",
@@ -4426,7 +4504,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 66"
       },
       {
         "id": "frage-067",
@@ -4451,7 +4530,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 67"
       },
       {
         "id": "frage-068",
@@ -4503,7 +4583,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 69"
       },
       {
         "id": "frage-071",
@@ -4536,7 +4617,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 71"
       },
       {
         "id": "frage-072",
@@ -4565,7 +4647,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 72"
       },
       {
         "id": "frage-073",
@@ -4594,7 +4677,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 73"
       },
       {
         "id": "frage-074",
@@ -4631,7 +4715,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 74"
       },
       {
         "id": "frage-075",
@@ -4660,7 +4745,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 75"
       },
       {
         "id": "frage-077",
@@ -4696,14 +4782,15 @@
           }
         ],
         "answerIds": [
-          "a"
+          "b"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 78"
       },
       {
         "id": "frage-079",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Sina Schröder hat bei der iProximus AG nur eine Hausratversicherung. Sie besitzt ein 1.000 Liter Meerwasseraquarium. Dort hält sie unter anderem Feuerfische. Eines Abends kommt sie nach Hause und das Aquarium ist nach einem Sprung zerbrochen. Der Schaden umfasst folgendes: Aquarium 2.000,- € Fische 3.400,- € Unterschrank aufgequollen 400,- € Bücher 250,-€ Wie hoch ist die Entschädigung für diesen Schadensfall?",
         "points": 1,
         "options": [
@@ -4728,9 +4815,13 @@
             "text": "0 0,-€ Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "b",
+          "d"
+        ],
         "solution": "Musterlösung: 73500. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 79"
       },
       {
         "id": "frage-080",
@@ -4756,14 +4847,15 @@
           }
         ],
         "answerIds": [
-          "b"
+          "d"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 80"
       },
       {
         "id": "frage-081",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Im Rahmen der Neuordnung einer bestehenden Hausratversicherung sprechen Sie mit Ihrem Kunden Lars Neuhaus auch über die Haushaltsglasversicherung. Welche der folgenden Sachen sind im Rahmen dieser Versicherung mitversichert?",
         "points": 1,
         "options": [
@@ -4792,9 +4884,13 @@
             "text": "Badezimmerspiegel"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "d",
+          "f"
+        ],
         "solution": "Musterlösung: 2,4. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 81"
       },
       {
         "id": "frage-082",
@@ -4820,10 +4916,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "b"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 82"
       },
       {
         "id": "frage-083",
@@ -4848,9 +4945,12 @@
             "text": "Nein, da die Schadenminderung nicht erfolgreich war. ~ Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "a"
+        ],
         "solution": "Musterlösung: 4,6. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 83"
       },
       {
         "id": "frage-084",
@@ -4879,7 +4979,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 84"
       },
       {
         "id": "frage-085",
@@ -4905,10 +5006,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "d"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 85"
       },
       {
         "id": "frage-086",
@@ -4948,14 +5050,15 @@
           }
         ],
         "answerIds": [
-          "d"
+          "a"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 87"
       },
       {
         "id": "frage-088",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Gebäudeversicnerung .. tl!m Im Online-Beratungsgespräch zur Wohngebäudeversicherung mit Christa Bauer kommen Sie auch darauf zu sprechen, welche Entschädigung die Proximus AG für den Neubau im Falle eines Totalschadens leistet. Welche der folgenden Positionen werden dabei berücksichtigt?",
         "points": 1,
         "options": [
@@ -4980,9 +5083,14 @@
             "text": "Wiederherstellungskosten ~ Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "b",
+          "d",
+          "e"
+        ],
         "solution": "Musterlösung: 7920. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 88"
       },
       {
         "id": "frage-089",
@@ -5032,9 +5140,12 @@
             "text": "kein Versicherungsschutz, weil diese Gefahr nicht mitversichert ist. ~ Prüfung"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 90): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 90"
       },
       {
         "id": "frage-091",
@@ -5059,9 +5170,12 @@
             "text": "Der Leitungswasserschaden sowie der Schaden an dem Wasserleitungsrohr werden ersetzt. ~ Prüfung"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 91): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 91"
       },
       {
         "id": "frage-093",
@@ -5087,10 +5201,11 @@
           }
         ],
         "answerIds": [
-          "b"
+          "c"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 93"
       },
       {
         "id": "frage-094",
@@ -5116,10 +5231,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "c"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 94"
       },
       {
         "id": "frage-095",
@@ -5148,7 +5264,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 95"
       },
       {
         "id": "frage-096",
@@ -5174,10 +5291,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "a"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 96"
       },
       {
         "id": "frage-097",
@@ -5226,10 +5344,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "e"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 98"
       },
       {
         "id": "frage-099",
@@ -5254,9 +5373,12 @@
             "text": "Lawinen, Muren, Erdrutsch, Erdfall. ~ Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "d"
+        ],
         "solution": "Musterlösung: 2,5. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 99"
       },
       {
         "id": "frage-100",
@@ -5281,9 +5403,12 @@
             "text": "voller Versicherungsschutz, weil ein versicherter Unfall vorliegt. ~ Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "d"
+        ],
         "solution": "Lösungsschlüssel uneindeutig auf die erkannten Optionen abbildbar; nicht übernommen.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 100"
       },
       {
         "id": "frage-101",
@@ -5304,9 +5429,12 @@
             "text": "Der Schaden wäre nur über eine zusätzliche Haushalts-Glasversicherung versichert. ~ Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "c"
+        ],
         "solution": "Lösungsschlüssel uneindeutig auf die erkannten Optionen abbildbar; nicht übernommen.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 101"
       },
       {
         "id": "frage-102",
@@ -5332,10 +5460,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "c"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 102"
       },
       {
         "id": "frage-103",
@@ -5361,10 +5490,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "b"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 103"
       },
       {
         "id": "frage-105",
@@ -5386,10 +5516,11 @@
           }
         ],
         "answerIds": [
-          "b"
+          "c"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 105"
       },
       {
         "id": "frage-106",
@@ -5418,7 +5549,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 106"
       },
       {
         "id": "frage-107",
@@ -5448,10 +5580,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "e"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 107"
       },
       {
         "id": "frage-108",
@@ -5477,10 +5610,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "d"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 108"
       },
       {
         "id": "frage-109",
@@ -5506,10 +5640,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "d"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 109"
       },
       {
         "id": "frage-110",
@@ -5542,7 +5677,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 110"
       },
       {
         "id": "frage-111",
@@ -5567,9 +5703,12 @@
             "text": "nicht erfolgen, da es sich um keine Privathaftpfüchtversicherung handelt. ~ Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "c"
+        ],
         "solution": "Lösungsschlüssel uneindeutig auf die erkannten Optionen abbildbar; nicht übernommen.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 111"
       },
       {
         "id": "frage-112",
@@ -5598,7 +5737,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 112"
       },
       {
         "id": "frage-113",
@@ -5624,10 +5764,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "c"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 113"
       },
       {
         "id": "frage-114",
@@ -5653,10 +5794,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "c"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 114"
       },
       {
         "id": "frage-115",
@@ -5682,10 +5824,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "d"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 115"
       },
       {
         "id": "frage-117",
@@ -5711,10 +5854,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "b"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 117"
       },
       {
         "id": "frage-118",
@@ -8547,7 +8691,7 @@
     "questions": [
       {
         "id": "frage-001",
-        "type": "single",
+        "type": "multiple",
         "prompt": "III Ihr Kunde Thorsten Müller hat bei der Proximus AG eine Risiko-Lebensversicherung mit Berufsunfäh igke rtszusatzverslcherunq abgeschlossen. Welche Leistungen werden aus diesem Vertrag erbracht?",
         "points": 1,
         "options": [
@@ -8572,9 +8716,13 @@
             "text": "Bei nachgewiesener Berufsunfähigkeit erfolgt eine Beitragsbefreiung für die Hauptversicherung und die eingeschlossene Zusatzversicherung Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "d",
+          "e"
+        ],
         "solution": "Musterlösung: 4,5. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 1"
       },
       {
         "id": "frage-002",
@@ -8603,11 +8751,12 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 2"
       },
       {
         "id": "frage-003",
-        "type": "single",
+        "type": "multiple",
         "prompt": "l~ -- Ihr Kunde Andreas Höfer wünscht für seine Absicherung eine kapitalbildende Lebensversicherung mit eingeschlossener Berufsunfähigkeits-Zusatzversicherung (BUZ). Im Beratungsgespräch stellen Sie unter anderem dar, von welchen Kriterien der Beitrag abhängt. Welche der folgenden Kriterien nennen Sie Herrn Höfer richtigerweise neben der Versicherungssumme?",
         "points": 1,
         "options": [
@@ -8632,9 +8781,13 @@
             "text": "Gesundheitszustand Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "d",
+          "e"
+        ],
         "solution": "Musterlösung: 4,5. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 3"
       },
       {
         "id": "frage-004",
@@ -8673,11 +8826,12 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 5"
       },
       {
         "id": "frage-006",
-        "type": "single",
+        "type": "multiple",
         "prompt": "'. Sie haben heute Abend ein Altersvorsorgegespräch bei Ihrem Kunden Winfried Peddington. Als Vorbereitung auf diesen Termin beschäftigen Sie sich noch einmal mit dem 3-Schichten-Modell, insbesondere mit der Schicht der Basisvorsorge. Welche Vorsorgeprodukte gehören zu dieser Schicht?",
         "points": 1,
         "options": [
@@ -8702,9 +8856,13 @@
             "text": "Direktversicherung durch Entgeltumwandlung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "b",
+          "c"
+        ],
         "solution": "Musterlösung: 2,3. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 6"
       },
       {
         "id": "frage-007",
@@ -8737,7 +8895,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 7"
       },
       {
         "id": "frage-008",
@@ -8776,7 +8935,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 9"
       },
       {
         "id": "frage-011",
@@ -8805,7 +8965,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 11"
       },
       {
         "id": "frage-012",
@@ -8834,7 +8995,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 12"
       },
       {
         "id": "frage-013",
@@ -8867,7 +9029,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 13"
       },
       {
         "id": "frage-014",
@@ -8896,7 +9059,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 14"
       },
       {
         "id": "frage-015",
@@ -8925,7 +9089,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 15"
       },
       {
         "id": "frage-016",
@@ -8954,7 +9119,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 16"
       },
       {
         "id": "frage-017",
@@ -9006,7 +9172,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 18"
       },
       {
         "id": "frage-019",
@@ -9035,7 +9202,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 19"
       },
       {
         "id": "frage-020",
@@ -9070,7 +9238,8 @@
           "e"
         ],
         "solution": "Richtige Antwort: A, D, E.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 20"
       },
       {
         "id": "frage-021",
@@ -9103,7 +9272,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 21"
       },
       {
         "id": "frage-022",
@@ -9132,11 +9302,12 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 22"
       },
       {
         "id": "frage-023",
-        "type": "single",
+        "type": "multiple",
         "prompt": "L ~ 1 llill --·- · -- -- -- il//t Sie sprechen mit Senem Yildirim über ihre Versorgungssituation im Alter. Die Themen „demographische Entwicklung\" und „Generationenvertrag\" in der Gesetzlichen Rentenversicherung (GRV) beschäftigen Ihre Kundin. Welche Auswirkungen ergeben sich aus diesen beiden Themen für die GRV?",
         "points": 1,
         "options": [
@@ -9161,9 +9332,13 @@
             "text": "1 :(}9:17 Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "b",
+          "c"
+        ],
         "solution": "Musterlösung: 2,3. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 23"
       },
       {
         "id": "frage-024",
@@ -9192,7 +9367,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 24"
       },
       {
         "id": "frage-025",
@@ -9231,7 +9407,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 26"
       },
       {
         "id": "frage-027",
@@ -9260,7 +9437,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 27"
       },
       {
         "id": "frage-028",
@@ -9289,11 +9467,12 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 28"
       },
       {
         "id": "frage-029",
-        "type": "single",
+        "type": "multiple",
         "prompt": "[_ ~. Jli1I Carsten Lehmann hat seit 3 Jahren eine Festanstellung als Produktentwickler in einem Softwareunternehmen. Im Beratungsgespräch zu seiner Altersvorsorge zeigen Sie Herrn Lehmann auch die Möglichkeiten der betrieblichen Altersversorgung durch Entgeltumwandlung auf. Welche Besonderheiten der Vertragsgestaltung treffen zu?",
         "points": 1,
         "options": [
@@ -9314,9 +9493,13 @@
             "text": "Der Arbeitnehmer hat immer einen Rechtsanspruch auf den Abschluss einer Direktversicherung. Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "a",
+          "b"
+        ],
         "solution": "Musterlösung: 1,2. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 29"
       },
       {
         "id": "frage-030",
@@ -9345,7 +9528,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 30"
       },
       {
         "id": "frage-031",
@@ -9374,7 +9558,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 31"
       },
       {
         "id": "frage-032",
@@ -9403,7 +9588,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 32"
       },
       {
         "id": "frage-033",
@@ -9428,7 +9614,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 33"
       },
       {
         "id": "frage-034",
@@ -9457,7 +9644,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 34"
       },
       {
         "id": "frage-035",
@@ -9486,7 +9674,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 35"
       },
       {
         "id": "frage-036",
@@ -9519,7 +9708,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 36"
       },
       {
         "id": "frage-037",
@@ -9589,7 +9779,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 39"
       },
       {
         "id": "frage-040",
@@ -9603,7 +9794,7 @@
       },
       {
         "id": "frage-041",
-        "type": "single",
+        "type": "multiple",
         "prompt": "ca,a Krankenversicherung/ Pflegeversicherung Im Rahmen eines Beratungsgespräches zur Krankheitskostenvollversicherung versuchen Sie gemeinsam mit Patricia Woratsch zu klären, ob für sie Versicherungsfreiheit vorliegt. Zu diesem Zweckschlüsseln Sie mit Frau Woratsch auf, welche Gehaltsbestandteile zum Jahresarbeitsentgelt gehören. Welche der folgenden Positionen bleiben unberücksichtigt?",
         "points": 1,
         "options": [
@@ -9632,9 +9823,13 @@
             "text": "Vertragliches Weihnachtsgeld Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "b",
+          "e"
+        ],
         "solution": "Musterlösung: 2,5. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 41"
       },
       {
         "id": "frage-042",
@@ -9692,7 +9887,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 43"
       },
       {
         "id": "frage-044",
@@ -9721,7 +9917,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 44"
       },
       {
         "id": "frage-045",
@@ -9750,7 +9947,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 45"
       },
       {
         "id": "frage-046",
@@ -9779,7 +9977,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 46"
       },
       {
         "id": "frage-047",
@@ -9808,7 +10007,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 47"
       },
       {
         "id": "frage-048",
@@ -9845,7 +10045,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 48"
       },
       {
         "id": "frage-049",
@@ -9874,7 +10075,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 49"
       },
       {
         "id": "frage-050",
@@ -9900,10 +10102,11 @@
           }
         ],
         "answerIds": [
-          "b"
+          "d"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 50"
       },
       {
         "id": "frage-051",
@@ -9929,10 +10132,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "a"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 51"
       },
       {
         "id": "frage-052",
@@ -9961,7 +10165,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 52"
       },
       {
         "id": "frage-053",
@@ -9987,10 +10192,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "c"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 53"
       },
       {
         "id": "frage-054",
@@ -10019,7 +10225,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 54"
       },
       {
         "id": "frage-055",
@@ -10045,10 +10252,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "b"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 55"
       },
       {
         "id": "frage-056",
@@ -10077,7 +10285,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 56"
       },
       {
         "id": "frage-057",
@@ -10103,10 +10312,11 @@
           }
         ],
         "answerIds": [
-          "b"
+          "c"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 57"
       },
       {
         "id": "frage-058",
@@ -10164,9 +10374,12 @@
             "text": "Nein, das Ausspannen von Lebensversicherungsverträgen ist nicht gestattet. ~ Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "d"
+        ],
         "solution": "Musterlösung: 2,5. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 59"
       },
       {
         "id": "frage-060",
@@ -10192,10 +10405,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "b"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 60"
       },
       {
         "id": "frage-061",
@@ -10221,14 +10435,15 @@
           }
         ],
         "answerIds": [
-          "b"
+          "a"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 61"
       },
       {
         "id": "frage-062",
-        "type": "single",
+        "type": "multiple",
         "prompt": "In Vorbereitung auf die IHK-Sachkundeprüfung setzen Sie sich mit dem Tätigkeitsinhalt des Versicherungsberaters auseinander. Welche korrekten Merkmale zählen Sie auf? Der Versicherungsberater kann ...",
         "points": 1,
         "options": [
@@ -10254,10 +10469,12 @@
           }
         ],
         "answerIds": [
-          "a"
+          "a",
+          "c"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 62"
       },
       {
         "id": "frage-063",
@@ -10282,13 +10499,16 @@
             "text": "Neben der Unterschrift der Eltern muss auch die Genehmigung des Familiengerichts eingeholt werden. Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "b"
+        ],
         "solution": "Musterlösung: 1,3. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 63"
       },
       {
         "id": "frage-064",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Bei der Aufnahme eines Antrages auf eine Krankheitsergänzungsversicherung machen Sie Ihrem Kunden Ernst von Glasersfeld deutlich, dass eine Nichtanzeige von Vorerkrankungen eine Verletzung der vorvertraglichen Anzeigepflicht darstellt. Herr von Glasersfeld fragt, welche Möglichkeiten der Versicherer dann hat. Sie weisen ihn darauf hin, dass der Versicherer in diesem Fall ab Kenntnisnahme der Verletzung ... vom Vertrag innerhalb eines Monats zurücktreten kann.",
         "points": 1,
         "options": [
@@ -10310,10 +10530,12 @@
           }
         ],
         "answerIds": [
-          "b"
+          "a",
+          "d"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 64"
       },
       {
         "id": "frage-065",
@@ -10338,9 +10560,12 @@
             "text": "zum 01.07. kündigen. Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "c"
+        ],
         "solution": "Musterlösung: 1,4. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 65"
       },
       {
         "id": "frage-066",
@@ -10369,7 +10594,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 66"
       },
       {
         "id": "frage-067",
@@ -10398,11 +10624,12 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 67"
       },
       {
         "id": "frage-068",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Sie unterhalten sich mit Ihrem neuen Kollegen Timo Schmitz über die gesetzlichen Vollmachten des Versicherungsvertreters gemäß Versicherungsvertragsgesetz 0fVG). Die Handlungen sind Herrn Schmitz noch nicht bekannt. Welche richtigen Handlungen nennen Sie? Der Versicherungsvertreter ist berechtigt",
         "points": 1,
         "options": [
@@ -10427,9 +10654,13 @@
             "text": "Versicherungs- und Verlängerungsscheine dem Versicherungsnehmer auszuhändigen. Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "d",
+          "e"
+        ],
         "solution": "Musterlösung: 2,5. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 68"
       },
       {
         "id": "frage-069",
@@ -10458,7 +10689,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 69"
       },
       {
         "id": "frage-070",
@@ -10487,7 +10719,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 70"
       },
       {
         "id": "frage-071",
@@ -10512,9 +10745,12 @@
             "text": "nicht ersetzt, da sich der Einbruchdiebstahl gemäß den Versicherungsbedingungen nur auf den Versicherungsart bezieht. Prüfung"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 71): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 71"
       },
       {
         "id": "frage-072",
@@ -10540,10 +10776,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "c"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 72"
       },
       {
         "id": "frage-073",
@@ -10603,9 +10840,12 @@
             "text": "Ja, da Hausrat außerhalb des Hauses im Rahmen der Außenversicherung mitversichert ist. Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "a"
+        ],
         "solution": "Musterlösung: 54450. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 74"
       },
       {
         "id": "frage-075",
@@ -10641,10 +10881,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "b"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 76"
       },
       {
         "id": "frage-077",
@@ -10658,7 +10899,7 @@
       },
       {
         "id": "frage-078",
-        "type": "single",
+        "type": "multiple",
         "prompt": "\\/ Hausratversicherung Martina Zimmer hat für ihr Einfamilienhaus eine Hausratversicherung. Die untere Etage bewohnt sie selbst. Sie möchte das ausgebaute Dachgeschoss teilmöbliert vermieten. Leider hat sich bisher kein geeigneter Mieter gefunden. Deshalb steht dieses seit Dezember leer. Frau Zimmer ruft Sie an und möchte wissen, welche Möglichkeiten sie hat, um den Versicherungsschutz nicht zu verlieren. Frau Zimmer muss in der kalten Jahreszeit ...",
         "points": 1,
         "options": [
@@ -10684,10 +10925,12 @@
           }
         ],
         "answerIds": [
-          "b"
+          "b",
+          "d"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 78"
       },
       {
         "id": "frage-079",
@@ -10713,10 +10956,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "d"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 79"
       },
       {
         "id": "frage-080",
@@ -10742,10 +10986,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "b"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 80"
       },
       {
         "id": "frage-081",
@@ -10771,10 +11016,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "d"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 81"
       },
       {
         "id": "frage-082",
@@ -10803,7 +11049,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 82"
       },
       {
         "id": "frage-083",
@@ -10833,10 +11080,11 @@
           }
         ],
         "answerIds": [
-          "b"
+          "c"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 83"
       },
       {
         "id": "frage-084",
@@ -10862,14 +11110,15 @@
           }
         ],
         "answerIds": [
-          "a"
+          "c"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 84"
       },
       {
         "id": "frage-085",
-        "type": "single",
+        "type": "multiple",
         "prompt": "III - Sie beraten Ihren Kunden Walter Kunz zu einer Wohngebäudeversicherung bei der Proximus AG. In diesem Zusammenhang interessiert er sich für die Erweiterung des Versicherungsschutzes durch Klauseln. Welche Gefahren und Schäden sind zusätzlich versicherbar?",
         "points": 1,
         "options": [
@@ -10895,10 +11144,13 @@
           }
         ],
         "answerIds": [
-          "a"
+          "a",
+          "c",
+          "d"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 85"
       },
       {
         "id": "frage-086",
@@ -10924,10 +11176,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "b"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 86"
       },
       {
         "id": "frage-087",
@@ -10956,7 +11209,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 87"
       },
       {
         "id": "frage-088",
@@ -10992,10 +11246,11 @@
           }
         ],
         "answerIds": [
-          "b"
+          "d"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 89"
       },
       {
         "id": "frage-090",
@@ -11020,9 +11275,12 @@
             "text": "kein Versicherungsschutz, weil der Blitz nicht unmittelbar in sein Wohngebäude eingeschlagen hat. Prüfung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "a"
+        ],
         "solution": "Musterlösung: 1,3. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 90"
       },
       {
         "id": "frage-091",
@@ -11048,10 +11306,11 @@
           }
         ],
         "answerIds": [
-          "b"
+          "d"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 91"
       },
       {
         "id": "frage-092",
@@ -11077,10 +11336,11 @@
           }
         ],
         "answerIds": [
-          "b"
+          "d"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 92"
       },
       {
         "id": "frage-093",
@@ -11109,7 +11369,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 93"
       },
       {
         "id": "frage-094",
@@ -11135,10 +11396,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "a"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 94"
       },
       {
         "id": "frage-095",
@@ -11168,14 +11430,15 @@
           }
         ],
         "answerIds": [
-          "a"
+          "b"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 95"
       },
       {
         "id": "frage-096",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Auf dem Weg zur Arbeit war Karsten Jochmann kurz abgelenkt und ist mit seinem PKW eine Böschung heruntergestürzt. Die Frontscheibe und beide Scheinwerfer sind zerstört, die Karosserie des Fahrzeugs ist verbeult und ein Vorderreifen ist platt. Für sein Fahrzeug bestehen eine Haftpflicht- und eine Teilkaskoversicherung ohne Selbstbeteiligung. Welche Beschädigungen bekommt Herr Jochmann ersetzt?",
         "points": 1,
         "options": [
@@ -11201,10 +11464,13 @@
           }
         ],
         "answerIds": [
-          "b"
+          "a",
+          "c",
+          "e"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 96"
       },
       {
         "id": "frage-097",
@@ -11240,10 +11506,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "b"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 98"
       },
       {
         "id": "frage-099",
@@ -11272,7 +11539,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 99"
       },
       {
         "id": "frage-100",
@@ -11297,9 +11565,12 @@
             "text": "grundsätzlich zum Ende des Folgemonats nach der letzten Regulierung zurückgestuft. Prüfung"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 100): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 100"
       },
       {
         "id": "frage-101",
@@ -11328,7 +11599,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 101"
       },
       {
         "id": "frage-102",
@@ -11354,10 +11626,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "d"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 102"
       },
       {
         "id": "frage-103",
@@ -11387,10 +11660,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "a"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 103"
       },
       {
         "id": "frage-104",
@@ -11419,7 +11693,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 104"
       },
       {
         "id": "frage-105",
@@ -11452,7 +11727,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 105"
       },
       {
         "id": "frage-106",
@@ -11485,7 +11761,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 106"
       },
       {
         "id": "frage-108",
@@ -11511,10 +11788,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "c"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 108"
       },
       {
         "id": "frage-109",
@@ -11540,10 +11818,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "a"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 109"
       },
       {
         "id": "frage-110",
@@ -11569,10 +11848,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "b"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 110"
       },
       {
         "id": "frage-111",
@@ -11598,10 +11878,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "c"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 111"
       },
       {
         "id": "frage-112",
@@ -11627,10 +11908,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "b"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 112"
       },
       {
         "id": "frage-113",
@@ -11656,10 +11938,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "d"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 113"
       },
       {
         "id": "frage-114",
@@ -11685,10 +11968,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "d"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 114"
       },
       {
         "id": "frage-115",
@@ -11713,9 +11997,12 @@
             "text": "trägt jede Prozesspartei die eigenen Rechtsanwaltskosten in der 1. Instanz grundsätzlich selbst. ~ Prüfung"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 115): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 115"
       },
       {
         "id": "frage-116",
@@ -11740,9 +12027,12 @@
             "text": "Ja, da der Privat-Rechtsschutz diesen Fall beinhaltet. Prüfung"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 116): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 116"
       },
       {
         "id": "frage-118",
@@ -11775,9 +12065,12 @@
             "text": "Ja, aber nur bis zum Abschluss des Verwaltungsverfahrens. Prüfung"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 118): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 118"
       }
     ]
   },
@@ -11809,9 +12102,12 @@
             "text": "Bei der Kategorie Stabilität ist ein Kapitalerhalt auf jeden Fall gewährleistet."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 1): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 1"
       },
       {
         "id": "frage-002",
@@ -11858,9 +12154,12 @@
             "text": "Der BUZ-Beitrag muss weniger als 50 % des Gesamtbeitrags betragen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 3): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 3"
       },
       {
         "id": "frage-004",
@@ -11885,9 +12184,12 @@
             "text": "nur Anspruch auf Beitragsbefreiung für die eingeschlossene Zusatzversicherung."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 4): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 4"
       },
       {
         "id": "frage-005",
@@ -11912,9 +12214,12 @@
             "text": "Sollte Herr Schärf nach dem 67. Lebensjahr versterben, erhält die Witwe die Rente, bis Herr Schärf 82 geworden wäre."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 5): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 5"
       },
       {
         "id": "frage-006",
@@ -11939,9 +12244,12 @@
             "text": "Entsprechende Beitragserhöhung des bestehenden Vertrages für die Restlaufzeit."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 6): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 6"
       },
       {
         "id": "frage-007",
@@ -11974,9 +12282,12 @@
             "text": "leisten, da in diesem Falle Selbsttötung mitversichert ist."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 7): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 7"
       },
       {
         "id": "frage-008",
@@ -12001,9 +12312,12 @@
             "text": "auf den Vertrag von Frau Sommer übertragen werden."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 8): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 8"
       },
       {
         "id": "frage-009",
@@ -12028,9 +12342,12 @@
             "text": "an die Erben des Ehemanns."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 9): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 9"
       },
       {
         "id": "frage-010",
@@ -12063,9 +12380,12 @@
             "text": "Basisrente) in Anspruch nehmen. nur bei Bezug einer Altersrente, frühestens jedoch mit dem vollendeten 63. Lebensjahr in Anspruch nehn"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 10): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 10"
       },
       {
         "id": "frage-011",
@@ -12094,9 +12414,12 @@
             "text": "er die Erträge in voller Höhe zu versteuern hat, sofern der Vertrag mindestens bis zur Vollendung des 62 Lebensjahres abgeschlossen wird."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 11): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 11"
       },
       {
         "id": "frage-012",
@@ -12121,9 +12444,12 @@
             "text": "Sparanteil des Beitrags kurzfristig gestundet, der Versicherungsschutz wird entsprechend reduziert."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 12): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 12"
       },
       {
         "id": "frage-013",
@@ -12148,9 +12474,12 @@
             "text": "den AktienfondsanteiJ erhöhen, um den Cast-Average-Effekt für die Risikominimierung zu nutzen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 13): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 13"
       },
       {
         "id": "frage-014",
@@ -12175,13 +12504,16 @@
             "text": "mit der Kapitalertragsteuer zu versteuern, da der Vertrag nach dem 62. Lebensjahr zur Auszahlung komn die Vertragslaufzeit mehr als 12 Jahre beträgt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 14): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 14"
       },
       {
         "id": "frage-015",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Private Vorsorge durch Lebens-, Renten- und Beruteunfätnqkertsversicherunq Herbert Sender (32) ist kaufmännischer Angestellter. Seit 5 Jahren hat er bei der Proximus AG eine kapitalbi Lebensversicherung mit einer Versicherungssumme in Höhe von 51.900,- € zum Endalter 63 mit laufender Beitragszahlung. Sie erfahren, dass er seine Versicherung kündigen möchte, weil er durch den Wechsel sein Arbeitsstelle weniger Einkommen für seine Altersvorsorge zur Verfügung hat. Zeigen Sie Herrn Sender die für ihn möglichen bedarfsgerechten Alternativen auf",
         "points": 1,
         "options": [
@@ -12206,9 +12538,13 @@
             "text": "Senkung des Beitrags durch Herabsetzung der Versicherungssumme"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b",
+          "e"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 15): B, E.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 15"
       },
       {
         "id": "frage-016",
@@ -12233,9 +12569,12 @@
             "text": "werden angesammelt, um nicht kalkulierte Kosten aufzufangen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 16): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 16"
       },
       {
         "id": "frage-017",
@@ -12283,13 +12622,16 @@
             "text": "Pflichtversicherte in Einrichtungen der berufsständischen Versorgung."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 18): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 18"
       },
       {
         "id": "frage-019",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Gesetzliche Rentenversicherung _,,._ -'1r.'.', Nach dem Tod von Bernd Frisch, der 20 Jahre lang in der Gesetzlichen Rentenversicherung (GRV) pflichtver war, führen Sie ein Gespräch mit seiner Witwe. Maria Frisch ist 39 Jahre alt, Hausfrau und hat einen 16-jähr Sohn (Schüler). Bei der Analyse ihrer Versorgungssituation informieren Sie Frau Frisch über ihre Witwenrentenansprüche au Sie erhält ...",
         "points": 1,
         "options": [
@@ -12310,9 +12652,13 @@
             "text": "die große Witwenrente, bis ihr Sohn volljährig ist."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b",
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 19): B, D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 19"
       },
       {
         "id": "frage-020",
@@ -12341,9 +12687,12 @@
             "text": "zunächst die kleine Witwenrente, ab Vollendung des 47. Lebensjahres unter Berücksichtigung der geset Übergangsfrist hat sie Anspruch auf die große Witwenrente."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 20): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 20"
       },
       {
         "id": "frage-021",
@@ -12364,9 +12713,12 @@
             "text": "der mindestens 25 Jahre alt ist, alle 3 Jahre eine Renteninformation erhält."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 21): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 21"
       },
       {
         "id": "frage-022",
@@ -12391,13 +12743,16 @@
             "text": "Beitragssatz, Bruttoarbeitsentgelt, Beitragsbemessungsgrenze"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 22): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 22"
       },
       {
         "id": "frage-023",
-        "type": "single",
+        "type": "multiple",
         "prompt": "Rentenversicherung _________.....;__....;;....;....=-.;....._..-- Sie sprechen mit Senem Yildirim über ihre Versorgungssituation im Alter. Die Themen „demographische Entw und „Generationenvertrag\" in der Gesetzlichen Rentenversicherung (GRV) beschäftigen Ihre Kundin. Welche Auswirkungen ergeben sich aus diesen beiden Themen für die GRV?",
         "points": 1,
         "options": [
@@ -12418,9 +12773,13 @@
             "text": "Die Geburtenrate liegt bereits seit Jahrzehnten oberhalb der Sterblichkeitsrate und belastet die GRV."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b",
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 23): B, C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 23"
       },
       {
         "id": "frage-024",
@@ -12445,9 +12804,12 @@
             "text": "nur für die geringfügige Beschäftigung im Juweliergeschäft befreien lassen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 24): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 24"
       },
       {
         "id": "frage-025",
@@ -12472,9 +12834,12 @@
             "text": "sozialversicherungsfrei, da sie 4 % der Beitragsbemessungsgrenze nicht überschreiten."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 25): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 25"
       },
       {
         "id": "frage-026",
@@ -12499,9 +12864,12 @@
             "text": "Nein, er ist von der Beitragszahlung befreit, da er gesetzlich versichert ist."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 26): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 26"
       },
       {
         "id": "frage-027",
@@ -12526,9 +12894,12 @@
             "text": "sozialversicherungsfrei."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 27): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 27"
       },
       {
         "id": "frage-028",
@@ -12553,9 +12924,12 @@
             "text": "übertarifliche Versorgungsleistungen erbringt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 28): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 28"
       },
       {
         "id": "frage-029",
@@ -12580,9 +12954,12 @@
             "text": "der Beitragsbemessungsgrenze in der gesetzlichen Rentenversicherung betragen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 29): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 29"
       },
       {
         "id": "frage-030",
@@ -12603,9 +12980,12 @@
             "text": "Ja, allerdings werden für jeden vorgezogenen Monat vor Vollendung des 65. Lebensjahres 0,3 % der Gesamtleistung abgezogen. Nein, Leistungen sind frühestens zum Ablauf bei Vollendung des 65. Lebensjahres möglich."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 30): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 30"
       },
       {
         "id": "frage-031",
@@ -12630,13 +13010,16 @@
             "text": "keine Leistung, da Bürgerkriegsereignisse außerhalb Europas nicht versichert sind."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 31): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 31"
       },
       {
         "id": "frage-032",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Unfallversicherung Rolf Schmitz hat in der Zeitung einen Aufruf zur Blutuntersuchung für ein leukämiekrankes Mädchen gelesen. Daraufhin fährt er am Sonntag zur zentralen Untersuchungsstelle, bei der geeignete Spender gefunden werde sollen. Während der Untersuchung stürzt er so schwer, dass eine Minderung der Erwerbsfähigkeit von 30 % Erhält Herr Schmitz aus der GesetzJichen Unfallversicherung (GUV) eine Verletztenrente?",
         "points": 1,
         "options": [
@@ -12661,9 +13044,13 @@
             "text": "Nein, weil der Vers.icherungsschutz der GUV ehrenamtliche Tätigkeiten ausschließt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c",
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 32): C, D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 32"
       },
       {
         "id": "frage-033",
@@ -12688,9 +13075,12 @@
             "text": "Nein, nur die direkte Strecke ist versichert."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 33): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 33"
       },
       {
         "id": "frage-034",
@@ -12715,9 +13105,12 @@
             "text": "der Einkommensteuerpflicht und wird mit dem Ertragsanteil versteuert."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 34): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 34"
       },
       {
         "id": "frage-035",
@@ -12742,9 +13135,12 @@
             "text": "eine Prüfung längstens innerhalb von 5 Jahren nach dem Unfall möglich ist."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 35): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 35"
       },
       {
         "id": "frage-036",
@@ -12769,9 +13165,12 @@
             "text": "Ab Volljährigkeit ihres Sohnes erhält sie die kleine Witwenrente, allerdings nur für 24 Monate."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 36): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 36"
       },
       {
         "id": "frage-037",
@@ -12796,9 +13195,12 @@
             "text": "Nein, weil die Gesundheitsschädigung nicht auf ein plötzliches Ereignis zurückgeht."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 37): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 37"
       },
       {
         "id": "frage-038",
@@ -12843,13 +13245,16 @@
             "text": "sieht der Gesetzgeber erst ab dem Pflegegrad 4 vor."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 41): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 41"
       },
       {
         "id": "frage-042",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Krankenversicherung/ Pflegeversicherung Sie beraten Lea Steiner zu einer Krankenkostenergänzungsversicherung. In diesem Zusammenhang kommer auf die Leistungseinschränkungen der Gesetzlichen Krankenversicherung zu sprechen. Sie nennen ihr versc Beispiele. Welche Einschränkungen gibt es?",
         "points": 1,
         "options": [
@@ -12874,13 +13279,18 @@
             "text": "Für Zahnersatz wird grundsätzlich nur die Hälfte der entstehenden Kosten gezahlt"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b",
+          "c",
+          "e"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 42): B, C, E.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 42"
       },
       {
         "id": "frage-043",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Krankenversicherung/ Pflegeversicherung Tim Wilkens hat als Arbeitnehmer bei Ihrer Gesellschaft seit Jahren eine Krankheitskostenvollversicherung (i Weitere Einkünfte bestehen nicht. Nach der Geburt des ersten Kindes hat seine gesetzlich krankenversicher",
         "points": 1,
         "options": [
@@ -12909,9 +13319,13 @@
             "text": "Sie kann sich freiwillig in der GKV versichern."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b",
+          "e"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 43): B, E.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 43"
       },
       {
         "id": "frage-044",
@@ -12936,9 +13350,12 @@
             "text": "Da sein Einkommen 1 /7 der monatlichen Bezugsgröße übersteigt, muss er im Rahmen der Familienversicherung eigene Beiträge entrichten."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 44): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 44"
       },
       {
         "id": "frage-045",
@@ -12971,9 +13388,12 @@
             "text": "können bei ihm in der beitragsfreien Familienversicherung bleiben oder gegen eigenen Beitrag in der PK versichert werden."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 45): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 45"
       },
       {
         "id": "frage-046",
@@ -12998,9 +13418,12 @@
             "text": "lediglich der Arbeitnehmeranteil zur Kranken- und Pflegeversicherung einbehalten."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 46): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 46"
       },
       {
         "id": "frage-047",
@@ -13025,9 +13448,12 @@
             "text": ") Durch die Mieteinnahmen entfällt die beitragsfreie Familienversicherung."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 47): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 47"
       },
       {
         "id": "frage-048",
@@ -13060,9 +13486,12 @@
             "text": "1 S.07. dieses Jahres, weil er eine 2-wöchige Kündigungsfrist bei der GKV einhalten muss."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 48): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 48"
       },
       {
         "id": "frage-049",
@@ -13087,9 +13516,12 @@
             "text": "Nein, eine Befreiung ist in der Familienpflegezeit nicht möglich."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 49): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 49"
       },
       {
         "id": "frage-050",
@@ -13114,9 +13546,12 @@
             "text": "nicht von der Versicherungspflicht in der GKV befreien lassen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 50): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 50"
       },
       {
         "id": "frage-051",
@@ -13141,9 +13576,12 @@
             "text": "der Tarif für die Personen vorgesehen ist, die nicht in der GKV aufgenommen werden können und aus gesundheitlichen Gründen nicht in den Haupttarifen einer PKV versicherbar sind."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 51): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 51"
       },
       {
         "id": "frage-053",
@@ -13168,9 +13606,12 @@
             "text": "beendet ist, da die Zahlungsfrist abgelaufen ist."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 53): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 53"
       },
       {
         "id": "frage-054",
@@ -13195,9 +13636,12 @@
             "text": "keine Zustimmung, da er in einem abhängigen Beschäftigungsverhältnis steht."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 54): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 54"
       },
       {
         "id": "frage-055",
@@ -13222,9 +13666,12 @@
             "text": "in vollem Umfang bedingungsgemäß reguliert."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 55): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 55"
       },
       {
         "id": "frage-056",
@@ -13249,9 +13696,12 @@
             "text": "Ja, wenn er der Beitrag innerhalb von 14 Tagen nach dem Unfall zahlt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 56): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 56"
       },
       {
         "id": "frage-057",
@@ -13276,9 +13726,12 @@
             "text": "Da der Brand durch ein gewerbliches Risiko entstanden ist, wird aus beiden Verträgen nicht geleistet."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 57): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 57"
       },
       {
         "id": "frage-058",
@@ -13330,9 +13783,12 @@
             "text": "Nein, das Ausspannen von Lebensversicherungsverträgen ist nicht gestattet."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 59): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 59"
       },
       {
         "id": "frage-060",
@@ -13357,13 +13813,16 @@
             "text": "frühestens zum Ablauf des Vertrags ordentlich gekündigt werden."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 60): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 60"
       },
       {
         "id": "frage-061",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Rechtliche Grundlage Sebastian Kaiser hat bei der Proximus AG eine Hausratversicherung. Nachdem Herr Kaiser innerhalb der vorgegebenen Frist nicht auf das qualifizierte Mahnschreiben reagierte, ist die Kündigung des Vertrages zum aA. ,~wegen Nichtzahlung der Folgeprämie wirksam geworden. Welche Möglichkeiten hat Herr Kaiser, um den Vertrag zu erhalten? Er kann den Vertrag erhalten, wenn er ...",
         "points": 1,
         "options": [
@@ -13384,13 +13843,18 @@
             "text": "den ausstehenden Betrag bis zum 01.07. zahlt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a",
+          "c",
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 61): A, C, D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 61"
       },
       {
         "id": "frage-062",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Rechtliche Grundlagen --------''-\"--.-~------ In Vorbereitung auf die IHK-Sachkundeprüfung setzen Sie sich mit dem Tätigkeitsinhalt des Versicherungsbe;. ircd-e-., auseinander. Welche korrekten Merkmale zählen Sie auf? Der Versicherungsberater kann ...",
         "points": 1,
         "options": [
@@ -13415,9 +13879,13 @@
             "text": "eine Courtage für seine Tätigkeit vom Versicherer erhalten."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c",
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 62): C, D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 62"
       },
       {
         "id": "frage-063",
@@ -13442,13 +13910,16 @@
             "text": "Da der Vertrag zustande gekommen ist, hat er ein Widerrufsrecht von 30 Tagen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 63): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 63"
       },
       {
         "id": "frage-064",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Rechtliche Grundlagen -----------~ Bei der Aufnahme eines Antrages auf eine Krankheitsergänzungsversicherung machen Sie Ihrem Kunden En Glasersfeld deutlich, dass eine Nichtanzeige von Vorerkrankungen eine Verletzung der vorvertraglichen Anzeigepflicht darstellt. Herr von Glasersfeld fragt, welche Möglichkeiten der Versicherer dann hat. Sie weisen ihn darauf hin, dass der Versicherer in diesem Fall ab Kenntnisnahme der Verletzung ...",
         "points": 1,
         "options": [
@@ -13473,9 +13944,13 @@
             "text": "den Vertrag innerhalb eines Monats kündigen kann .."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a",
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 64): A, D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 64"
       },
       {
         "id": "frage-065",
@@ -13500,9 +13975,12 @@
             "text": "ab dem Zeitpunkt der Mitteilung durch den Versicherungsnehmer eine höhere Prämie verlangen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 65): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 65"
       },
       {
         "id": "frage-066",
@@ -13527,9 +14005,12 @@
             "text": "ein außerordentliches Kündigungsrecht innerhalb eines Monats nach der Grundbuchumschreibung."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 66): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 66"
       },
       {
         "id": "frage-067",
@@ -13554,9 +14035,12 @@
             "text": "Es gelten die im. Antrag gemachten Angaben als vereinbart."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 67): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 67"
       },
       {
         "id": "frage-068",
@@ -13581,9 +14065,12 @@
             "text": "nicht wirksam, weil der Schaden bedingungsgemäß entschädigt wurde."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 68): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 68"
       },
       {
         "id": "frage-069",
@@ -13608,9 +14095,12 @@
             "text": "01.02. des nächsten Jahres"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 69): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 69"
       },
       {
         "id": "frage-070",
@@ -13635,9 +14125,12 @@
             "text": "Das Versicherungsunternehmen muss für alle Fehler einstehen, nimmt aber Regress beim Vermittler."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 70): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 70"
       },
       {
         "id": "frage-071",
@@ -13662,9 +14155,12 @@
             "text": "nicht ersetzt, da sich der Einbruchdiebstahl gemäß den Versicherungsbedingungen nur auf den Versicherungsart bezieht."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 71): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 71"
       },
       {
         "id": "frage-072",
@@ -13689,9 +14185,12 @@
             "text": "ursprünglichen Kaufpreis von 1.500,- € ersetzt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 72): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 72"
       },
       {
         "id": "frage-073",
@@ -13716,9 +14215,12 @@
             "text": "Nein, da das Bargeld nicht in einem Safe aufbewahrt wurde."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 73): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 73"
       },
       {
         "id": "frage-074",
@@ -13747,9 +14249,12 @@
             "text": "Ja, da Hausrat außerhalb des Hauses im Rahmen der Außenversicherung mitversichert ist."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 74): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 74"
       },
       {
         "id": "frage-075",
@@ -13774,9 +14279,12 @@
             "text": "den Preis der versicherten Sache beim ursprünglichen Kauf."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 75): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 75"
       },
       {
         "id": "frage-076",
@@ -13805,9 +14313,12 @@
             "text": "keine Entschädigung."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 76): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 76"
       },
       {
         "id": "frage-077",
@@ -13832,9 +14343,12 @@
             "text": "den Zeitwert am Schadentag."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 77): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 77"
       },
       {
         "id": "frage-078",
@@ -13859,9 +14373,12 @@
             "text": "im Rahmen der Außenversicherung zum Neuwert bis maximal 5.100,-€ ersetzt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 78): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 78"
       },
       {
         "id": "frage-079",
@@ -13886,9 +14403,12 @@
             "text": "über die Außenversicherung eine Entschädigung in voller Höhe."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 79): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 79"
       },
       {
         "id": "frage-080",
@@ -13913,9 +14433,12 @@
             "text": "sofort auf Grund der Vorsorgeversicherung."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 80): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 80"
       },
       {
         "id": "frage-082",
@@ -13940,9 +14463,12 @@
             "text": "Tariflohnindex für das Baugewerbe."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 82): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 82"
       },
       {
         "id": "frage-083",
@@ -13967,9 +14493,12 @@
             "text": "Glasbruchschäden durch Sturmeinwirkung generell nicht versichert sind."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 83): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 83"
       },
       {
         "id": "frage-084",
@@ -13994,9 +14523,12 @@
             "text": "Ja, diese Kosten sind bis zu einem bestimmten Prozentsatz der Versicherungssumme mitversichert."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 84): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 84"
       },
       {
         "id": "frage-086",
@@ -14021,9 +14553,12 @@
             "text": "bleibt nur dann erhalten, wenn das Haus innerhalb von 2 Jahren wieder aufgebaut wird."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 86): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 86"
       },
       {
         "id": "frage-087",
@@ -14052,9 +14587,12 @@
             "text": "3.000,-€"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 87): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 87"
       },
       {
         "id": "frage-088",
@@ -14089,9 +14627,12 @@
             "text": "da es sich um einen Leitungswasserschaden handelt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 89): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 89"
       },
       {
         "id": "frage-090",
@@ -14116,9 +14657,12 @@
             "text": "kein Versicherungsschutz, weil der Blitz nicht unmittelbar in sein Wohngebäude eingeschlagen hat."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 90): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 90"
       },
       {
         "id": "frage-091",
@@ -14143,9 +14687,12 @@
             "text": "den gesamten Schaden."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 91): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 91"
       },
       {
         "id": "frage-092",
@@ -14170,9 +14717,12 @@
             "text": "Nur die Wohnzimmerscheibe wird ersetzt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 92): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 92"
       },
       {
         "id": "frage-093",
@@ -14197,9 +14747,12 @@
             "text": "im Rahmen der Vorsorge bis zur nächsten Hauptfälligkeit Versicherungsschutz besteht."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 93): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 93"
       },
       {
         "id": "frage-094",
@@ -14224,13 +14777,16 @@
             "text": "Ja, weil Schäden durch Glasbruch und Zusammenstoß mit Tieren versichert sind."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 94): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 94"
       },
       {
         "id": "frage-095",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Kraftfahrtvers~herun_g~m~~--------------------- Ihr Kunde Klaus Wächter möchte seinen gerade erworbenen Gebrauchtwagen gegen Diebstahl versichern. Er fragt Sie, welche Entschädigung er bei einem Diebstahl des Fahrzeugs erhält. Er erhält den Wiederbeschaffungswert, das heißt den ...",
         "points": 1,
         "options": [
@@ -14255,9 +14811,13 @@
             "text": "Kaufpreis für das gleiche Fahrzeug am Tag des Schadens."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b",
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 95): B, C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 95"
       },
       {
         "id": "frage-096",
@@ -14282,9 +14842,12 @@
             "text": "erst nach erfolgter Zulassung und Erteilung der vorläufigen Deckung teilnehmen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 96): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 96"
       },
       {
         "id": "frage-097",
@@ -14309,9 +14872,12 @@
             "text": "keine Rückstufung erfolgt, da der Vollkaskoversicherer die Entschädigung im Rahmen des Regresses be Unfallverursacher einfordern kann."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 97): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 97"
       },
       {
         "id": "frage-098",
@@ -14359,9 +14925,12 @@
             "text": "Der Versicherer muss den Antrag annehmen, kann aber die Vollkaskoversicherung ablehnen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 99): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 99"
       },
       {
         "id": "frage-100",
@@ -14386,9 +14955,12 @@
             "text": "Der Versicherer wird die Entschädigung aufgrund der hohen Alkoholkonzentration ablehnen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 100): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 100"
       },
       {
         "id": "frage-101",
@@ -14413,9 +14985,12 @@
             "text": "Keine Deckung führt immer auch zu keiner Haftung."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 101): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 101"
       },
       {
         "id": "frage-102",
@@ -14440,9 +15015,12 @@
             "text": "Der gesamte Schaden wird ersetzt, da es sich um einen versicherten Mietsachschaden handelt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 102): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 102"
       },
       {
         "id": "frage-103",
@@ -14467,9 +15045,12 @@
             "text": "Nein, da der Sohn noch nicht deliktsfähig ist."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 103): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 103"
       },
       {
         "id": "frage-104",
@@ -14494,9 +15075,12 @@
             "text": "Ja, weil die Ausübung eines leitenden Ehrenamtes als besonders schütz.enswert gilt und somit immer ve1 ist."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 104): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 104"
       },
       {
         "id": "frage-105",
@@ -14525,9 +15109,12 @@
             "text": "nicht übernommen, da das Ehepaar Jung keinen Arbeitsvertrag mit der Babysitterin geschlossen hat."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 105): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 105"
       },
       {
         "id": "frage-106",
@@ -14556,9 +15143,12 @@
             "text": "Dieses Risiko sollte mit sofortiger Wirkung in seinen bestehenden Vertrag eingeschlossen werden."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 106): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 106"
       },
       {
         "id": "frage-107",
@@ -14583,9 +15173,12 @@
             "text": "Es besteht kein Versicherunqsschutz,"
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 107): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 107"
       },
       {
         "id": "frage-108",
@@ -14610,9 +15203,12 @@
             "text": "Ziegen gelten als landwirtschaftliche Nutztiere und müssen daher immer gesondert versichert werden."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 108): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 108"
       },
       {
         "id": "frage-110",
@@ -14637,9 +15233,12 @@
             "text": "Keinen der Schäden."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 110): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 110"
       },
       {
         "id": "frage-112",
@@ -14664,9 +15263,12 @@
             "text": "Nein, da gegen Unbekannte die Leistungsvoraussetzungen der Forderungsausfalldeckung nicht erbracht werden können."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 112): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 112"
       },
       {
         "id": "frage-113",
@@ -14691,9 +15293,12 @@
             "text": "Nein, da Streitigkeiten aus der selbstständigen Tätigkeit ausgeschlossen sind."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 113): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 113"
       },
       {
         "id": "frage-114",
@@ -14718,9 +15323,12 @@
             "text": "Sie wollen eine Reisepreisminderung gegenüber dem Reiseveranstalter wegen Nichterbringung vertragli Leistungen vor Gericht erwirken."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 114): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 114"
       },
       {
         "id": "frage-115",
@@ -14749,9 +15357,12 @@
             "text": "Ja, sofern sie noch unverheiratet ist und mit ihrer Mutter in häuslicher Gemeinschaft lebt."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "b"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 115): B.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 115"
       },
       {
         "id": "frage-116",
@@ -14776,9 +15387,12 @@
             "text": "Beide Gesellschaften aufgrund des Teilungsabkommens."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "a"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 116): A.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 116"
       },
       {
         "id": "frage-117",
@@ -14803,9 +15417,12 @@
             "text": "Ja, weil Herr Sinters zum versicherten Personenkreis gehört."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 117): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 117"
       },
       {
         "id": "frage-118",
@@ -14830,9 +15447,12 @@
             "text": "Nein, weil in diesem Fall die außergerichtlichen Kosten nicht übernommen werden."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "d"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 118): D.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 118"
       }
     ]
   },
@@ -14843,7 +15463,7 @@
     "questions": [
       {
         "id": "frage-001",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Private Vorsorge durch Lebens-, Renten- und Berufsunfähiqkettsversicherunq · - \"ftllll\"'TI ---, Ihr Kunde Thorsten Müller hat bei der Proximus AG eine Risiko-Lebensversicherung mit Berufsunfähigkeitszusatzversicherung abgeschlossen. Welche Leistungen werden aus diesem Vertrag erbracht?",
         "points": 1,
         "options": [
@@ -14868,9 +15488,13 @@
             "text": "Bei nachgewiesener Berufsunfähigkeit erfolgt eine Beitragsbefreiung für die Hauptversicherung und die eingeschlossene Zusatzversicherung"
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "d",
+          "e"
+        ],
         "solution": "Musterlösung: 4,5. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 1"
       },
       {
         "id": "frage-002",
@@ -14899,7 +15523,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 2"
       },
       {
         "id": "frage-003",
@@ -14934,7 +15559,8 @@
           "e"
         ],
         "solution": "Richtige Antwort: C, D, E.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 3"
       },
       {
         "id": "frage-004",
@@ -14963,7 +15589,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 4"
       },
       {
         "id": "frage-005",
@@ -14993,7 +15620,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: C, D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 5"
       },
       {
         "id": "frage-006",
@@ -15027,7 +15655,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: B, C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 6"
       },
       {
         "id": "frage-007",
@@ -15056,7 +15685,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 7"
       },
       {
         "id": "frage-008",
@@ -15095,7 +15725,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 9"
       },
       {
         "id": "frage-010",
@@ -15124,7 +15755,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 10"
       },
       {
         "id": "frage-011",
@@ -15153,7 +15785,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 11"
       },
       {
         "id": "frage-012",
@@ -15187,7 +15820,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: B, D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 12"
       },
       {
         "id": "frage-013",
@@ -15216,7 +15850,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 13"
       },
       {
         "id": "frage-014",
@@ -15268,7 +15903,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 15"
       },
       {
         "id": "frage-016",
@@ -15307,7 +15943,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 17"
       },
       {
         "id": "frage-018",
@@ -15336,7 +15973,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 18"
       },
       {
         "id": "frage-019",
@@ -15365,7 +16003,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 19"
       },
       {
         "id": "frage-020",
@@ -15394,7 +16033,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 20"
       },
       {
         "id": "frage-021",
@@ -15423,7 +16063,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 21"
       },
       {
         "id": "frage-022",
@@ -15452,7 +16093,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 22"
       },
       {
         "id": "frage-023",
@@ -15481,7 +16123,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 23"
       },
       {
         "id": "frage-024",
@@ -15510,7 +16153,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 24"
       },
       {
         "id": "frage-025",
@@ -15549,7 +16193,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 26"
       },
       {
         "id": "frage-027",
@@ -15578,7 +16223,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 27"
       },
       {
         "id": "frage-028",
@@ -15607,7 +16253,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 28"
       },
       {
         "id": "frage-029",
@@ -15640,7 +16287,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 29"
       },
       {
         "id": "frage-030",
@@ -15674,7 +16322,8 @@
           "e"
         ],
         "solution": "Richtige Antwort: B, E.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 30"
       },
       {
         "id": "frage-031",
@@ -15703,7 +16352,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 31"
       },
       {
         "id": "frage-033",
@@ -15738,7 +16388,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 35"
       },
       {
         "id": "frage-036",
@@ -15771,7 +16422,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 36"
       },
       {
         "id": "frage-037",
@@ -15800,7 +16452,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 37"
       },
       {
         "id": "frage-038",
@@ -15829,7 +16482,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 38"
       },
       {
         "id": "frage-039",
@@ -15858,7 +16512,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 39"
       },
       {
         "id": "frage-040",
@@ -15887,7 +16542,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 40"
       },
       {
         "id": "frage-041",
@@ -15926,7 +16582,8 @@
           "e"
         ],
         "solution": "Richtige Antwort: A, B, E.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 41"
       },
       {
         "id": "frage-042",
@@ -15951,7 +16608,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 42"
       },
       {
         "id": "frage-043",
@@ -15990,7 +16648,8 @@
           "f"
         ],
         "solution": "Richtige Antwort: A, C, F.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 43"
       },
       {
         "id": "frage-044",
@@ -16019,7 +16678,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 44"
       },
       {
         "id": "frage-045",
@@ -16048,7 +16708,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 45"
       },
       {
         "id": "frage-046",
@@ -16077,7 +16738,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 46"
       },
       {
         "id": "frage-047",
@@ -16114,7 +16776,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 47"
       },
       {
         "id": "frage-048",
@@ -16155,7 +16818,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 48"
       },
       {
         "id": "frage-049",
@@ -16184,7 +16848,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 49"
       },
       {
         "id": "frage-050",
@@ -16218,7 +16883,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: C, D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 50"
       },
       {
         "id": "frage-051",
@@ -16247,7 +16913,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 51"
       },
       {
         "id": "frage-052",
@@ -16276,7 +16943,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 52"
       },
       {
         "id": "frage-053",
@@ -16305,7 +16973,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 53"
       },
       {
         "id": "frage-054",
@@ -16334,7 +17003,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 54"
       },
       {
         "id": "frage-055",
@@ -16363,7 +17033,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 55"
       },
       {
         "id": "frage-056",
@@ -16392,7 +17063,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 56"
       },
       {
         "id": "frage-057",
@@ -16421,7 +17093,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 57"
       },
       {
         "id": "frage-058",
@@ -16450,7 +17123,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 58"
       },
       {
         "id": "frage-059",
@@ -16479,7 +17153,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 59"
       },
       {
         "id": "frage-060",
@@ -16508,7 +17183,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 60"
       },
       {
         "id": "frage-061",
@@ -16537,7 +17213,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 61"
       },
       {
         "id": "frage-062",
@@ -16566,7 +17243,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 62"
       },
       {
         "id": "frage-063",
@@ -16595,7 +17273,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 63"
       },
       {
         "id": "frage-064",
@@ -16630,7 +17309,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: A, B, C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 64"
       },
       {
         "id": "frage-065",
@@ -16659,7 +17339,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 65"
       },
       {
         "id": "frage-067",
@@ -16688,7 +17369,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 67"
       },
       {
         "id": "frage-068",
@@ -16717,7 +17399,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 68"
       },
       {
         "id": "frage-069",
@@ -16753,7 +17436,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: A, B, C, D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 69"
       },
       {
         "id": "frage-070",
@@ -16788,7 +17472,8 @@
           "e"
         ],
         "solution": "Richtige Antwort: A, D, E.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 70"
       },
       {
         "id": "frage-071",
@@ -16817,7 +17502,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 71"
       },
       {
         "id": "frage-072",
@@ -16846,7 +17532,8 @@
           "d"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 72"
       },
       {
         "id": "frage-073",
@@ -16875,7 +17562,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 73"
       },
       {
         "id": "frage-074",
@@ -16904,7 +17592,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 74"
       },
       {
         "id": "frage-075",
@@ -16943,7 +17632,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 76"
       },
       {
         "id": "frage-077",
@@ -16992,7 +17682,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 80"
       },
       {
         "id": "frage-081",
@@ -17021,7 +17712,8 @@
           "b"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 81"
       },
       {
         "id": "frage-082",
@@ -17050,7 +17742,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 82"
       },
       {
         "id": "frage-084",
@@ -17079,7 +17772,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 84"
       },
       {
         "id": "frage-085",
@@ -17108,7 +17802,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 85"
       },
       {
         "id": "frage-086",
@@ -17134,10 +17829,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "b"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 86"
       },
       {
         "id": "frage-087",
@@ -17166,7 +17862,8 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 87"
       },
       {
         "id": "frage-088",
@@ -17195,11 +17892,12 @@
           "a"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 88"
       },
       {
         "id": "frage-089",
-        "type": "multiple",
+        "type": "single",
         "prompt": "1 Gebäudeversicherung ~--------\"\"'---~~~~ Ihr Kunde Maria Conrad ruft Sie an, da heute Morgen die Gasheizungsanlage im Keller seines Einfamilienhai auf Grund von Materialermüdung explodiert ist. Gebrannt hat es allerdings nicht. Ihren Unterlagen entnehmen dass sein Wohngebäude nur gegen die Gefahr Feuer versichert ist. Herr Conrad möchte nun wissen, wie der Schaden reguliert wird. Der Schaden wird ...",
         "points": 1,
         "options": [
@@ -17220,9 +17918,12 @@
             "text": "nicht erstattet, da er seiner Sorgfaltspflicht nicht nachgekommen ist."
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "a"
+        ],
         "solution": "Lösungsschlüssel uneindeutig auf die erkannten Optionen abbildbar; nicht übernommen.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 89"
       },
       {
         "id": "frage-090",
@@ -17244,10 +17945,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "a"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 90"
       },
       {
         "id": "frage-091",
@@ -17297,9 +17999,12 @@
             "text": "Der Versicherer zahlt keine Entschädigung, weil die Anzeigepflicht abgelaufen ist."
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "c"
+        ],
         "solution": "Musterlösung: 6550. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 92"
       },
       {
         "id": "frage-093",
@@ -17325,10 +18030,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "d"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 93"
       },
       {
         "id": "frage-094",
@@ -17363,13 +18069,16 @@
             "text": "nur den Sachschaden ersetzen."
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "a"
+        ],
         "solution": "Musterlösung: 9500. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 95"
       },
       {
         "id": "frage-096",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Kraftfahrtversicherung Auf dem Weg zur Arbeit war Karsten Jochmann kurz abgelenkt und ist mit seinem PKW eine Böschung heruntergestürzt. Die Frontscheibe und beide Scheinwerfer sind zerstört, die Karosserie des Fahrzeugs ist v und ein Vorderreifen Ist platt. Für sein Fahrzeug bestehen eine Haftpflicht- und eine Teilkaskoversicherung ol Selbstbeteiligung. Welche Beschädigungen bekommt Herr Jochmann ersetzt?",
         "points": 1,
         "options": [
@@ -17395,10 +18104,13 @@
           }
         ],
         "answerIds": [
-          "a"
+          "a",
+          "c",
+          "e"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 96"
       },
       {
         "id": "frage-097",
@@ -17434,14 +18146,15 @@
           }
         ],
         "answerIds": [
-          "b"
+          "a"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 98"
       },
       {
         "id": "frage-099",
-        "type": "multiple",
+        "type": "single",
         "prompt": "1 Kraftfahrtversicherung Volker Lindner hat vor 2 Jahren für seinen PKW eine Vollkaskoversicherung abgeschlossen. Jetzt hat er an : Wohnort einen Unfall verursacht. Berufsbedingt muss Herr Lindner für die Dauer der Reparatur seines PKW~ Mietwagen nehmen. Er erkundigt sich bei Ihnen, ob der Versicherer die Kosten für den Mietwagen übernimmt.",
         "points": 1,
         "options": [
@@ -17462,9 +18175,12 @@
             "text": "Nein, er kann bedingungsgemäß lediglich Nutzungsausfall beanspruchen."
           }
         ],
-        "answerIds": [],
+        "answerIds": [
+          "c"
+        ],
         "solution": "Lösungsschlüssel uneindeutig auf die erkannten Optionen abbildbar; nicht übernommen.",
-        "manualGrade": true
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 99"
       },
       {
         "id": "frage-100",
@@ -17490,10 +18206,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "b"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 100"
       },
       {
         "id": "frage-102",
@@ -17519,10 +18236,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "a"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 102"
       },
       {
         "id": "frage-103",
@@ -17548,10 +18266,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "b"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 103"
       },
       {
         "id": "frage-104",
@@ -17577,10 +18296,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "c"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 104"
       },
       {
         "id": "frage-105",
@@ -17606,14 +18326,15 @@
           }
         ],
         "answerIds": [
-          "b"
+          "c"
         ],
         "solution": "Richtige Antwort: B.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 105"
       },
       {
         "id": "frage-106",
-        "type": "multiple",
+        "type": "single",
         "prompt": "Haftpflichtversicherung ..•....... ··-\"··•--•-··• . •· ., . . - , •. • .~ .. ~-- ·····\"·-·«.,..,-.t ..:z=: .. ,~..:.m:_. , __:.s;;,::::::. . .:;rm rn m,□ :.m.m;;:a Bei einem Termin mit Ihrem Kunden Pedro Martinez erzählt dieser Ihnen, dass sein Sohn und die Schwiegert für 2 Wochen nach Südamerika reisen. In dieser Zeit wird die 4-jährige Enkelin bei Herrn Martinez wohnen. Ihr Kunde möchte wissen, wer haftet, wenn seine Enkelin in dieser Zeit einen Dritten schädigt.",
         "points": 1,
         "options": [
@@ -17635,16 +18356,15 @@
           }
         ],
         "answerIds": [
-          "a",
-          "b",
-          "c"
+          "a"
         ],
         "solution": "Richtige Antwort: A, B, C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 106"
       },
       {
         "id": "frage-108",
-        "type": "single",
+        "type": "multiple",
         "prompt": "1 Haftpflichtversicherung z_ -- ------'--- ... ,~,---~~ Ihr langjähriger Kunde Wilhelm Krause hat bei Ihnen eine Privathaftpflichtversicherung und ist begeisterter Wassersportler. Da er nicht sicher ist, ob Versicherungsschutz für alle durch den Gebrauch seiner eigenen Sportgeräte verursachten Schäden gegeben ist, bittet er Sie um Aufklärung. Welche Information hinsichtlich seiner Sportgeräte geben Sie Ihrem Kunden richtigerweise? Versicherungsschutz besteht bei dem Gebrauch von ...",
         "points": 1,
         "options": [
@@ -17670,10 +18390,13 @@
           }
         ],
         "answerIds": [
+          "a",
+          "b",
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 108"
       },
       {
         "id": "frage-109",
@@ -17699,10 +18422,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "d"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 109"
       },
       {
         "id": "frage-110",
@@ -17731,7 +18455,8 @@
           "c"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 110"
       },
       {
         "id": "frage-111",
@@ -17757,10 +18482,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "a"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 111"
       },
       {
         "id": "frage-112",
@@ -17786,10 +18512,11 @@
           }
         ],
         "answerIds": [
-          "a"
+          "c"
         ],
         "solution": "Richtige Antwort: A.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 112"
       },
       {
         "id": "frage-113",
@@ -17815,10 +18542,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "c"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 113"
       },
       {
         "id": "frage-114",
@@ -17844,10 +18572,11 @@
           }
         ],
         "answerIds": [
-          "d"
+          "a"
         ],
         "solution": "Richtige Antwort: D.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 114"
       },
       {
         "id": "frage-115",
@@ -17873,10 +18602,11 @@
           }
         ],
         "answerIds": [
-          "c"
+          "d"
         ],
         "solution": "Richtige Antwort: C.",
-        "manualGrade": false
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 115"
       },
       {
         "id": "frage-118",
@@ -17901,9 +18631,12 @@
             "text": "Nein, der Fahrer-Rechtsschutz gi:lt nur für das Führen von Fahrzeugen."
           }
         ],
-        "answerIds": [],
-        "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-        "manualGrade": true
+        "answerIds": [
+          "c"
+        ],
+        "solution": "Musterlösung laut IHK-Lösungsblatt (Frage 118): C.",
+        "manualGrade": false,
+        "sourceNotes": "IHK-Lösungsblatt, Frage 118"
       }
     ]
   }
