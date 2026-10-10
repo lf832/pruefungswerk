@@ -29,3 +29,46 @@
 .wissen-card summary::after{content:'+';color:var(--moss);font-weight:800;font-size:17px}
 .wissen-card[open] summary::after{content:'\2212'}
 .wissen-card p{margin:0;padding:9px 15px;font-size:13px;line-height:1.6;border-top:1px solid var(--line)}
+.diary-card{margin-top:22px;background:var(--deep);color:#fff;border-radius:7px;padding:24px 26px 18px}
+.diary-main{display:flex;gap:22px;align-items:center}
+.diary-ring-wrap{position:relative;flex:0 0 auto;width:118px;height:118px}
+.diary-ring circle:last-child{transition:stroke-dashoffset .6s}
+.diary-ring-label{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.diary-ring-label b{font-size:24px;letter-spacing:-1px}.diary-ring-label small{font:8px var(--mono);letter-spacing:1.4px;color:#9daf9e}
+.diary-copy h2{margin:0 0 6px;font-size:24px;letter-spacing:-1px}.diary-copy .eyebrow{margin-bottom:8px}
+.diary-sub{margin:0 0 14px;font-size:13px;line-height:1.6;color:#c2d0c8}
+.diary-streak{display:inline-block;margin-left:4px;padding:2px 8px;border-radius:20px;background:rgba(230,131,98,.2);color:#ffc2ad;font-weight:700;font-size:11px}
+.diary-actions{display:flex;gap:8px;flex-wrap:wrap}
+.button-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.25)}
+.button-coral{background:var(--coral);color:#fff}
+.diary-week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:20px}
+.dw-day{display:flex;flex-direction:column;align-items:center;gap:4px}
+.dw-bar{width:100%;max-width:34px;height:52px;border-radius:5px;background:rgba(255,255,255,.08);display:flex;align-items:flex-end;overflow:hidden}
+.dw-bar span{display:block;width:100%;background:var(--coral);border-radius:5px 5px 0 0;transition:height .5s}
+.dw-day.is-done .dw-bar span{background:var(--lime)}
+.dw-day b{font-size:11px;color:#c2d0c8}.dw-day.is-done b{color:var(--lime)}
+.dw-day small{font:9px var(--mono);letter-spacing:1px;color:#9daf9e}.dw-day.is-today small{color:#fff;font-weight:700}
+.dw-day.is-future{opacity:.45}
+.diary-weeksum{margin:14px 0 0;font-size:12px;color:#9daf9e}.diary-weeksum b{color:#fff}
+.dv-panel{background:var(--card);border:1px solid var(--line);border-radius:7px;padding:16px;margin-top:14px}
+.dv-panel .diary-week .dw-bar{background:#eef0e8}.dv-panel .dw-day b{color:var(--muted)}.dv-panel .dw-day.is-done b{color:var(--moss)}.dv-panel .dw-day.is-done .dw-bar span{background:#9cc23a}.dv-panel .dw-day small{color:var(--muted)}.dv-panel .dw-day.is-today small{color:var(--ink)}
+.dv-goal{display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap}
+.dv-goal label,.dv-form label{display:flex;flex-direction:column;gap:5px;font-size:11px;font-weight:700;color:var(--muted)}
+.dv-goal label{width:92px}.dv-goal label.grow{flex:1;min-width:180px}
+.dv-panel input,.dv-panel textarea{border:1px solid var(--line);background:#fff;border-radius:5px;padding:11px 12px;font-size:16px;color:var(--ink);font-family:var(--sans);width:100%}
+.dv-form{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}.dv-form .full{grid-column:1/-1}
+.dv-presets{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:transparent;border-radius:30px;padding:7px 13px;font-size:12px;font-weight:700}
+.chip-on{background:var(--deep);color:var(--lime);border-color:var(--deep)}
+.dv-run{margin:0 0 10px;font-size:13px}.dv-run b{color:var(--coral)}
+.dv-h{margin:26px 0 4px;font-size:18px}
+.dv-day{margin-top:12px;border:1px solid var(--line);border-radius:7px;background:var(--card);overflow:hidden}
+.dv-day-head{display:flex;justify-content:space-between;padding:10px 14px;background:#eef0e8;font-size:12px;font-weight:700}
+.dv-day-head .ok{color:var(--moss)}.dv-day-head .no{color:var(--coral)}
+.dv-entry{display:flex;justify-content:space-between;gap:10px;padding:11px 14px;border-top:1px solid var(--line)}
+.dv-entry strong{display:block;font-size:13px}.dv-entry small{font:10px var(--mono);color:var(--muted)}
+.dv-entry p{margin:6px 0 0;font-size:12px;line-height:1.55;color:#4c5a55}
+.dv-entry-act{display:flex;gap:4px;align-items:flex-start}
+.dv-entry-act button{border:1px solid var(--line);background:transparent;width:32px;height:32px;border-radius:50%;font-size:14px}
+@media(max-width:760px){.diary-card{margin-top:16px;padding:20px 18px 16px}.diary-main{gap:16px}.diary-ring-wrap,.diary-ring{width:96px;height:96px}.diary-copy h2{font-size:20px}.diary-actions .button{padding:11px 13px}.mobile-nav a,.mobile-nav button{padding:3px 6px}}
+@media(max-width:390px){.diary-main{flex-direction:column;align-items:flex-start}}

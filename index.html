@@ -49,6 +49,9 @@
           <div class="stats-note"><span class="mini-spark">✳</span><span>Dein Fortschritt bleibt<br>bei deinem Profil.</span></div>
         </section>
 
+
+        <section class="diary-card" id="diaryCard" aria-label="Tagesziel"></section>
+
         <section class="section-block exam-section">
           <div class="section-heading"><div><p class="eyebrow muted">DEINE SAMMLUNG</p><h2>Prüfungen</h2></div><button class="text-button" id="importButton">＋ Prüfung hinzufügen</button></div>
           <div id="examGrid" class="exam-grid"></div>
@@ -67,8 +70,9 @@
 
       <section id="quizView" class="view" hidden></section>
       <section id="wissenView" class="view" hidden></section>
+      <section id="diaryView" class="view" hidden></section>
     </main>
-    <nav class="mobile-nav" aria-label="Hauptnavigation"><a class="nav-active" href="#start"><span>⌂</span>Übersicht</a><button id="navExams"><span>▤</span>Prüfungen</button><button id="navWissen"><span>✎</span>Wissen</button><button id="navStats"><span>◷</span>Statistik</button></nav>
+    <nav class="mobile-nav" aria-label="Hauptnavigation"><a class="nav-active" href="#start"><span>⌂</span>Übersicht</a><button id="navExams"><span>▤</span>Prüfungen</button><button id="navWissen"><span>✎</span>Wissen</button><button id="navDiary"><span>◔</span>Tagebuch</button><button id="navStats"><span>◷</span>Statistik</button></nav>
   </div>
   <input id="examFileInput" type="file" accept="application/json,.json" hidden>
   <input id="progressFileInput" type="file" accept="application/json,.json" hidden>
