@@ -21,13 +21,21 @@
       </a>
       <div class="top-actions">
         <label class="profile-select-wrap"><span class="sr-only">Lernprofil wählen</span><select id="profileSelect" aria-label="Lernprofil"></select></label>
-        <button class="avatar" id="profileMenuButton" aria-label="Profilverwaltung öffnen"><span id="avatarInitial">L</span></button>
+        <button class="avatar" id="settingsButton" aria-label="Einstellungen">⚙</button><button class="avatar" id="profileMenuButton" aria-label="Profilverwaltung öffnen"><span id="avatarInitial">L</span></button>
       </div>
     </header>
 
     <main id="app" tabindex="-1">
       <section id="homeView" class="view">
         <section id="resumeCard" class="resume-card" hidden></section>
+        <section id="quickCard" class="quick-card" hidden>
+          <div class="quick-row">
+            <button class="button button-dark" id="quickRandom">🎲 Zufallsquiz</button>
+            <button class="button button-outline" id="quickWrong">Fehlerkorb <b id="quickWrongN">0</b></button>
+            <button class="button button-outline" id="quickMarked">Merkliste <b id="quickMarkedN">0</b></button>
+          </div>
+          <div class="quick-search"><input id="qSearch" type="search" placeholder="Fragen durchsuchen …" autocomplete="off"><div id="qResults" class="q-results"></div></div>
+        </section>
         <div class="hero">
           <div class="hero-copy">
             <p class="eyebrow"><span class="live-dot"></span> DEIN LERNPLATZ · IHK</p>
@@ -66,7 +74,7 @@
           <div><span class="tool-icon">↗</span><div><strong>Prüfungsdaten übertragen</strong><p>Prüfungen als Datei zwischen euren iPhones teilen.</p></div><button class="icon-button" id="exportExamsButton" aria-label="Prüfungen exportieren">↓</button></div>
           <div><span class="tool-icon">▤</span><div><strong>Lernstand sichern</strong><p>Deine Statistik exportieren oder wiederherstellen.</p></div><button class="icon-button" id="importProgressButton" aria-label="Lernstand importieren">↑</button><button class="icon-button" id="exportProgressButton" aria-label="Lernstand exportieren">↓</button></div>
         </section>
-        <footer><span>PRÜFUNGSWERK · IHK LERNTRAINER · <b id="appVersion">v12</b></span><button id="helpButton">Hilfe & Datenformat</button></footer>
+        <footer><span>PRÜFUNGSWERK · IHK LERNTRAINER · <b id="appVersion">v13</b></span><button id="helpButton">Hilfe & Datenformat</button></footer>
       </section>
 
       <section id="quizView" class="view" hidden></section>
@@ -105,6 +113,13 @@
   }]
 }</pre>
     <p class="note-small">Fragetypen: <b>single</b> (eine Auswahl), <b>multiple</b> (mehrere), <b>text</b> (Freitext mit Selbstbewertung). Nutzt ausschließlich eure eigenen Unterlagen bzw. Materialien, die ihr verwenden dürft.</p>
+  </dialog>
+  <dialog id="settingsDialog" class="modal">
+    <form method="dialog" class="modal-head"><div><p class="eyebrow muted">DARSTELLUNG</p><h2>Einstellungen</h2></div><button class="close-button" aria-label="Schließen">×</button></form>
+    <p class="note-small"><b>Schriftgröße</b></p><div class="help-actions"><button class="button button-outline" data-fs="0" type="button">A</button><button class="button button-outline" data-fs="1" type="button">A+</button><button class="button button-outline" data-fs="2" type="button">A++</button></div>
+    <p class="note-small"><b>Design</b></p><div class="help-actions"><button class="button button-outline" data-theme="auto" type="button">Automatisch</button><button class="button button-outline" data-theme="light" type="button">Hell</button><button class="button button-outline" data-theme="dark" type="button">Dunkel</button></div>
+    <p class="note-small"><b>Zeit im Prüfungsmodus (Minuten)</b></p><div class="new-profile"><input id="setExamMin" type="number" min="10" max="240" step="5" value="90" inputmode="numeric"><button class="button button-dark" id="setExamMinSave" type="button">Speichern</button></div>
+    <p class="privacy-note">Prüfungswerk <b id="appVersion2">v13</b> · alle Einstellungen bleiben auf diesem Gerät.</p>
   </dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="app.js" defer></script>
