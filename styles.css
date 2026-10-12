@@ -73,9 +73,21 @@
 @media(max-width:760px){.diary-card{margin-top:16px;padding:20px 18px 16px}.diary-main{gap:16px}.diary-ring-wrap,.diary-ring{width:96px;height:96px}.diary-copy h2{font-size:20px}.diary-actions .button{padding:11px 13px}.mobile-nav a,.mobile-nav button{padding:3px 6px}}
 @media(max-width:390px){.diary-main{flex-direction:column;align-items:flex-start}}
 
+.resume-card{margin-top:18px}
 .resume-card{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap;margin-top:18px;padding:16px 18px;border:1px solid var(--line);border-left:3px solid var(--coral);border-radius:6px;background:var(--card)}
 .resume-card[hidden]{display:none}
 .resume-card h3{margin:2px 0 4px;font-size:17px}
 .resume-card .eyebrow{margin:0;color:var(--coral)}
 .resume-card .note-small{margin:0}
 .resume-actions{display:flex;gap:8px}
+
+footer b#appVersion{color:var(--moss)}
+
+.quiz-clock{font:10px var(--mono);letter-spacing:.6px;color:var(--moss);background:#eef1e6;border-radius:30px;padding:5px 10px;white-space:nowrap}
+
+.dv-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:4px}
+.dv-stats div{background:#eef0e8;border-radius:6px;padding:11px 12px;display:flex;flex-direction:column;gap:3px}
+.dv-stats b{font-size:16px;letter-spacing:-.5px}
+.dv-stats small{font:9px var(--mono);letter-spacing:.8px;color:var(--muted);text-transform:uppercase}
+.dv-day-head em{font-style:normal;font-weight:400;color:var(--muted)}
+@media(max-width:760px){.dv-stats{grid-template-columns:1fr 1fr}}

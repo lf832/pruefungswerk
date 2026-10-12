@@ -27,6 +27,7 @@
 
     <main id="app" tabindex="-1">
       <section id="homeView" class="view">
+        <section id="resumeCard" class="resume-card" hidden></section>
         <div class="hero">
           <div class="hero-copy">
             <p class="eyebrow"><span class="live-dot"></span> DEIN LERNPLATZ · IHK</p>
@@ -42,7 +43,6 @@
           <div class="hero-index"><span>DEIN</span><span>FOKUS</span><b>01—06</b></div>
         </div>
 
-        <section id="resumeCard" class="resume-card" hidden></section>
         <section class="stats-strip" aria-label="Lernstatistik">
           <div><span class="stat-number" id="statSessions">0</span><span class="stat-label">Quizrunden</span></div>
           <div><span class="stat-number" id="statAccuracy">—</span><span class="stat-label">Trefferquote</span></div>
@@ -66,7 +66,7 @@
           <div><span class="tool-icon">↗</span><div><strong>Prüfungsdaten übertragen</strong><p>Prüfungen als Datei zwischen euren iPhones teilen.</p></div><button class="icon-button" id="exportExamsButton" aria-label="Prüfungen exportieren">↓</button></div>
           <div><span class="tool-icon">▤</span><div><strong>Lernstand sichern</strong><p>Deine Statistik exportieren oder wiederherstellen.</p></div><button class="icon-button" id="importProgressButton" aria-label="Lernstand importieren">↑</button><button class="icon-button" id="exportProgressButton" aria-label="Lernstand exportieren">↓</button></div>
         </section>
-        <footer><span>PRÜFUNGSWERK · IHK LERNTRAINER</span><button id="helpButton">Hilfe & Datenformat</button></footer>
+        <footer><span>PRÜFUNGSWERK · IHK LERNTRAINER · <b id="appVersion">v12</b></span><button id="helpButton">Hilfe & Datenformat</button></footer>
       </section>
 
       <section id="quizView" class="view" hidden></section>
