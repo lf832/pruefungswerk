@@ -72,3 +72,10 @@
 .dv-entry-act button{border:1px solid var(--line);background:transparent;width:32px;height:32px;border-radius:50%;font-size:14px}
 @media(max-width:760px){.diary-card{margin-top:16px;padding:20px 18px 16px}.diary-main{gap:16px}.diary-ring-wrap,.diary-ring{width:96px;height:96px}.diary-copy h2{font-size:20px}.diary-actions .button{padding:11px 13px}.mobile-nav a,.mobile-nav button{padding:3px 6px}}
 @media(max-width:390px){.diary-main{flex-direction:column;align-items:flex-start}}
+
+.resume-card{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap;margin-top:18px;padding:16px 18px;border:1px solid var(--line);border-left:3px solid var(--coral);border-radius:6px;background:var(--card)}
+.resume-card[hidden]{display:none}
+.resume-card h3{margin:2px 0 4px;font-size:17px}
+.resume-card .eyebrow{margin:0;color:var(--coral)}
+.resume-card .note-small{margin:0}
+.resume-actions{display:flex;gap:8px}
