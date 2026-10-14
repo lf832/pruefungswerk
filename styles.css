@@ -214,3 +214,5 @@ html[data-theme="dark"] .ready-bar{background:#26302c}
 html[data-theme="dark"] .ready-foot .ok,html[data-theme="dark"] .ready-cell.ok{color:#bcdb84}
 html[data-theme="dark"] .ready-foot .no,html[data-theme="dark"] .ready-cell.no{color:#f0a986}
 @media(max-width:760px){.ready-grid{grid-template-columns:1fr}.ready-tile b{font-size:26px}.ready-thead,.ready-row{grid-template-columns:1fr 54px 46px;font-size:11px}.ready-thead span:last-child,.ready-row span:last-child{display:none}}
+
+#updBtn{width:100%}
