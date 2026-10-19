@@ -34,7 +34,7 @@ function importProgress(){const f=$('#progressFileInput').files[0];if(!f)return;
 function downloadTemplate(){download('pruefungswerk-vorlage.json',JSON.stringify(template,null,2));showToast('JSON-Vorlage heruntergeladen')}
 function showToast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
 init();
-const BUNDLED_VERSION=6;
+const BUNDLED_VERSION=9;
 if(location.protocol!=='file:')fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(exams=>{if(!Array.isArray(exams))return;if(data.exams.length&&(data.bundledVersion||0)>=BUNDLED_VERSION){tagExams();renderResumeCard();return}exams.forEach(validateExam);const own=data.exams.filter(e=>!exams.some(x=>x.examId===e.examId));const had=data.exams.length>0;data.exams=[...exams,...own];data.bundledVersion=BUNDLED_VERSION;save();tagExams();render();showToast(had?'Prüfungsinhalte wurden aktualisiert':'Sechs Prüfungen wurden bereitgestellt')}).catch(()=>{});
 if(location.protocol!=='file:')fetch('./wissen.json').then(r=>r.ok?r.json():null).then(s=>{if(Array.isArray(s))wissen=s}).catch(()=>{});
 if('serviceWorker'in navigator&&location.protocol!=='file:')window.addEventListener('load',()=>{
@@ -116,7 +116,7 @@ setInterval(()=>{const c=$('#quizClock');if(c)c.textContent=quizClockText();if(a
 
 /* ===== v13 ===== */
 function settings(){data.settings=data.settings||{};const s=data.settings;if(typeof s.fontScale!=='number')s.fontScale=0;if(!s.theme)s.theme='auto';if(!s.examMin)s.examMin=90;return s}
-function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v17';const v2=$('#appVersion2');if(v2)v2.textContent='v17'}
+function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v20';const v2=$('#appVersion2');if(v2)v2.textContent='v20'}
 function qkey(eid,qid){return String(eid)+'|'+String(qid)}
 function tagExams(){data.exams.forEach(e=>e.questions.forEach(q=>{q._eid=e.examId}))}
 function findQ(key){const i=String(key).indexOf('|');if(i<0)return null;const eid=String(key).slice(0,i),qid=String(key).slice(i+1);const e=data.exams.find(x=>x.examId===eid);const q=e&&e.questions.find(x=>x.id===qid);return e&&q?{e,q}:null}
@@ -228,4 +228,345 @@ function bumpDaily(q,ans,sec,auto){const d=dailyStat();d.answered++;if(sec>0){d.
       el.appendChild(b);
     }
   };
+})();
+
+/* ================= v18 =================
+   1) Modul-Fortschritt: Ø Antwortzeit, Quote, Bestehens-Check, zuletzt geübt
+   2) Erinnerungen: 16:00 wenn nichts gelernt / Pause mit Restzeit       */
+(function(){
+  var PASS_GOAL=50, TIME_GOAL=60;
+  function daysSince(iso){
+    if(!iso)return null;
+    var d=new Date(iso);if(isNaN(d))return null;
+    var a=new Date(d.getFullYear(),d.getMonth(),d.getDate());
+    var b=new Date();b=new Date(b.getFullYear(),b.getMonth(),b.getDate());
+    return Math.round((b-a)/86400000);
+  }
+  function lastText(iso){
+    var n=daysSince(iso);
+    if(n===null)return 'noch nie geübt';
+    if(n===0)return 'heute geübt';
+    if(n===1)return 'gestern geübt';
+    return 'vor '+n+' Tagen geübt';
+  }
+  function examStats(eid){
+    var s=profile().stats||{},es=(s.byExam||{})[eid]||{},pe=(perExamTime()||{})[eid]||{n:0,t:0,r:0,w:0};
+    var avg=pe.n?pe.t/pe.n:0;
+    var rate=es.answered?Math.round(es.correct/es.answered*100):null;
+    var hist=(s.history||[]).filter(function(x){return x.examId===eid&&x.scored>0}).slice(-5);
+    var pass=hist.length?Math.round(hist.filter(function(x){return x.correct/x.scored>=PASS_GOAL/100}).length/hist.length*100):null;
+    var all=(s.history||[]).filter(function(x){return x.examId===eid});
+    return {avg:avg,rate:rate,pass:pass,rounds:es.sessions||0,answered:es.answered||0,
+            last:all.length?all[all.length-1].date:null,histN:hist.length};
+  }
+  function enhanceCards(){
+    var p=profile(),s=p.stats||{};
+    Array.prototype.forEach.call(document.querySelectorAll('.exam-card'),function(card){
+      var eid=card.getAttribute('data-exam');if(!eid)return;
+      var old=card.querySelector('.exam-stats');if(old)old.remove();
+      var st=examStats(eid);
+      if(!st.answered&&!st.avg)return;
+      var box=document.createElement('div');box.className='exam-stats';
+      var aOk=st.avg>0&&st.avg<=TIME_GOAL, rOk=st.rate!==null&&st.rate>=80, pOk=st.pass!==null&&st.pass>=50;
+      box.innerHTML=
+        '<span class="es-cell '+(aOk?'ok':'no')+'"><b>'+(st.avg?Math.round(st.avg)+' s':'—')+'</b>Ø Zeit</span>'+
+        '<span class="es-cell '+(rOk?'ok':'no')+'"><b>'+(st.rate!==null?st.rate+' %':'—')+'</b>Quote</span>'+
+        '<span class="es-cell '+(pOk?'ok':'no')+'"><b>'+(st.pass!==null?st.pass+' %':'—')+'</b>Bestehen</span>'+
+        '<span class="es-last">'+lastText(st.last)+'</span>';
+      var foot=card.querySelector('.exam-card-foot');
+      if(foot)card.insertBefore(box,foot);else card.appendChild(box);
+    });
+  }
+  var _rr=renderReadiness;
+  renderReadiness=function(){_rr();try{enhanceCards()}catch(e){}};
+  /* ---------- Erinnerungen ---------- */
+  function rs(){data.settings=data.settings||{};var r=data.settings.reminders;if(!r||typeof r!=='object')r=data.settings.reminders={daily:true,pause:true,hour:16,pauseMin:10};
+    if(typeof r.daily!=='boolean')r.daily=true;if(typeof r.pause!=='boolean')r.pause=true;
+    if(typeof r.hour!=='number')r.hour=16;if(typeof r.pauseMin!=='number')r.pauseMin=10;return r;}
+  function supported(){return ('Notification' in window)&&('serviceWorker' in navigator)}
+  function granted(){return supported()&&Notification.permission==='granted'}
+  function fire(title,body,tag){
+    if(!granted())return Promise.resolve(false);
+    var opts={body:body,tag:tag||'pw',icon:'./icon.svg',badge:'./icon.svg',renotify:true};
+    return navigator.serviceWorker.ready.then(function(reg){
+      if(reg&&reg.showNotification){reg.showNotification(title,opts);return true}
+      new Notification(title,opts);return true;
+    }).catch(function(){try{new Notification(title,opts)}catch(e){}return false});
+  }
+  function remainingMin(){var d=diary();var left=d.goalMin-dayMin(dkey());return Math.max(0,Math.round(left))}
+  var dailyTimer=null,pauseTimer=null;
+  function scheduleDaily(){
+    clearTimeout(dailyTimer);var r=rs();if(!r.daily)return;
+    var now=new Date(),t=new Date();t.setHours(r.hour,0,0,0);
+    if(t.getTime()<=now.getTime())t.setDate(t.getDate()+1);
+    var ms=t.getTime()-now.getTime();
+    if(ms>6*3600000)return;
+    dailyTimer=setTimeout(function(){
+      var d=dailyStat();
+      if(d.answered===0&&granted())fire('Heute noch nicht gelernt','Dein Tagesziel sind '+fmtMin(diary().goalMin)+'. Ein paar Fragen reichen für den Anfang.','pw-daily');
+      else scheduleDaily();
+    },ms);
+  }
+  window.addEventListener('load',scheduleDaily);
+  document.addEventListener('visibilitychange',function(){
+    var r=rs();
+    if(document.hidden){
+      if(r.pause&&granted()){
+        clearTimeout(pauseTimer);
+        pauseTimer=setTimeout(function(){
+          var left=remainingMin();
+          if(left>0&&document.hidden)fire('Noch '+fmtMin(left)+' Lernzeit heute','Du bist fast am Tagesziel – '+Math.min(20,left)+' Minuten reichen noch nicht, aber sie bringen dich weiter.','pw-pause');
+        },Math.max(1,r.pauseMin)*60000);
+      }
+    }else{
+      clearTimeout(pauseTimer);pauseTimer=null;
+      scheduleDaily();
+      if(r.daily){var now=new Date();if(now.getHours()>=r.hour){var d=dailyStat();if(d.answered===0&&granted())fire('Heute noch nicht gelernt','Dein Tagesziel sind '+fmtMin(diary().goalMin)+'.','pw-daily');}}
+    }
+  });
+  /* ---------- Einstellungen ---------- */
+  function paintSettings(){
+    var r=rs(),el=document.getElementById('remBox');if(!el)return;
+    var perm=supported()?Notification.permission:'unsupported';
+    el.innerHTML='<div class="help-actions">'+
+      '<button type="button" class="button '+(r.daily?'button-dark':'button-outline')+'" id="remDaily">Täglich '+r.hour+':00</button>'+
+      '<button type="button" class="button '+(r.pause?'button-dark':'button-outline')+'" id="remPause">Pause nach '+r.pauseMin+' min</button>'+
+      '<button type="button" class="button button-outline" id="remAllow">'+(perm==='granted'?'Benachrichtigungen aktiv':perm==='denied'?'Blockiert – in iOS-Einstellungen erlauben':'Benachrichtigungen erlauben')+'</button>'+
+      '<button type="button" class="button button-outline" id="remTest">Test</button></div>'+
+      '<p class="note-small" style="margin-top:6px">Erinnerungen laufen nur, solange die App installiert und mindestens im Hintergrund geöffnet ist. iOS weckt geschlossene Web-Apps nicht von selbst – für einen echten 16-Uhr-Wecker eignet sich die Kurzbefehle-App.</p>';
+    el.querySelector('#remDaily').onclick=function(){r.daily=!r.daily;save();paintSettings();showToast('Tägliche Erinnerung '+(r.daily?'an':'aus'));scheduleDaily()};
+    el.querySelector('#remPause').onclick=function(){r.pause=!r.pause;save();paintSettings();showToast('Pausen-Erinnerung '+(r.pause?'an':'aus'))};
+    el.querySelector('#remAllow').onclick=function(){
+      if(!supported()){showToast('Dieser Browser unterstützt keine Benachrichtigungen.');return}
+      Notification.requestPermission().then(function(p){paintSettings();showToast(p==='granted'?'Benachrichtigungen aktiv':'Nicht erlaubt');scheduleDaily()});
+    };
+    el.querySelector('#remTest').onclick=function(){fire('Prüfungswerk','So sehen deine Erinnerungen aus. Noch '+fmtMin(remainingMin())+' bis zum Tagesziel.','pw-test').then(function(ok){if(!ok)showToast('Erst Benachrichtigungen erlauben.')})};
+  }
+  var _open=openSettings;
+  openSettings=function(){
+    _open();
+    var dlg=document.getElementById('settingsDialog');if(!dlg)return;
+    if(!document.getElementById('remBox')){
+      var box=document.createElement('div');box.id='remBox';
+      var anchor=dlg.querySelector('#updBtn');var wrap=anchor&&anchor.closest('.help-actions');
+      var head=document.createElement('p');head.className='note-small';head.innerHTML='<b>Erinnerungen</b>';
+      if(wrap&&wrap.parentNode){wrap.parentNode.insertBefore(head,wrap);wrap.parentNode.insertBefore(box,wrap)}
+      else dlg.appendChild(box);
+    }
+    paintSettings();
+  };
+})();
+
+/* ================= v19 · Merkzettel / Spickzettel ================= */
+(function(){
+  var MERK=[
+  {id:'luecke',n:'01',t:'Versorgungslücke berechnen',tag:'Rechnen',
+   f:['Versorgungslücke = Versorgungsziel − gesetzliche Rente − betriebliche Rente − private Vorsorge',
+      'Versorgungskapital = Versorgungslücke × 12 × 100 ÷ Zins'],
+   b:[['Versorgungsziel','Nettoverdienst, den du im Alter halten willst.'],
+      ['Gesetzliche Rente','Im Prüfungstext meist als Prozent des Bruttos angegeben (z. B. 35 %).'],
+      ['Betriebliche Rente','Die garantierte Altersrente aus der bAV.'],
+      ['Private Vorsorge','Was schon aus eigenen Verträgen fließt.'],
+      ['Versorgungskapital','Der Betrag, der die Lücke über den Zins dauerhaft deckt.']],
+   tip:'Prüfungsbeispiel: Ziel 2.700 € − bAV 600 € − GRV 1.400 € (35 % von 4.000 €) = 700 € Lücke. Bei 4 % Zins: 700 × 12 × 100 ÷ 4 = 210.000 € Kapital.'},
+  {id:'schichten',n:'02',t:'Das Drei-Schichten-Modell',tag:'Systematik',
+   f:['Gilt seit dem Alterseinkünftegesetz vom 01.01.2005'],
+   b:[['Schicht 1 · Basisvorsorge','Gesetzliche Rente, Basisrente (Rürup), landwirtschaftliche Alterskasse. Steuerlich vorgelagert: Beiträge abziehbar, Auszahlung nachgelagert besteuert.'],
+      ['Schicht 2 · Betrieblich & gefördert','Betriebliche Altersversorgung (§ 3 Nr. 63 EStG) und Riester (§ 10a EStG). Staatliche Förderung über Zulagen und Sonderausgabenabzug.'],
+      ['Schicht 3 · Privat','Kapitallebens-, Renten- und Fondspolicen, reiner Vermögensaufbau. Keine staatliche Förderung.']],
+   tip:'Merksatz: Schicht 1 = gesetzlich, Schicht 2 = Chef und Staat, Schicht 3 = privat. Die Schicht entscheidet, wie die Auszahlung später besteuert wird.'},
+  {id:'steuer',n:'03',t:'Steuererklärung: welche Sparte wie',tag:'Steuern',
+   f:['Alle Beiträge laufen als Vorsorgeaufwendungen in die Sonderausgaben'],
+   b:[['Basisabsicherung','Kranken- und Pflegeversicherung in der Basisabsicherung: voll abziehbar.'],
+      ['Altersvorsorgeaufwendungen','Gesetzliche Rentenversicherung, Basisrente, bAV und Riester.'],
+      ['Sonstige Vorsorgeaufwendungen','Arbeitslosen-, Erwerbsunfähigkeits-, Unfall-, Haftpflicht-, Risikolebens- und Kapitallebensversicherung. Nur bis zum Höchstbetrag und nur, soweit der Topf nicht schon von der Basisabsicherung gefüllt ist.'],
+      ['Wichtig','Beiträge zur Kapitallebensversicherung sind seit 2005 nicht mehr als Vorsorgeaufwand abziehbar.']],
+   tip:'Reihenfolge beim Ausfüllen: erst Basisabsicherung (Kranken/Pflege), dann Altersvorsorge, dann der Rest. Was übrig bleibt, verfällt im Höchstbetrag.'},
+  {id:'auszahlung',n:'04',t:'Was ist bei Auszahlung steuerpflichtig?',tag:'Steuern',
+   f:['Steuerfrei heißt nicht automatisch meldefrei'],
+   b:[['Gesetzliche Rente','Nur der Besteuerungsanteil. Der Satz steigt Jahr für Jahr (Kohortenprinzip) – den Wert für dein Prüfungsjahr im Skript nachsehen.'],
+      ['bAV und Riester','Voll nachgelagert steuerpflichtig in der Auszahlungsphase.'],
+      ['Basisrente (Rürup)','Ebenfalls voll steuerpflichtig, da die Beiträge vorher abziehbar waren.'],
+      ['Kapitallebensversicherung','Nur der Ertrag (Auszahlung minus Beiträge), und zwar hälftig – bei Laufzeit ab 12 Jahren und nicht abzugsfähigen Beiträgen. Sonst voll.'],
+      ['Private Rentenversicherung','Ertragsanteil der Rente.'],
+      ['Risikolebensversicherung','Die Todesfallleistung ist steuerfrei; es kann aber Erbschaftsteuer anfallen.'],
+      ['BU-Rente','Steuerfrei, wenn die Beiträge nicht als Vorsorgeaufwand abgezogen wurden.'],
+      ['Unfall, Haftpflicht, Hausrat','Leistungen sind steuerfrei.'],
+      ['Kranken- und Pflegeversicherung','Leistungen sind steuerfrei.']],
+   tip:'Faustregel: Was vorher abziehbar war, wird hinten besteuert. Was vorher aus versteuertem Geld bezahlt wurde, bleibt hinten steuerfrei.'},
+  {id:'waisen',n:'05',t:'Waisenrente',tag:'Gesetzliche Rente',
+   f:['Halbwaise = 10 % · Vollwaise = 20 % der vollen EMR/AR'],
+   b:[['Halbwaisenrente','Tod eines versicherten Elternteils: 10 % der vollen Erwerbsminderungs- bzw. Altersrente des Verstorbenen.'],
+      ['Vollwaisenrente','Tod beider Elternteile: 20 % der höheren Erwerbsminderungs- bzw. Altersrente.'],
+      ['Voraussetzung','Das Kind muss kindergeldberechtigt sein.'],
+      ['Achtung','Dein Skript sagt ausdrücklich: keine Verdienstgrenze. Gesetzlich gibt es eine Hinzuverdienstgrenze – für die Prüfung gilt dein Skript, im Originalbogen bitte gegenprüfen.']],
+   tip:'Die Prozentwerte beziehen sich immer auf die volle EMR/AR – nicht auf die tatsächlich gezahlte Rente des Verstorbenen.'},
+  {id:'beitrag',n:'06',t:'Wie setzt sich der Beitrag zusammen?',tag:'Beitrag',
+   f:['Beitrag = Sparanteil + Risikoanteil + Kostenanteil + Sicherheitszuschlag'],
+   b:[['Sparanteil','Geht in die Anlage, bildet das Kapital bzw. die spätere Rente.'],
+      ['Risikoanteil','Bezahlt den Versicherungsschutz – bei der Risikolebensversicherung ist er der einzige echte Leistungsanteil.'],
+      ['Kostenanteil','Verwaltung und Provision, also Abschluss- und Verwaltungskosten.'],
+      ['Sicherheitszuschlag','Puffer für die Rechnungsgrundlagen (Sterblichkeit, Zins, Kosten).']],
+   tip:'Bei der Risikolebensversicherung gibt es keinen nennenswerten Sparanteil – deshalb ist sie so günstig. Bei der Kapitallebensversicherung ist der Sparanteil der größte Brocken.'},
+  {id:'faktoren',n:'07',t:'Was beeinflusst den Beitrag?',tag:'Beitrag',
+   f:['Je höher das Risiko, desto höher der Beitrag'],
+   b:[['Eintrittsalter','Je älter beim Abschluss, desto teurer – das Risiko läuft länger.'],
+      ['Beruf und Berufsgruppe','Vor allem bei der BU entscheidend: Büro, Handwerk oder gefährliche Tätigkeit.'],
+      ['Gesundheitszustand','Vorerkrankungen führen zu Risikozuschlägen oder Ausschlüssen; teils Aufschub oder Ablehnung.'],
+      ['Versicherungsdauer','Längere Laufzeit bedeutet mehr Beitragsjahre, aber auch mehr Kapitalaufbau.'],
+      ['Versicherungssumme und Leistungsumfang','Höhere Summe und mehr Einschlüsse kosten mehr.'],
+      ['Zahlweise','Monatlich ist teurer als jährlich, weil Ratenzahlung eingerechnet wird.'],
+      ['Weitere Faktoren','Raucherstatus, gefährliche Hobbys, Selbstbeteiligung. Das Geschlecht darf seit 2012 bei Neuverträgen keine Rolle mehr spielen (Unisex).']],
+   tip:'Prüfungsklassiker: Für die BU sind Beruf und Gesundheitszustand die beiden stärksten Hebel – nicht das Alter allein.'},
+  {id:'gkv',n:'08',t:'GKV-Befreiung und Pflegeversicherung',tag:'Gesetzlich',
+   f:['Die Pflegeversicherung folgt immer der Krankenversicherung'],
+   b:[['GKV versichert','Dann besteht auch die soziale Pflegeversicherung bei derselben Kasse.'],
+      ['Privat krankenversichert','Dann besteht eine private Pflegepflichtversicherung – Abschluss ist Pflicht.'],
+      ['Befreiung von der GKV-Pflicht','Zum Beispiel Beihilfeberechtigte und Beamte, hauptberuflich Selbstständige, Arbeitnehmer über der Jahresarbeitsentgeltgrenze auf Antrag, Studierende sowie Künstler.'],
+      ['Berufsständisches Versorgungswerk','Wer dort pflichtversichert ist – etwa Ärzte, Apotheker, Architekten, Notare, Rechtsanwälte, Steuerberater –, wird von der Rentenversicherungspflicht befreit (§ 6 SGB VI).'],
+      ['Folge für die Förderung','Diese Personengruppe bekommt keine Riester-Förderung. Die Befreiung muss beantragt und dem Arbeitgeber gemeldet werden.']],
+   tip:'Befreiung ist meist unwiderruflich – und sie kostet dich die staatliche Förderung. Genau das fragt die IHK gern ab.'},
+  {id:'bbg',n:'09',t:'Beitragsbemessungsgrenze (BBG)',tag:'Gesetzlich',
+   f:['Beitrag = Entgelt bis zur BBG × Beitragssatz','Monatswert = Jahreswert ÷ 12'],
+   b:[['Definition','Höchstgrenze, bis zu der Arbeitsentgelt bzw. Arbeitseinkommen in der Rentenversicherung versicherbar ist.'],
+      ['Darüber hinaus','Es werden keine Beiträge mehr gezahlt – aber es gibt auch nur Leistung bis zur BBG.'],
+      ['Versicherungspflicht','Bleibt trotz Überschreiten der BBG bestehen.'],
+      ['Rechnung','Verdienst 6.000 €, BBG 5.000 €: Beiträge werden nur aus 5.000 € berechnet, die restlichen 1.000 € bleiben beitragsfrei.']],
+   tip:'Die konkreten Jahreswerte ändern sich jedes Jahr. Ich nenne hier bewusst keine Zahl – nimm den Wert aus deinem Skript, sonst lernst du einen veralteten.'}
+  ];
+
+  var MERKB=[
+  {id:'wartezeit',n:'B1',t:'Wartezeiten',tag:'Kranken · Unfall · Leben',src:'werk',
+   f:['Allgemeine Wartezeit: 3 Monate ab Versicherungsbeginn'],
+   b:[['Grundregel','Die allgemeine Wartezeit beträgt 3 Monate. Die Wartezeiten rechnen vom Versicherungsbeginn an.'],
+      ['Entfällt bei Unfall','Wörtlich: „Sie entfällt (a) bei Unfällen“. Nach einem Unfall gibt es also keine Wartezeit.'],
+      ['Ehegatte / Lebenspartner','Entfällt ebenfalls für den Ehegatten einer mindestens 3 Monate versicherten Person – wenn die gleichartige Versicherung innerhalb von 2 Monaten nach Eheschließung beantragt wird.'],
+      ['Besondere Wartezeiten','Gelten unter anderem für Entbindung, Psychotherapie, Zahnbehandlung, Zahnersatz und Kieferorthopädie. Diese liegen über den 3 Monaten.'],
+      ['Vorversicherung anrechnen','Wer aus einer privaten oder gesetzlichen Krankenversicherung ausscheidet, kann die dort ununterbrochen zurückgelegte Versicherungszeit auf die Wartezeit anrechnen lassen – Antrag spätestens 2 Monate nach Ende der Vorversicherung.'],
+      ['Neugeborene','Versicherungsschutz ohne Risikozuschläge und ohne Wartezeiten ab Vollendung der Geburt, wenn ein Elternteil am Geburtstag mindestens 3 Monate versichert ist und die Anmeldung spätestens 2 Monate nach der Geburt erfolgt.']],
+   tip:'Verwechslungsfalle: Die Wartezeit läuft einmal ab Versicherungsbeginn. Die Karenzzeit wird bei jedem Leistungsfall neu relevant – das Werk nennt sie ausdrücklich bei Auslandsbehandlung („unter Berücksichtigung von Karenzzeit und Höchstdauer“).'},
+  {id:'verweisung',n:'B2',t:'BU: Verweisung & Risikozuschlag',tag:'Berufsunfähigkeit',src:'werk',
+   f:['Risikozuschlag maximal bis zur einfachen Beitragshöhe'],
+   b:[['Verweisung','Der Versicherer kann grundsätzlich prüfen, ob du auf eine andere zumutbare Tätigkeit verwiesen werden kannst. Genau das ist der Streitpunkt in vielen BU-Fällen.'],
+      ['Verzicht im Werk','Wörtlich: „Bei Vorliegen der allgemeinen Dienstunfähigkeit in Verbindung mit einer Versetzung in den Ruhestand, verzichten wir auf eine konkrete Verweisung gemäß Ziffer 2.1.“'],
+      ['Risikozuschlag bei Erhöhung','Wird der Versicherungsschutz höher oder umfassender, kann für den hinzukommenden Teil ein Risikozuschlag verlangt oder ein Leistungsausschluss vereinbart werden – und es gelten erneut Wartezeiten.'],
+      ['Obergrenze','Wörtlich: „Mit Rücksicht auf ein erhöhtes Risiko ist die Vereinbarung eines Risikozuschlages bis zur einfachen Beitragshöhe zulässig.“ Mehr als das Doppelte geht also nicht.'],
+      ['Ausschlüsse','Kein Versicherungsschutz bei vorsätzlicher Straftat, bei Teilnahme an inneren Unruhen aufseiten der Unruhestifter und bei absichtlicher Herbeiführung von Krankheit.']],
+   tip:'Merke die Richtung: Zuschlag ist nach oben begrenzt – Ausschluss und Ablehnung sind es nicht. Deshalb ist der Leistungsausschluss für den Kunden das größere Risiko.'},
+  {id:'tagegeld',n:'B3',t:'Krankentagegeld',tag:'Krankenversicherung',src:'werk',
+   f:['Tagegeld = Einkommensersatz, nicht Kostenerstattung'],
+   b:[['Was es leistet','Eine tägliche Geldleistung, wenn du krankheitsbedingt arbeitsunfähig bist. Sie ersetzt fehlendes Einkommen – die Arztkosten zahlt die Krankheitskostenversicherung.'],
+      ['Wartezeit','Auch hier gilt die Wartezeit, sie kann aber durch Vorversicherungszeiten verkürzt oder ersetzt werden.'],
+      ['Anrechnung','Personen, die aus der privaten oder gesetzlichen Krankenversicherung ausgeschieden sind, wird die dort ununterbrochen zurückgelegte Versicherungszeit auf die Wartezeiten angerechnet.'],
+      ['Bedingung dafür','Die neue Versicherung muss spätestens 2 Monate nach Beendigung der Vorversicherung beantragt werden – zusammen mit einer Krankheitskostenversicherung, und der Schutz muss unmittelbar anschließen.'],
+      ['Höhe egal','Wörtlich: „Für die Anrechnung der Versicherungszeit kommt es nicht auf die Höhe des bisherigen Krankengeldanspruches an.“'],
+      ['Karenzzeit und Höchstdauer','Beide sind tarifabhängig. Im Werk ausdrücklich genannt für Behandlungen im Ausland, dort nur in öffentlichen Krankenhäusern.']],
+   tip:'Klassische Prüfungsfrage: Zählt die Vorversicherungszeit auch, wenn das Krankengeld früher niedriger war? Ja – die Höhe ist ausdrücklich unerheblich.'},
+  {id:'pflege',n:'B4',t:'Pflegepflichtversicherung',tag:'Kranken & Pflege',src:'gemischt',
+   f:['Pflege folgt der Krankenversicherung'],
+   b:[['Grundsatz (Sozialrecht)','Wer gesetzlich krankenversichert ist, ist in der sozialen Pflegepflichtversicherung. Wer privat krankenversichert ist, muss eine private Pflegepflichtversicherung abschließen.'],
+      ['Im Werk geregelt','Das Werk enthält den Bedingungsteil MB/PPV 2022 für die private Pflegepflichtversicherung – also die Bedingungen, nicht die Beitragssätze.'],
+      ['Ergänzungsschutz','Für Zusatzleistungen gibt es den Bedingungsteil MB/EPV 2017 für Ergänzungsversicherungen zur privaten und zur sozialen Pflegepflichtversicherung.'],
+      ['Staatlich gefördert','Zusätzlich existiert der Bedingungsteil MB/GEPV 2022 für die staatlich geförderte Pflegeversicherung.'],
+      ['Stand des Werks','Copyright 2022, häufigste Jahresangaben 2021/2022. Beitragssätze, BBG und Steuerprozente daraus sind veraltet – die Werte gehören aus deinem aktuellen Skript.']],
+   tip:'Aus dem Werk lernst du die Bedingungen – was ist versichert, was nicht. Beitragssätze und Rechengrößen stehen dort nicht drin und wären 2022er-Stand.'}
+  ];
+  function esc(x){return safeText(x)}
+  function card(m){
+    var d=document.createElement('details');d.className='merk-item';d.id='merk-'+m.id;
+    var badge=m.src==='werk'?'<span class="merk-src">Quelle: Bedingungswerk</span>':(m.src==='gemischt'?'<span class="merk-src">Bedingungswerk + Sozialrecht</span>':'');
+    d.innerHTML='<summary><span class="merk-n">'+esc(m.n)+'</span><span class="merk-tt"><b>'+esc(m.t)+'</b><small>'+esc(m.tag)+'</small></span><span class="merk-plus">＋</span></summary>'
+      +'<div class="merk-body">'
+      +(m.f&&m.f.length?'<div class="merk-formula">'+m.f.map(function(x){return '<div>'+esc(x)+'</div>'}).join('')+'</div>':'')
+      +'<dl class="merk-dl">'+m.b.map(function(x){return '<dt>'+esc(x[0])+'</dt><dd>'+esc(x[1])+'</dd>'}).join('')+'</dl>'
+      +(m.tip?'<div class="merk-tip"><b>Merke</b> '+esc(m.tip)+'</div>':'')
+      +badge
+      +'</div>';
+    return d;
+  }
+  function matchM(m,q){
+    if(!q)return true;
+    var hay=(m.t+' '+m.tag+' '+(m.f||[]).join(' ')+' '+m.b.map(function(x){return x[0]+' '+x[1]}).join(' ')+' '+(m.tip||'')).toLowerCase();
+    return hay.indexOf(q)>=0;
+  }
+  function ensureView(){
+    var v=document.getElementById('merkView');
+    if(!v){
+      v=document.createElement('section');v.id='merkView';v.className='view';v.hidden=true;
+      var app=document.getElementById('app')||document.body;app.appendChild(v);
+    }
+    return v;
+  }
+  var merkTab='pruefung';
+  function renderMerk(filter){
+    var v=ensureView(),q=(filter||'').trim().toLowerCase();
+    var SRC=merkTab==='bed'?MERKB:MERK;
+    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="merkBack">← Übersicht</button><div class="quiz-title">Merkzettel</div><span class="quiz-mode">'+MERK.length+' + '+MERKB.length+' THEMEN</span></div>'
+      +'<div class="merk-head"><p class="eyebrow">SPICKZETTEL</p><h2>'+(merkTab==='bed'?'Bedingungen-Kompass':'Die neun Klassiker')+'</h2><p class="note-small">'+(merkTab==='bed'?'Direkt aus dem Proximus-Bedingungswerk – mit wörtlichen Zitaten, wo es zählt.':'Kurz, prüfungsnah und aus deiner Lernhilfe zusammengefasst. Tippe ein Thema auf.')+'</p></div>'
+      +'<div class="merk-tabs"><button data-tab="pruefung" class="merk-tab '+(merkTab==='pruefung'?'active':'')+'">Prüfungsstoff · '+MERK.length+'</button><button data-tab="bed" class="merk-tab '+(merkTab==='bed'?'active':'')+'">Bedingungen · '+MERKB.length+'</button></div>'
+      +'<input class="wissen-search" id="merkSearch" type="search" placeholder="Thema suchen – z. B. Wartezeit, Verweisung, Waisenrente …" value="'+esc(filter||'')+'">'
+      +'<div class="merk-list" id="merkList"></div></div>';
+    var list=v.querySelector('#merkList'),n=0;
+    SRC.forEach(function(m){if(!matchM(m,q))return;n++;list.appendChild(card(m))});
+    if(!n)list.innerHTML='<p class="note-small">Kein Thema gefunden. Versuch es mit „Wartezeit“, „Steuer“ oder „Rente“.</p>';
+    v.querySelector('#merkBack').onclick=closeMerk;
+    Array.prototype.forEach.call(v.querySelectorAll('[data-tab]'),function(b){
+      b.onclick=function(){merkTab=b.getAttribute('data-tab');renderMerk(v.querySelector('#merkSearch')?v.querySelector('#merkSearch').value:'')};
+    });
+    var si=v.querySelector('#merkSearch');
+    si.oninput=function(){
+      var val=si.value,scroll=v.scrollTop,q2=val.trim().toLowerCase();
+      var listEl=v.querySelector('#merkList');listEl.innerHTML='';
+      var nn=0;
+      (merkTab==='bed'?MERKB:MERK).forEach(function(m){if(!matchM(m,q2))return;nn++;listEl.appendChild(card(m))});
+      if(!nn)listEl.innerHTML='<p class="note-small">Kein Thema gefunden. Versuch es mit „Wartezeit“, „Steuer“ oder „Rente“.</p>';
+      v.scrollTop=scroll;
+    };
+  }
+  function openMerk(id){
+    if(id){merkTab=MERKB.some(function(m){return m.id===id})?'bed':'pruefung'}
+    var v=ensureView();
+    ['homeView','quizView','wissenView','diaryView'].forEach(function(x){var el=document.getElementById(x);if(el)el.hidden=true});
+    v.hidden=false;renderMerk('');
+    if(id){var d=document.getElementById('merk-'+id);if(d){d.open=true;setTimeout(function(){d.scrollIntoView({block:'start',behavior:'smooth'})},80)}}
+    window.scrollTo(0,0);
+  }
+  function closeMerk(){
+    var v=document.getElementById('merkView');if(v)v.hidden=true;
+    var h=document.getElementById('homeView');if(h)h.hidden=false;
+    if(typeof render==='function')render();
+    window.scrollTo(0,0);
+  }
+  function renderMerkCard(){
+    var el=document.getElementById('merkCard');if(!el)return;
+    el.hidden=false;
+    el.innerHTML='<p class="eyebrow muted">NACHSCHLAGEN</p><h2>Merkzettel</h2>'
+      +'<p class="note-small">Neun Themen, die in der Prüfung immer wieder kommen – Formeln, Systematik und die typischen Fallen.</p>'
+      +'<div class="merk-grid">'+MERK.map(function(m){
+        return '<button class="merk-chip" data-merk="'+esc(m.id)+'"><span class="merk-n">'+esc(m.n)+'</span><span>'+esc(m.t)+'</span></button>';
+      }).join('')+'</div>'
+      +'<p class="eyebrow muted" style="margin-top:22px">AUS DEM BEDINGUNGSWERK</p>'
+      +'<div class="merk-grid">'+MERKB.map(function(m){
+        return '<button class="merk-chip" data-merk="'+esc(m.id)+'"><span class="merk-n">'+esc(m.n)+'</span><span>'+esc(m.t)+'</span></button>';
+      }).join('')+'</div>';
+    Array.prototype.forEach.call(el.querySelectorAll('[data-merk]'),function(b){b.onclick=function(){
+      var id=b.getAttribute('data-merk');
+      var isBed=MERKB.some(function(m){return m.id===id});
+      merkTab=isBed?'bed':'pruefung';
+      openMerk(id);
+    }});
+  }
+  var _render=render;
+  render=function(){_render();try{renderMerkCard()}catch(e){}};
+  document.addEventListener('DOMContentLoaded',function(){
+    var qb=document.getElementById('quickMerk');if(qb)qb.onclick=function(){openMerk()};
+    var qs=document.getElementById('qSearch');
+    try{renderMerkCard()}catch(e){}
+  });
+  if(document.readyState!=='loading'){
+    var qb2=document.getElementById('quickMerk');if(qb2)qb2.onclick=function(){openMerk()};
+    try{renderMerkCard()}catch(e){}
+  }
+  var _sw=showWissen;showWissen=function(){var v=document.getElementById('merkView');if(v)v.hidden=true;_sw()};
+  var _sd=showDiary;showDiary=function(){var v=document.getElementById('merkView');if(v)v.hidden=true;_sd()};
 })();
