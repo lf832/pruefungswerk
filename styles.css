@@ -286,3 +286,12 @@ html[data-theme="dark"] .ready-foot .no,html[data-theme="dark"] .ready-cell.no{c
 .sk-dot{width:9px;height:9px;border-radius:50%;border:1px solid var(--line);background:transparent;padding:0}
 .sk-dot.on{background:var(--moss);border-color:var(--moss)}
 @media(max-width:760px){.sk-grid{grid-template-columns:1fr}.slide-body{padding:16px;font-size:13px;max-height:none}}
+/* v24 · Layout-Fix: hidden darf NIE von einer display-Regel ueberstimmt werden
+   (sonst schiebt ein leerer Abschnitt den Footer mitten in die Seite) */
+[hidden]{display:none!important}
+html{overscroll-behavior-y:none}
+body{min-height:auto;overflow-x:hidden}
+.mobile-nav{transform:translateZ(0);will-change:transform;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+footer{padding-bottom:calc(83px + env(safe-area-inset-bottom,0px))}
+.quiz-controls{position:sticky;bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+@media(max-width:760px){.quiz-controls{position:static;background:transparent;padding:0}}
