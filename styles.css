@@ -268,3 +268,21 @@ html[data-theme="dark"] .ready-foot .no,html[data-theme="dark"] .ready-cell.no{c
 .question-note{display:flex;gap:10px;align-items:flex-start;margin:0 0 22px;padding:12px 15px;border-left:3px solid var(--coral);background:rgba(230,131,98,.10);font-size:13px;line-height:1.6}
 .question-note b{font:9px var(--mono);letter-spacing:1px;color:var(--coral);text-transform:uppercase;padding-top:3px;white-space:nowrap}
 .question-note span{flex:1}
+/* v23 Skripte */
+.sk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:9px;margin-top:14px}
+.sk-card{display:flex;flex-direction:column;gap:4px;text-align:left;border:1px solid var(--line);background:var(--card);padding:14px 15px;border-radius:4px;color:var(--ink);transition:transform .15s,box-shadow .15s}
+.sk-card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.sk-num{font:9px var(--mono);letter-spacing:.7px;color:var(--moss);text-transform:uppercase}
+.sk-card b{font-size:13px;line-height:1.3}
+.sk-card small{font-size:10px;color:var(--muted)}
+.sk-go{margin-top:6px;font-size:10px;font-weight:800;color:var(--moss)}
+.slide-body{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--moss);padding:22px 24px;font-size:14px;line-height:1.85;white-space:pre-wrap;word-break:break-word;max-height:62vh;overflow:auto}
+.sk-hits{display:grid;gap:6px;margin-top:10px}
+.sk-hit{display:flex;flex-direction:column;gap:2px;text-align:left;border:1px solid var(--line);background:var(--card);padding:11px 13px;border-radius:3px;color:var(--ink)}
+.sk-hit:hover{border-color:var(--moss)}
+.sk-hit-t{font-size:12px;font-weight:700}
+.sk-hit small{font:9px var(--mono);color:var(--muted)}
+.sk-dots{display:flex;flex-wrap:wrap;gap:4px;margin-top:18px;justify-content:center}
+.sk-dot{width:9px;height:9px;border-radius:50%;border:1px solid var(--line);background:transparent;padding:0}
+.sk-dot.on{background:var(--moss);border-color:var(--moss)}
+@media(max-width:760px){.sk-grid{grid-template-columns:1fr}.slide-body{padding:16px;font-size:13px;max-height:none}}

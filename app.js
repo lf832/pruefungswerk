@@ -34,8 +34,8 @@ function importProgress(){const f=$('#progressFileInput').files[0];if(!f)return;
 function downloadTemplate(){download('pruefungswerk-vorlage.json',JSON.stringify(template,null,2));showToast('JSON-Vorlage heruntergeladen')}
 function showToast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
 init();
-const BUNDLED_VERSION=11;
-if(location.protocol!=='file:')fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(exams=>{if(!Array.isArray(exams))return;if(data.exams.length&&(data.bundledVersion||0)>=BUNDLED_VERSION){tagExams();renderResumeCard();return}exams.forEach(validateExam);const own=data.exams.filter(e=>!exams.some(x=>x.examId===e.examId));const had=data.exams.length>0;data.exams=[...exams,...own];data.bundledVersion=BUNDLED_VERSION;save();tagExams();render();showToast(had?'Prüfungsinhalte wurden aktualisiert':'Sechs Prüfungen wurden bereitgestellt')}).catch(()=>{});
+const BUNDLED_VERSION=12;
+if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(sk=>{if(Array.isArray(sk)){SKRIPTE=sk;try{window.renderSkriptCard&&window.renderSkriptCard()}catch(e){}}}).catch(()=>{});fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(exams=>{if(!Array.isArray(exams))return;if(data.exams.length&&(data.bundledVersion||0)>=BUNDLED_VERSION){tagExams();renderResumeCard();return}exams.forEach(validateExam);const own=data.exams.filter(e=>!exams.some(x=>x.examId===e.examId));const had=data.exams.length>0;data.exams=[...exams,...own];data.bundledVersion=BUNDLED_VERSION;save();tagExams();render();showToast(had?'Prüfungsinhalte wurden aktualisiert':'Sechs Prüfungen wurden bereitgestellt')}).catch(()=>{});
 if(location.protocol!=='file:')fetch('./wissen.json').then(r=>r.ok?r.json():null).then(s=>{if(Array.isArray(s))wissen=s}).catch(()=>{});
 if('serviceWorker'in navigator&&location.protocol!=='file:')window.addEventListener('load',()=>{
  let hatteController=!!navigator.serviceWorker.controller;
@@ -116,7 +116,7 @@ setInterval(()=>{const c=$('#quizClock');if(c)c.textContent=quizClockText();if(a
 
 /* ===== v13 ===== */
 function settings(){data.settings=data.settings||{};const s=data.settings;if(typeof s.fontScale!=='number')s.fontScale=0;if(!s.theme)s.theme='auto';if(!s.examMin)s.examMin=90;return s}
-function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v22';const v2=$('#appVersion2');if(v2)v2.textContent='v22'}
+function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v23';const v2=$('#appVersion2');if(v2)v2.textContent='v23'}
 function qkey(eid,qid){return String(eid)+'|'+String(qid)}
 function tagExams(){data.exams.forEach(e=>e.questions.forEach(q=>{q._eid=e.examId}))}
 function findQ(key){const i=String(key).indexOf('|');if(i<0)return null;const eid=String(key).slice(0,i),qid=String(key).slice(i+1);const e=data.exams.find(x=>x.examId===eid);const q=e&&e.questions.find(x=>x.id===qid);return e&&q?{e,q}:null}
@@ -568,4 +568,96 @@ function bumpDaily(q,ans,sec,auto){const d=dailyStat();d.answered++;if(sec>0){d.
   }
   var _sw=showWissen;showWissen=function(){var v=document.getElementById('merkView');if(v)v.hidden=true;_sw()};
   var _sd=showDiary;showDiary=function(){var v=document.getElementById('merkView');if(v)v.hidden=true;_sd()};
+})();
+
+/* ================= v23 · Skripte & Folien ================= */
+var SKRIPTE=[];
+(function(){
+  var curDeck=null,curSlide=0,query='';
+  function deckView(){
+    var v=document.getElementById('skriptView');
+    if(!v){v=document.createElement('section');v.id='skriptView';v.className='view';v.hidden=true;(document.getElementById('app')||document.body).appendChild(v)}
+    return v;
+  }
+  function hay(s,d){return (s.title+' '+s.text+' '+(s.notes||'')+' '+d.title).toLowerCase()}
+  function listView(){
+    var v=deckView();v.hidden=false;
+    var total=SKRIPTE.reduce(function(a,d){return a+d.count},0);
+    var q=(query||'').toLowerCase();
+    var hits=[];
+    if(q){
+      SKRIPTE.forEach(function(d){d.slides.forEach(function(s){if(hay(s,d).indexOf(q)>=0)hits.push({d:d,s:s})})});
+    }
+    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="skBack">← Übersicht</button><div class="quiz-title">Skripte & Folien</div><span class="quiz-mode">'+SKRIPTE.length+' BLÖCKE · '+total+' FOLIEN</span></div>'
+      +'<div class="merk-head"><p class="eyebrow">DEIN UNTERRICHTSSTOFF</p><h2>Folien zum Nachlesen</h2><p class="note-small">Die Originalfolien deines Ausbilders, durchsuchbar. Tippe einen Block an oder such direkt.</p></div>'
+      +'<input class="wissen-search" id="skSearch" type="search" placeholder="In allen Folien suchen – z. B. BBG, Sparanteil, Quotenvorrecht …" value="'+(query||'').replace(/"/g,'&quot;')+'">'
+      +'<div id="skBody"></div></div>';
+    var body=v.querySelector('#skBody');
+    if(q){
+      body.innerHTML='<p class="note-small">'+hits.length+' Treffer für „'+(query||'').replace(/</g,'&lt;')+'"</p><div class="sk-hits">'
+        +hits.slice(0,120).map(function(h,i){return '<button class="sk-hit" data-hit="'+i+'"><span class="sk-hit-t">'+safeText(h.s.title)+'</span><small>'+safeText(h.d.title)+' · Folie '+h.s.n+'</small></button>'}).join('')+'</div>';
+      body.querySelectorAll('[data-hit]').forEach(function(b){b.onclick=function(){var h=hits[+b.getAttribute('data-hit')];openSlide(h.d,h.d.slides.indexOf(h.s))}});
+    }else if(!SKRIPTE.length){
+      body.innerHTML='<p class="note-small">Die Folien werden beim ersten Laden mit Internetverbindung geholt. Lade die App einmal neu.</p>';
+    }else{
+      body.innerHTML='<div class="sk-grid">'+SKRIPTE.map(function(d,i){
+        return '<button class="sk-card" data-deck="'+i+'"><span class="sk-num">'+safeText(d.range)+'</span><b>'+safeText(d.title)+'</b><small>'+d.count+' Folien · '+safeText(d.topic)+'</small><span class="sk-go">Öffnen ↗</span></button>';
+      }).join('')+'</div>';
+      body.querySelectorAll('[data-deck]').forEach(function(b){b.onclick=function(){openDeck(SKRIPTE[+b.getAttribute('data-deck')])}});
+    }
+    v.querySelector('#skBack').onclick=closeSkript;
+    var si=v.querySelector('#skSearch');
+    si.oninput=function(){query=si.value;var pos=si.selectionStart;listView();var n=document.getElementById('skSearch');if(n){n.focus();n.setSelectionRange(pos,pos)}};
+    window.scrollTo(0,0);
+  }
+  function openDeck(d){curDeck=d;curSlide=0;renderSlide()}
+  function openSlide(d,i){curDeck=d;curSlide=i;renderSlide()}
+  function renderSlide(){
+    var v=deckView(),d=curDeck,s=d.slides[curSlide];
+    var prev=curSlide>0,next=curSlide<d.slides.length-1;
+    var body=safeText(s.text||'').replace(/\n/g,'<br>');
+    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="skList">← Alle Blöcke</button><div class="quiz-title">'+safeText(d.title)+'</div><span class="quiz-mode">'+(curSlide+1)+' / '+d.slides.length+'</span></div>'
+      +'<p class="question-topic">'+safeText(d.topic)+' · '+safeText(d.range)+'</p>'
+      +'<h1 class="question-title">'+safeText(s.title)+'</h1>'
+      +'<div class="slide-body">'+(body||'<i>Diese Folie enthält nur Grafik – kein Text lesbar.</i>')+'</div>'
+      +(s.notes?'<div class="question-note"><b>Notiz</b><span>'+safeText(s.notes).replace(/\n/g,'<br>')+'</span></div>':'')
+      +'<div class="quiz-controls"><span class="points-label">FOLIE '+(curSlide+1)+'</span>'
+      +(prev?'<button class="button button-outline" id="skPrev">← Zurück</button>':'')
+      +(next?'<button class="button button-dark" id="skNext">Weiter →</button>':'<button class="button button-dark" id="skEnd">Ende</button>')
+      +'</div>'
+      +'<div class="sk-dots">'+d.slides.map(function(_,i){return '<button class="sk-dot'+(i===curSlide?' on':'')+'" data-sl="'+i+'" aria-label="Folie '+(i+1)+'"></button>'}).join('')+'</div>'
+      +'</div>';
+    v.querySelector('#skList').onclick=listView;
+    var b=v.querySelector('#skPrev');if(b)b.onclick=function(){if(curSlide>0){curSlide--;renderSlide()}};
+    var n=v.querySelector('#skNext');if(n)n.onclick=function(){if(curSlide<d.slides.length-1){curSlide++;renderSlide()}};
+    var e=v.querySelector('#skEnd');if(e)e.onclick=listView;
+    v.querySelectorAll('[data-sl]').forEach(function(x){x.onclick=function(){curSlide=+x.getAttribute('data-sl');renderSlide()}});
+    window.scrollTo(0,0);
+  }
+  function openSkript(){['homeView','quizView','wissenView','diaryView','merkView'].forEach(function(x){var el=document.getElementById(x);if(el)el.hidden=true});query='';listView()}
+  function closeSkript(){var v=document.getElementById('skriptView');if(v)v.hidden=true;var h=document.getElementById('homeView');if(h)h.hidden=false;if(typeof render==='function')render();window.scrollTo(0,0)}
+  function renderSkriptCard(){
+    var el=document.getElementById('skriptCard');if(!el)return;
+    if(!SKRIPTE.length){el.hidden=true;return}
+    el.hidden=false;
+    var total=SKRIPTE.reduce(function(a,d){return a+d.count},0);
+    el.innerHTML='<p class="eyebrow muted">NACHLESEN</p><h2>Skripte & Folien</h2>'
+      +'<p class="note-small">'+total+' Originalfolien aus dem Unterricht – durchsuchbar und mit den Prüfungsthemen verknüpft.</p>'
+      +'<div class="sk-grid">'+SKRIPTE.map(function(d,i){
+        return '<button class="sk-card" data-skc="'+i+'"><span class="sk-num">'+safeText(d.range)+'</span><b>'+safeText(d.title)+'</b><small>'+d.count+' Folien</small></button>';
+      }).join('')+'</div>';
+    el.querySelectorAll('[data-skc]').forEach(function(b){b.onclick=function(){openSkript();openDeck(SKRIPTE[+b.getAttribute('data-skc')])}});
+  }
+  window.openSkript=openSkript;window.renderSkriptCard=renderSkriptCard;
+  var _render=render;
+  render=function(){_render();try{renderSkriptCard()}catch(e){}};
+  document.addEventListener('DOMContentLoaded',function(){
+    var b=document.getElementById('quickSkript');if(b)b.onclick=openSkript;
+    try{renderSkriptCard()}catch(e){}
+  });
+  if(document.readyState!=='loading'){
+    var b2=document.getElementById('quickSkript');if(b2)b2.onclick=openSkript;
+  }
+  var _sw=showWissen;showWissen=function(){var v=document.getElementById('skriptView');if(v)v.hidden=true;_sw()};
+  var _sd=showDiary;showDiary=function(){var v=document.getElementById('skriptView');if(v)v.hidden=true;_sd()};
 })();
