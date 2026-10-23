@@ -262,3 +262,9 @@ html[data-theme="dark"] .ready-foot .no,html[data-theme="dark"] .ready-cell.no{c
 .merk-tab{flex:1;border:1px solid var(--line);background:transparent;padding:10px 12px;border-radius:30px;font-size:11px;font-weight:800;color:var(--muted)}
 .merk-tab.active{background:var(--deep);color:#fff;border-color:var(--deep)}
 .merk-src{display:block;margin-top:11px;font:9px var(--mono);letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
+/* v21: Leerzustand der Modul-Statistik */
+.es-cell.nodata b{color:var(--muted);opacity:.6}
+/* v22 Merksatz unter der Frage */
+.question-note{display:flex;gap:10px;align-items:flex-start;margin:0 0 22px;padding:12px 15px;border-left:3px solid var(--coral);background:rgba(230,131,98,.10);font-size:13px;line-height:1.6}
+.question-note b{font:9px var(--mono);letter-spacing:1px;color:var(--coral);text-transform:uppercase;padding-top:3px;white-space:nowrap}
+.question-note span{flex:1}
