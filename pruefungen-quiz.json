@@ -7,7 +7,7 @@
    {
     "id": "frage-001",
     "type": "single",
-    "prompt": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung. Monika und Heiner Stern (beide 30 Jahre alt) sind beide berufstätig und haben keine Kinder. Vor einem halben Jahr haben sie eine Eigentumswohnung gekauft, die sie weitgehend über Kredite finanziert haben. Sie möchten mit Familie Stern über ihre Vorsorge sprechen. Frau Stern erklärt, dass hierfür zurzeit kaum finanzielle Mittel vorhanden sind, da die Abzahlung der Kredite im Vordergrund steht. Welche Versicherungsform bieten Sie vorzugsweise an?",
+    "prompt": "Monika und Heiner Stern (beide 30 Jahre alt) sind beide berufstätig und haben keine Kinder. Vor einem halben Jahr haben sie eine Eigentumswohnung gekauft, die sie weitgehend über Kredite finanziert haben. Sie möchten mit Familie Stern über ihre Vorsorge sprechen. Frau Stern erklärt, dass hierfür zurzeit kaum finanzielle Mittel vorhanden sind, da die Abzahlung der Kredite im Vordergrund steht.\nWelche Versicherungsform bieten Sie vorzugsweise an?",
     "points": 1,
     "options": [
      {
@@ -38,7 +38,7 @@
    {
     "id": "frage-002",
     "type": "multiple",
-    "prompt": "Helga Maler (36) arbeitet seit Ende ihrer Ausbildung als Speditionskauffrau in einem großen Logistikunternehmen. Aufgrund der aktuellen Rentendiskussion ist Frau Maler an einer zusätzlichen Altersvorsorge interessiert. Sie beraten Ihre Kundin unter anderem zu einer Rentenversicherung im Rahmen der Zulagenförderung nach § 1 Oa EStG. Frau Maler fragt, wie ihre Beiträge in diesem Fall steuerlich behandelt werden. Die Beiträge können Q",
+    "prompt": "Helga Maler (36) arbeitet seit Ende ihrer Ausbildung als Speditionskauffrau in einem großen Logistikunternehmen. Aufgrund der aktuellen Rentendiskussion ist Frau Maler an einer zusätzlichen Altersvorsorge interessiert. Sie beraten Ihre Kundin unter anderem zu einer Rentenversicherung im Rahmen der Zulagenförderung nach § 10a EStG.\nFrau Maler fragt, wie ihre Beiträge in diesem Fall steuerlich behandelt werden.\nDie Beiträge können…",
     "points": 1,
     "options": [
      {
@@ -51,15 +51,11 @@
      },
      {
       "id": "c",
-      "text": "nicht als Sonderausgabengeltend gemacht werden."
+      "text": "nicht als Sonderausgaben geltend gemacht werden."
      },
      {
       "id": "d",
       "text": "als Sonderausgaben unbegrenzt geltend gemacht werden, weil die Leistungen nachgelagert besteuert werden."
-     },
-     {
-      "id": "e",
-      "text": "Antwort E im Scan nicht lesbar"
      }
     ],
     "answerIds": [
@@ -73,7 +69,7 @@
    {
     "id": "frage-003",
     "type": "single",
-    "prompt": "Michael Kunze (32) ist verheiratet und hat eine Tochter. Er hat seit einigen Jahren bei der Proximus AG eine kapitalbildende Lebensversicherung. Da er arbeitslos geworden ist, kann er momentan nicht den vollen Beitrag zahlen, möchte aber den vollen Versicherungsschutz erhalten. Herr Kunze bittet um eine Beratung. Welche passende Option hat Ihr Kunde?",
+    "prompt": "Michael Kunze (32) ist verheiratet und hat eine Tochter. Er hat seit einigen Jahren bei der Proximus AG eine kapitalbildende Lebensversicherung. Da er arbeitslos geworden ist, kann er momentan nicht den vollen Beitrag zahlen, möchte aber den vollen Versicherungsschutz erhalten. Herr Kunze bittet um eine Beratung.\nWelche passende Option hat Ihr Kunde?",
     "points": 1,
     "options": [
      {
@@ -104,12 +100,12 @@
    {
     "id": "frage-004",
     "type": "multiple",
-    "prompt": "Sie ihr eine private kapitalgedeckte Leibrentenversicherung (Basisrente). Welche Zusatzversicherung können Sie Frau Lenz anbieten und was ist zu beachten, damit der Gesamtbeitrag steuerlich abzugsfähig ist?",
+    "prompt": "Sie beraten Frau Lenz zu einer privaten kapitalgedeckten Leibrentenversicherung (Basisrente). Welche Zusatzversicherung können Sie Frau Lenz anbieten und was ist zu beachten, damit der Gesamtbeitrag steuerlich abzugsfähig ist?",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "Eine zusätzliche Todesfallsumme, die Höhe ist jedoch auf 50.000,- € begrenzt."
+      "text": "Eine zusätzliche Todesfallsumme, die Höhe ist jedoch auf 50.000,00 € begrenzt."
      },
      {
       "id": "b",
@@ -122,10 +118,6 @@
      {
       "id": "d",
       "text": "Eine Berufsunfähigkeits-Zusatzversicherung, wobei der Beitragsanteil weniger als 50 % des Gesamtbeitrages betragen muss."
-     },
-     {
-      "id": "e",
-      "text": "Antwort E im Scan nicht lesbar"
      }
     ],
     "answerIds": [
@@ -139,7 +131,7 @@
    {
     "id": "frage-005",
     "type": "single",
-    "prompt": "Rentenversicherung entschlossen, die zum 67. Lebensjahr seine gesetzliche Altersrente ergänzen soll. Zusätzlich sprechen Sie auch die Option einer 15-jährigen Rentengarantiezeit an. Herr Kerz möchte wissen, was unter dieser Option zu verstehen ist. Wenn der Versicherte",
+    "prompt": "Waldemar Kerz (43) hat sich anhand einer Versorgungsanalyse für den Abschluss einer privaten Rentenversicherung entschlossen, die zum 67. Lebensjahr seine gesetzliche Altersrente ergänzen soll. Zusätzlich sprechen Sie auch die Option einer 15-jährigen Rentengarantiezeit an. Herr Kerz möchte wissen, was unter dieser Option zu verstehen ist. Wenn der Versicherte",
     "points": 1,
     "options": [
      {
@@ -148,18 +140,14 @@
      },
      {
       "id": "b",
-      "text": "nach dem 67. Lebensjahr stirbt, erhalten die Hinterbliebenen eine Rente für die Dauer von insgesamt 15"
+      "text": "nach dem 67. Lebensjahr stirbt, erhalten die Hinterbliebenen eine Rente für die Dauer von insgesamt 15 Jahren."
      },
      {
       "id": "c",
-      "text": "ahren."
-     },
-     {
-      "id": "d",
       "text": "das 67. Lebensjahr erreicht hat, wird die vereinbarte Rente mindestens bis zum Ablauf der Rentengarantiezeit gezahlt, unabhängig davon, ob die versicherte Person diesen Termin erlebt."
      },
      {
-      "id": "e",
+      "id": "d",
       "text": "das 67. Lebensjahr erreicht hat, wird die Rente noch für eine Garantiezeit von maximal 15 Jahren gezahlt."
      }
     ],
@@ -174,7 +162,7 @@
    {
     "id": "frage-006",
     "type": "single",
-    "prompt": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung Anja Minge (33) ist geschieden und hat eine 11-jährige Tochter. Frau Minge arbeitet als Sachbearbeiterin. Heute beraten Sie Ihre Kundin zum Thema Altersvorsorge und stellen ihr die Vorteile einer fondsgebundenen Rentenversicherung im Rahmen der Zulagenförderung nach § 1 Oa EStG vor. Frau Minge möchte wissen, ob es auch bei dieser Vertragsform Garantien gibt. 0",
+    "prompt": "Anja Minge (33) ist geschieden und hat eine 11-jährige Tochter. Frau Minge arbeitet als Sachbearbeiterin. Heute beraten Sie Ihre Kundin zum Thema Altersvorsorge und stellen ihr die Vorteile einer fondsgebundenen Rentenversicherung im Rahmen der Zulagenförderung nach § 10a EStG vor.\nFrau Minge möchte wissen, ob es auch bei dieser Vertragsform Garantien gibt.",
     "points": 1,
     "options": [
      {
@@ -205,7 +193,7 @@
    {
     "id": "frage-007",
     "type": "single",
-    "prompt": "Beratungsgespräch unterbreiten Sie Albert Löhser 2 Angebote für eine private Rentenversicherung mit laufender Beitragszahlung und jeweils gleicher Garantierente: eine mit Rentenbeginn mit 65 Jahren und eine mit Rentenbeginn mit 67 Jahren. Herr Löhser möchte wissen, warum sich die Beiträge unterscheiden. Sie erklären ihm richtigerweise, dass bei Rentenbeginn mit 67 Jahren",
+    "prompt": "Im Beratungsgespräch unterbreiten Sie Albert Löhser 2 Angebote für eine private Rentenversicherung mit laufender Beitragszahlung und jeweils gleicher Garantierente: eine mit Rentenbeginn mit 65 Jahren und eine mit Rentenbeginn mit 67 Jahren.\nHerr Löhser möchte wissen, warum sich die Beiträge unterscheiden. Sie erklären ihm richtigerweise, dass bei Rentenbeginn mit 67 Jahren",
     "points": 1,
     "options": [
      {
@@ -214,7 +202,7 @@
      },
      {
       "id": "b",
-      "text": "der Risikoanteil im Beitrag geringer ist, weil sich die Beiträge auf einen längeren Zeitraum verteilen. 0"
+      "text": "der Risikoanteil im Beitrag geringer ist, weil sich die Beiträge auf einen längeren Zeitraum verteilen."
      },
      {
       "id": "c",
@@ -236,7 +224,7 @@
    {
     "id": "frage-009",
     "type": "text",
-    "prompt": "Sie beraten das Ehepaar Hagen zu einem Altersvorsorgevertrag im Rahmen der Zulagenförderung nach § 1 0a EStG. Herr Hagen ist angestellter Großhandelskaufmann mit einem Einkommen von 35.000,- € jährlich. Seine Ehefrau ist Hausfrau und erzieht den 7-jährigen Sohn. Frau Hagen fragt Sie, ob ihr als Hausfrau die staatliche Förderung zusteht. Sie erklären Frau Hagen richtigerweise, dass",
+    "prompt": "Anton Hofmann ist verheiratet und hat zwei Kinder (14 und 16 Jahre). Seine Ehefrau ist Hausfrau und kümmert sich um die Erziehung der Kinder.\nHerr Hofmann ist angestellter Geschäftsführer einer Reinigungsfirma und hatte im Vorjahr ein rentenversicherungspflichtiges Einkommen von 58.600 EUR.\nSie haben Herrn Hofmann über die Möglichkeiten einer Altersvorsorge mit staatlicher Förderung (Riester-Rente) informiert.\nHerr Hofmann möchte wissen, welchen Mindesteigenbeitrag die Familie in diesem Jahr leisten muss, um die maximale staatliche Förderung zu erreichen.",
     "points": 1,
     "options": [],
     "answerIds": [
@@ -250,7 +238,38 @@
    {
     "id": "frage-010",
     "type": "single",
-    "prompt": "Ihr langjähriger Kunde Bernhard Keller (64) steht kurz vor seinem Rentenbeginn. Er hat 1992 bei einem Mitbewerber eine Lebensversicherung abgeschlossen, die nun als Kapitalleistung zur Auszahlung kommen wird. Herr Keller fragt Sie, ob die Auszahlung der Lebensversicherung besteuert wird.",
+    "prompt": "Sie beraten das Ehepaar Hagen zu einem Altersvorsorgevertrag im Rahmen der Zulagenförderung nach § 10a EStG. Herr Hagen ist angestellter Großhandelskaufmann mit einem Einkommen von 35.000,00 € jährlich. Seine Ehefrau ist Hausfrau und erzieht den 7-jährigen Sohn. Frau Hagen fragt Sie, ob ihr als Hausfrau die staatliche Förderung zusteht. Sie erklären Frau Hagen richtigerweise, dass",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "sie eine Förderung erhalten kann, weil sie rentenversicherungspflichtig ist."
+     },
+     {
+      "id": "b",
+      "text": "ihre Förderung auf den Vertrag des Ehemannes überwiesen wird, wenn er zum begünstigten Personenkreis gehört."
+     },
+     {
+      "id": "c",
+      "text": "sie eine Förderung nur dann erhalten kann, wenn sie und ihr Ehemann jeweils einen Vertrag abschließen."
+     },
+     {
+      "id": "d",
+      "text": "sie einen Anspruch auf Förderung hat, da sie sich in der Berücksichtigungszeit wegen Kindererziehung befindet."
+     }
+    ],
+    "answerIds": [
+     "c"
+    ],
+    "solution": "Richtige Antwort: C.",
+    "manualGrade": false,
+    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
+    "_page": 10
+   },
+   {
+    "id": "frage-011",
+    "type": "single",
+    "prompt": "Ihr langjähriger Kunde Bernhard Keller (64) steht kurz vor seinem Rentenbeginn. Er hat 1992 bei einem Mitbewerber eine Lebensversicherung abgeschlossen, die nun als Kapitalleistung zur Auszahlung kommen wird.\nHerr Keller fragt Sie, ob die Auszahlung der Lebensversicherung besteuert wird.",
     "points": 1,
     "options": [
      {
@@ -267,50 +286,7 @@
      },
      {
       "id": "d",
-      "text": "Die Erträge sind nur zu 50 % als Einkünfte steuerpflichtig, da Herr Keller bereits das 62. Lebensjahr überschritten hat. wenn vor 31.12.2004 UND 12 Jahre mindestens gelaufen = steuerfrei"
-     }
-    ],
-    "answerIds": [
-     "c"
-    ],
-    "solution": "Richtige Antwort: C.",
-    "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 10
-   },
-   {
-    "id": "frage-011",
-    "type": "single",
-    "prompt": "Berufsunfähigkeitsversicherung beantragen. Sie weisen sie darauf hin, dass auch ein Pflegefall Leistungen auslöst. In diesem Zusammenhang erkundigt fragt Frau Schubert, nach welchem Bewertungsmaßstab der Pflegefall im Sinne der Berufsunfähigkeitsbedingungen eingestuft wird. Die Einstufung erfolgt nach Q",
-    "points": 1,
-    "options": [
-     {
-      "id": "a",
-      "text": "Art und Umfang der erforderlichen täglichen Hilfe durch eine andere Person."
-     },
-     {
-      "id": "b",
-      "text": "ambulanter oder stationärer Pflege."
-     },
-     {
-      "id": "c",
-      "text": "J den gesetzlichen Vorgaben des SGB XI."
-     },
-     {
-      "id": "d",
-      "text": "der Dauer der täglichen Hilfe durch andere Personen."
-     },
-     {
-      "id": "e",
-      "text": "Neuen Begutachtungsassessment (NBA"
-     },
-     {
-      "id": "f",
-      "text": "mindestens 6 Std."
-     },
-     {
-      "id": "g",
-      "text": "Prüfung"
+      "text": "Die Erträge sind nur zu 50 % als Einkünfte steuerpflichtig, da Herr Keller bereits das 62. Lebensjahr überschritten hat."
      }
     ],
     "answerIds": [
@@ -324,9 +300,30 @@
    {
     "id": "frage-012",
     "type": "text",
-    "prompt": "19.10.2020 1 2137953996 f L1 2137946732 'r: Sie führen, t Gerd Heinrich ein Beratungsgespräch Sie beraten Henning Förster (36, unverheiratet und zu seiner p vaten Altersvorsorge und stellen ihm kinderlos) zu einem Altersvorsorgevertrag im verschieden Formen der privaten vor. Rahmen der Zulagenförderung nach § 1 Oa EStG. Dabei erklären Sie ihm, dass er 4% seines Herr Heinrich iinsbesondere an eiJiler privaten Vorjahresbruttoeinkommens aufbringen muss, um kapitalqedeckt Leibrentenversicbärunq die volle Zulage zu erhalten: in seinem Fall wären (Basisrente) int ressiert. dies 1.600 EUR insgesamt. Herr Förster möchte Jedoch ledigllch einen Eigenbeitrag in Höhe von 723 EUR zahlen. Dazu möchte er von Ihnen wissen, welche anteilige a Zulage er erhält, wenn sein eigener Beitrag 723 EUR beträgt. 88,79 € b - BU/EU-Rente/fnie maximal 15% der Beiträge aufg'ew det werden dürfen C Hinterblienenren für den Ehegatten und für kinde geldberec tigte Kinder sowie eine BU/EM/ ente d Hintc/bliebenenrente f den Ehegatten bzw. für d'ie Kinder e erbsminderungsrente, für die maximal 0% der Beiträge aufgewendet werden dürfen 5 -: Seite 5 \". -. -, - J -11 J n t-n '1 J -D t-T +o rl 1-inrtR.fiolrl-=oNqfn!: lo-t l lll..nQR 1RrP-hRfrhhrl1 ARRn 1/Rfi Text im Scan unvollständig bitte im Originalbogen nachsehen",
+    "prompt": "Claudia Schubert will bei Ihnen eine Berufsunfähigkeitsversicherung beantragen. Sie weisen sie darauf hin, dass auch ein Pflegefall Leistungen auslöst.\nIn diesem Zusammenhang fragt Frau Schubert, nach welchem Bewertungsmaßstab der Pflegefall im Sinne der Berufsunfähigkeitsbedingungen eingestuft wird.\nDie Einstufung erfolgt nach…",
     "points": 1,
-    "options": [],
+    "options": [
+     {
+      "id": "a",
+      "text": "Art und Umfang der erforderlichen täglichen Hilfe durch eine andere Person."
+     },
+     {
+      "id": "b",
+      "text": "ambulanter oder stationärer Pflege."
+     },
+     {
+      "id": "c",
+      "text": "den gesetzlichen Vorgaben des SGB XI."
+     },
+     {
+      "id": "d",
+      "text": "der Dauer der täglichen Hilfe durch andere Personen."
+     },
+     {
+      "id": "e",
+      "text": "dem „Neuen Begutachtungsassessment (NBA)“."
+     }
+    ],
     "answerIds": [],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
@@ -336,7 +333,7 @@
    {
     "id": "frage-013",
     "type": "text",
-    "prompt": "Manuela Hinck interessiert sich für eine fondsgebundene Rentenversicherung. Während des Beratungsgesprächs hat sie insbesondere Fragen zu den Überschusssystemen. Frau Hinck möchte wissen, was mit laufenden Überschussanteilen vor Rentenbeginn geschieht. Laufende Überschussanteile werden Q",
+    "prompt": "Sie beraten Henning Förster (36, unverheiratet und kinderlos) zu einem Altersvorsorgevertrag im Rahmen der Zulagenförderung nach § 10a EStG. Dabei erklären Sie ihm, dass er 4 % seines Vorjahresbruttoeinkommens aufbringen muss, um die volle Zulage zu erhalten: in seinem Fall wären dies 1.600 EUR insgesamt.\nHerr Förster möchte jedoch lediglich einen Eigenbeitrag in Höhe von 723 EUR zahlen.\nDazu möchte er von Ihnen wissen, welche anteilige Zulage er erhält, wenn sein eigener Beitrag 723 EUR beträgt.",
     "points": 1,
     "options": [],
     "answerIds": [
@@ -350,20 +347,24 @@
    {
     "id": "frage-014",
     "type": "single",
-    "prompt": "Ihr Kunde Dieter Bertram hat im Wirtschaftsteil seiner Tageszeitung die Begriffe unwiderrufliches und widerrufliches Bezugsrecht in der kapitalbildenden Lebensversicherung gelesen. Bei einem Beratungsgespräch bittet er Sie um Klärung der beiden Begriffe. Welche der nachfolgenden Erklärungen treffen zu?",
+    "prompt": "Manuela Hinck interessiert sich für eine fondsgebundene Rentenversicherung. Während des Beratungsgesprächs hat sie insbesondere Fragen zu den Überschusssystemen.\nFrau Hinck möchte wissen, was mit laufenden Überschussanteilen vor Rentenbeginn geschieht.\nLaufende Überschussanteile werden…",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "Das widerrufliche Bezugsrecht kann nur von der bezugsberechtigten Person geändert werden. nx Stirbt die unwiderruflich bezugsberechtigte Person vor Ablauf des Vertrags, geht das Bezugsrecht auf die Erben des unwiderruflich Bezugsberechtigten über."
+      "text": "dem Fondsguthaben zugeführt."
      },
      {
       "id": "b",
-      "text": "Das widerrufliche Bezugsrecht ist durch ein Testament rechtskräftig ersetzbar. O"
+      "text": "festverzinslich angelegt."
      },
      {
       "id": "c",
-      "text": "Stirbt die widerruflich bezugsberechtigte Person vor Ablauf des Vertrags, geht das Bezugsrecht auf den Versicherungsnehmer über.:7x Das unwiderrufliche Bezugsrecht kann nur mit Zustimmung des unwiderruflich Bezugsberechtigten geändert werden."
+      "text": "zur Erhöhung der Versicherungssumme verwendet."
+     },
+     {
+      "id": "d",
+      "text": "mit dem laufenden Beitrag verrechnet."
      }
     ],
     "answerIds": [
@@ -377,24 +378,24 @@
    {
     "id": "frage-016",
     "type": "multiple",
-    "prompt": "Die alleinerziehende Helga Westermann (40) hat bei der Proximus AG eine Rentenversicherung im Rahmen der Zulagenförderung nach § 1 0a EStG. Für das vergangene Jahr wurden Zulagen in Höhe von 454,- € gewährt. Das Finanzamt hat einen Steuervorteil von 500,- € für diesen Vertrag ermittelt. Frau Westermann möchte von Ihnen wissen, welche finanzielle Auswirkung dies für sie hat.",
+    "prompt": "Ihr Kunde Dieter Bertram hat im Wirtschaftsteil seiner Tageszeitung die Begriffe unwiderrufliches und widerrufliches Bezugsrecht in der kapitalbildenden Lebensversicherung gelesen. Bei einem Beratungsgespräch bittet er Sie um Klärung der beiden Begriffe.\nWelche der nachfolgenden Erklärungen treffen zu?",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "46, - € werden vom Finanzamt zurückerstattet."
+      "text": "Das widerrufliche Bezugsrecht kann nur von der bezugsberechtigten Person geändert werden."
      },
      {
       "id": "b",
-      "text": "46,- € werden ihrem Vorsorgevertrag gutgeschrieben. r,"
+      "text": "Stirbt die unwiderruflich bezugsberechtigte Person vor Ablauf des Vertrags, geht das Bezugsrecht auf die Erben des unwiderruflich Bezugsberechtigten über."
      },
      {
       "id": "c",
-      "text": "500,- € werden vom Finanzamt zurückerstattet."
+      "text": "Das widerrufliche Bezugsrecht ist durch ein Testament rechtskräftig ersetzbar."
      },
      {
       "id": "d",
-      "text": "500,- € werden ihrem Vorsorgevertrag gutgeschrieben."
+      "text": "Stirbt die widerruflich bezugsberechtigte Person vor Ablauf des Vertrags, geht das Bezugsrecht auf den Versicherungsnehmer über."
      },
      {
       "id": "e",
@@ -414,7 +415,7 @@
    {
     "id": "frage-017",
     "type": "text",
-    "prompt": "dr' - il'f - \" Im Beratungsgespräch zu einer kapitalbildenden Lebensversicherung erwähnt Holger Niegel, dass er in Kürze geschäftlich in ein Kriegsgebiet reisen muss. Herr N.iegel möchte von Ihnen wissen, was die Bezugsberechtigten erhalten, wenn er dort vor Ort aufgrund der Ereignisse ums Leben kommt. Text im Scan unvollständig bitte im Originalbogen nachsehen",
+    "prompt": "Sie beraten Oliver Kahlen zu seiner Altersvorsorge. Er möchte im Alter monatlich 3.500,00 € zur Verfügung haben. Heute hat er ein monatliches Bruttoeinkommen von 7.800,00 €. Aus der Gesetzlichen Rentenversicherung darf Herr Kahlen 35 % des beitragspflichtigen Einkommens als Rente erwarten. Weitere Versorgungsquellen existieren nicht.\nWie hoch ist der monatliche Fehlbetrag, den Sie zur Grundlage Ihres Angebotes machen müssen?",
     "points": 1,
     "options": [],
     "answerIds": [
@@ -429,36 +430,28 @@
    {
     "id": "frage-018",
     "type": "single",
-    "prompt": "n r, Sie unterhalten sich mit Ihrem Kollegen Michael Weber. Er vermittelt Lebensversicherungen grundsätzlich ohne Dynamik. Sie möchten ihn vom Gegenteil überzeugen. Welche der folgenden Argumente führen Sie richtigerweise an?",
+    "prompt": "Die alleinerziehende Helga Westermann (40) hat bei der Proximus AG eine Rentenversicherung im Rahmen der Zulagenförderung nach § 10a EStG. Für das vergangene Jahr wurden Zulagen in Höhe von 454,00 € gewährt. Das Finanzamt hat einen Steuervorteil von 500,00 € für diesen Vertrag ermittelt. Frau Westermann möchte von Ihnen wissen, welche finanzielle Auswirkung dies für sie hat.",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "x Der Einschluss der Dynamik soll den Wert des Versicherungsschutzes erhalten."
+      "text": "46,00 € werden vom Finanzamt zurückerstattet."
      },
      {
       "id": "b",
-      "text": "Die Koppelung der Lebensversicherung an den Lebenshaltungskostenindex erhält den späteren Lebensstandard."
+      "text": "46,00 € werden ihrem Vorsorgevertrag gutgeschrieben."
      },
      {
       "id": "c",
-      "text": "x Bei dynamisierten Verträgen entfällt bei den Erhöhungen die Gesundheitsprüfung."
+      "text": "500,00 € werden vom Finanzamt zurückerstattet."
      },
      {
       "id": "d",
-      "text": "Bei vereinbarter Dynamik steigt die Versicherungssumme im doppelten Verhältnis zum Beitrag."
-     },
-     {
-      "id": "e",
-      "text": "Bei vereinbarter Dynamik steigt die Versicherungssumme im gleichen Verhältnis wie der Beitrag. Infla%ons-Schutz & keine weiteren Gesundheitsfragen"
-     },
-     {
-      "id": "f",
-      "text": "Antwort F im Scan nicht lesbar"
+      "text": "500,00 € werden ihrem Vorsorgevertrag gutgeschrieben."
      }
     ],
     "answerIds": [
-     "f"
+     "a"
     ],
     "solution": "Richtige Antwort: F.",
     "manualGrade": false,
@@ -468,7 +461,74 @@
    {
     "id": "frage-019",
     "type": "multiple",
-    "prompt": "Gisela Schmidt ist 17 Jahre alt. Sie möchte ihre Schulausbildung am Gymnasium mit dem Abitur abschließen. Danach beabsichtigt sie, ein freiwilliges soziales Jahr zu absolvieren, um sich auf ihre Ausbildung zur Krankenpflegerin vorzubereiten. Frau Schmidt ist Halbwaise und erhält eine Halbwaisenrente. Welchen Anspruch hat sie nach Beendigung der Schulausbildung?",
+    "prompt": "Im Beratungsgespräch zu einer kapitalbildenden Lebensversicherung erwähnt Holger Niegel, dass er in Kürze geschäftlich in ein Kriegsgebiet reisen muss.\nHerr Niegel möchte von Ihnen wissen, was die Bezugsberechtigten erhalten, wenn er dort vor Ort aufgrund der Ereignisse ums Leben kommt.",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "Bei Tod infolge Krieg oder innerer Unruhen werden die eingezahlten Beiträge und die erwirtschafteten Überschüsse ausgezahlt."
+     },
+     {
+      "id": "b",
+      "text": "Bei Tod infolge Krieg oder innerer Unruhen werden die volle Versicherungssumme und die erwirtschafteten Überschüsse ausgezahlt."
+     },
+     {
+      "id": "c",
+      "text": "Bei Reisen in Länder mit Krieg oder inneren Unruhen ruht der Versicherungsschutz."
+     },
+     {
+      "id": "d",
+      "text": "Bei Tod durch Krieg leistet seine Lebensversicherung nicht."
+     }
+    ],
+    "answerIds": [
+     "d"
+    ],
+    "solution": "Richtige Antwort: D, E.",
+    "manualGrade": false,
+    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
+    "_page": 19
+   },
+   {
+    "id": "frage-020",
+    "type": "multiple",
+    "prompt": "Sie unterhalten sich mit Ihrem Kollegen Michael Weber. Er vermittelt Lebensversicherungen grundsätzlich ohne Dynamik. Sie möchten ihn vom Gegenteil überzeugen.\nWelche der folgenden Argumente führen Sie richtigerweise an?",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "Der Einschluss der Dynamik soll den Wert des Versicherungsschutzes erhalten."
+     },
+     {
+      "id": "b",
+      "text": "Die Koppelung der Lebensversicherung an den Lebenshaltungskostenindex erhält den späteren Lebensstandard."
+     },
+     {
+      "id": "c",
+      "text": "Bei dynamisierten Verträgen entfällt bei den Erhöhungen die Gesundheitsprüfung."
+     },
+     {
+      "id": "d",
+      "text": "Bei vereinbarter Dynamik steigt die Versicherungssumme im doppelten Verhältnis zum Beitrag."
+     },
+     {
+      "id": "e",
+      "text": "Bei vereinbarter Dynamik steigt die Versicherungssumme im gleichen Verhältnis wie der Beitrag."
+     }
+    ],
+    "answerIds": [
+     "a",
+     "c"
+    ],
+    "solution": "Richtige Antwort: A, E.",
+    "manualGrade": false,
+    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
+    "_page": 20
+   },
+   {
+    "id": "frage-021",
+    "type": "single",
+    "prompt": "Gisela Schmidt ist 17 Jahre alt. Sie möchte ihre Schulausbildung am Gymnasium mit dem Abitur abschließen. Danach beabsichtigt sie, ein freiwilliges soziales Jahr zu absolvieren, um sich auf ihre Ausbildung zur Krankenpflegerin vorzubereiten. Frau Schmidt ist Halbwaise und erhält eine Halbwaisenrente.\nWelchen Anspruch hat sie nach Beendigung der Schulausbildung?",
     "points": 1,
     "options": [
      {
@@ -486,24 +546,20 @@
      {
       "id": "d",
       "text": "Der Anspruch auf Halbwaisenrente besteht längstens bis zur Vollendung des 27. Lebensjahres, wenn sie sich in einer Schul- oder Berufsausbildung befindet oder ein freiwilliges soziales Jahr leistet."
-     },
-     {
-      "id": "e",
-      "text": "Antwort E im Scan nicht lesbar"
      }
     ],
     "answerIds": [
      "d"
     ],
-    "solution": "Richtige Antwort: D, E.",
+    "solution": "Richtige Antwort: C, E.",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 19
+    "topic": "Gesetzliche Rentenversicherung",
+    "_page": 21
    },
    {
-    "id": "frage-020",
-    "type": "multiple",
-    "prompt": "Peter Heinen (25) arbeitet seit 4 Jahren als Buchhalter. Im Kreise seiner Arbeitskollegen ist er der einzige Mitarbeiter, der noch keine Renteninformation erhalten hat. Herr Heinen fragt Sie nach dem Grund. Sie erläutern ihm richtigerweise, dass er Q",
+    "id": "frage-023",
+    "type": "single",
+    "prompt": "Peter Heinen (25) arbeitet seit 4 Jahren als Buchhalter. Im Kreise seiner Arbeitskollegen ist er der einzige Mitarbeiter, der noch keine Renteninformation erhalten hat.\nHerr Heinen fragt Sie nach dem Grund.\nSie erläutern ihm richtigerweise, dass er…",
     "points": 1,
     "options": [
      {
@@ -516,30 +572,25 @@
      },
      {
       "id": "c",
-      "text": "nach einer 5-jährigen Betriebszugehörigkeit und dem Mindestalter 25 auf Antrag eine Renteninformation erhält"
+      "text": "nach einer 5-jährigen Betriebszugehörigkeit und dem Mindestalter 25 auf Antrag eine Renteninformation erhält."
      },
      {
       "id": "d",
       "text": "nach Erfüllung der 5-jährigen Beitragszeit und mit Vollendung des 25. Lebensjahres automatisch seine Renteninformation erhält."
-     },
-     {
-      "id": "e",
-      "text": "Antwort E im Scan nicht lesbar"
      }
     ],
     "answerIds": [
-     "a",
-     "c"
+     "b"
     ],
-    "solution": "Richtige Antwort: A, E.",
+    "solution": "Richtige Antwort: B.",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 20
+    "topic": "Gesetzliche Rentenversicherung",
+    "_page": 23
    },
    {
-    "id": "frage-021",
+    "id": "frage-024",
     "type": "multiple",
-    "prompt": "\" Werner Jansenist 36 Jahre alt, alleinstehend, und arbeitet als angestellter Fliesenlegermeister. Er interessiert sich für eine private Rentenversicherung. Im Beratungsgespräch erläutern Sie Herrn Jansen auch die Faktoren für die Beitragshöhe in der Gesetzlichen Rentenversicherung. Welche Faktoren sind dies im Einzelnen?",
+    "prompt": "Werner Jansen ist 36 Jahre alt, alleinstehend, und arbeitet als angestellter Fliesenlegermeister. Er interessiert sich für eine private Rentenversicherung. Im Beratungsgespräch erläutern Sie Herrn Jansen auch die Faktoren für die Beitragshöhe in der Gesetzlichen Rentenversicherung.\nWelche Faktoren sind dies im Einzelnen?",
     "points": 1,
     "options": [
      {
@@ -548,7 +599,7 @@
      },
      {
       "id": "b",
-      "text": "x der jeweils, gültige Beitragssatz"
+      "text": "der jeweils gültige Beitragssatz"
      },
      {
       "id": "c",
@@ -560,22 +611,52 @@
      },
      {
       "id": "e",
-      "text": "x die Beitragsbemessungsgrenze"
+      "text": "die Beitragsbemessungsgrenze"
      }
     ],
     "answerIds": [
+     "b",
      "c",
      "e"
     ],
-    "solution": "Richtige Antwort: C, E.",
+    "solution": "Richtige Antwort: B, C.",
     "manualGrade": false,
     "topic": "Gesetzliche Rentenversicherung",
-    "_page": 21
+    "_page": 24
    },
    {
-    "id": "frage-023",
+    "id": "frage-025",
+    "type": "text",
+    "prompt": "Till Balte (20) ist Auszubildender im 3. Ausbildungsjahr. Bei der Ausübung seines Hobbys verunglückt er schwer und wird dadurch teilweise erwerbsgemindert.\nHerr Balte fragt, ob er einen Anspruch auf eine Rente wegen Erwerbsminderung hat.",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "Ja, weil es für die Rente wegen teilweiser Erwerbsminderung in diesem Fall die vorzeitige Wartezeiterfüllung gibt."
+     },
+     {
+      "id": "b",
+      "text": "Ja, weil er für die Rente wegen Erwerbsminderung keine Wartezeit erfüllen muss."
+     },
+     {
+      "id": "c",
+      "text": "Nein, weil es in diesem Falle für eine Rente wegen teilweiser Erwerbsminderung keine vorzeitige Wartezeiterfüllung gibt."
+     },
+     {
+      "id": "d",
+      "text": "Nein, weil er in den letzten 60 Monaten keine 36 Pflichtbeiträge gezahlt hat."
+     }
+    ],
+    "answerIds": [],
+    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+    "manualGrade": true,
+    "topic": "Gesetzliche Rentenversicherung",
+    "_page": 25
+   },
+   {
+    "id": "frage-026",
     "type": "single",
-    "prompt": "Sie führen ein Beratungsgespräch mit dem Dachdeckermeister Ludwig Krahe (40). Er hat sich vor kurzem von der Versicherungspflicht in der Gesetzlichen Rentenversicherung (GRV) befreien lassen und zahlt seitdem freiwillige Beiträge, um die Höhe seiner Beiträge selbst bestimmen zu können. Herr Krahe fragt Sie, welche Auswirkung eine freiwillige Beitragszahlung für ihn hat. Dadurch",
+    "prompt": "Sie führen ein Beratungsgespräch mit dem Dachdeckermeister Ludwig Krahe (40). Er hat sich vor kurzem von der Versicherungspflicht in der Gesetzlichen Rentenversicherung (GRV) befreien lassen und zahlt seitdem freiwillige Beiträge, um die Höhe seiner Beiträge selbst bestimmen zu können.\nHerr Krahe fragt Sie, welche Auswirkung eine freiwillige Beitragszahlung für ihn hat.\nDadurch…",
     "points": 1,
     "options": [
      {
@@ -596,34 +677,34 @@
      }
     ],
     "answerIds": [
-     "b"
+     "c"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "Richtige Antwort: C.",
     "manualGrade": false,
     "topic": "Gesetzliche Rentenversicherung",
-    "_page": 23
+    "_page": 26
    },
    {
-    "id": "frage-024",
+    "id": "frage-027",
     "type": "multiple",
-    "prompt": "Sie Frau Manfeld zu ihrer Altersvorsorge und gehen zunächst auf die steuerliche Behandlung der Beiträge zur Gesetzlichen Rentenversicherung (GRV) ein. Ihre Kundin möchte wissen, wie sich diese steuerlich auswirken. Die Beiträge",
+    "prompt": "Sie beraten Frau Manfeld zu ihrer Altersvorsorge und gehen zunächst auf die steuerliche Behandlung der Beiträge zur Gesetzlichen Rentenversicherung (GRV) ein. Ihre Kundin möchte wissen, wie sich diese steuerlich auswirken.\nDie Beiträge…",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "unterliegen einem Altersentlastungsbetrag. 0"
+      "text": "unterliegen einem Altersentlastungsbetrag."
      },
      {
       "id": "b",
-      "text": "sind steuerlich abzugsfähige Altersvorsorgeaufwendungen. 0"
+      "text": "sind steuerlich abzugsfähige Altersvorsorgeaufwendungen."
      },
      {
       "id": "c",
-      "text": "sind vollständig steuerlich zu berücksichtiqen."
+      "text": "sind vollständig steuerlich zu berücksichtigen."
      },
      {
       "id": "d",
-      "text": "sind steuerlich abzugsfähige Altersvorsorgeaufwendungen."
+      "text": "sind jeweils zu 50 % abziehbare Vorsorgeaufwendungen und Werbungskosten."
      },
      {
       "id": "e",
@@ -632,30 +713,52 @@
     ],
     "answerIds": [
      "b",
-     "c",
-     "e"
+     "c"
     ],
-    "solution": "Richtige Antwort: B, C.",
+    "solution": "Richtige Antwort: D.",
     "manualGrade": false,
     "topic": "Gesetzliche Rentenversicherung",
-    "_page": 24
+    "_page": 27
    },
    {
-    "id": "frage-025",
-    "type": "text",
-    "prompt": "Antragsaufr hme, efibt Thomas Schaf Diabetes als Vorerkr n ng an. Sie erläutern ihm, dass diese Vorer fankunq zu einer Leistungskürzung f\" re kann. Entscheidend ist Ihr Kunde Walter Mertens hat durch einen der Mitwirkungs/teil. Unfall einen Trümmerbruch am rechten Bein erlitten. Es besteht eine Private Wie hoch (rn P bzent) muss'dieser mindestens sein, damit e zu einer Leistu'hkürzung lnvaliditätssumme. kommt? Die Heilung verlief so schlecht, dass die Ärzte das rechte Bein bis zur Mitte des Oberschenkels abnehmen mussten (60% Invalidität laut Gliedertaxe). Dr. Bock, Chefarzt der Chirurgie, bestätigte, dass eine Zuckerkrankheit zu 20% an den Unfallfolgen mitgewirkt hat. Welche lnvaliditätsleistung erhält Herr Mertens? a - 30.000 EUR b - 20.000 EUR x c - 60.000 EUR d - 40.000 EUR e - 48.000 EUR Ab dem Moment wo eine Krankheit zu 25% oder mehr an den Unfall-Folgen mit gewirkt hat, dann muss dies entsprechend mit berücksichBg werden. 789 -: Seite 789 Text im Scan unvollständig bitte im Originalbogen nachsehen",
-    "points": 1,
-    "options": [],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Gesetzliche Rentenversicherung",
-    "_page": 25
-   },
-   {
-    "id": "frage-026",
+    "id": "frage-028",
     "type": "single",
-    "prompt": "Für Ralf Schwarz (29) besteht seit 2 Jahren bei Ihrer Gesellschaft eine Direktversicherung durch Entgeltumwandlung (bAV). Er möchte jetzt den Arbeitgeber wechseln. Von einem Bekannten hat er die Information erhalten, dass der Versicherungsvertrag mit allen Rechten und Pflichten beim bisherigen Arbeitgeber verbleibt. Ist diese Aussage richtig?",
+    "prompt": "Ihr Kunde Walter Mertens hat durch einen Unfall einen Trümmerbruch am rechten Bein erlitten. Es besteht eine Private Unfallversicherung mit 100.000 EUR Invaliditätssumme.\nDie Heilung verlief so schlecht, dass die Ärzte das rechte Bein bis zur Mitte des Oberschenkels abnehmen mussten (60 % Invalidität laut Gliedertaxe).\nDr. Bock, Chefarzt der Chirurgie, bestätigte, dass eine Zuckerkrankheit zu 20 % an den Unfallfolgen mitgewirkt hat.\nWelche Invaliditätsleistung erhält Herr Mertens?",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "30.000 EUR"
+     },
+     {
+      "id": "b",
+      "text": "20.000 EUR"
+     },
+     {
+      "id": "c",
+      "text": "60.000 EUR"
+     },
+     {
+      "id": "d",
+      "text": "40.000 EUR"
+     },
+     {
+      "id": "e",
+      "text": "48.000 EUR"
+     }
+    ],
+    "answerIds": [
+     "c"
+    ],
+    "solution": "Richtige Antwort: D.",
+    "manualGrade": false,
+    "topic": "Gesetzliche Rentenversicherung",
+    "_page": 28
+   },
+   {
+    "id": "frage-029",
+    "type": "text",
+    "prompt": "Für Ralf Schwarz (29) besteht seit 2 Jahren bei Ihrer Gesellschaft eine Direktversicherung durch Entgeltumwandlung (bAV). Er möchte jetzt den Arbeitgeber wechseln. Von einem Bekannten hat er die Information erhalten, dass der Versicherungsvertrag mit allen Rechten und Pflichten beim bisherigen Arbeitgeber verbleibt.\nIst diese Aussage richtig?",
     "points": 1,
     "options": [
      {
@@ -672,26 +775,24 @@
      },
      {
       "id": "d",
-      "text": "Ja, weil die Unverfallbarkeit nach dem Betriebsrentengesetz noch nicht eingetreten ist. zusätzlich ist auch IMMER Beitragszahler Arbeitnehmer = versicherte Person, NUR bei arbeitnehmer-finanzierte bAV Entgeltumwandlung = arneitnehmer-finanziert"
+      "text": "Ja, weil die Unverfallbarkeit nach dem Betriebsrentengesetz noch nicht eingetreten ist."
      }
     ],
-    "answerIds": [
-     "c"
-    ],
-    "solution": "Richtige Antwort: C.",
-    "manualGrade": false,
-    "topic": "Gesetzliche Rentenversicherung",
-    "_page": 26
+    "answerIds": [],
+    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+    "manualGrade": true,
+    "topic": "Betriebliche Altersversorgung",
+    "_page": 29
    },
    {
-    "id": "frage-027",
-    "type": "multiple",
-    "prompt": "lilil Josef Müller möchte bei seiner Altersvorsorge steuerliche Vorteile in Anspruch nehmen. Im Rahmen der Beratung zur betrieblichen Altersversorgung möchte er wissen, wie viel insgesamt jährlich maximal steuerfrei investiert werden kann. Welche Aussage ist richtig? Es kann steuerfrei",
+    "id": "frage-030",
+    "type": "single",
+    "prompt": "Josef Müller möchte bei seiner Altersvorsorge steuerliche Vorteile in Anspruch nehmen. Im Rahmen der Beratung zur betrieblichen Altersversorgung möchte er wissen, wie viel insgesamt jährlich maximal steuerfrei investiert werden kann.\nWelche Aussage ist richtig?\nEs kann steuerfrei…",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "Beitragsbemessungsgrenze der Gesetzlichen Rentenversicherung investiert werden."
+      "text": "4 % der Beitragsbemessungsgrenze der Gesetzlichen Rentenversicherung investiert werden."
      },
      {
       "id": "b",
@@ -703,27 +804,26 @@
      },
      {
       "id": "d",
-      "text": "8 % der Beitragsbemessungsgrenze der Gesetzlichen Rentenversicherung investiert werden. i aber nur 4% sozialversicherungsrechtlich"
+      "text": "8 % der Beitragsbemessungsgrenze der Gesetzlichen Rentenversicherung investiert werden."
      }
     ],
     "answerIds": [
-     "b",
-     "c"
+     "a"
     ],
-    "solution": "Richtige Antwort: D.",
+    "solution": "Richtige Antwort: A.",
     "manualGrade": false,
-    "topic": "Gesetzliche Rentenversicherung",
-    "_page": 27
+    "topic": "Betriebliche Altersversorgung",
+    "_page": 30
    },
    {
-    "id": "frage-028",
-    "type": "single",
-    "prompt": "Grundzüge der betrieblichen Altersversorgung Der angestellte Zahntechniker Peter Heinzel (40) möchte eine Direktversicherung durch Entgeltumwandlung nach§ 3 Nr. 63 EStG abschließen und die Auszahlung mit dem vollendeten 67. Lebensjahr beantragen. Dabei interessiert ihn auch die vorzeitige Inanspruchnahme, wenn er zu diesem Zeitpunkt noch voll berufstätig sein sollte. Bei der Antragsaufnahme fragt er Sie, ob er die Erlebensfallleistung in einem solchen Fall bereits zum 63. Lebensjahr erhalten kann.",
+    "id": "frage-031",
+    "type": "multiple",
+    "prompt": "Der angestellte Zahntechniker Peter Heinzel (40) möchte eine Direktversicherung durch Entgeltumwandlung nach § 3 Nr. 63 EStG abschließen und die Auszahlung mit dem vollendeten 67. Lebensjahr beantragen. Dabei interessiert ihn auch die vorzeitige Inanspruchnahme, wenn er zu diesem Zeitpunkt noch voll berufstätig sein sollte.\nBei der Antragsaufnahme fragt er Sie, ob er die Erlebensfallleistung in einem solchen Fall bereits zum 63. Lebensjahr erhalten kann.",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "Bezug einer Rente wegen Erwerbsminderung."
+      "text": "Ja, bei Bezug einer Rente wegen Erwerbsminderung."
      },
      {
       "id": "b",
@@ -735,33 +835,35 @@
      },
      {
       "id": "d",
-      "text": "Nein, eine vorzeitige Auszahlung ist nur durch Beendigung des Arbeitsverhältnisses möglich. Entscheidend ist der Alters-Renten-Bescheid, also könnte er auch danach wieder Vollzeit arbeiten gehen."
+      "text": "Nein, eine vorzeitige Auszahlung ist nur durch Beendigung des Arbeitsverhältnisses möglich."
      }
     ],
     "answerIds": [
-     "c"
+     "d"
+    ],
+    "solution": "Richtige Antwort: D, E.",
+    "manualGrade": false,
+    "topic": "Betriebliche Altersversorgung",
+    "_page": 31
+   },
+   {
+    "id": "frage-032",
+    "type": "text",
+    "prompt": "Für Franziska Kalon besteht bei Ihrer Gesellschaft eine Private Unfallversicherung mit Krankenhaustagegeld (KHT) in Höhe von 40 EUR. Nach einem Fahrradunfall im Urlaub musste sie sich zunächst für 56 Tage in stationäre Behandlung begeben. Danach war sie noch für 6 Wochen arbeitsunfähig.\nNach zweieinhalb Jahren ist eine Folgeoperation erforderlich; Dauer des Krankenhausaufenthaltes zwei Wochen mit anschließender Arbeitsunfähigkeit von einer Woche.\nWie hoch (in EUR) ist insgesamt der KHT-Anspruch aus der Privaten Unfallversicherung?",
+    "points": 1,
+    "options": [],
+    "answerIds": [
+     "2800,00"
     ],
     "solution": "Richtige Antwort: D.",
     "manualGrade": false,
-    "topic": "Gesetzliche Rentenversicherung",
-    "_page": 28
-   },
-   {
-    "id": "frage-029",
-    "type": "text",
-    "prompt": "Franziska Kalon besteht bei Ihrer Gesellschaft Als Sie Ihrer Kdin Magdalena Münter die Vorteile eine Private Unfallversicherung einer Privaten nfallversicherung e; lären, kommen mit Krankenhaustagegeld (KHT) in Höhe von 40 Sie auch auf da Thema Gesine EUR. Nach einem Fahrradunfall im Urlaub musste Unfallversicherurr (GUV) zu s/chen. sie sich zunächst für 56 Tage in stationäre Behandlung begeben. Danach war sie noch für 6 Sie erfahren, dassrau Müner jeden Mittwoch bei Wochen arbeitsunfähig. einem Nachbarn fü 225 EUR im Monat den Haushalt in Ordnun hält. Nach zweieinhalb Jahren ist eine Folgeoperation erforderlich; Dauer des Krankenhausaufenthaltes r sie bei der GUV melden zwei Wochen mit anschließender Arbeitsunfähigkeit muss. von einer Woche. Wie hoch (in EUR) ist insgesamt der KHT-Anspruch aus der Privaten Unfallversicherung? a 2.800,- € b - Nein/ da sie nicht Achtung aber je Unfall hat man nur soz/alversicherungsp 3 Jahre lang Anspruch. C ein, da es sich nicht un einen sogenannten Mini-Job handelt. d - Ja, da sie in der GUV pflic'tiitversichert ist. 18 -: Seite 18 Text im Scan unvollständig bitte im Originalbogen nachsehen",
-    "points": 1,
-    "options": [],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
     "topic": "Betriebliche Altersversorgung",
-    "_page": 29
+    "_page": 32
    },
    {
-    "id": "frage-030",
-    "type": "single",
-    "prompt": "Ihre Kundin Ruth Maisei hat bei Ihrer Gesellschaft eine Direktversicherung durch Entgeltumwandlung nach § 40b EStG. Sie werden von Ihrer Kundin auf die Besteuerung der Kapitalleistungen im Rentenbezugsalter angesprochen. Welche Information hierzu ist richtig? Kapitalleistungen werden Q",
+    "id": "frage-033",
+    "type": "multiple",
+    "prompt": "Ihre Kundin Ruth Maisei hat bei Ihrer Gesellschaft eine Direktversicherung durch Entgeltumwandlung nach § 40b EStG. Sie werden von Ihrer Kundin auf die Besteuerung der Kapitalleistungen im Rentenbezugsalter angesprochen.\nWelche Information hierzu ist richtig?\nKapitalleistungen werden…",
     "points": 1,
     "options": [
      {
@@ -778,21 +880,21 @@
      },
      {
       "id": "d",
-      "text": "Kapitalertragssteuer in Höhe von 25 % plus Solidaritätszuschlag und gegebenenfalls Kirchensteuer besteuert."
+      "text": "mit einer Kapitalertragssteuer in Höhe von 25 % plus Solidaritätszuschlag und gegebenenfalls Kirchensteuer besteuert."
      }
     ],
     "answerIds": [
-     "a"
+     "b"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "Richtige Antwort: B, D.",
     "manualGrade": false,
     "topic": "Betriebliche Altersversorgung",
-    "_page": 30
+    "_page": 33
    },
    {
-    "id": "frage-031",
-    "type": "multiple",
-    "prompt": "Lothar Eberlein verbrachte mit seiner Familie einen Tauchurlaub in Ägypten. Bei einem Tauchgang an einem versunkenen Schiffswrack wurde er durch einen herabstürzenden Balken eingeklemmt. Herr Eberlein konnte sich nicht mehr befreien und wurde am nächsten Tag tot geborgen. Für die Familie besteht eine private Frau Eberlein erkundigt sich jetzt, ob sie Leistungen aus der Unfallversicherung erhält. Die Kundin erhält",
+    "id": "frage-034",
+    "type": "single",
+    "prompt": "Lothar Eberlein verbrachte mit seiner Familie einen Tauchurlaub in Ägypten. Bei einem Tauchgang an einem versunkenen Schiffswrack wurde er durch einen herabstürzenden Balken eingeklemmt. Herr Eberlein konnte sich nicht mehr befreien und wurde am nächsten Tag tot geborgen. Für die Familie besteht eine private Unfallversicherung mit 400.000,- € Invaliditätsleistung und 20.000,- € Todesfallleistung.\nFrau Eberlein erkundigt sich jetzt, ob sie Leistungen aus der Unfallversicherung erhält.\nDie Kundin erhält…",
     "points": 1,
     "options": [
      {
@@ -810,82 +912,6 @@
      {
       "id": "d",
       "text": "Leistungen in vereinbarter Höhe."
-     },
-     {
-      "id": "e",
-      "text": "Antwort E im Scan nicht lesbar"
-     }
-    ],
-    "answerIds": [
-     "d"
-    ],
-    "solution": "Richtige Antwort: D, E.",
-    "manualGrade": false,
-    "topic": "Betriebliche Altersversorgung",
-    "_page": 31
-   },
-   {
-    "id": "frage-032",
-    "type": "text",
-    "prompt": "Ihr Kunde Gottfried Sauer ist auf dem Weg zur Arbeit schwer verunglückt. Herr Sauer hatte bei seiner Freundin übernachtet und war von dort morgens mit dem Fahrrad zur Arbeit gefahren. Ihr Kunde fragt bei Ihnen nach, ob er in diesem Fall aus der Gesetzlichen Unfallversicherung Versicherungsschutz hat. Herr Sauer hat",
-    "points": 1,
-    "options": [],
-    "answerIds": [
-     "2800,00"
-    ],
-    "solution": "Richtige Antwort: D.",
-    "manualGrade": false,
-    "topic": "Betriebliche Altersversorgung",
-    "_page": 32
-   },
-   {
-    "id": "frage-033",
-    "type": "multiple",
-    "prompt": "Unfallversicherung Fritz Miegel ist am vergangenen Sonntag dem Aufruf des Deutschen Roten Kreuzes zur Blutspende gefolgt. Auf dem Rückweg ist er beim Überqueren einer Straße von einem Radfahrer angefahren worden. Er stürzte und erlitt erhebliche Verletzungen Da Herr Miegel im öffentlichen Interesse unterwegs war, hat er Versicherungsschutz. über die Gesetzliehe",
-    "points": 1,
-    "options": [
-     {
-      "id": "a",
-      "text": "Herr Miegel kann lediglich aus dem Schadenersatzanspruch gegenüber dem Radfahrer eine finanzielle Entschädigung erhalten."
-     },
-     {
-      "id": "b",
-      "text": "Da der Unfall in der Freizeit, geschah, gibt es keinen Anspruch aus der Gesetzliehen Unfallversicherung."
-     },
-     {
-      "id": "c",
-      "text": "Herr Miegel kann lediglich aus dem Schadenersatzanspruch gegenüber dem Deutschen Roten Kreuz eine finanzielle Entschädigung erhalten."
-     },
-     {
-      "id": "d",
-      "text": "Antwort D im Scan nicht lesbar"
-     }
-    ],
-    "answerIds": [
-     "b"
-    ],
-    "solution": "Richtige Antwort: B, D.",
-    "manualGrade": false,
-    "topic": "Betriebliche Altersversorgung",
-    "_page": 33
-   },
-   {
-    "id": "frage-034",
-    "type": "single",
-    "prompt": "Sie beraten Andrea Krack zu einer privaten Unfallversicherung. Während des Gesprächs erzählt Ihnen Frau Krack, dass sie zu ihrem Geburtstag von ihrem Freundeskreis einen Gutschein über eine 2-stündige Ballonfahrt mit Beteiligung an Auf- und Abbau geschenkt bekommen hat. Frau Krack möchte wissen, ob sie während dieser Fahrt unfallversichert ist. r Sie ist als Passagierin versichert.",
-    "points": 1,
-    "options": [
-     {
-      "id": "a",
-      "text": "Da sie bei Auf- und Abbau des Ballons helfen muss, ist sie als Besatzungsmitglied nicht versichert."
-     },
-     {
-      "id": "b",
-      "text": "Sie ist als Passagierin nicht versichert."
-     },
-     {
-      "id": "c",
-      "text": "Sie ist versichert, weil sie in diesem Fall als sonstiges Besatzungsmitglied gilt."
      }
     ],
     "answerIds": [],
@@ -897,24 +923,24 @@
    {
     "id": "frage-035",
     "type": "single",
-    "prompt": "Während des Urlaubs auf Mallorca wurde Lena Schlegel abends in einer Fußgängerzone überfallen und dabei verletzt. Sie musste deshalb 4 Tage stationär im Krankenhaus behandelt werden. Frau Schlegel ist bei Ihrer Gesellschaft mit einem Unfall-Krankenhaustagegeld in Höhe von 25,- € versichert. Frau Schlegel erhält",
+    "prompt": "Ihr Kunde Gottfried Sauer ist auf dem Weg zur Arbeit schwer verunglückt. Herr Sauer hatte bei seiner Freundin übernachtet und war von dort morgens mit dem Fahrrad zur Arbeit gefahren.\nIhr Kunde fragt bei Ihnen nach, ob er in diesem Fall aus der Gesetzlichen Unfallversicherung Versicherungsschutz hat.\nHerr Sauer hat…",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "Antwort A im Scan nicht lesbar"
+      "text": "nur Versicherungsschutz, wenn die Wohnung der Freundin auf dem direkten Weg von der eigenen Wohnung zur Arbeitsstätte liegt."
      },
      {
       "id": "b",
-      "text": "Antwort B im Scan nicht lesbar"
+      "text": "keinen Versicherungsschutz, da Umwege nicht versichert sind."
      },
      {
       "id": "c",
-      "text": "keine Leistung, da es sich um eine Straftat handelt."
+      "text": "keinen Versicherungsschutz, denn dieser besteht nur auf dem direkten Weg von der eigenen Wohnung zur Arbeitsstätte."
      },
      {
       "id": "d",
-      "text": "keine Leistung, da es sich nicht um einen bedingungsgemäßen Unfall handelt."
+      "text": "in diesem Fall Versicherungsschutz aus der Gesetzlichen Unfallversicherung."
      }
     ],
     "answerIds": [],
@@ -926,9 +952,26 @@
    {
     "id": "frage-036",
     "type": "text",
-    "prompt": "Beratungsgespräch zu einer Karl Jost (angestellter Arzt) hat bei Ihrer er Ihnen vom Unfall eines seiner Bekannten in folgenden Versicherungssummen: den Alpen. Dieser wurde nach aufwendiger Suche mit einem Hubschrauber abtransportiert. 75.000 EUR Todesfall-Leistung Es entstanden Kosten in Höhe von 150.000 EUR lnvaliditätsleistung 8.000 Euro für die Suche 7.500 Euro für den Rettungseinsatz der Bergwacht 13.000 Euro für den Rettungshubschrauber Durch einen Unfall verliert er ein Bein (60%) und eine Hand (55 Herr Scholze möchte von Ihnen wissen, in welcher Höhe in so einem Fall Welche Summe (in EUR) kann Herrn Jost Versicherungsschutz durch eine private bedingungsgemäß vor Abschluss des ausgezahlt werden? In welcher Höhe würden die nachgewiesenen Kosten durch die Unfallversicherung erstattet? a - 28.500 EUR b - 25.000 EUR c - 21.000 EUR d - 20.500 EUR e - 15.500 EUR 792 -: Seite 792 Text im Scan unvollständig bitte im Originalbogen nachsehen",
+    "prompt": "Fritz Miegel ist am vergangenen Sonntag dem Aufruf des Deutschen Roten Kreuzes zur Blutspende gefolgt. Auf dem Rückweg ist er beim Überqueren einer Straße von einem Radfahrer angefahren worden. Er stürzte und erlitt erhebliche Verletzungen.\nKann Herr Miegel in diesem Fall mit Leistungen aus der Gesetzlichen Unfallversicherung rechnen?",
     "points": 1,
-    "options": [],
+    "options": [
+     {
+      "id": "a",
+      "text": "Da Herr Miegel im öffentlichen Interesse unterwegs war, hat er Versicherungsschutz über die Gesetzliche Unfallversicherung."
+     },
+     {
+      "id": "b",
+      "text": "Herr Miegel kann lediglich aus dem Schadenersatzanspruch gegenüber dem Radfahrer eine finanzielle Entschädigung erhalten."
+     },
+     {
+      "id": "c",
+      "text": "Da der Unfall in der Freizeit geschah, gibt es keinen Anspruch aus der Gesetzlichen Unfallversicherung."
+     },
+     {
+      "id": "d",
+      "text": "Herr Miegel kann lediglich aus dem Schadenersatzanspruch gegenüber dem Deutschen Roten Kreuz eine finanzielle Entschädigung erhalten."
+     }
+    ],
     "answerIds": [
      "a"
     ],
@@ -940,7 +983,120 @@
    {
     "id": "frage-037",
     "type": "single",
-    "prompt": "Unfallversicherung. Josef Steinhuber bezog dieses Jahr aufgrund eines Arbeitsunfalls Verletztengeld von der Berufsgenossenschaft in Höhe von 1.800,- €. Er fragt Sie, wie diese Leistung steuerlich behandelt wird. Das Verletztengeld",
+    "prompt": "Sie beraten Andrea Krack zu einer privaten Unfallversicherung. Während des Gesprächs erzählt Ihnen Frau Krack, dass sie zu ihrem Geburtstag von ihrem Freundeskreis einen Gutschein über eine 2-stündige Ballonfahrt mit Beteiligung an Auf- und Abbau geschenkt bekommen hat.\nFrau Krack möchte wissen, ob sie während dieser Fahrt unfallversichert ist.",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "Sie ist als Passagierin versichert."
+     },
+     {
+      "id": "b",
+      "text": "Da sie bei Auf- und Abbau des Ballons helfen muss, ist sie als Besatzungsmitglied nicht versichert."
+     },
+     {
+      "id": "c",
+      "text": "Sie ist als Passagierin nicht versichert."
+     },
+     {
+      "id": "d",
+      "text": "Sie ist versichert, weil sie in diesem Fall als sonstiges Besatzungsmitglied gilt."
+     }
+    ],
+    "answerIds": [
+     "a"
+    ],
+    "solution": "Richtige Antwort: A. Verletztengeld aus der gesetzlichen Unfallversicherung ist steuerfrei.",
+    "manualGrade": false,
+    "topic": "Unfallversicherung",
+    "_page": 37
+   },
+   {
+    "id": "frage-038",
+    "type": "single",
+    "prompt": "Während des Urlaubs auf Mallorca wurde Lena Schlegel abends in einer Fußgängerzone überfallen und dabei verletzt. Sie musste deshalb 4 Tage stationär im Krankenhaus behandelt werden. Frau Schlegel ist bei Ihrer Gesellschaft mit einem Unfall-Krankenhaustagegeld in Höhe von 25,00 € versichert.\nSie möchte von Ihnen wissen, mit welchem Betrag sie rechnen kann.\nFrau Schlegel erhält…",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "75,00 €"
+     },
+     {
+      "id": "b",
+      "text": "100,00 €"
+     },
+     {
+      "id": "c",
+      "text": "keine Leistung, da es sich um eine Straftat handelt."
+     },
+     {
+      "id": "d",
+      "text": "keine Leistung, da es sich nicht um einen bedingungsgemäßen Unfall handelt."
+     }
+    ],
+    "answerIds": [
+     "b"
+    ],
+    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+    "manualGrade": true,
+    "topic": "Unfallversicherung",
+    "_page": 38
+   },
+   {
+    "id": "frage-039",
+    "type": "single",
+    "prompt": "Im Beratungsgespräch zu einer Unfallversicherung erzählt Ihnen Klaus Scholze vom Unfall eines seiner Bekannten in den Alpen. Dieser wurde nach aufwendiger Suche mit einem Hubschrauber abtransportiert.\nEs entstanden Kosten in Höhe von 8.000 Euro für die Suche, 7.500 Euro für den Rettungseinsatz der Bergwacht, 13.000 Euro für den Rettungshubschrauber.\nHerr Scholze möchte von Ihnen wissen, in welcher Höhe in so einem Fall Versicherungsschutz durch eine private Unfallversicherung bestehen würde.\nIn welcher Höhe würden die nachgewiesenen Kosten durch die Unfallversicherung erstattet?",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "28.500,- €"
+     },
+     {
+      "id": "b",
+      "text": "25.000,- €"
+     },
+     {
+      "id": "c",
+      "text": "21.000,- €"
+     },
+     {
+      "id": "d",
+      "text": "20.500,- €"
+     },
+     {
+      "id": "e",
+      "text": "15.500,- €"
+     }
+    ],
+    "answerIds": [
+     "b"
+    ],
+    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+    "manualGrade": true,
+    "topic": "Unfallversicherung",
+    "_page": 39,
+    "note": "Such-, Bergungs- und Rettungskosten maximiert auf 25.000 €."
+   },
+   {
+    "id": "frage-040",
+    "type": "text",
+    "prompt": "Karl Jost (angestellter Arzt) hat bei Ihrer Gesellschaft eine Private Unfallversicherung mit 75.000 EUR Todesfall-Leistung sowie 150.000 EUR Invaliditätsleistung.\nDurch einen Unfall verliert er ein Bein (60 %) und eine Hand (55 %).\nWelche Summe (in EUR) kann Herrn Jost bedingungsgemäß vor Abschluss des Heilverfahrens innerhalb eines Jahres ausgezahlt werden?",
+    "points": 1,
+    "options": [],
+    "answerIds": [
+     "75000"
+    ],
+    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+    "manualGrade": true,
+    "topic": "Unfallversicherung",
+    "_page": 40,
+    "note": "Vor Abschluss des Heilverfahrens innerhalb eines Jahres wird maximal die Todesfallsumme gezahlt."
+   },
+   {
+    "id": "frage-041",
+    "type": "text",
+    "prompt": "Josef Steinhuber bezog dieses Jahr aufgrund eines Arbeitsunfalls Verletztengeld von der Berufsgenossenschaft in Höhe von 1.800,00 €.\nEr fragt Sie, wie diese Leistung steuerlich behandelt wird.\nDas Verletztengeld…",
     "points": 1,
     "options": [
      {
@@ -960,18 +1116,16 @@
       "text": "ist voll zu besteuern."
      }
     ],
-    "answerIds": [
-     "a"
-    ],
-    "solution": "Richtige Antwort: A. Verletztengeld aus der gesetzlichen Unfallversicherung ist steuerfrei.",
-    "manualGrade": false,
+    "answerIds": [],
+    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+    "manualGrade": true,
     "topic": "Unfallversicherung",
-    "_page": 37
+    "_page": 41
    },
    {
-    "id": "frage-038",
+    "id": "frage-042",
     "type": "single",
-    "prompt": "Unfallversicherung. Da er in Kürze sein 67. Lebensjahr vollendet, bittet er um Überprüfung seines Versicherungsvertrages. Was geschieht zu diesem Zeitpunkt mit seinem Vertrag? Der Vertrag",
+    "prompt": "Eberhard Streit besitzt bei Ihrer Gesellschaft seit einigen Jahren eine private Unfallversicherung. Da er in Kürze sein 67. Lebensjahr vollendet, bittet er um Überprüfung seines Versicherungsvertrages.\nWas geschieht zu diesem Zeitpunkt mit seinem Vertrag?\nDer Vertrag…",
     "points": 1,
     "options": [
      {
@@ -988,26 +1142,26 @@
      },
      {
       "id": "d",
-      "text": "sieht die Auszahlung der lnvaliditätsleistung nur noch als Rente vor. Prüfung"
+      "text": "sieht die Auszahlung der Invaliditätsleistung nur noch als Rente vor."
      }
     ],
     "answerIds": [
-     "b"
+     "a"
     ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
     "topic": "Unfallversicherung",
-    "_page": 38
+    "_page": 42
    },
    {
-    "id": "frage-039",
-    "type": "single",
-    "prompt": "Unfallversicherung Während eines Beratungsgespräches zur privaten Unfallversicherung legt Ihnen Ihr Kunde Georg Lieber einen Zeitungsartikel vor. Darin wird von einer aufwändigen Suchaktion nach einem vermissten Bergsteiger in Österreich berichtet. Glücklicherweise ist dieser Bergsteiger unversehrt nach 2 Tagen wieder aufgetaucht. Herr Lieber möchte von Ihnen wissen, inwieweit dieser Fall über seine private Unfallversicherung abgesichert wäre. Versichert sind Sucheinsätze",
+    "id": "frage-043",
+    "type": "multiple",
+    "prompt": "Während eines Beratungsgespräches zur privaten Unfallversicherung legt Ihnen Ihr Kunde Georg Lieber einen Zeitungsartikel vor. Darin wird von einer aufwändigen Suchaktion nach einem vermissten Bergsteiger in Österreich berichtet. Glücklicherweise ist dieser Bergsteiger unversehrt nach 2 Tagen wieder aufgetaucht.\nHerr Lieber möchte von Ihnen wissen, inwieweit dieser Fall über seine private Unfallversicherung abgesichert wäre.\nVersichert sind Sucheinsätze…",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "bis zu einem Höchstbetrag von 25.000,- € je Unfall."
+      "text": "bis zu einem Höchstbetrag von 25.000,00 € je Unfall."
      },
      {
       "id": "b",
@@ -1023,7 +1177,40 @@
      },
      {
       "id": "e",
-      "text": "bis zu einem Höchstbetrag von 25 % der lnvaliditätssumme je Unfall."
+      "text": "bis zu einem Höchstbetrag von 25 % der Invaliditätssumme je Unfall."
+     }
+    ],
+    "answerIds": [
+     "a",
+     "c",
+     "d"
+    ],
+    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+    "manualGrade": true,
+    "topic": "Unfallversicherung",
+    "_page": 43
+   },
+   {
+    "id": "frage-044",
+    "type": "single",
+    "prompt": "Für Sandra Niemann besteht bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung inklusive Pflegepflichtversicherung. Seit 3 Wochen wird sie auf Grund einer chronischen Darmerkrankung stationär im Krankenhaus behandelt.\nIhre Kundin fragt bei Ihnen nach, für welchen Zeitraum die Heilbehandlungskosten übernommen werden.\nDie Kosten werden übernommen bis…",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "Frau Niemann das Krankenhaus verlassen kann."
+     },
+     {
+      "id": "b",
+      "text": "eine Behandlungsbedürftigkeit nach medizinischem Befund nicht mehr besteht."
+     },
+     {
+      "id": "c",
+      "text": "durch einen Amtsarzt festgestellt wurde, dass Frau Niemann ein Pflegefall geworden ist."
+     },
+     {
+      "id": "d",
+      "text": "die maximale Behandlungszeit von 6 Wochen für diese Krankheit erreicht ist."
      }
     ],
     "answerIds": [
@@ -1031,41 +1218,44 @@
     ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
-    "topic": "Unfallversicherung",
-    "_page": 39,
-    "note": "Such-, Bergungs- und Rettungskosten maximiert auf 25.000 €."
+    "topic": "Krankenversicherung/ Pflegeversicherung",
+    "_page": 44
    },
    {
-    "id": "frage-040",
-    "type": "text",
-    "prompt": "Krankenversicherung/ Pflegeversicherung 1 1 H loit:; Für Sandra Niemann besteht bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung inklusive Pflegepflichtversicherung. Seit 3 Wochen wird Sie auf Grund einer chronischen Darmerkrankung stationär im Krankenhaus behandelt. Ihre Kundin fragt bei Ihnen nach, für welchen Zeitraum die Heilbehandlungskosten übernommen werden. Die Kosten werden übernommen bis",
-    "points": 1,
-    "options": [],
-    "answerIds": [
-     "75000"
-    ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Unfallversicherung",
-    "_page": 40,
-    "note": "Vor Abschluss des Heilverfahrens innerhalb eines Jahres wird maximal die Todesfallsumme gezahlt."
-   },
-   {
-    "id": "frage-041",
-    "type": "text",
-    "prompt": "19.10.2020 149 2137953729 G7 2137968608 Die pfl; htversicherte Angestellte Silvj/Meißner Maria Drugg (44), ledig und kinderlos, ist seit Jahren versteh nicht, wozu sie eine freiwillig bei der AOK versichert (Beitragssatz 15,5% Kranken egeldversicherung a?Jchließen soll. Sie 14,6 + 0,9 Sie lebt und arbeitet in Essen. Ihr meint, da das ihr zustehende, fankengeld der monatliches Einkommen liegt bei 4.800 EUR Brutto, Krankenka se auch bei längei; er Arbeitsunfähigkeit bzw. 2.700 EUR Netto. Im Krankheitsfall würde der völlig ausrei ht. Arbeitgeber für 6 Wochen den Lohn in voller Höhe weiterzahlen. Danach übernimmt ihre Krankenkasse die Zahlungen. Frau Drugg möchte sich hinsichtlich eines Krankentagegeldes beraten lassen, um gegebenenfalls eine finanzielle Versorgungslücke im Krankheitsfall schließen zu können. a ßßG; 6 815c C ''Z.(1-Z.O J) Wie hoch ist die monatliche Versorgungslücke? b a -. 5 CS i t5\"c: b - 563,42 EUR C c - 270,00 EUR d Arbeitnehmeranteil z. f K ranken-, Renten- und Pflegeversicherun. d - 757,82 EUR l-G'k,, C'J L' C / zr D 26 -: Seite 26 Text im Scan unvollständig bitte im Originalbogen nachsehen",
-    "points": 1,
-    "options": [],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Unfallversicherung",
-    "_page": 41
-   },
-   {
-    "id": "frage-042",
+    "id": "frage-045",
     "type": "single",
-    "prompt": "Krankenversicherung familienversichert. In den Sommerferien wird sie vom 15.06. bis 31.07. eine Aushilfstätigkeit in einem Bekleidungsgeschäft annehmen. Ihr Einkommen in dieser Zeit wird 2.600,- € betragen. Inwieweit hat die Tätigkeit von Frau Rother Auswirkungen auf ihren Status als Familienversicherte? Die Tätigkeit von Frau Rother hat keine Auswirkungen, da",
+    "prompt": "Maria Drugg (44), ledig und kinderlos, ist seit Jahren freiwillig bei der AOK versichert (Beitragssatz 15,5 % [14,6 + 0,9]). Sie lebt und arbeitet in Essen. Ihr monatliches Einkommen liegt bei 4.800 EUR Brutto, bzw. 2.700 EUR Netto. Im Krankheitsfall würde der Arbeitgeber für 6 Wochen den Lohn in voller Höhe weiterzahlen. Danach übernimmt ihre Krankenkasse die Zahlungen. Frau Drugg möchte sich hinsichtlich eines Krankentagegeldes beraten lassen, um gegebenenfalls eine finanzielle Versorgungslücke im Krankheitsfall schließen zu können.\nWie hoch ist die monatliche Versorgungslücke?\nAnmerkung: BBG = 4.687,50 € (2020); Kinderloszuschlag: 0,25 %",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "565,25 EUR"
+     },
+     {
+      "id": "b",
+      "text": "563,42 EUR"
+     },
+     {
+      "id": "c",
+      "text": "270,00 EUR"
+     },
+     {
+      "id": "d",
+      "text": "757,82 EUR"
+     }
+    ],
+    "answerIds": [
+     "a"
+    ],
+    "solution": "Das gesetzliche Krankengeld beträgt maximal 70 % vom Brutto, höchstens 90 % vom Netto. Davon gehen noch Sozialversicherungsbeiträge ab – deshalb entsteht eine Versorgungslücke.",
+    "manualGrade": true,
+    "topic": "Krankenversicherung/ Pflegeversicherung",
+    "_page": 45
+   },
+   {
+    "id": "frage-046",
+    "type": "text",
+    "prompt": "Frau Rother ist bei Ihrer Krankenversicherung familienversichert. In den Sommerferien wird sie vom 15.06. bis 31.07. eine Aushilfstätigkeit in einem Bekleidungsgeschäft annehmen. Ihr Einkommen in dieser Zeit wird 2.600,00 € betragen.\nInwieweit hat die Tätigkeit von Frau Rother Auswirkungen auf ihren Status als Familienversicherte?\nDie Tätigkeit von Frau Rother hat keine Auswirkungen, da…",
     "points": 1,
     "options": [
      {
@@ -1086,17 +1276,17 @@
      }
     ],
     "answerIds": [
-     "a"
+     "d"
     ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
-    "topic": "Unfallversicherung",
-    "_page": 42
+    "topic": "Krankenversicherung/ Pflegeversicherung",
+    "_page": 46
    },
    {
-    "id": "frage-043",
+    "id": "frage-047",
     "type": "multiple",
-    "prompt": "Sie beraten Rüdiger Dünnwald (42 Jahre) zu einer Krankheitskostenvollversicherung. Herr Dünnwald hat in der Zeitung gelesen, dass der Basistarif eine Versorgung zu bezahlbaren Beiträgen bietet. Er möchte nun von Ihnen wissen, wie es sich damit verhält. Der Beitrag im Basistarif",
+    "prompt": "Sie beraten Rüdiger Dünnwald (42 Jahre) zu einer Krankheitskostenvollversicherung. Herr Dünnwald hat in der Zeitung gelesen, dass der Basistarif eine Versorgung zu bezahlbaren Beiträgen bietet.\nEr möchte nun von Ihnen wissen, wie es sich damit verhält.\nDer Beitrag im Basistarif…",
     "points": 1,
     "options": [
      {
@@ -1122,18 +1312,17 @@
     ],
     "answerIds": [
      "a",
-     "c",
      "d"
     ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
-    "topic": "Unfallversicherung",
-    "_page": 43
+    "topic": "Krankenversicherung/ Pflegeversicherung",
+    "_page": 47
    },
    {
-    "id": "frage-044",
-    "type": "single",
-    "prompt": "Felix Manke ist freiwillig bei einer Betriebskrankenkasse (GKV) versichert. Nun möchte er sich bei Ihnen über eine Krankheitskostenvollversicherung (PKV) bei der Proximus AG informieren. In diesem Zusammenhang fragt er, wie hoch dann der Arbeitgeberzuschuss sein wird. Der Anspruch auf Arbeitgeberzuschuss beträgt die Hälfte",
+    "id": "frage-048",
+    "type": "text",
+    "prompt": "Felix Manke ist freiwillig bei einer Betriebskrankenkasse (GKV) versichert. Nun möchte er sich bei Ihnen über eine Krankheitskostenvollversicherung (PKV) bei der Proximus AG informieren.\nIn diesem Zusammenhang fragt er, wie hoch dann der Arbeitgeberzuschuss sein wird.\nDer Anspruch auf Arbeitgeberzuschuss beträgt die Hälfte…",
     "points": 1,
     "options": [
      {
@@ -1150,21 +1339,21 @@
      },
      {
       "id": "d",
-      "text": "des allgemeinen, gesetzlichen Beitragssatzes der GKV zuzüglich der Hälfte des durchschnittlichen Zusatzbeitragssatzes, höchstens jedoch die Hälfte des Betrages, den der Beschäftigte für seine private"
+      "text": "des allgemeinen gesetzlichen Beitragssatzes der GKV zuzüglich der Hälfte des durchschnittlichen Zusatzbeitragssatzes, höchstens jedoch die Hälfte des Betrages, den der Beschäftigte für seine private Krankenversicherung zu zahlen hat."
      }
     ],
     "answerIds": [
-     "b"
+     "a"
     ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
     "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 44
+    "_page": 48
    },
    {
-    "id": "frage-045",
+    "id": "frage-049",
     "type": "single",
-    "prompt": "n Richard Schulte (56) hat seit 20 Jahren bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung. Nach der diesjährigen Erhöhung der Jahresarbeitsentgeltgrenze (JAEG) liegt das Gehalt von Herrn Schulte unter dieser Grenze. 'Er erkundigt sich bei Ihnen, ob seine private Krankenversicherung (PKV) bestehen bleiben muss.",
+    "prompt": "Richard Schulte (56) hat seit 20 Jahren bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung. Nach der diesjährigen Erhöhung der Jahresarbeitsentgeltgrenze (JAEG) liegt das Gehalt von Herrn Schulte unter dieser Grenze.\nEr erkundigt sich bei Ihnen, ob seine private Krankenversicherung (PKV) bestehen bleiben muss.",
     "points": 1,
     "options": [
      {
@@ -1177,39 +1366,56 @@
      },
      {
       "id": "c",
-      "text": "Ja, da er mit 56 Jahren 9/10 der zweiten Hälfte seines Erwerbslebens nicht in der Gesetzlichen"
+      "text": "Ja, da er mit 56 Jahren 9/10 der zweiten Hälfte seines Erwerbslebens nicht in der Gesetzlichen Krankenversicherung versichert war."
      },
      {
       "id": "d",
-      "text": "Nein, da er keinen Antrag auf Weiterversicherung ln der PKV gestellt hat."
+      "text": "Nein, da er keinen Antrag auf Weiterversicherung in der PKV gestellt hat."
      }
     ],
     "answerIds": [
-     "a"
-    ],
-    "solution": "Das gesetzliche Krankengeld beträgt maximal 70 % vom Brutto, höchstens 90 % vom Netto. Davon gehen noch Sozialversicherungsbeiträge ab – deshalb entsteht eine Versorgungslücke.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 45
-   },
-   {
-    "id": "frage-046",
-    "type": "text",
-    "prompt": "Herr Kurt Klinger, leder lngenieur,1.ressiert Martin Kautz hat bei Ihrer Gesellschaft eine sich für eine Krankheitskostenvollvejsicherunq. Er Krankheitskostenvollversicherung mit einem fragt Sie, was denn paseiert, wenn/ir unerwartet in Krankentagegeld in Höhe von 150 EUR täglich ab Zahlunqsschwieriqkeites geraten würde. dem 43. Tag. Wegen einer schweren Erkrankung war er vom 16.04. bis 20.07. des Jahres arbeitsunfähig. Hierzu zeigen Sie Ihrem: Wechsels in den Notlage Herr Kautz fragt nach der Höhe der Leistung aus seiner Krankentagegeldversicherung. Der NLT a - 7.950 EUR 1 - ist ein Tarif für Ver, siherte in vorübergehendei/ finrnziellen Notlagen. b - 8.100 EUR 2 - ist ein Tarif für persicHrte in C - 13.350 EUR vorüberge' e den fina ziellen Notlagen, kann aber a eh für Preisbewusste im Neugeschä angebote werden. d - 14.400 EUR 3 - ist ein vesbandseinheitlicber Tarif. 4 - ist ein Jarif in dem keine gsrückstellungen gJbildet werden. 5 - erstttet Leistungen zur Behandlung von aku en Erkrankungen und Sch erzzuständen sowie bei Schwangerschaft und Mutterschaft. 23: Seite 23 https wwwviversabiz/Viversa/ Adm in Tool/Ad min PrintPageaspx?render=PrintTestRendering&field=32549cof-f993-4 f87-aaa 7 -2f68 77 4048fd &p 23/85 Text im Scan unvollständig bitte im Originalbogen nachsehen",
-    "points": 1,
-    "options": [],
-    "answerIds": [
-     "d"
+     "b"
     ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
     "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 46
+    "_page": 49
    },
    {
-    "id": "frage-047",
-    "type": "multiple",
-    "prompt": "Krankenversicherung/ Pflegeversicherung Ihr Kunde Martin Grödinger ist immer in der Gesetzlichen Krankenversicherung (GKV) versichert gewesen, in den letzten zehn Jahren als freiwilliges Mitglied. Er wird in Kürze die gesetzliche Altersrente beantragen. Er fragt Sie, wie er im Alter krankenversichert sein wird. Herr Grödinger ...",
+    "id": "frage-050",
+    "type": "single",
+    "prompt": "Martin Kautz hat bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung mit einem Krankentagegeld in Höhe von 150 EUR täglich ab dem 43. Tag. Wegen einer schweren Erkrankung war er vom 16.04. bis 20.07. des Jahres arbeitsunfähig.\nHerr Kautz fragt nach der Höhe der Leistung aus seiner Krankentagegeldversicherung.",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "7.950 EUR"
+     },
+     {
+      "id": "b",
+      "text": "8.100 EUR"
+     },
+     {
+      "id": "c",
+      "text": "13.350 EUR"
+     },
+     {
+      "id": "d",
+      "text": "14.400 EUR"
+     }
+    ],
+    "answerIds": [
+     "b"
+    ],
+    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
+    "manualGrade": true,
+    "topic": "Krankenversicherung/ Pflegeversicherung",
+    "_page": 50
+   },
+   {
+    "id": "frage-051",
+    "type": "single",
+    "prompt": "Ihr Kunde Martin Grödinger ist immer in der Gesetzlichen Krankenversicherung (GKV) versichert gewesen, in den letzten zehn Jahren als freiwilliges Mitglied. Er wird in Kürze die gesetzliche Altersrente beantragen.\nEr fragt Sie, wie er im Alter krankenversichert sein wird.\nHerr Grödinger…",
     "points": 1,
     "options": [
      {
@@ -1226,36 +1432,35 @@
      },
      {
       "id": "d",
-      "text": "wird freiwilliges Mitglied in der Krankenversicherung der Rentner. y ÜII"
+      "text": "wird freiwilliges Mitglied in der Krankenversicherung der Rentner."
      }
     ],
     "answerIds": [
-     "a",
-     "d"
+     "c"
     ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
     "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 47
+    "_page": 51
    },
    {
-    "id": "frage-048",
+    "id": "frage-052",
     "type": "text",
-    "prompt": "tjW.ff9fi m m;. t r a - f:: s: ff i f ff Sie beraten Barbara Vogt zu einer Krankheitskostenvollversicherung und Pflegepflichtversicherung. Frau Vogt ist 38 Jahre alt, Single und hat keine Kinder. Sie arbeitet als Vorstandssekretärin in einem großen Industrieunternehmen und verdient 5.900,- € Brutto. Um Frau Vogt die Beitragsersparnis einer privaten Pflegepflichtversicherung deutlich zahlen hat. Welchen korrekten Betrag nennen Sie Frau Vogt? Euro Cent Hinweis Eintrag in Euro und Cent, also z.B. 1212 für eintausendzweihundertzwölf Euro und 12 für zwölf Cent. Text im Scan unvollständig bitte im Originalbogen nachsehen",
+    "prompt": "Sie beraten Barbara Vogt zu einer Krankheitskostenvollversicherung und Pflegepflichtversicherung. Frau Vogt ist 38 Jahre alt, Single und hat keine Kinder. Sie arbeitet als Vorstandssekretärin in einem großen Industrieunternehmen und verdient 5.900,00 € Brutto. Um Frau Vogt die Beitragsersparnis einer privaten Pflegepflichtversicherung deutlich zu machen, vergleichen Sie diese mit dem Beitrag der sozialen Pflegeversicherung.\nWelchen korrekten Betrag nennen Sie Frau Vogt?",
     "points": 1,
     "options": [],
     "answerIds": [
-     "a"
+     "93,51"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "Richtige Antwort: C.",
+    "manualGrade": false,
     "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 48
+    "_page": 52
    },
    {
-    "id": "frage-049",
-    "type": "single",
-    "prompt": "Krankenversicherung (GKV) kündigen und in die private Krankenversicherung (PKV) wechseln. Seine Ehefrau wird weiterhin für 510,- € monatlich beschäftigt bleiben. Er fragt Sie, wie seine Ehefrau dann versichert ist. Seine Ehefrau",
+    "id": "frage-053",
+    "type": "text",
+    "prompt": "Ihr Kunde möchte seine Krankenversicherung (GKV) kündigen und in die private Krankenversicherung (PKV) wechseln. Seine Ehefrau wird weiterhin für 510,00 € monatlich beschäftigt bleiben.\nEr fragt Sie, wie seine Ehefrau dann versichert ist.\nSeine Ehefrau…",
     "points": 1,
     "options": [
      {
@@ -1275,96 +1480,6 @@
       "text": "bleibt beitragsfrei in der GKV versichert."
      }
     ],
-    "answerIds": [
-     "b"
-    ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 49
-   },
-   {
-    "id": "frage-050",
-    "type": "single",
-    "prompt": "Krankenversicherung/Pflegeversicherung. Peter Heinrichs ist Angestellter und verdient jährlich 45.000,- € (brutto). Jutta Heinrichs ist selbstständig und erzielt Einkünfte von 60.000,- € jährlich. Das Ehepaar hat 2 schulpflichtige Kinder. Frau Heinrichs möchte bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung (PKV) abschließen. Sie fragt, wie die Kinder zu versichern sind. Die Kinder",
-    "points": 1,
-    "options": [
-     {
-      "id": "a",
-      "text": "können grundsätzlich in der Gesetzlichen Krankenversicherung familienversichert werden, sofern ein Ehepartner gesetzlich krankenversichert ist."
-     },
-     {
-      "id": "b",
-      "text": "müssen privat versichert werden, da Frau Heinrichs als Selbständige in die PKV wechselt und dadurch die Familienversicherung erlischt."
-     },
-     {
-      "id": "c",
-      "text": "können entweder privat versichert werden oder als freiwillige Mitglieder gegen eigenen Beitrag in der Gesetzlichen Krankenversicherung bleiben."
-     },
-     {
-      "id": "d",
-      "text": "können bei Herrn Heinrichs beitragsfrei in der Familienversicherung bleiben, da die Einkünfte von Frau Heinrichs unterhalb der Jahresarbeitsentgeltgrenze liegen."
-     }
-    ],
-    "answerIds": [
-     "b"
-    ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 50
-   },
-   {
-    "id": "frage-051",
-    "type": "single",
-    "prompt": "Rani Ghabi ist niederländischer Staatsbürger und lebt seit 3 Jahren in Deutschland. Er ist seither freiwillig bei einer Gesetzlichen Krankenversicherung (GKV) versichert. Herr Ghabi beantragt bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung (PKV) inklusive der privaten Pflegepflichtversicherung (PPV). Herr Ghabi möchte wissen, ob durch diesen Übertritt Wartezeiten anfallen.",
-    "points": 1,
-    "options": [
-     {
-      "id": "a",
-      "text": "Nein, die Wartezeiten sind durch die Versicherungszeiten in der GKV bereits abgegolten."
-     },
-     {
-      "id": "b",
-      "text": "Nein, die Wartezeiten der PKV sind bereits abgegolten, in der PPV fallen keine Wartezeiten an."
-     },
-     {
-      "id": "c",
-      "text": "Ja, in der PPV besteht für ihn noch eine Wartezeit von 2 Jahren."
-     },
-     {
-      "id": "d",
-      "text": "Ja, in der PPV besteht für ihn eine Wartezeit von 5 Jahren."
-     }
-    ],
-    "answerIds": [
-     "c"
-    ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 51
-   },
-   {
-    "id": "frage-052",
-    "type": "text",
-    "prompt": "Kathrin Mälzer ist bei Ihrer Gesellschaft hausratversichert. Sie hat sich gerade einen teuren Schwebetürenschrank mit Spiegeltüren angeschafft. Aus diesem Grund lässt sie sich von Ihnen zum Thema Glasversicherung beraten. Um den Vorteil dieser Versicherung herauszustellen, nennen Sie richtigerweise folgendes, versichertes Beispiel: Der Versicherer leistet, wenn",
-    "points": 1,
-    "options": [],
-    "answerIds": [
-     "93,51"
-    ],
-    "solution": "Richtige Antwort: C.",
-    "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 52
-   },
-   {
-    "id": "frage-053",
-    "type": "text",
-    "prompt": "Ihrer Gesellschaft Bei der Aufnahme des Antrages von Frau eine VerbundeneHayl, ratversicherung. Sein Kirsch ermitteln Sie einen Gesamtwert des Sohn studiert zurzll; it/8etriebswirtschaft in Kiel. Hausrates von 100.000 EUR. Darin enthalten sind 120 Jahre alte Uhren (Wert 3.000 EUR), Gestern wurde im 1tdentenwohnheim Pelze (Wert 6.000 EUR), sein Spind aufgeb , en und 100 EUR sowie Schmuck (Wert 17.500 EUR), Ölgemälde (Wert seine Armbanduhr ge ohlen. 1.500 EUR), ein 140 Jahre alter Eckschrank (Wert 9.000 EUR) sowie Herr Feldkamp fragt Sie, ob hierfür Silberbesteck (Wert 2.000 EUR). versicherunqsschutz be eht. Sie geben Frau Kirsch gegenüber zu bedenken, a - Ja, Vtrsicherungs hutz besteht im dass die Entschädigungsgrenze für Wertsachen Rah?hen der Vorso geversicherung bis in Höhe von 20% der Versicherungssumme 10/J der Versicherunssumme. nicht ausreicht. Sie empfehlen ihr folglich, die Entschädigungsgrenze zu erhöhen. b - Nin, da sich die Wertlpchen nicht am Frau Kirsch möchte von Ihnen wissen, auf wie Vkrsicherungsort befanäen. viel Prozent. C ia, während der Ausbildung besteht in diesem Fall Versicherungsschutz. 30% d. Nein, da sein Sohn in jedem Fall eine! eigene Hausratversicherung benötigt. Möbelstücke, wenn Antiquitäten, extra versichern! 1015 -: Seite 1015 Text im Scan unvollständig bitte im Originalbogen nachsehen",
-    "points": 1,
-    "options": [],
     "answerIds": [
      "c"
     ],
