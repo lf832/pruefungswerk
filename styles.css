@@ -326,3 +326,10 @@ footer{padding-bottom:calc(83px + env(safe-area-inset-bottom,0px))}
 .hb-why span{font-size:13px;line-height:1.6}
 .hb-why.is-empty{border-left-color:var(--line);background:transparent}
 .hb-why.is-empty span{color:var(--muted);font-style:italic;font-size:12px}
+
+.sol-note{margin-top:12px;padding:10px 12px;border-radius:10px;background:rgba(120,150,110,.12);border-left:3px solid #6b8f5e;font-size:14px;line-height:1.5}
+.sol-note b{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#5c7d52;margin-bottom:4px}
+.solution-box.ok .sol-note,.solution-box.no .sol-note{background:rgba(120,150,110,.12)}
+
+.text-hint{margin:8px 0 0;font-size:13px;line-height:1.45;color:var(--muted,#6d7a68)}
+.text-hint b{color:var(--ink,#22301e)}

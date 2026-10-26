@@ -1,6 +1,6 @@
 /* Prüfungswerk Service Worker — network-first, damit Updates sofort ankommen */
-const CACHE='pruefungswerk-static-v30';
-const FILES=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./icon.svg','./wissen.json','./skripte.json'];
+const CACHE='pruefungswerk-static-v34';
+const FILES=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./icon.svg','./wissen.json'];
 self.addEventListener('install',e=>{e.waitUntil((async()=>{const c=await caches.open(CACHE);await Promise.all(FILES.map(f=>c.add(new Request(f,{cache:'reload'})).catch(()=>{})));await self.skipWaiting()})())});
 self.addEventListener('activate',e=>{e.waitUntil((async()=>{const ks=await caches.keys();await Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k)));await self.clients.claim()})())});
 self.addEventListener('fetch',e=>{const req=e.request;if(req.method!=='GET')return;let u;try{u=new URL(req.url)}catch(err){return}if(u.origin!==self.location.origin)return;

@@ -30,10 +30,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 1
+    "topic": "Private Vorsorge",
+    "_page": 1,
+    "num": 1
    },
    {
     "id": "frage-002",
@@ -63,8 +64,9 @@
     ],
     "solution": "Richtige Antwort: A, E.",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 2
+    "topic": "Private Vorsorge",
+    "_page": 2,
+    "num": 2
    },
    {
     "id": "frage-003",
@@ -92,10 +94,11 @@
     "answerIds": [
      "d"
     ],
-    "solution": "Richtige Antwort: D.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 3
+    "topic": "Private Vorsorge",
+    "_page": 3,
+    "num": 3
    },
    {
     "id": "frage-004",
@@ -125,8 +128,9 @@
     ],
     "solution": "Richtige Antwort: D, E.",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 4
+    "topic": "Private Vorsorge",
+    "_page": 4,
+    "num": 4
    },
    {
     "id": "frage-005",
@@ -156,8 +160,9 @@
     ],
     "solution": "Richtige Antwort: C, D.",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 5
+    "topic": "Private Vorsorge",
+    "_page": 5,
+    "num": 5
    },
    {
     "id": "frage-006",
@@ -185,10 +190,11 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 6
+    "topic": "Private Vorsorge",
+    "_page": 6,
+    "num": 6
    },
    {
     "id": "frage-007",
@@ -216,10 +222,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 7
+    "topic": "Private Vorsorge",
+    "_page": 7,
+    "num": 7
    },
    {
     "id": "frage-009",
@@ -230,10 +237,11 @@
     "answerIds": [
      "1210"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 9
+    "topic": "Private Vorsorge",
+    "_page": 9,
+    "num": 8
    },
    {
     "id": "frage-010",
@@ -261,10 +269,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 10
+    "topic": "Private Vorsorge",
+    "_page": 10,
+    "num": 9
    },
    {
     "id": "frage-011",
@@ -292,10 +301,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 11
+    "topic": "Private Vorsorge",
+    "_page": 11,
+    "num": 10
    },
    {
     "id": "frage-012",
@@ -327,10 +337,12 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 12
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Private Vorsorge",
+    "_page": 12,
+    "num": 11,
+    "note": "Die Einstufung erfolgt nach Art und Umfang der erforderlichen täglichen Hilfe — mindestens 6 Stunden täglich durch eine andere Person."
    },
    {
     "id": "frage-013",
@@ -341,10 +353,11 @@
     "answerIds": [
      "88,79"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 13
+    "topic": "Private Vorsorge",
+    "_page": 13,
+    "num": 12
    },
    {
     "id": "frage-014",
@@ -372,10 +385,11 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 14
+    "topic": "Private Vorsorge",
+    "_page": 14,
+    "num": 13
    },
    {
     "id": "frage-016",
@@ -411,8 +425,9 @@
     ],
     "solution": "Richtige Antwort: A, C.",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 16
+    "topic": "Private Vorsorge",
+    "_page": 16,
+    "num": 14
    },
    {
     "id": "frage-017",
@@ -423,11 +438,12 @@
     "answerIds": [
      "857,50"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
+    "topic": "Private Vorsorge",
     "_page": 17,
-    "note": "Achtung: 35 % der BBG (Beitragsgesundungsgrenze). Brutto-Gehalt übersteigt BBG. BBG 7.550,- €!"
+    "note": "Achtung: 35 % der BBG (Beitragsbemessungsgrenze). Das Brutto-Gehalt übersteigt die BBG. BBG 7.550,- €!",
+    "num": 15
    },
    {
     "id": "frage-018",
@@ -457,8 +473,9 @@
     ],
     "solution": "Richtige Antwort: F.",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 18
+    "topic": "Private Vorsorge",
+    "_page": 18,
+    "num": 16
    },
    {
     "id": "frage-019",
@@ -488,8 +505,9 @@
     ],
     "solution": "Richtige Antwort: D, E.",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 19
+    "topic": "Private Vorsorge",
+    "_page": 19,
+    "num": 17
    },
    {
     "id": "frage-020",
@@ -524,8 +542,9 @@
     ],
     "solution": "Richtige Antwort: A, E.",
     "manualGrade": false,
-    "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
-    "_page": 20
+    "topic": "Private Vorsorge",
+    "_page": 20,
+    "num": 18
    },
    {
     "id": "frage-021",
@@ -556,7 +575,8 @@
     "solution": "Richtige Antwort: C, E.",
     "manualGrade": false,
     "topic": "Gesetzliche Rentenversicherung",
-    "_page": 21
+    "_page": 21,
+    "num": 19
    },
    {
     "id": "frage-023",
@@ -584,10 +604,11 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "",
     "manualGrade": false,
     "topic": "Gesetzliche Rentenversicherung",
-    "_page": 23
+    "_page": 23,
+    "num": 20
    },
    {
     "id": "frage-024",
@@ -624,7 +645,8 @@
     "solution": "Richtige Antwort: B, C.",
     "manualGrade": false,
     "topic": "Gesetzliche Rentenversicherung",
-    "_page": 24
+    "_page": 24,
+    "num": 21
    },
    {
     "id": "frage-025",
@@ -652,10 +674,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Gesetzliche Rentenversicherung",
-    "_page": 25
+    "_page": 25,
+    "num": 22
    },
    {
     "id": "frage-026",
@@ -683,10 +706,11 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
     "topic": "Gesetzliche Rentenversicherung",
-    "_page": 26
+    "_page": 26,
+    "num": 23
    },
    {
     "id": "frage-027",
@@ -719,10 +743,11 @@
      "b",
      "c"
     ],
-    "solution": "Richtige Antwort: D.",
+    "solution": "",
     "manualGrade": false,
     "topic": "Gesetzliche Rentenversicherung",
-    "_page": 27
+    "_page": 27,
+    "num": 24
    },
    {
     "id": "frage-028",
@@ -754,10 +779,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: D.",
+    "solution": "",
     "manualGrade": false,
     "topic": "Gesetzliche Rentenversicherung",
-    "_page": 28
+    "_page": 28,
+    "num": 25
    },
    {
     "id": "frage-029",
@@ -785,10 +811,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Betriebliche Altersversorgung",
-    "_page": 29
+    "_page": 29,
+    "num": 26
    },
    {
     "id": "frage-030",
@@ -816,10 +843,11 @@
     "answerIds": [
      "d"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
     "topic": "Betriebliche Altersversorgung",
-    "_page": 30
+    "_page": 30,
+    "num": 27
    },
    {
     "id": "frage-031",
@@ -850,7 +878,8 @@
     "solution": "Richtige Antwort: D, E.",
     "manualGrade": false,
     "topic": "Betriebliche Altersversorgung",
-    "_page": 31
+    "_page": 31,
+    "num": 28
    },
    {
     "id": "frage-032",
@@ -861,10 +890,11 @@
     "answerIds": [
      "2800,00"
     ],
-    "solution": "Richtige Antwort: D.",
+    "solution": "",
     "manualGrade": false,
     "topic": "Betriebliche Altersversorgung",
-    "_page": 32
+    "_page": 32,
+    "num": 29
    },
    {
     "id": "frage-033",
@@ -895,7 +925,8 @@
     "solution": "Richtige Antwort: B, D.",
     "manualGrade": false,
     "topic": "Betriebliche Altersversorgung",
-    "_page": 33
+    "_page": 33,
+    "num": 30
    },
    {
     "id": "frage-034",
@@ -923,10 +954,11 @@
     "answerIds": [
      "d"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Unfallversicherung",
-    "_page": 34
+    "_page": 34,
+    "num": 31
    },
    {
     "id": "frage-035",
@@ -954,10 +986,11 @@
     "answerIds": [
      "d"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Unfallversicherung",
-    "_page": 35
+    "_page": 35,
+    "num": 32
    },
    {
     "id": "frage-036",
@@ -985,10 +1018,11 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Unfallversicherung",
-    "_page": 36
+    "_page": 36,
+    "num": 33
    },
    {
     "id": "frage-037",
@@ -1019,7 +1053,8 @@
     "solution": "Richtige Antwort: A. Verletztengeld aus der gesetzlichen Unfallversicherung ist steuerfrei.",
     "manualGrade": false,
     "topic": "Unfallversicherung",
-    "_page": 37
+    "_page": 37,
+    "num": 34
    },
    {
     "id": "frage-038",
@@ -1047,15 +1082,16 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Unfallversicherung",
-    "_page": 38
+    "_page": 38,
+    "num": 35
    },
    {
     "id": "frage-039",
     "type": "single",
-    "prompt": "Im Beratungsgespräch zu einer Unfallversicherung erzählt Ihnen Klaus Scholze vom Unfall eines seiner Bekannten in den Alpen. Dieser wurde nach aufwendiger Suche mit einem Hubschrauber abtransportiert.\nEs entstanden Kosten in Höhe von 8.000 Euro für die Suche, 7.500 Euro für den Rettungseinsatz der Bergwacht, 13.000 Euro für den Rettungshubschrauber.\nHerr Scholze möchte von Ihnen wissen, in welcher Höhe in so einem Fall Versicherungsschutz durch eine private Unfallversicherung bestehen würde.\nIn welcher Höhe würden die nachgewiesenen Kosten durch die Unfallversicherung erstattet?",
+    "prompt": "Im Beratungsgespräch zu einer Unfallversicherung mit H. Klaus Scholze erzählt er Ihnen vom Unfall eines seiner Bekannten in den Alpen. Dieser wurde nach aufwendiger Suche mit einem Hubschrauber abtransportiert.\nEs entstanden Kosten in Höhe von 8.000 Euro für die Suche, 7.500 Euro für den Rettungseinsatz der Bergwacht, 13.000 Euro für den Rettungshubschrauber.\nHerr Scholze möchte von Ihnen wissen, in welcher Höhe in so einem Fall Versicherungsschutz durch eine private Unfallversicherung bestehen würde.\nIn welcher Höhe würden die nachgewiesenen Kosten durch die Unfallversicherung erstattet?",
     "points": 1,
     "options": [
      {
@@ -1082,11 +1118,12 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Unfallversicherung",
     "_page": 39,
-    "note": "Such-, Bergungs- und Rettungskosten maximiert auf 25.000 €."
+    "note": "Such-, Bergungs- und Rettungskosten sind maximiert auf 25.000 €.",
+    "num": 36
    },
    {
     "id": "frage-040",
@@ -1097,11 +1134,12 @@
     "answerIds": [
      "75000"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Unfallversicherung",
     "_page": 40,
-    "note": "Vor Abschluss des Heilverfahrens innerhalb eines Jahres wird maximal die Todesfallsumme gezahlt."
+    "note": "Vor Abschluss des Heilverfahrens innerhalb eines Jahres wird maximal die Todesfallsumme gezahlt.",
+    "num": 37
    },
    {
     "id": "frage-041",
@@ -1129,10 +1167,11 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Unfallversicherung",
-    "_page": 41
+    "_page": 41,
+    "num": 38
    },
    {
     "id": "frage-042",
@@ -1160,10 +1199,11 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Unfallversicherung",
-    "_page": 42
+    "_page": 42,
+    "num": 39
    },
    {
     "id": "frage-043",
@@ -1197,10 +1237,11 @@
      "c",
      "d"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
+    "solution": "",
+    "manualGrade": false,
     "topic": "Unfallversicherung",
-    "_page": 43
+    "_page": 43,
+    "num": 40
    },
    {
     "id": "frage-044",
@@ -1228,10 +1269,11 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 44
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "_page": 44,
+    "num": 41
    },
    {
     "id": "frage-045",
@@ -1260,9 +1302,11 @@
      "a"
     ],
     "solution": "Das gesetzliche Krankengeld beträgt maximal 70 % vom Brutto, höchstens 90 % vom Netto. Davon gehen noch Sozialversicherungsbeiträge ab – deshalb entsteht eine Versorgungslücke.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 45
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "_page": 45,
+    "num": 42,
+    "note": "Das gesetzliche Krankengeld beträgt maximal 70 % vom Brutto, höchstens 90 % vom Netto. Davon gehen noch Sozialversicherungsbeiträge ab — deshalb entsteht eine Versorgungslücke."
    },
    {
     "id": "frage-046",
@@ -1290,10 +1334,11 @@
     "answerIds": [
      "d"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 46
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "_page": 46,
+    "num": 43
    },
    {
     "id": "frage-047",
@@ -1326,10 +1371,11 @@
      "a",
      "d"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 47
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "_page": 47,
+    "num": 44
    },
    {
     "id": "frage-048",
@@ -1357,10 +1403,11 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 48
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "_page": 48,
+    "num": 45
    },
    {
     "id": "frage-049",
@@ -1388,10 +1435,11 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 49
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "_page": 49,
+    "num": 46
    },
    {
     "id": "frage-050",
@@ -1419,10 +1467,11 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 50
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "_page": 50,
+    "num": 47
    },
    {
     "id": "frage-051",
@@ -1450,10 +1499,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 51
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "_page": 51,
+    "num": 48
    },
    {
     "id": "frage-052",
@@ -1464,10 +1514,11 @@
     "answerIds": [
      "93,51"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 52
+    "topic": "Kranken- und Pflegeversicherung",
+    "_page": 52,
+    "num": 49
    },
    {
     "id": "frage-053",
@@ -1495,15 +1546,124 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 53
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "_page": 53,
+    "num": 50
    },
    {
-    "id": "frage-054",
+    "id": "frage-I-051",
     "type": "single",
-    "prompt": "In einem Mehrfamilienhaus ist in die Wohnung von Lothar Peschke eingebrochen worden. Die Täter haben einige Gegenstände entwendet, das Sofa aufgeschlitzt und die Wände innerhalb und außerhalb der Wohnung mit Farbe besprüht. Herr Peschke fragt Sie, ob seine Hausratversicherunq die Kosten für den Wandanstrich im Treppenhaus übernimmt.",
+    "prompt": "Peter Heinrichs ist Angestellter und verdient jährlich 45.000,00 € (brutto). Jutta Heinrichs ist selbstständig und erzielt Einkünfte von 60.000,00 € jährlich. Das Ehepaar hat 2 schulpflichtige Kinder.\nFrau Heinrichs möchte bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung (PKV) abschließen.\n\nSie fragt, wie die Kinder zu versichern sind.\n\nDie Kinder …",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "können grundsätzlich in der Gesetzlichen Krankenversicherung familienversichert werden, sofern ein Ehepartner gesetzlich krankenversichert ist."
+     },
+     {
+      "id": "b",
+      "text": "müssen privat versichert werden, da Frau Heinrichs als Selbständige in die PKV wechselt und dadurch die Familienversicherung erlischt."
+     },
+     {
+      "id": "c",
+      "text": "können entweder privat versichert werden oder als freiwillige Mitglieder gegen eigenen Beitrag in der Gesetzlichen Krankenversicherung bleiben."
+     },
+     {
+      "id": "d",
+      "text": "können bei Herrn Heinrichs beitragsfrei in der Familienversicherung bleiben, da die Einkünfte von Frau Heinrichs unterhalb der Jahresarbeitsentgeltgrenze liegen."
+     }
+    ],
+    "answerIds": [
+     "d"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "num": 51
+   },
+   {
+    "id": "frage-I-052",
+    "type": "single",
+    "prompt": "Rani Ghabi ist niederländischer Staatsbürger und lebt seit 3 Jahren in Deutschland. Er ist seither freiwillig bei einer Gesetzlichen Krankenversicherung (GKV) versichert. Herr Ghabi beantragt bei Ihrer Gesellschaft eine Krankheitskostenvollversicherung (PKV) inklusive der privaten Pflegepflichtversicherung (PPV).\n\nHerr Ghabi möchte wissen, ob durch diesen Übertritt Wartezeiten anfallen.",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "Nein, die Wartezeiten sind durch die Versicherungszeiten in der GKV bereits abgegolten."
+     },
+     {
+      "id": "b",
+      "text": "Nein, die Wartezeiten der PKV sind bereits abgegolten, in der PPV fallen keine Wartezeiten an."
+     },
+     {
+      "id": "c",
+      "text": "Ja, in der PPV besteht für ihn noch eine Wartezeit von 2 Jahren."
+     },
+     {
+      "id": "d",
+      "text": "Ja, in der PPV besteht für ihn eine Wartezeit von 5 Jahren."
+     }
+    ],
+    "answerIds": [
+     "a"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kranken- und Pflegeversicherung",
+    "num": 52
+   },
+   {
+    "id": "frage-I-071",
+    "type": "single",
+    "prompt": "Kathrin Mälzer ist bei Ihrer Gesellschaft hausratversichert. Sie hat sich gerade einen teuren Schwebetürenschrank mit Spiegeltüren angeschafft. Aus diesem Grund lässt sie sich von Ihnen zum Thema Glasversicherung beraten. Um den Vorteil dieser Versicherung herauszustellen, nennen Sie richtigerweise folgendes versichertes Beispiel:\n\nDer Versicherer leistet, wenn …",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "die Spiegeltüren nach einem Brand zerspringen."
+     },
+     {
+      "id": "b",
+      "text": "beim Putzen die Spiegeltüren zerkratzt werden."
+     },
+     {
+      "id": "c",
+      "text": "Frau Mälzer beim Yoga gegen den Schrank fällt und die Spiegeltüren zu Bruch gehen."
+     },
+     {
+      "id": "d",
+      "text": "die Spiegeltüren durch Löscharbeiten nach einem Brand aufgrund thermischer Spannungen zerspringen."
+     }
+    ],
+    "answerIds": [
+     "c"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Hausratversicherung",
+    "num": 71
+   },
+   {
+    "id": "frage-I-072",
+    "type": "text",
+    "prompt": "Bei der Aufnahme des Antrages von Frau Kirsch ermitteln Sie einen Gesamtwert des Hausrates von 100.000 EUR. Darin enthalten sind 120 Jahre alte Uhren (Wert 3.000 EUR), Pelze (Wert 6.000 EUR), Schmuck (Wert 17.500 EUR), Ölgemälde (Wert 1.500 EUR), ein 140 Jahre alter Eckschrank (Wert 9.000 EUR) sowie Silberbesteck (Wert 2.000 EUR).\n\nSie geben Frau Kirsch gegenüber zu bedenken, dass die Entschädigungsgrenze für Wertsachen in Höhe von 20 % der Versicherungssumme nicht ausreicht. Sie empfehlen ihr folglich, die Entschädigungsgrenze zu erhöhen.\n\nFrau Kirsch möchte von Ihnen wissen, auf wie viel Prozent.",
+    "points": 1,
+    "options": [],
+    "answerIds": [
+     "30"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Hausratversicherung",
+    "num": 72,
+    "note": "Wertsachen (Uhren, Pelze, Schmuck, Edelsteine, Wertpapiere, Silberbesteck) sind nur bis zur vereinbarten Entschädigungsgrenze versichert — Standard 20 % der Versicherungssumme, hier auf 30 % erhöht."
+   },
+   {
+    "id": "frage-I-073",
+    "type": "single",
+    "prompt": "In einem Mehrfamilienhaus ist in die Wohnung von Lothar Peschke eingebrochen worden. Die Täter haben einige Gegenstände entwendet, das Sofa aufgeschlitzt und die Wände innerhalb und außerhalb der Wohnung mit Farbe besprüht. Herr Peschke fragt Sie, ob seine Hausratversicherung die Kosten für den Wandanstrich im Treppenhaus übernimmt.",
     "points": 1,
     "options": [
      {
@@ -1526,15 +1686,15 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 54
+    "topic": "Hausratversicherung",
+    "num": 73
    },
    {
-    "id": "frage-055",
+    "id": "frage-I-074",
     "type": "single",
-    "prompt": "Jörg Dietze hat bei der Proximus AG eine Hausratversicherung. Er meldet Ihnen, dass er am 15.10. mit dem Umzug in eine neue Wohnung beginnt. Seine bisherige Wohnung hat er zum 31.12. gekündigt. Als er bereits umgezogen ist und mehr als die Hälfte seines Hausrates in seiner neuen Wohnung hat, erkrankt er so schwerwiegend, dass ein Teil seines Hausrates in der alten Wohnung verbleibt. Am 20.12. wird in diese Wohnung eingebrochen, alle Möbel werden gestohlen. Besteht für seinen Hausrat in der alten Wohnung Versicherungsschutz?",
+    "prompt": "Jörg Dietze hat bei der Proximus AG eine Hausratversicherung. Er meldet Ihnen, dass er am 15.10. mit dem Umzug in eine neue Wohnung beginnt. Seine bisherige Wohnung hat er zum 31.12. gekündigt. Als er bereits umgezogen ist und mehr als die Hälfte seines Hausrates in seiner neuen Wohnung hat, erkrankt er so schwerwiegend, dass ein Teil seines Hausrates in der alten Wohnung verbleibt. Am 20.12. wird in diese Wohnung eingebrochen, alle Möbel werden gestohlen.\nBesteht für seinen Hausrat in der alten Wohnung Versicherungsschutz?",
     "points": 1,
     "options": [
      {
@@ -1561,27 +1721,47 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 55
+    "topic": "Hausratversicherung",
+    "num": 74
    },
    {
-    "id": "frage-056",
-    "type": "text",
-    "prompt": "Franz Hartmann hat bei Ihrer Gesellschaft eine Pascal Knorr hatei Ihrer Gesellschaft eine Versicherungssumme. Er meldet Ihnen einen Ihnen an, dass er von Dortmund nach Kr!i!Teld Feuerschaden in Höhe von 15.000 EUR. umziehen wird. Der tatsächliche Versicherungswert beträgt s wird- auf eli 1ne Parkplatz 80.000 EUR und Unterversicherungsverzicht ist der Möbelwagen de Spedition auf ebrochen. nicht eingeschlossen. Dabei werden mehre e hochwerti e Hausratgegenstände ntwende. Mit welcher Entschädigung kann Herr Hartmann hierfür Versicherungssct, u hat. a - 7.500 EUR a x b - 8.250 EUR C - 16.500 EUR b d - 15.000 EUR c - Nein, oa sich die Gegerstände nicht am erungsort befunden haben. d - Nejh, da es sich nicht um nen ersatzpflichtigen Schaden handelt. e - (Ja, weil in diesem Fall der Möbelwageneinem Gebäude gleich gestellt ist. 1026 -: Seite 1026 Text im Scan unvollständig bitte im Originalbogen nachsehen",
-    "points": 1,
-    "options": [],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 56
-   },
-   {
-    "id": "frage-057",
+    "id": "frage-I-075",
     "type": "single",
-    "prompt": "Hausratversicherung mit einer Versicherungssumme in Höhe von,60.000,- €. Der Wert der mitgenommenen Hausratgegenstände seines Sohnes beträgt 15.000,- €. Herr Funke möchte wissen, ob der Schaden von seiner Hausratversicherung reguliert wird.",
+    "prompt": "Franz Hartmann hat bei Ihrer Gesellschaft eine Hausratversicherung mit 40.000 EUR Versicherungssumme. Er meldet Ihnen einen Feuerschaden in Höhe von 15.000 EUR.\n\nDer tatsächliche Versicherungswert beträgt 80.000 EUR und Unterversicherungsverzicht ist nicht eingeschlossen.\n\nMit welcher Entschädigung kann Herr Hartmann rechnen?",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "7.500 EUR"
+     },
+     {
+      "id": "b",
+      "text": "8.250 EUR"
+     },
+     {
+      "id": "c",
+      "text": "16.500 EUR"
+     },
+     {
+      "id": "d",
+      "text": "15.000 EUR"
+     }
+    ],
+    "answerIds": [
+     "b"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Hausratversicherung",
+    "num": 75,
+    "note": "Entschädigung = ((Versicherungssumme + 10 %) / Versicherungswert) × Schadenhöhe.\nBeispiel: (40.000 € + 10 %) / 80.000 € × 15.000 € = 8.250 €.\nBei Unterversicherung wird die Versicherungssumme um den Vorsorgebetrag von 10 % erhöht."
+   },
+   {
+    "id": "frage-I-076",
+    "type": "single",
+    "prompt": "Martin Funke teilt Ihnen mit, dass sein Sohn Lars (21) vor einem halben Jahr sein Studium in Göttingen begonnen hat. Dort hat er zusammen mit seiner Freundin gleich zu Beginn eine eigene Wohnung angemietet und einen eigenen Hausstand gegründet. Letzte Woche ereignete sich in der Wohnung ein Feuerschaden (Schadenhöhe 8.000,- €). Martin Funke hat bei Ihrer Gesellschaft eine Hausratversicherung mit einer Versicherungssumme in Höhe von 60.000,- €. Der Wert der mitgenommenen Hausratgegenstände seines Sohnes beträgt 15.000,- €.\n\nHerr Funke möchte wissen, ob der Schaden von seiner Hausratversicherung reguliert wird.",
     "points": 1,
     "options": [
      {
@@ -1598,21 +1778,22 @@
      },
      {
       "id": "d",
-      "text": "Ja, der Schaden wird bis zur maximalen Höhe der Außenversicherung ersetzt. Außenversicherung hierbei bei Studentenwohnheim, Kaserne, Zivildienstwohnheim, Urlaub: Hotelzimmer, AirBnB, DANN wird der Schaden über die Außenversicherung. 10% der maximalen Verischerungsumme jedoch max. 10.000,- €."
+      "text": "Ja, der Schaden wird bis zur maximalen Höhe der Außenversicherung ersetzt."
      }
     ],
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 57
+    "topic": "Hausratversicherung",
+    "num": 76,
+    "note": "Außenversicherung greift bei Studentenwohnheim, Kaserne, Zivildienstwohnheim, Urlaub (Hotelzimmer, AirBnB) — 10 % der Versicherungssumme, maximal 10.000,- €. Eine eigene Wohnung mit eigenem Hausstand des Kindes ist NICHT mitversichert."
    },
    {
-    "id": "frage-058",
+    "id": "frage-I-077",
     "type": "single",
-    "prompt": "Durch einen Vandalismusschaden nach einem Einbruch (ohne Diebstahl) in der Wohnung von Gerd Koller ist unter anderem das Sofa stark beschädigt worden. Durch fachmännische Aufarbeitung kann der ursprüngliche Zustand wieder hergestellt werden, Die Kosten hierfür belaufen sich auf 1.000,- €. Herr Koller fordert 2.400,- €, um sich ein gleichwertiges neues Sofa zu kaufen. Der Zeitwert des Sofas betrug am Schadenstag 650,- €. Welche Entschädigung steht Herrn Koller zu?",
+    "prompt": "Durch einen Vandalismusschaden nach einem Einbruch (ohne Diebstahl) in der Wohnung von Gerd Koller ist unter anderem das Sofa stark beschädigt worden. Durch fachmännische Aufarbeitung kann der ursprüngliche Zustand wieder hergestellt werden. Die Kosten hierfür belaufen sich auf 1.000,00 €. Herr Koller fordert 2.400,00 €, um sich ein gleichwertiges neues Sofa zu kaufen. Der Zeitwert des Sofas betrug am Schadenstag 650,00 €.\n\nWelche Entschädigung steht Herrn Koller zu?",
     "points": 1,
     "options": [
      {
@@ -1621,29 +1802,30 @@
      },
      {
       "id": "b",
-      "text": "Zeitwertentschädigung in Höhe von 650,- €."
+      "text": "Zeitwertentschädigung in Höhe von 650,00 €."
      },
      {
       "id": "c",
-      "text": "Reparaturkosten in Höhe von 1.000,- €."
+      "text": "Reparaturkosten in Höhe von 1.000,00 €."
      },
      {
       "id": "d",
-      "text": "Ein gleichwertiges neues Sofa für 2.400,- €. Es wird bei der Hausrat immer gleicher Art & Güte ersetzt."
+      "text": "Ein gleichwertiges neues Sofa für 2.400,00 €."
      }
     ],
     "answerIds": [
      "d"
     ],
-    "solution": "Richtige Antwort: D.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 58
+    "topic": "Hausratversicherung",
+    "num": 77,
+    "note": "In der Hausratversicherung wird immer gleicher Art und Güte ersetzt (Neuwert), nicht der Zeitwert."
    },
    {
-    "id": "frage-059",
+    "id": "frage-I-078",
     "type": "single",
-    "prompt": "Gespräch mit Peter Lindner erfahren Sie, dass vor kurzem das 1.000,- € teure Fahrrad seines Nachbarn gestohlen wurde. Da er ein begeisterter Radfahrer ist, fragt Herr Lindner, ob sein neues Fahrrad in der Hausratversicherung versichert ist. Fahrräder ...",
+    "prompt": "Im Gespräch mit Peter Lindner erfahren Sie, dass vor kurzem das 1.000,00 € teure Fahrrad seines Nachbarn gestohlen wurde.\n\nDa er ein begeisterter Radfahrer ist, fragt Herr Lindner, ob sein neues Fahrrad in der Hausratversicherung versichert ist.\n\nFahrräder …",
     "points": 1,
     "options": [
      {
@@ -1666,50 +1848,50 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 59
+    "topic": "Hausratversicherung",
+    "num": 78
    },
    {
-    "id": "frage-060",
+    "id": "frage-I-079",
     "type": "single",
-    "prompt": "Sascha Scholz bewohnt ein Einfamilienhaus. Auf dem Versicherungsgrundstück befindet sich auch seine Garage. Gegen 23:00 Uhr wurde das Garagentor gewaltsam geöffnet und aus dem unverschlossenen PKW eine Lederjacke und ein Handy entwendet. Der Schaden beläuft sich auf 500,- € für die Lederjacke, 200,- € für das Handy und 600,- € für die Reparatur des Garagentores. Herr Scholz fragt Sie nach der Höhe der Entschädigung aus seiner Hausratversicherung. 0 Text im Scan unvollständig bitte im Originalbogen nachsehen",
+    "prompt": "Sascha Scholz bewohnt ein Einfamilienhaus. Auf dem Versicherungsgrundstück befindet sich auch seine Garage. Gegen 23:00 Uhr wurde das Garagentor gewaltsam geöffnet und aus dem unverschlossenen PKW eine Lederjacke und ein Handy entwendet. Der Schaden beläuft sich auf 500,- € für die Lederjacke, 200,- € für das Handy und 600,- € für die Reparatur des Garagentores.\n\nHerr Scholz fragt Sie nach der Höhe der Entschädigung aus seiner Hausratversicherung.",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "Antwort A im Scan nicht lesbar"
+      "text": "1.300,- €"
      },
      {
       "id": "b",
-      "text": "Antwort B im Scan nicht lesbar"
+      "text": "1.100,- €"
      },
      {
       "id": "c",
-      "text": "Antwort C im Scan nicht lesbar"
+      "text": "700,- €"
      },
      {
       "id": "d",
-      "text": "Antwort D im Scan nicht lesbar"
+      "text": "600,- €"
      },
      {
       "id": "e",
-      "text": "Prüfung"
+      "text": "0,- €"
      }
     ],
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 60
+    "topic": "Hausratversicherung",
+    "num": 79
    },
    {
-    "id": "frage-061",
-    "type": "multiple",
-    "prompt": "VHV Hausratversicherung Kai Förster hat bei Ihrer Gesellschaft eine Hausratversicherung mit einer Versicherungssumme in Höhe von 80.000,- €. Nach einem Feuerschaden müssen Hausratgegenstände von Herrn Förster für einen Zeitraum von 120 Tagen eingelagert werden. Die Lagerkosten betragen 7,- € pro Tag. Herr Förster möchte wissen, ob er die anfallenden Kosten erstattet bekommt. Er erhält eine Erstattung",
+    "id": "frage-I-080",
+    "type": "single",
+    "prompt": "Kai Förster hat bei Ihrer Gesellschaft eine Hausratversicherung mit einer Versicherungssumme in Höhe von 80.000,00 €. Nach einem Feuerschaden müssen Hausratgegenstände von Herrn Förster für einen Zeitraum von 120 Tagen eingelagert werden. Die Lagerkosten betragen 7,00 € pro Tag.\n\nHerr Förster möchte wissen, ob er die anfallenden Kosten erstattet bekommt.\n\nEr erhält eine Erstattung …",
     "points": 1,
     "options": [
      {
@@ -1722,76 +1904,108 @@
      },
      {
       "id": "c",
-      "text": "der Kosten für 100 Tage, begrenzt auf 500"
+      "text": "der Kosten für 100 Tage, begrenzt auf 500,- €"
      },
      {
       "id": "d",
       "text": "der Kosten für 100 Tage."
-     },
-     {
-      "id": "e",
-      "text": "Antwort E im Scan nicht lesbar"
      }
     ],
     "answerIds": [
-     "c"
+     "d"
     ],
-    "solution": "Richtige Antwort: D, E.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 61
+    "topic": "Hausratversicherung",
+    "num": 80
    },
    {
-    "id": "frage-062",
+    "id": "frage-I-081",
     "type": "single",
-    "prompt": "Dlili1: i111 Katrin Ahrenkamp hat bei der Proximus AG eine Hausratversicherung mit einer Versicherungssumme in Höhe von 60.000,- €. Unterversicherungsverzicht ist vereinbart. Von ihrer Großtante hat sie jetzt folgende Sachen geerbt, die sie unverschlossen aufbewahrt: Schmuck im Wert von 10.000 Medaillen im Wert von 5.000,- € Edelsteine im Wert von 10.000,- € Wertpapiere im Wert von 5.000,- € eine Kommode (aus dem Jahr 1909) im Wert von 15.000 Frau Ahrenkamp möchte wissen, welche Höchstentschädigung sie im Schadenfall für die geerbten Sachen erhält. Text im Scan unvollständig bitte im Originalbogen nachsehen",
+    "prompt": "Katrin Ahrenkamp hat bei der Proximus AG eine Hausratversicherung mit einer Versicherungssumme in Höhe von 60.000,00 €. Unterversicherungsverzicht ist vereinbart. Von ihrer Großtante hat sie jetzt folgende Sachen geerbt, die sie unverschlossen aufbewahrt:\nSchmuck im Wert von 10.000,- €\nMedaillen im Wert von 5.000,- €\nEdelsteine im Wert von 10.000,- €\nWertpapiere im Wert von 5.000,- €\neine Kommode (aus dem Jahr 1909) im Wert von 15.000,- €\n\nFrau Ahrenkamp möchte wissen, welche Höchstentschädigung sie im Schadenfall für die geerbten Sachen erhält.",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "Antwort A im Scan nicht lesbar"
+      "text": "35.000,- €"
      },
      {
       "id": "b",
-      "text": "Antwort B im Scan nicht lesbar"
+      "text": "28.200,- €"
      },
      {
       "id": "c",
-      "text": "28.000 versichert bis 20% da unverschlossen."
+      "text": "28.000,- €"
      },
      {
       "id": "d",
-      "text": "Antwort D im Scan nicht lesbar"
+      "text": "27.000,- €"
      },
      {
       "id": "e",
-      "text": "Prüfung"
+      "text": "13.200,- €"
      }
     ],
     "answerIds": [
      "e"
     ],
-    "solution": "Richtige Antwort: E.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 62
+    "topic": "Hausratversicherung",
+    "num": 81,
+    "note": "Die Kommode von 1909 ist normaler Hausrat und KEINE Wertsache.\nEntschädigungsgrenze für unverschlossene Wertsachen: 20 % der Versicherungssumme zzgl. 10 % Vorsorge.\nFormel: Entschädigung = (Versicherungssumme + 10 %) × 20 %.\nBeispiel: (60.000 € + 10 %) × 20 % = 13.200 €."
    },
    {
-    "id": "frage-063",
+    "id": "frage-I-082",
     "type": "text",
-    "prompt": "Verbundene Gebäudeversicherung Ihr Kunde Karl Rngnick hat bei lhnenle la;1Z 2137946737 Hausratversicherünq abgeschlossen un meldet Ihnen einen Schad'en. Er verbrachtes men Urlaub an der Nordsee in lland mit einer. ltausrüstung, die er von seiner mi ihm in häuslich r Gemeinschaft Jürgen Schreiner hat bei Ihrer Gesellschaft für sein lebenden Freundin g liehen hatte. vermietetes Zweifamilienhaus eine Wohngebäudeversicherung. Jetzt möchte er die In der letzten Nacht wrden das elt und sein Außenfassade in Eigenleistung streichen. Dazu hat persönliches Reiseqepäck bei inem Brand zerstört. er Fassadenfarbe im Wert von 2.000 EUR sowie ein kleines, fahrbares Gerüst im Wert von 1.000 EUR Welche Entschädigunkan7 Herr Rang nick von gekauft und im Keller zwischengelagert. seiner Hausratversichejund erwarten? Dort kommt es durch ein Feuer zu folgendem Schaden: a Außenfassadenfarbe 2.000 EUR kleines fahrbares Gerüst 1.000 EUR gelagerte Reservedachziegel 850 EUR b - Ersetzt wer en das ersönliche Reisegepäck Gartenmöbel des Mieters 380 EUR. und die Ze ausrüstunp im Rahmen der Entschädl unqsqrenzsn für die Außenv sicherung. Mit welcher Entschädigung (in EUR) kann Herr C - Keil versi hert ist, wenn das F.1r in einem Ge äude ausgebrochen ist. 3.850,- € d ine Entschädigung, da für eliehene achen kein Außenversicherungsschutz esteht. Alles versichert, was das Haus betriftt, auch z.B. die Farbe um das Haus zu renovieren. 7 -: Seite 7",
+    "prompt": "Jürgen Schreiner hat bei Ihrer Gesellschaft für sein vermietetes Zweifamilienhaus eine Wohngebäudeversicherung. Jetzt möchte er die Außenfassade in Eigenleistung streichen. Dazu hat er Fassadenfarbe im Wert von 2.000 EUR sowie ein kleines, fahrbares Gerüst im Wert von 1.000 EUR gekauft und im Keller zwischengelagert.\n\nDort kommt es durch ein Feuer zu folgendem Schaden:\n• Außenfassadenfarbe 2.000 EUR\n• kleines fahrbares Gerüst 1.000 EUR\n• gelagerte Reservedachziegel 850 EUR\n• Gartenmöbel des Mieters 380 EUR\n\nMit welcher Entschädigung (in EUR) kann Herr Schreiner aufgrund des Feuerschadens rechnen?",
     "points": 1,
     "options": [],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 63
+    "answerIds": [
+     "3850"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Gebäudeversicherung",
+    "num": 82,
+    "unit": "",
+    "note": "In der Gebäudeversicherung sind Sachen mitversichert, die dem Bau oder der Instandhaltung dienen (Fassadenfarbe, Gerüst, Dachziegel) — 2.000 + 1.000 + 850 = 3.850 €. Die Gartenmöbel des Mieters gehören nicht dazu (Hausrat des Mieters)."
    },
    {
-    "id": "frage-065",
+    "id": "frage-I-083",
     "type": "single",
-    "prompt": "Das Nachbarhaus Ihres Kunden Günther Brecht brennt ab. Herumfliegende Asche und Ruß gelangen auf das Wohnhaus von Herrn Brecht und verursachen dort Verrußungen und Sengschäden. Für Herrn Brecht besteht bei der Proximus AG eine Wohngebäudeversicherung zum Gleitenden Neuwert mit den Gefahren Feuer und Leitungswasser. Er fragt Sie, wie sein Schaden reguliert wird. Q",
+    "prompt": "Jochen Beister hat bei der Proximus AG eine Wohngebäudeversicherung zum Gleitenden Neuwert. Vor fast 3 Jahren ist sein Wohnhaus abgebrannt. Durch ungünstige Wetterverhältnisse und Schwierigkeiten bei der Materialbeschaffung hat sich die Fertigstellung des Wiederaufbaus des Hauses immer weiter verzögert.\n\nHerr Beister erkundigt sich bei Ihnen, ob er weiterhin Anspruch auf Entschädigung hat, auch wenn sich die Wiederherstellung noch ein weiteres Jahr hinziehen sollte.",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "Nach Ablauf von 3 Jahren bekommt er die dann fällige Erstattung nur noch zum Zeitwert."
+     },
+     {
+      "id": "b",
+      "text": "Da er die 3-Jahres-Frist überschreiten wird, werden zukünftige Preiserhöhungen nicht mehr erstattet."
+     },
+     {
+      "id": "c",
+      "text": "Da er innerhalb von 3 Jahren mit dem Wiederaufbau begonnen hat, steht ihm die versicherte Leistung bis zum Ende des Wiederaufbaus zu."
+     },
+     {
+      "id": "d",
+      "text": "Nach Ablauf der 3-Jahres-Frist hat er keinen Anspruch auf eine weitere Kostenerstattung."
+     }
+    ],
+    "answerIds": [
+     "c"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Gebäudeversicherung",
+    "num": 83
+   },
+   {
+    "id": "frage-I-084",
+    "type": "single",
+    "prompt": "Das Nachbarhaus Ihres Kunden Günther Brecht brennt ab. Herumfliegende Asche und Ruß gelangen auf das Wohnhaus von Herrn Brecht und verursachen dort Verrußungen und Sengschäden. Für Herrn Brecht besteht bei der Proximus AG eine Wohngebäudeversicherung zum Gleitenden Neuwert mit den Gefahren Feuer und Leitungswasser.\n\nEr fragt Sie, wie sein Schaden reguliert wird.",
     "points": 1,
     "options": [
      {
@@ -1814,39 +2028,47 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 65
+    "topic": "Gebäudeversicherung",
+    "num": 84
    },
    {
-    "id": "frage-066",
+    "id": "frage-I-085",
     "type": "text",
-    "prompt": "rr MJ /fS 1811 2137971388 1812 2137954613 Ihre Kundin laudia Bensch ht ein Ihr Kunde Theo Claßen möchte sein Haus mit Mehrfamilien aus erworben. fn diesem Haus Einliegerwohnung bei Ihnen versichern. Sie vermietet sie ier Wohnunn und im kommen während des Verkaufsgespräches auf Erdgeschoss inen Friseur alon. den versicherten Mietausfall zu sprechen. Die Frau Bensch rkundigt si9 bei Ihnen nach dem Einliegerwohnung hat eine Größe von 50 qm. Versicherungs chutz, faljs die Immobilie nach Herr Claßen erhält einen Mietpreis von 10 EUR 7 einem Schade fall unb nutzbar sein sollte. pro qm. Der ortsübliche Mietwert beträgt zur Zeit 8 EUR pro qm. Welche Aussaqen da-z; G sind richtig? Herr Claßen möchte wissen, welche Entschädigung er erhalten würde, wenn die Wiederherstellung der Einliegerwohnung - den ortsüb).fhen Mietwert für alle beispielsweise fünf Monate dauerte. vermietetr Einheiten 2.500,- € 2 den Miekusfa1-, und -wert höchstens für 12 M'onate b Schadeneintritt 3 r selbstbewohnte 4 - bei gesonderter Veinbarung den ortsüblichen Mietw rt oder den Mi7tausfall auch fü gewerblich glutzte Räume 5 en ortsüblichen Mietwert und ietausfall - nach behördlicher egutachtung - für die Dauer von sechs Monaten. 907 -: Seite 907 Text im Scan unvollständig bitte im Originalbogen nachsehen",
+    "prompt": "Ihr Kunde Theo Claßen möchte sein Haus mit Einliegerwohnung bei Ihnen versichern. Sie kommen während des Verkaufsgespräches auf den versicherten Mietausfall zu sprechen. Die Einliegerwohnung hat eine Größe von 50 qm. Herr Claßen erhält einen Mietpreis von 10 EUR pro qm. Der ortsübliche Mietwert beträgt zur Zeit 8 EUR pro qm.\n\nHerr Claßen möchte wissen, welche Entschädigung er erhalten würde, wenn die Wiederherstellung der Einliegerwohnung beispielsweise fünf Monate dauerte.",
     "points": 1,
     "options": [],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 66
+    "answerIds": [
+     "2500"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Gebäudeversicherung",
+    "num": 85,
+    "unit": "",
+    "note": "Mietausfallentschädigung = Wohnfläche × tatsächliche Monatsmiete pro qm × Ausfallmonate (max. 12 Monate).\nBeispiel: 50 qm × 10 € × 5 Monate = 2.500 €.\nVermietete Wohnräume = tatsächliche Miete / selbstgenutzte Wohnräume = ortsübliche Miete."
    },
    {
-    "id": "frage-067",
+    "id": "frage-I-086",
     "type": "text",
-    "prompt": "Frank Sommer hat in seinem Eigenheim eine Einliegerwohnung von 60 qm zu einem Quadratmeterpreis von 10,- € an Herrn Winter vermietet. Nach einem Brandschaden ist die Wohnung des Mieters nicht mehr bewohnbar. Die Wiederherstellung der Wohnung wird voraussichtlich 14 Monate dauern. Der ortsübliche Mietwert beträgt: 8,- €/qm. 1 7200,- Euro Hinweis Eintrag in Euro ohne Trennpunkte, also z.B. 1212 für eintausendzweihundertzwölf Euro. Text im Scan unvollständig bitte im Originalbogen nachsehen",
+    "prompt": "Frank Sommer hat in seinem Eigenheim eine Einliegerwohnung von 60 qm zu einem Quadratmeterpreis von 10,00 € an Herrn Winter vermietet. Nach einem Brandschaden ist die Wohnung des Mieters nicht mehr bewohnbar. Die Wiederherstellung der Wohnung wird voraussichtlich 14 Monate dauern. Der ortsübliche Mietwert beträgt 8,00 €/qm.\n\nBerechnen Sie die Entschädigungsleistung aus dem versicherten Mietausfall.",
     "points": 1,
     "options": [],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 67
+    "answerIds": [
+     "7200"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Gebäudeversicherung",
+    "num": 86,
+    "unit": "",
+    "note": "Mietausfallentschädigung = Wohnfläche × tatsächliche Monatsmiete pro qm × Ausfallmonate (max. 12 Monate).\nBeispiel: 60 qm × 10 € × 12 Monate = 7.200 € (14 Monate werden auf 12 gekappt)."
    },
    {
-    "id": "frage-068",
+    "id": "frage-I-087",
     "type": "single",
-    "prompt": "Sven Kollmann hat sein Einfamilienhaus zum Gleitenden Neuwert gegen Feuer, Leitungswasser, Sturm/Hagel versichert. In der Nacht sind Einbrecher in das Haus eingedrungen, die aber nichts gestohlen haben. Allerdings drehten die Täter aus Übermut den Wassereinlauf der Badewanne auf und verstopften den Abfluss. Das überlaufende Wasser beschädigte Decken, Wände, Möbel und das Parkett. Herr Kollmann möchte wissen, ob seine Gebäudeversicherung den entstandenen Schaden reguliert.",
+    "prompt": "Sven Kollmann hat sein Einfamilienhaus zum Gleitenden Neuwert gegen Feuer, Leitungswasser, Sturm/Hagel versichert. In der Nacht sind Einbrecher in das Haus eingedrungen, die aber nichts gestohlen haben. Allerdings drehten die Täter aus Übermut den Wassereinlauf der Badewanne auf und verstopften den Abfluss. Das überlaufende Wasser beschädigte Decken, Wände, Möbel und das Parkett.\n\nHerr Kollmann möchte wissen, ob seine Gebäudeversicherung den entstandenen Schaden reguliert.",
     "points": 1,
     "options": [
      {
@@ -1869,15 +2091,15 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 68
+    "topic": "Gebäudeversicherung",
+    "num": 87
    },
    {
-    "id": "frage-069",
+    "id": "frage-I-088",
     "type": "single",
-    "prompt": "Dietmar Fischer möchte bei der Proximus AG sein Wohngebäude versichern. Als Versicherungsform empfehlen Sie ihm die Gleitende Neuwertversicherung. Welchen korrekten Vorteil nennen Sie Herrn Fischer?",
+    "prompt": "Dietmar Fischer möchte bei der Proximus AG sein Wohngebäude versichern. Als Versicherungsform empfehlen Sie ihm die Gleitende Neuwertversicherung.\n\nWelchen korrekten Vorteil nennen Sie Herrn Fischer?",
     "points": 1,
     "options": [
      {
@@ -1890,7 +2112,7 @@
      },
      {
       "id": "c",
-      "text": "Wertsteigerungen sind über die Vorsorge bis zu 1 O % der Versicherungssumme Wert 1914 mitversichert."
+      "text": "Wertsteigerungen sind über die Vorsorge bis zu 10 % der Versicherungssumme Wert 1914 mitversichert."
      },
      {
       "id": "d",
@@ -1900,27 +2122,31 @@
     "answerIds": [
      "d"
     ],
-    "solution": "Richtige Antwort: D.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 69
+    "topic": "Gebäudeversicherung",
+    "num": 88
    },
    {
-    "id": "frage-070",
+    "id": "frage-I-089",
     "type": "text",
-    "prompt": "Ein Sturm mit -ndstärke 10 entwurzelte einen Reihenhaus gekauft und möchte es bei Ihnen vor dem Haus I res Kunden Waldemar Osmerl versichern. Im Beratungsgespräch ermitteln Sie die Versicherungssumme korrekt in Höhe stehenden Bau Der Baum fiel auf dz aHa i und zerstörte eini e Fensterscheiben im von 50.000 Mark (Wert 1914). Obergeschoss. Bisher war das Haus mit 30.000 Mark (Wert Der Kunde hatte bder Antraqsaufna me zur 1914) versichert. Frau Hunt möchte genau Wohngebäudeversi herung ausdrücklich darauf diesen Wert für den neuen Vertrag bei Ihrer verzichtet, eine Glas ersicherung Gesellschaft übernehmen. Anhand der abzuschließen. Entschädigungsformel verdeutlichen Sie Frau Hunt die Unterversicherung. Jetzt befürchtet Herr Qsmers/dass er den Schaden selbst tragen Mit welcher Entschädigung (in EUR) kann Frau Hunt bei einem Brandschaden in Höhe von Was sagen Sie ihm? 24.000,- € a b - Der S h den ist nit versichert, da ein derarti er Schaden ur über eine Glasv rsicherung g deckt ist. c - Def Schaden wird ersetzt, da es sich UJiTI einen Folgeschaden eines Sturmes andelt. d J Der Schaden ist leider nicht versichert, da der Sturm nicht mittelbar auf die versicherten Sachen eingewirkt hat. 906 -: Seite 906 Text im Scan unvollständig bitte im Originalbogen nachsehen",
+    "prompt": "Gabriele Hunt hat ein 10 Jahre altes Reihenhaus gekauft und möchte es bei Ihnen versichern. Im Beratungsgespräch ermitteln Sie die Versicherungssumme korrekt in Höhe von 50.000 Mark (Wert 1914).\n\nBisher war das Haus mit 30.000 Mark (Wert 1914) versichert. Frau Hunt möchte genau diesen Wert für den neuen Vertrag bei Ihrer Gesellschaft übernehmen. Anhand der Entschädigungsformel verdeutlichen Sie Frau Hunt die Unterversicherung.\n\nMit welcher Entschädigung (in EUR) kann Frau Hunt bei einem Brandschaden in Höhe von 40.000 EUR rechnen?",
     "points": 1,
     "options": [],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 70
+    "answerIds": [
+     "24000"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Gebäudeversicherung",
+    "num": 89,
+    "unit": "",
+    "note": "Entschädigung = (vereinbarte Versicherungssumme / erforderliche Versicherungssumme) × Schadenhöhe.\nBeispiel: (30.000 Mark / 50.000 Mark) × 40.000 € = 24.000 €."
    },
    {
-    "id": "frage-071",
+    "id": "frage-I-090",
     "type": "multiple",
-    "prompt": "Herr Georg Pavlov beabsichtigt sein Einfamilienhaus bei der Proximus AG zu versichern. In Ihrer Beratung kommen Sie auf die Grundstücksbestandteile zu sprechen. Welche lassen sich nur auf zusätzliche Vereinbarung in den Versicherungsvertrag einschließen?",
+    "prompt": "Herr Georg Pavlov beabsichtigt sein Einfamilienhaus bei der Proximus AG zu versichern. In Ihrer Beratung kommen Sie auf die Grundstücksbestandteile zu sprechen.\nWelche lassen sich nur auf zusätzliche Vereinbarung in den Versicherungsvertrag einschließen?",
     "points": 1,
     "options": [
      {
@@ -1944,68 +2170,89 @@
       "text": "Die selbstgebaute Hundehütte"
      }
     ],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 71
+    "answerIds": [
+     "a",
+     "d",
+     "e"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Gebäudeversicherung",
+    "num": 90,
+    "note": "Die Photovoltaikanlage ist nach den allgemeinen Bedingungen grundsätzlich nicht versicherbar, ist inzwischen aber häufig über eine Zusatzvereinbarung versicherbar."
    },
    {
-    "id": "frage-072",
+    "id": "frage-I-091",
     "type": "single",
-    "prompt": "Sie zur Ermittlung der Versicherungssumme kommen, legt Herr Plöger Ihnen ein Wertgutachten der Bank über das gekaufte",
+    "prompt": "Maximilian Plöger hat ein 3 Jahre altes Haus gekauft, das bei Ihrer Gesellschaft versichert werden soll. Als Sie zur Ermittlung der Versicherungssumme kommen, legt Herr Plöger Ihnen ein Wertgutachten der Bank über das gekaufte Objekt vor.\n\nKönnen Sie dieses Gutachten zur Ermittlung der Versicherungssumme verwenden?",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "bjekt vor. Können Sie dieses Gutachten zur Ermittlung der Versicherungssumme verwenden?"
-     },
-     {
-      "id": "b",
       "text": "Das Gutachten kann man nicht verwenden, da ein Wertermittlungsbogen benötigt wird."
      },
      {
-      "id": "c",
+      "id": "b",
       "text": "Das Gutachten kann verwendet werden, wenn es durch einen Bausachverständigen erstellt wurde und die Versicherung dessen Schätzung anerkennt."
      },
      {
-      "id": "d",
+      "id": "c",
       "text": "Soweit das Gutachten von der finanzierenden Bank anerkannt wurde, erkennt es in der Regel auch die Versicherung an."
      },
      {
-      "id": "e",
-      "text": "Das Gutachten kann verwendet werden, wenn es nicht älter als,5 Monate ist."
+      "id": "d",
+      "text": "Das Gutachten kann verwendet werden, wenn es nicht älter als 5 Monate ist."
      }
     ],
     "answerIds": [
-     "b"
+     "a"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 72
+    "topic": "Gebäudeversicherung",
+    "num": 91
    },
    {
-    "id": "frage-073",
-    "type": "text",
-    "prompt": "Elias Eilers meldet Ihnen folgenden Schaden: Sie beraten; Schlenzig zu einer Bei einem Gewitter schlägt ein Blitz in den Wohngebäud versicherung für sei Baum vor seinem Haus ein. Der Baum fällt auf Einfamilienha s. das Dach seines Hauses und verursacht einen Schaden in Höhe von 120.000 EUR. Für das Einfamilienhaus besteht eine Versicherungssumme 1914 beträgt 14.000 Welche der folqenden K(lsten sind versichert? Mark, der Versicherungswert 21.000 Mark 1914. Der Anpassungsfaktor liegt bei 18,55, der Baupreisindex bei 1454,3. Herr Eilers fragt Sie, wie hoch die 2 Entschädigung sein wird. 3 Der Versicherer 4 a - entschädigt 120.000 EUR. 5 b - entschädigt 88.000 EUR. 6 - Löschkosten der Feuerwehr x C - entschädigt 80.000 EUR. d - leistet keine Entschädigung. 10 -: Seite 10 Text im Scan unvollständig bitte im Originalbogen nachsehen",
-    "points": 1,
-    "options": [],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 73
-   },
-   {
-    "id": "frage-074",
-    "type": "multiple",
-    "prompt": "Familie Hornung wurde in Deutschland unverschuldet in einen Unfall mit einem PKW mit spanischem Kennzeichen verwickelt. Dabei wurde Frau Hornung schwer verletzt. Herr Hornung befürchtet, dass die Versicherungssummen des Unfallgegners nicht ausreichen, um den Schaden zu decken. Welche richtige Auskunft geben Sie Ihrem Kunden? Sie erklären Ihrem Kunden, dass",
+    "id": "frage-I-092",
+    "type": "single",
+    "prompt": "Elias Eilers meldet Ihnen folgenden Schaden:\nBei einem Gewitter schlägt ein Blitz in den Baum vor seinem Haus ein. Der Baum fällt auf das Dach seines Hauses und verursacht einen Schaden in Höhe von 120.000 EUR.\n\nFür das Einfamilienhaus besteht eine Gebäudeversicherung. Die Versicherungssumme 1914 beträgt 14.000 Mark, der Versicherungswert 21.000 Mark 1914. Der Anpassungsfaktor liegt bei 18,55, der Baupreisindex bei 1454,3.\n\nHerr Eilers fragt Sie, wie hoch die Entschädigung sein wird.\n\nDer Versicherer …",
     "points": 1,
     "options": [
      {
       "id": "a",
-      "text": "jedes Fahrzeug mit ausländischem Kennzeichen, das nach Deutschland einreist, automatisch Versicherungsschutz im Rahmen der 'Mallorca Police' hat."
+      "text": "entschädigt 120.000 EUR."
+     },
+     {
+      "id": "b",
+      "text": "entschädigt 88.000 EUR."
+     },
+     {
+      "id": "c",
+      "text": "entschädigt 80.000 EUR."
+     },
+     {
+      "id": "d",
+      "text": "leistet keine Entschädigung."
+     }
+    ],
+    "answerIds": [
+     "c"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Gebäudeversicherung",
+    "num": 92,
+    "note": "Entschädigung = (vereinbarte Versicherungssumme / tatsächlicher Versicherungswert) × Schadenhöhe.\nBeispiel: (14.000 Mark / 21.000 Mark) × 120.000 € = 80.000 €.\nBei Unterversicherung wird der Schaden anteilig im Verhältnis der vereinbarten Versicherungssumme zum tatsächlichen Versicherungswert ersetzt."
+   },
+   {
+    "id": "frage-I-093",
+    "type": "single",
+    "prompt": "Familie Hornung wurde in Deutschland unverschuldet in einen Unfall mit einem PKW mit spanischem Kennzeichen verwickelt. Dabei wurde Frau Hornung schwer verletzt. Herr Hornung befürchtet, dass die Versicherungssummen des Unfallgegners nicht ausreichen, um den Schaden zu decken.\n\nWelche richtige Auskunft geben Sie Ihrem Kunden?\n\nSie erklären Ihrem Kunden, dass …",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "jedes Fahrzeug mit ausländischem Kennzeichen, das nach Deutschland einreist, automatisch Versicherungsschutz im Rahmen der „Mallorca Police“ hat."
      },
      {
       "id": "b",
@@ -2017,25 +2264,21 @@
      },
      {
       "id": "d",
-      "text": "Versicherungsschutz in Höhe der Versicherungssummen des ausländischen Versicherungsvertrags besteht. i Eine eventuelle Differenz kann über die eigene Kraftfahrt-Haftpflichtversicherung geltend gemacht werden."
-     },
-     {
-      "id": "e",
-      "text": "Antwort E im Scan nicht lesbar"
+      "text": "Versicherungsschutz in Höhe der Versicherungssummen des ausländischen Versicherungsvertrags besteht. Eine eventuelle Differenz kann über die eigene Kraftfahrt-Haftpflichtversicherung geltend gemacht werden."
      }
     ],
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: C, E.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 74
+    "topic": "Kraftfahrtversicherung",
+    "num": 93
    },
    {
-    "id": "frage-075",
+    "id": "frage-I-094",
     "type": "single",
-    "prompt": "Kraftfahrtversicherung Wolfgang Maurer meldet Ihnen, dass er mit seinem Auto in einer Kurve plötzlich aufgrund eines geplatzten Bremsschlauches ins Schleudern geriet und gegen einen Baum prallte. Dabei wurde seine Ehefrau Sybille schwer verletzt. Es entstanden Krankenhaus- und Arztkosten in Höhe von 20.000,- €. Werden die Krankenhaus- und Arztkosten der Ehefrau vom Kraftfahrt-Haftpflichtversicherer erstattet?",
+    "prompt": "Wolfgang Maurer meldet Ihnen, dass er mit seinem Auto in einer Kurve plötzlich aufgrund eines geplatzten Bremsschlauches ins Schleudern geriet und gegen einen Baum prallte. Dabei wurde seine Ehefrau Sybille schwer verletzt. Es entstanden Krankenhaus- und Arztkosten in Höhe von 20.000,- €.\n\nWerden die Krankenhaus- und Arztkosten der Ehefrau vom Kraftfahrt-Haftpflichtversicherer erstattet?",
     "points": 1,
     "options": [
      {
@@ -2044,7 +2287,7 @@
      },
      {
       "id": "b",
-      "text": "Ja, der Versicherer leistetin Höhe von 20.000,- €."
+      "text": "Ja, der Versicherer leistet in Höhe von 20.000,- €."
      },
      {
       "id": "c",
@@ -2058,15 +2301,15 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 75
+    "topic": "Kraftfahrtversicherung",
+    "num": 94
    },
    {
-    "id": "frage-076",
+    "id": "frage-I-095",
     "type": "single",
-    "prompt": "Kraftfahrtversicherung Anna Bronski geht sehr sorgfältig mit ihrem Auto um und achtet immer darauf, dass ihr Fahrzeug fahrbereit ist. Auch alle Inspektionen werden eingehalten. Heute meldet sie Ihnen folgenden Schaden: Während der Fahrt zu ihrer Freundin platzte auf einer Bundesstraße plötzlich und unerwartet ein Hinterreifen ihres PKW. Der PKW kam ins Schleudern und beschädigte die Leitplanke. Frau Bronski fragt an, ob der Schaden an der Leitplanke über ihre Kraftfahrt-Haftpflichtversicherung versichert ist.",
+    "prompt": "Anna Bronski geht sehr sorgfältig mit ihrem Auto um und achtet immer darauf, dass ihr Fahrzeug fahrbereit ist. Auch alle Inspektionen werden eingehalten. Heute meldet sie Ihnen folgenden Schaden: Während der Fahrt zu ihrer Freundin platzte auf einer Bundesstraße plötzlich und unerwartet ein Hinterreifen ihres PKW. Der PKW kam ins Schleudern und beschädigte die Leitplanke.\n\nFrau Bronski fragt an, ob der Schaden an der Leitplanke über ihre Kraftfahrt-Haftpflichtversicherung versichert ist.",
     "points": 1,
     "options": [
      {
@@ -2083,7 +2326,7 @@
      },
      {
       "id": "d",
-      "text": "Schaden durch vermutetes Verschulden entstanden ist."
+      "text": "Ja, da der Schaden durch vermutetes Verschulden entstanden ist."
      },
      {
       "id": "e",
@@ -2093,27 +2336,68 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 76
+    "topic": "Kraftfahrtversicherung",
+    "num": 95
    },
    {
-    "id": "frage-077",
+    "id": "frage-I-096",
     "type": "text",
-    "prompt": "PrintPage I?C 2137974310 108 2137953295 Heinz Gulde hat für seinen Pkw eine Eduard Weiß hat b Ihrer Gesellschaty/i'ne Vollkaskoversicherung mit 500 EUR Kraftfahrt-Haftpflicht ersicherung. Se)t' kurzem Selbstbeteiligung abgeschlossen. Bei Schneetreiben trainiert er regelmäßi für ein qenepfniqtes ist er mit seinem Pkw gegen eine Litfaß-Säule Autorennen auf einer' cennstrecke. Während des gefahren. Der Pkw ist in der Zwischenzeit von einem Trainings ist er mit einer Leitplanke kollidiert. vereidigten Sachverständigen besichtigt worden, der folgendes festgestellt hat: Wird dieser Schaden vn di Kraftfahrt- Wiederbeschaffungswert des Pkw: 6.000 EUR Haftpflichtversicherung tb, ernommen? Restwert des Pkw: 400 EUR Windschutzscheibe: 800 EUR a Scheinwerferglas: 50 EUR Karosseriearbeiten: 6.250 EUR Mit welcher Entschädigungsleistung (in EUR) kann b - Ja, Trainjriqsfahrten sind versichert. Die lnahriie an Rennen ist nicht versichert. 5.100,- € C - Nei, hierfür ist der Beiber der Re nstrecke haftbar z achen. d in, denn die Teilnahme an Autorennen oder Trainings ist vom Versichungsschutz. ausgeschlossen. Wirtschaftlicher Totalschaden: Reparaturkosten höher als Wiederbeschaffunsgwert! Kunde erhält Wiederbeschaffungswert abzgl. Restwert & Selbstbeteiligung. 20 -: Seite 20 https wwwviversabizNiversa/AdminToo1/.aspx?render=PrintTestRendering&field=32549cOf-f993-4f87-aaa7-2f68774048fd&p 56/85",
+    "prompt": "Heinz Gulde hat für seinen Pkw eine Vollkaskoversicherung mit 500 EUR Selbstbeteiligung abgeschlossen. Bei Schneetreiben ist er mit seinem Pkw gegen eine Litfaß-Säule gefahren. Der Pkw ist in der Zwischenzeit von einem vereidigten Sachverständigen besichtigt worden, der folgendes festgestellt hat:\n\nWiederbeschaffungswert des Pkw: 6.000 EUR\nRestwert des Pkw: 400 EUR\nWindschutzscheibe: 800 EUR\nScheinwerferglas: 50 EUR\nKarosseriearbeiten: 6.250 EUR\n\nMit welcher Entschädigungsleistung (in EUR) kann Herr Gulde beim Kauf eines neuen Pkw rechnen?",
     "points": 1,
     "options": [],
-    "answerIds": [],
-    "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
-    "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 77
+    "answerIds": [
+     "5100"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kraftfahrtversicherung",
+    "num": 96,
+    "unit": "",
+    "note": "Wirtschaftlicher Totalschaden: Reparaturkosten sind höher als der Wiederbeschaffungswert.\nDer Kunde erhält Wiederbeschaffungswert abzüglich Restwert und Selbstbeteiligung: 6.000 − 400 − 500 = 5.100 €."
    },
    {
-    "id": "frage-079",
+    "id": "frage-I-097",
+    "type": "multiple",
+    "prompt": "Luise Bauer ist durch einen Bekannten darauf aufmerksam gemacht worden, dass eine Kraftfahrt-Haftpflichtversicherung unter Umständen nicht ausreichend ist. Frau Bauer solle eine Teilkaskoversicherung abschließen. Im Beratungsgespräch erläutern Sie ihr die Leistungen anhand von entsprechenden Beispielen.\n\nWelche der Schäden sind versichert?",
+    "points": 1,
+    "options": [
+     {
+      "id": "a",
+      "text": "zerbrochene Windschutzscheibe durch Steinschlag"
+     },
+     {
+      "id": "b",
+      "text": "Diebstahl von Fahrzeugteilen"
+     },
+     {
+      "id": "c",
+      "text": "Schäden am Lack durch Hagelschlag"
+     },
+     {
+      "id": "d",
+      "text": "selbstverschuldeter Unfall"
+     },
+     {
+      "id": "e",
+      "text": "Lackkratzer durch Einkaufswagen"
+     }
+    ],
+    "answerIds": [
+     "a",
+     "b",
+     "c"
+    ],
+    "solution": "",
+    "manualGrade": false,
+    "topic": "Kraftfahrtversicherung",
+    "num": 97
+   },
+   {
+    "id": "frage-I-098",
     "type": "single",
-    "prompt": "m Der 17-jährige Stefan Moor nimmt sich ohne Zustimmung seiner Eltern das Cabrio der Mutter für eine Spritztour. Dabei beschädigt er den Carport des Nachbarn. Die Reparaturkosten betragen 2.500,- €. Besteht Versicherungsschutz über die Kraftfahrt-Haftpflichtversicherung der Mutter? Versicherungsschutz besteht",
+    "prompt": "Der 17-jährige Stefan Moor nimmt sich ohne Zustimmung seiner Eltern das Cabrio der Mutter für eine Spritztour. Dabei beschädigt er den Carport des Nachbarn. Die Reparaturkosten betragen 2.500,- €.\n\nBesteht Versicherungsschutz über die Kraftfahrt-Haftpflichtversicherung der Mutter?\n\nVersicherungsschutz besteht …",
     "points": 1,
     "options": [
      {
@@ -2136,15 +2420,15 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 79
+    "topic": "Kraftfahrtversicherung",
+    "num": 98
    },
    {
-    "id": "frage-080",
+    "id": "frage-I-099",
     "type": "single",
-    "prompt": "Kraftfahrtversicherung Sie haben Ihrem Kunden Hamza Ahmad eine elektronische Versicherungsbestätigung (eVB) für die Wiederzulassung seines, über den Winter vorübergehend stillgelegten Cabrios, ausgehändigt. Auf dem direkten Weg zur Zulassungsstelle - mit ungestempelten Kennzeichen - verursacht Herr Ahmad einen Unfall, bei dem eine Fußgängerin verletzt wird. Herr Ahmad fragt Sie, ob die Behandlungskosten der Fußgängerin von seiner Kfz-Haftpflichtversicherung (KH) übernommen werden.",
+    "prompt": "Sie haben Ihrem Kunden Hamza Ahmad eine elektronische Versicherungsbestätigung (eVB) für die Wiederzulassung seines über den Winter vorübergehend stillgelegten Cabrios ausgehändigt. Auf dem direkten Weg zur Zulassungsstelle — mit ungestempelten Kennzeichen — verursacht Herr Ahmad einen Unfall, bei dem eine Fußgängerin verletzt wird.\n\nHerr Ahmad fragt Sie, ob die Behandlungskosten der Fußgängerin von seiner Kfz-Haftpflichtversicherung (KH) übernommen werden.",
     "points": 1,
     "options": [
      {
@@ -2167,44 +2451,26 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 80
+    "topic": "Kraftfahrtversicherung",
+    "num": 99
    },
    {
-    "id": "frage-081",
-    "type": "multiple",
-    "prompt": "f t, J?5:.f&ffiJi-i; D 1 Günther Hamann hat bei Ihrer Gesellschaft eine Vollkaskoversicherung mit 500,- € Selbstbeteiligung sowie eine Teilkaskoversicherung mit 150,- €Selbstbeteiligung.Er meldet Ihnen, dass er im dichten Nebel mit seinem 4 Monate alten PKW trotz angepasster Geschwindigkeit gegen einen Baum gefahren ist. Text im Scan unvollständig bitte im Originalbogen nachsehen",
+    "id": "frage-I-100",
+    "type": "text",
+    "prompt": "Günther Hamann hat bei Ihrer Gesellschaft eine Vollkaskoversicherung mit 500,- € Selbstbeteiligung sowie eine Teilkaskoversicherung mit 150,- € Selbstbeteiligung. Er meldet Ihnen, dass er im dichten Nebel mit seinem 4 Monate alten PKW trotz angepasster Geschwindigkeit gegen einen Baum gefahren ist.\n\n• Die Reparaturkosten für sein Fahrzeug belaufen sich auf 7.500,- €.\n• Der Wiederbeschaffungswert beträgt 10.000,- €\n• Der Restwert: 6.500,- €\n• Ein neues Fahrzeug würde Herrn Hamann 15.000,- € kosten.\n\nWelche Entschädigungsleistung erhält Herr Hamann?",
     "points": 1,
-    "options": [
-     {
-      "id": "a",
-      "text": "Die Reparaturkosten für sein Fahrzeug belaufen sich auf 7.500,- €."
-     },
-     {
-      "id": "b",
-      "text": "Der Wiederbeschaffungswert beträgt 10.000,- €"
-     },
-     {
-      "id": "c",
-      "text": "Der Restwert: 6.500"
-     },
-     {
-      "id": "d",
-      "text": "Ein neues Fahrzeug würde Herrn Hamann 15.000,- € kosten. Welche Entschädigungsleistung erhält Herr Hamann? 7000,- € Euro"
-     }
-    ],
+    "options": [],
     "answerIds": [
-     "a",
-     "b",
-     "c",
-     "d"
+     "7000"
     ],
-    "solution": "Richtige Antwort: A, B, C, D.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 81
+    "topic": "Kraftfahrtversicherung",
+    "num": 100,
+    "unit": "",
+    "note": "Reparaturkosten (7.500 €) liegen unter dem Wiederbeschaffungswert (10.000 €) → es wird repariert.\nEntschädigung: 7.500 € Reparatur − 500 € Selbstbeteiligung = 7.000 €.\nDer Restwert spielt nur beim Totalschaden eine Rolle."
    },
    {
     "id": "frage-082",
@@ -2236,10 +2502,11 @@
     "answerIds": [
      "e"
     ],
-    "solution": "Richtige Antwort: E.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 82
+    "topic": "Privathaftpflicht",
+    "_page": 82,
+    "num": 101
    },
    {
     "id": "frage-083",
@@ -2250,8 +2517,9 @@
     "answerIds": [],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 83
+    "topic": "Privathaftpflicht",
+    "_page": 83,
+    "num": 102
    },
    {
     "id": "frage-084",
@@ -2279,10 +2547,11 @@
     "answerIds": [
      "d"
     ],
-    "solution": "Richtige Antwort: D.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 84
+    "topic": "Privathaftpflicht",
+    "_page": 84,
+    "num": 103
    },
    {
     "id": "frage-085",
@@ -2310,10 +2579,11 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 85
+    "topic": "Privathaftpflicht",
+    "_page": 85,
+    "num": 104
    },
    {
     "id": "frage-086",
@@ -2341,10 +2611,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 86
+    "topic": "Privathaftpflicht",
+    "_page": 86,
+    "num": 105
    },
    {
     "id": "frage-087",
@@ -2372,10 +2643,11 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 87
+    "topic": "Privathaftpflicht",
+    "_page": 87,
+    "num": 106
    },
    {
     "id": "frage-088",
@@ -2403,10 +2675,11 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 88
+    "topic": "Privathaftpflicht",
+    "_page": 88,
+    "num": 107
    },
    {
     "id": "frage-089",
@@ -2434,10 +2707,11 @@
     "answerIds": [
      "d"
     ],
-    "solution": "Richtige Antwort: D.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 89
+    "topic": "Privathaftpflicht",
+    "_page": 89,
+    "num": 108
    },
    {
     "id": "frage-090",
@@ -2465,10 +2739,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 90
+    "topic": "Privathaftpflicht",
+    "_page": 90,
+    "num": 109
    },
    {
     "id": "frage-091",
@@ -2496,10 +2771,11 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 91
+    "topic": "Privathaftpflicht",
+    "_page": 91,
+    "num": 110
    },
    {
     "id": "frage-092",
@@ -2533,8 +2809,9 @@
     ],
     "solution": "Richtige Antwort: D, E.",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 92
+    "topic": "Privathaftpflicht",
+    "_page": 92,
+    "num": 111
    },
    {
     "id": "frage-093",
@@ -2562,10 +2839,11 @@
     "answerIds": [
      "d"
     ],
-    "solution": "Richtige Antwort: D.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 93
+    "topic": "Privathaftpflicht",
+    "_page": 93,
+    "num": 112
    },
    {
     "id": "frage-094",
@@ -2599,8 +2877,9 @@
     ],
     "solution": "Richtige Antwort: B, E.",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 94
+    "topic": "Rechtsschutz",
+    "_page": 94,
+    "num": 113
    },
    {
     "id": "frage-095",
@@ -2628,10 +2907,11 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 95
+    "topic": "Rechtsschutz",
+    "_page": 95,
+    "num": 114
    },
    {
     "id": "frage-096",
@@ -2659,10 +2939,11 @@
     "answerIds": [
      "b"
     ],
-    "solution": "Richtige Antwort: B.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 96
+    "topic": "Rechtsschutz",
+    "_page": 96,
+    "num": 115
    },
    {
     "id": "frage-097",
@@ -2690,10 +2971,11 @@
     "answerIds": [
      "c"
     ],
-    "solution": "Richtige Antwort: C.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 97
+    "topic": "Rechtsschutz",
+    "_page": 97,
+    "num": 116
    },
    {
     "id": "frage-098",
@@ -2725,10 +3007,11 @@
     "answerIds": [
      "a"
     ],
-    "solution": "Richtige Antwort: A.",
+    "solution": "",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 98
+    "topic": "Rechtsschutz",
+    "_page": 98,
+    "num": 117
    },
    {
     "id": "frage-099",
@@ -2762,8 +3045,9 @@
     ],
     "solution": "Richtige Antwort: C, E.",
     "manualGrade": false,
-    "topic": "Krankenversicherung/ Pflegeversicherung",
-    "_page": 99
+    "topic": "Rechtsschutz",
+    "_page": 99,
+    "num": 118
    }
   ]
  },
