@@ -34,8 +34,9 @@ function importProgress(){const f=$('#progressFileInput').files[0];if(!f)return;
 function downloadTemplate(){download('pruefungswerk-vorlage.json',JSON.stringify(template,null,2));showToast('JSON-Vorlage heruntergeladen')}
 function showToast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
 init();
-const BUNDLED_VERSION=17;
-if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(sk=>{if(Array.isArray(sk)){SKRIPTE=sk;try{window.renderSkriptCard&&window.renderSkriptCard()}catch(e){}}}).catch(()=>{});fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(exams=>{if(!Array.isArray(exams))return;if(data.exams.length&&(data.bundledVersion||0)>=BUNDLED_VERSION){tagExams();renderResumeCard();return}exams.forEach(validateExam);const own=data.exams.filter(e=>!exams.some(x=>x.examId===e.examId));const had=data.exams.length>0;data.exams=[...exams,...own];data.bundledVersion=BUNDLED_VERSION;save();tagExams();render();showToast(had?'Prüfungsinhalte wurden aktualisiert':'Sechs Prüfungen wurden bereitgestellt')}).catch(()=>{});
+const BUNDLED_VERSION=18;
+if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(sk=>{if(Array.isArray(sk)){SKRIPTE=sk;try{window.renderSkriptCard&&window.renderSkriptCard()}catch(e){}}}).catch(()=>{});fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(exams=>{if(!Array.isArray(exams))return;if(data.exams.length&&(data.bundledVersion||0)>=BUNDLED_VERSION){tagExams();renderResumeCard();return}
+  try{console.log('[Prüfungswerk] Prüfungsdaten werden erneuert, Version',BUNDLED_VERSION)}catch(e){}exams.forEach(validateExam);const own=data.exams.filter(e=>!exams.some(x=>x.examId===e.examId));const had=data.exams.length>0;data.exams=[...exams,...own];data.bundledVersion=BUNDLED_VERSION;save();tagExams();render();showToast(had?'Prüfungsinhalte wurden aktualisiert':'Sechs Prüfungen wurden bereitgestellt')}).catch(()=>{});
 if(location.protocol!=='file:')fetch('./wissen.json').then(r=>r.ok?r.json():null).then(s=>{if(Array.isArray(s))wissen=s}).catch(()=>{});
 if('serviceWorker'in navigator&&location.protocol!=='file:')window.addEventListener('load',()=>{
  let hatteController=!!navigator.serviceWorker.controller;
@@ -116,7 +117,7 @@ setInterval(()=>{const c=$('#quizClock');if(c)c.textContent=quizClockText();if(a
 
 /* ===== v13 ===== */
 function settings(){data.settings=data.settings||{};const s=data.settings;if(typeof s.fontScale!=='number')s.fontScale=0;if(!s.theme)s.theme='auto';if(!s.examMin)s.examMin=90;return s}
-function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v28';const v2=$('#appVersion2');if(v2)v2.textContent='v28'}
+function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v29';const v2=$('#appVersion2');if(v2)v2.textContent='v29'}
 function qkey(eid,qid){return String(eid)+'|'+String(qid)}
 function tagExams(){data.exams.forEach(e=>e.questions.forEach(q=>{q._eid=e.examId}))}
 function findQ(key){const i=String(key).indexOf('|');if(i<0)return null;const eid=String(key).slice(0,i),qid=String(key).slice(i+1);const e=data.exams.find(x=>x.examId===eid);const q=e&&e.questions.find(x=>x.id===qid);return e&&q?{e,q}:null}
@@ -147,6 +148,7 @@ function last14(){const out=[],t=new Date();for(let i=13;i>=0;i--){const x=new D
 function sparkSvg(){const h=((profile().stats||{}).history||[]).slice(-12);if(h.length<2)return '<p class="note-small">Noch zu wenig Runden für eine Kurve – ab zwei Runden siehst du hier deinen Trend.</p>';const pts=h.map((r,i)=>{const pct=r.scored?r.correct/r.scored:0;return [i/(h.length-1)*300,58-pct*54]});const d=pts.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join(' ');const last=h[h.length-1];const pct=last.scored?Math.round(last.correct/last.scored*100):0;return `<svg class="spark" viewBox="0 0 300 62" preserveAspectRatio="none" aria-hidden="true"><polyline points="${d}" fill="none" stroke="#35665a" stroke-width="2.5" stroke-linejoin="round"/></svg><p class="note-small">Letzte ${h.length} Runden · aktuell <b>${pct} %</b> richtig</p>`}
 document.addEventListener('click',e=>{const t=e.target;if(!t)return;if(t.id==='skipQuestion'){skipQuestion();return}
  if(t.id==='jumpButton'){openJump(false);return}if(t.id==='backQuestion'){const z=activeQuiz;if(z&&z.index>0){qStamp(z);z.index--;z.revealed=false;z.qStart=Date.now();renderQuestion();window.scrollTo(0,0)}return}if(t.id==='markButton'){const z=activeQuiz;if(z)toggleMark(z.qs[z.index]);return}if(t.dataset&&t.dataset.wissen!==undefined){wissenQuery=t.dataset.wissen;showWissen();return}if(t.dataset&&t.dataset.fs!==undefined){settings().fontScale=+t.dataset.fs;save();applySettings();showToast('Schriftgröße angepasst');return}if(t.dataset&&t.dataset.theme!==undefined){settings().theme=t.dataset.theme;save();applySettings();showToast('Design: '+t.textContent);return}if(t.id==='updBtn'){hardRefresh();return}
+ if(t.id==='reloadDataBtn'){if(window.hbReload)window.hbReload();return}
  if(t.id==='setExamMinSave'){const v=Math.max(10,Math.min(240,Math.round(+($('#setExamMin')||{}).value||90)));settings().examMin=v;save();showToast('Prüfungszeit: '+v+' Minuten');const d=$('#settingsDialog');if(d)d.close();return}});
 if(window.matchMedia){try{window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{if(settings().theme==='auto')applySettings()})}catch(e){}}
 setInterval(()=>{if(activeQuiz&&activeQuiz.deadline)updateQuizTimer()},1000);
@@ -700,13 +702,24 @@ var SKRIPTE=[];
     return p.replace(/\s+/g,' ').trim();
   }
   function rightAnswers(q){
-    var out=[];
+    var out=[],opts=q.options||[];
     (q.answerIds||[]).forEach(function(a){
-      var s=String(a),k=(q.options||[]).findIndex(function(o){return String(o.id)===s});
-      if(k>=0){var L=String((q.options[k].id||'')).length===1?String(q.options[k].id).toUpperCase():String.fromCharCode(65+k);out.push({letter:L,text:q.options[k].text})}
-      else out.push({letter:s,text:''});
+      var s=String(a),k=-1;
+      for(var i=0;i<opts.length;i++){if(String(opts[i].id)===s){k=i;break}}
+      var L;
+      if(k>=0){var oid=String(opts[k].id||'');L=(oid.length===1)?oid.toUpperCase():String.fromCharCode(65+k);out.push({letter:L,text:String(opts[k].text||'').trim()})}
+      else {L=(s.length===1)?s.toUpperCase():s;out.push({letter:L,text:''})}
     });
     return out;
+  }
+  function spellAnswer(q,it){
+    /* Fallback: wenn kein Optionstext vorhanden, wenigstens Buchstabe + Lösungstext */
+    var parts=[];
+    it.right.forEach(function(r){
+      if(r.text)parts.push(r.letter+': '+r.text);
+      else parts.push('Antwort '+r.letter);
+    });
+    return parts;
   }
   function pool(scope){
     var arr=[];
@@ -737,7 +750,7 @@ var SKRIPTE=[];
     items.push({kind:'title',text:'Thema: '+topic+'. '+qs.length+' Fragen.'});
     qs.forEach(function(x,n){
       var q=x.q;
-      items.push({kind:'q',num:'Frage '+(n+1),text:cleanPrompt(q),right:rightAnswers(q),solution:isRealSolution(q),note:q.note||''});
+      items.push({kind:'q',num:'Frage '+(n+1),text:cleanPrompt(q),right:rightAnswers(q),solution:isRealSolution(q),solutionRaw:String(q.solution||'').trim(),note:q.note||''});
     });
     return items;
   }
@@ -747,8 +760,15 @@ var SKRIPTE=[];
     if(it.kind==='m'){out.push(it.num+'. '+it.text);out.push(' ');return out}
     out.push(it.num+'. '+it.text);
     if(it.right&&it.right.length){
-      if(it.right.length===1)out.push('Richtig ist '+it.right[0].letter+(it.right[0].text?': '+it.right[0].text:'')+'.');
-      else out.push('Richtig sind '+it.right.map(function(r){return r.letter+(r.text?': '+r.text:'')}).join(' und ')+'.');
+      var mitText=it.right.filter(function(r){return r.text&&r.text.length>1});
+      if(mitText.length){
+        if(mitText.length===1)out.push('Richtig ist '+mitText[0].letter+': '+mitText[0].text+'.');
+        else out.push('Richtig sind '+mitText.map(function(r){return r.letter+': '+r.text}).join(' und ')+'.');
+      }else{
+        out.push('Richtig '+(it.right.length===1?'ist':'sind')+' '+it.right.map(function(r){return 'Antwort '+r.letter}).join(' und ')+'.');
+      }
+    }else if(it.solutionRaw){
+      out.push('Lösung. '+it.solutionRaw);
     }
     if(it.solution)out.push('Begründung. '+it.solution);
     if(it.note)out.push('Merksatz. '+it.note);
@@ -866,6 +886,13 @@ var SKRIPTE=[];
   document.addEventListener('visibilitychange',function(){if(!document.hidden&&st.playing&&!st.paused){try{synth.resume()}catch(e){}}});
   document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('quickAudio');if(b)b.onclick=openView});
   if(document.readyState!=='loading'){var b2=document.getElementById('quickAudio');if(b2)b2.onclick=openView}
+  window.hbReload=function(){
+    try{localStorage.removeItem('pruefungswerk.v1')}catch(e){}
+    try{localStorage.removeItem('pruefungswerk.resume.v2')}catch(e){}
+    if(typeof data!=='undefined'){data.bundledVersion=0;try{save()}catch(e){}}
+    showToast('Daten werden neu geladen …');
+    setTimeout(function(){location.reload()},600);
+  };
   var _sw=showWissen;showWissen=function(){var v=document.getElementById('hoerbuchView');if(v)v.hidden=true;_sw()};
   var _sd=showDiary;showDiary=function(){var v=document.getElementById('hoerbuchView');if(v)v.hidden=true;_sd()};
 })();
