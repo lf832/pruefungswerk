@@ -295,3 +295,34 @@ body{min-height:auto;overflow-x:hidden}
 footer{padding-bottom:calc(83px + env(safe-area-inset-bottom,0px))}
 .quiz-controls{position:sticky;bottom:calc(64px + env(safe-area-inset-bottom,0px))}
 @media(max-width:760px){.quiz-controls{position:static;background:transparent;padding:0}}
+/* v27 Hörbuch */
+.hb-list{display:grid;gap:8px;margin-top:16px}
+.hb-topic{display:flex;align-items:center;gap:13px;text-align:left;border:1px solid var(--line);background:var(--card);padding:15px 16px;border-radius:5px;color:var(--ink)}
+.hb-topic:hover{border-color:var(--moss)}
+.hb-dot{width:34px;height:34px;flex:0 0 34px;border-radius:50%;background:var(--deep);color:var(--lime);display:grid;place-items:center;font-size:13px}
+.hb-tt{display:flex;flex-direction:column;gap:2px;flex:1}
+.hb-tt b{font-size:13px;line-height:1.35}
+.hb-tt small{font:9px var(--mono);color:var(--muted)}
+.hb-go{color:var(--moss);font-size:15px}
+.hb-text{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--lime);padding:20px 22px;font-size:16px;line-height:1.75;min-height:90px;max-height:46vh;overflow:auto}
+.hb-controls{display:flex;align-items:center;gap:10px;margin-top:20px}
+.hb-controls .hb-play{flex:1;font-size:14px;padding:16px}
+.hb-controls .button-outline{width:56px;padding:16px 0;font-size:15px}
+.hb-status{font:10px var(--mono);letter-spacing:.5px;color:var(--muted);margin:12px 0 0;text-align:center}
+.hb-rate{display:flex;align-items:center;gap:6px;justify-content:center;margin-top:18px;font:9px var(--mono);color:var(--muted);letter-spacing:1px;text-transform:uppercase}
+.hb-r{border:1px solid var(--line);background:transparent;border-radius:20px;padding:6px 11px;font-size:10px;font-weight:700;color:var(--muted)}
+.hb-r.on{background:var(--deep);color:#fff;border-color:var(--deep)}
+@media(max-width:760px){.hb-text{font-size:15px;padding:16px;max-height:none}}
+/* v28 Hoerbuch: nur richtige Antworten */
+.hb-scope{display:flex;gap:6px;margin-top:14px;flex-wrap:wrap}
+.hb-s{flex:1;min-width:150px;border:1px solid var(--line);background:transparent;border-radius:30px;padding:10px 13px;font-size:11px;font-weight:800;color:var(--muted)}
+.hb-s.on{background:var(--deep);color:#fff;border-color:var(--deep)}
+.hb-right{margin-top:16px;padding:15px 17px;border-left:3px solid #2f7d4f;background:rgba(47,125,79,.08);border-radius:0 4px 4px 0}
+.hb-rl{display:block;font:9px var(--mono);letter-spacing:1px;text-transform:uppercase;color:#2f7d4f;margin-bottom:8px}
+.hb-ra{display:flex;gap:9px;font-size:14px;line-height:1.55;margin-bottom:4px}
+.hb-ra b{color:#2f7d4f;flex:0 0 18px}
+.hb-why{margin-top:16px;padding:14px 16px;border-left:3px solid var(--moss);background:rgba(53,102,90,.07);border-radius:0 4px 4px 0}
+.hb-why b{display:block;font:9px var(--mono);letter-spacing:1px;text-transform:uppercase;color:var(--moss);margin-bottom:5px}
+.hb-why span{font-size:13px;line-height:1.6}
+.hb-why.is-empty{border-left-color:var(--line);background:transparent}
+.hb-why.is-empty span{color:var(--muted);font-style:italic;font-size:12px}

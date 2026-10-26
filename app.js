@@ -34,7 +34,7 @@ function importProgress(){const f=$('#progressFileInput').files[0];if(!f)return;
 function downloadTemplate(){download('pruefungswerk-vorlage.json',JSON.stringify(template,null,2));showToast('JSON-Vorlage heruntergeladen')}
 function showToast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
 init();
-const BUNDLED_VERSION=15;
+const BUNDLED_VERSION=17;
 if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(sk=>{if(Array.isArray(sk)){SKRIPTE=sk;try{window.renderSkriptCard&&window.renderSkriptCard()}catch(e){}}}).catch(()=>{});fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(exams=>{if(!Array.isArray(exams))return;if(data.exams.length&&(data.bundledVersion||0)>=BUNDLED_VERSION){tagExams();renderResumeCard();return}exams.forEach(validateExam);const own=data.exams.filter(e=>!exams.some(x=>x.examId===e.examId));const had=data.exams.length>0;data.exams=[...exams,...own];data.bundledVersion=BUNDLED_VERSION;save();tagExams();render();showToast(had?'Prüfungsinhalte wurden aktualisiert':'Sechs Prüfungen wurden bereitgestellt')}).catch(()=>{});
 if(location.protocol!=='file:')fetch('./wissen.json').then(r=>r.ok?r.json():null).then(s=>{if(Array.isArray(s))wissen=s}).catch(()=>{});
 if('serviceWorker'in navigator&&location.protocol!=='file:')window.addEventListener('load',()=>{
@@ -116,7 +116,7 @@ setInterval(()=>{const c=$('#quizClock');if(c)c.textContent=quizClockText();if(a
 
 /* ===== v13 ===== */
 function settings(){data.settings=data.settings||{};const s=data.settings;if(typeof s.fontScale!=='number')s.fontScale=0;if(!s.theme)s.theme='auto';if(!s.examMin)s.examMin=90;return s}
-function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v26';const v2=$('#appVersion2');if(v2)v2.textContent='v26'}
+function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v28';const v2=$('#appVersion2');if(v2)v2.textContent='v28'}
 function qkey(eid,qid){return String(eid)+'|'+String(qid)}
 function tagExams(){data.exams.forEach(e=>e.questions.forEach(q=>{q._eid=e.examId}))}
 function findQ(key){const i=String(key).indexOf('|');if(i<0)return null;const eid=String(key).slice(0,i),qid=String(key).slice(i+1);const e=data.exams.find(x=>x.examId===eid);const q=e&&e.questions.find(x=>x.id===qid);return e&&q?{e,q}:null}
@@ -660,4 +660,212 @@ var SKRIPTE=[];
   }
   var _sw=showWissen;showWissen=function(){var v=document.getElementById('skriptView');if(v)v.hidden=true;_sw()};
   var _sd=showDiary;showDiary=function(){var v=document.getElementById('skriptView');if(v)v.hidden=true;_sd()};
+})();
+/* ================= v28 · Hörbuch (nur richtige Antworten) ================= */
+(function(){
+  var synth=window.speechSynthesis||null;
+  var st={items:[],idx:0,chunk:0,chunks:[],rate:1,playing:false,paused:false,title:'',wake:null,scope:'verified'};
+  var VOICE=null;
+  function pickVoice(){
+    if(!synth)return;var vs=synth.getVoices()||[];var de=vs.filter(function(v){return /^de/i.test(v.lang)});
+    var pref=['Anna','Petra','Helena','Markus','Yannick','Google Deutsch','Deutsch'];
+    for(var i=0;i<pref.length;i++){var h=de.filter(function(v){return v.name.indexOf(pref[i])>=0})[0];if(h){VOICE=h;return}}
+    VOICE=de[0]||vs[0]||null;
+  }
+  if(synth){pickVoice();synth.onvoiceschanged=function(){pickVoice()}}
+  function supports(){return !!synth}
+  function chunkText(t){
+    t=String(t||'').replace(/\s+/g,' ').replace(/[–—]/g,' ').trim();if(!t)return [];
+    var parts=t.split(/(?<=[.!?:;])\s+/),out=[];
+    parts.forEach(function(p){p=p.trim();if(!p)return;
+      if(p.length<=190){out.push(p);return}
+      var ws=p.split(' '),buf='';
+      ws.forEach(function(w){if((buf+' '+w).trim().length>175){if(buf)out.push(buf.trim());buf=w}else buf=(buf?buf+' ':'')+w});
+      if(buf)out.push(buf.trim());
+    });
+    return out;
+  }
+  function isRealSolution(q){
+    var x=String(q.solution||'').trim();
+    if(!x)return '';
+    if(/^(Richtige Antwort|Richtige Lösungen?)/i.test(x))return '';
+    if(/Kein verlässlicher Lösungsschlüssel/i.test(x))return '';
+    return x;
+  }
+  function cleanPrompt(q){
+    var p=String(q.prompt||'');
+    p=p.replace(/^(Private Vorsorge durch[^\n]*|Gesetzliche Rentenversicherung|Betriebliche Altersversorgung|Unfallversicherung|Krankenversicherung\/ Pflegeversicherung|Hausratversicherung|Wohngebäudeversicherung|Haftpflichtversicherung|Kraftfahrtversicherung|Rechtsschutzversicherung)\.?\s*/i,'');
+    var t=String(q.topic||q.topicGuess||'');
+    if(t){for(var len=t.length;len>=12;len--){if(p.slice(0,len).toLowerCase()===t.slice(0,len).toLowerCase()){p=p.slice(len).replace(/^[\s.,:;\u2013-]+/,'');break}}}
+    return p.replace(/\s+/g,' ').trim();
+  }
+  function rightAnswers(q){
+    var out=[];
+    (q.answerIds||[]).forEach(function(a){
+      var s=String(a),k=(q.options||[]).findIndex(function(o){return String(o.id)===s});
+      if(k>=0){var L=String((q.options[k].id||'')).length===1?String(q.options[k].id).toUpperCase():String.fromCharCode(65+k);out.push({letter:L,text:q.options[k].text})}
+      else out.push({letter:s,text:''});
+    });
+    return out;
+  }
+  function pool(scope){
+    var arr=[];
+    data.exams.forEach(function(e,ei){
+      e.questions.forEach(function(q,qi){
+        if(scope==='verified'&&!(ei===0&&qi<50))return;
+        arr.push({q:q,e:e});
+      });
+    });
+    return arr;
+  }
+  function topics(scope){
+    var m={},notes=0;
+    pool(scope).forEach(function(x){var t=x.q.topic||x.q.topicGuess;if(!t)return;m[t]=(m[t]||0)+1;if(x.q.note)notes++});
+    var a=Object.keys(m).sort(function(x,y){return m[y]-m[x]}).map(function(t){return{t:t,n:m[t]}});
+    if(notes)a.unshift({t:'__merk__',n:notes});
+    return a;
+  }
+  function buildItems(topic){
+    var src=pool(st.scope),items=[];
+    if(topic==='__merk__'){
+      var ns=src.filter(function(x){return x.q.note});
+      items.push({kind:'title',text:'Merksätze. '+ns.length+' Regeln zum Anhören.'});
+      ns.forEach(function(x,n){items.push({kind:'m',num:'Merksatz '+(n+1),text:x.q.note,topic:x.q.topic||''})});
+      return items;
+    }
+    var qs=src.filter(function(x){return (x.q.topic||x.q.topicGuess)===topic});
+    items.push({kind:'title',text:'Thema: '+topic+'. '+qs.length+' Fragen.'});
+    qs.forEach(function(x,n){
+      var q=x.q;
+      items.push({kind:'q',num:'Frage '+(n+1),text:cleanPrompt(q),right:rightAnswers(q),solution:isRealSolution(q),note:q.note||''});
+    });
+    return items;
+  }
+  function itemChunks(it){
+    var out=[];
+    if(it.kind==='title'){out.push(it.text);return out}
+    if(it.kind==='m'){out.push(it.num+'. '+it.text);out.push(' ');return out}
+    out.push(it.num+'. '+it.text);
+    if(it.right&&it.right.length){
+      if(it.right.length===1)out.push('Richtig ist '+it.right[0].letter+(it.right[0].text?': '+it.right[0].text:'')+'.');
+      else out.push('Richtig sind '+it.right.map(function(r){return r.letter+(r.text?': '+r.text:'')}).join(' und ')+'.');
+    }
+    if(it.solution)out.push('Begründung. '+it.solution);
+    if(it.note)out.push('Merksatz. '+it.note);
+    out.push(' ');
+    return out;
+  }
+  function speakNext(){
+    if(!st.playing||st.paused)return;
+    if(st.chunk>=st.chunks.length){
+      st.idx++;
+      if(st.idx>=st.items.length){finish();return}
+      st.chunks=itemChunks(st.items[st.idx]);st.chunk=0;paint();speakNext();return;
+    }
+    var txt=st.chunks[st.chunk];
+    if(!txt||!txt.trim()){st.chunk++;return speakNext()}
+    var u=new SpeechSynthesisUtterance(txt);
+    u.lang='de-DE';u.rate=st.rate;u.pitch=1;if(VOICE)u.voice=VOICE;
+    u.onend=function(){st.chunk++;paint();speakNext()};
+    u.onerror=function(){st.chunk++;setTimeout(speakNext,250)};
+    try{synth.speak(u)}catch(e){st.chunk++;setTimeout(speakNext,250)}
+    paint();
+  }
+  function play(){
+    if(!supports()){showToast('Dieses Gerät kann nicht vorlesen.');return}
+    if(st.paused){st.paused=false;st.playing=true;try{synth.resume()}catch(e){};speakNext();paint();return}
+    if(st.playing)return;
+    st.playing=true;st.paused=false;
+    if(st.chunk>=st.chunks.length&&st.idx>=st.items.length){st.idx=0;st.chunk=0}
+    speakNext();paint();
+  }
+  function pause(){if(!st.playing)return;st.paused=true;st.playing=false;try{synth.cancel()}catch(e){};paint()}
+  function stop(){st.playing=false;st.paused=false;try{synth.cancel()}catch(e){};releaseWake();paint()}
+  function finish(){
+    st.playing=false;try{synth.cancel()}catch(e){};releaseWake();
+    var el=$('#hbStatus');if(el)el.textContent='Fertig. Tippe auf ▶ um von vorn zu starten.';
+    st.idx=0;st.chunk=0;st.chunks=[];
+  }
+  function skip(d){
+    try{synth.cancel()}catch(e){}
+    st.idx=Math.max(0,Math.min(st.items.length-1,st.idx+d));
+    st.chunks=itemChunks(st.items[st.idx]||{kind:'title',text:''});st.chunk=0;st.paused=false;
+    if(st.playing)speakNext();paint();
+  }
+  function keepAwake(){if(!('wakeLock' in navigator))return;navigator.wakeLock.request('screen').then(function(l){st.wake=l}).catch(function(){})}
+  function releaseWake(){if(st.wake){try{st.wake.release()}catch(e){};st.wake=null}}
+  function view(){var v=document.getElementById('hoerbuchView');if(!v){v=document.createElement('section');v.id='hoerbuchView';v.className='view';v.hidden=true;(document.getElementById('app')||document.body).appendChild(v)}return v}
+  function listView(){
+    var v=view();v.hidden=false;stop();
+    var ts=topics(st.scope);
+    var tot=pool(st.scope).length;
+    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="hbBack">← Übersicht</button><div class="quiz-title">Hörbuch</div><span class="quiz-mode">'+ts.length+' THEMEN</span></div>'
+      +'<div class="merk-head"><p class="eyebrow">ZUM HÖREN</p><h2>Nur die richtigen Antworten</h2><p class="note-small">Vorgelesen wird: die Frage, die richtige Antwort im Klartext, eine Begründung falls hinterlegt und der Merksatz. Falsche Optionen werden übersprungen.</p></div>'
+      +'<div class="hb-scope"><button class="hb-s'+(st.scope==='verified'?' on':'')+'" data-scope="verified">Nur geprüfte Fragen · 1–50</button><button class="hb-s'+(st.scope==='all'?' on':'')+'" data-scope="all">Alle Fragen · '+pool('all').length+'</button></div>'
+      +'<p class="note-small" style="margin-top:10px">'+(st.scope==='verified'?'Diese 50 Fragen hast du korrigiert und freigegeben. Begründungen sind bisher nur bei wenigen hinterlegt – Merksätze werden immer mitgelesen.':'Achtung: Bei den übrigen Fragen sind die Lösungsschlüssel noch nicht geprüft.')+'</p>'
+      +'<div class="hb-list">'+ts.map(function(x){
+        return '<button class="hb-topic" data-topic="'+safeText(x.t)+'"><span class="hb-dot">▶</span><span class="hb-tt"><b>'+safeText(x.t==='__merk__'?'Nur Merksätze':x.t)+'</b><small>'+x.n+(x.t==='__merk__'?' Merksätze':' Fragen')+' · ca. '+Math.max(1,Math.round(x.n*(x.t==='__merk__'?0.35:0.55)))+' Min</small></span><span class="hb-go">↗</span></button>'
+      }).join('')+'</div></div>';
+    v.querySelector('#hbBack').onclick=close;
+    v.querySelectorAll('[data-scope]').forEach(function(b){b.onclick=function(){st.scope=b.getAttribute('data-scope');stop();listView()}});
+    v.querySelectorAll('[data-topic]').forEach(function(b){b.onclick=function(){open(b.getAttribute('data-topic'))}});
+    window.scrollTo(0,0);
+  }
+  function open(topic){
+    st.items=buildItems(topic);st.idx=0;st.chunk=0;
+    st.chunks=itemChunks(st.items[0]||{kind:'title',text:''});
+    st.title=(topic==='__merk__'?'Nur Merksätze':topic);
+    renderPlayer();
+  }
+  function renderPlayer(){
+    var v=view();v.hidden=false;
+    var it=st.items[st.idx]||{};
+    var rightHtml='<div id="hbDetail"></div>';
+    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="hbList">← Themen</button><div class="quiz-title">Hörbuch</div><span class="quiz-mode" id="hbPos">'+Math.min(st.idx+1,st.items.length)+' / '+st.items.length+'</span></div>'
+      +'<p class="question-topic">'+safeText(st.title)+'</p>'
+      +'<h1 class="question-title" id="hbTitle">'+(it.kind==='title'?safeText(it.text):safeText(it.num||''))+'</h1>'
+      +'<div class="hb-text" id="hbText">'+(it.kind==='title'?'':safeText(it.text||''))+'</div>'
+      +rightHtml
+      +'<div class="hb-controls"><button class="button button-outline" id="hbPrev">⏮</button><button class="button button-dark hb-play" id="hbPlay">▶ Abspielen</button><button class="button button-outline" id="hbNext">⏭</button></div>'
+      +'<p class="hb-status" id="hbStatus">Bereit. Einmal starten – danach läuft es allein weiter.</p>'
+      +'<div class="hb-rate"><span>Tempo</span>'+[0.9,1,1.15,1.3].map(function(r){return '<button class="hb-r'+(r===st.rate?' on':'')+'" data-rate="'+r+'">'+r+'×</button>'}).join('')+'</div></div>';
+    v.querySelector('#hbList').onclick=listView;
+    v.querySelector('#hbPlay').onclick=function(){if(st.playing)pause();else play()};
+    v.querySelector('#hbPrev').onclick=function(){skip(-1)};
+    v.querySelector('#hbNext').onclick=function(){skip(1)};
+    v.querySelectorAll('[data-rate]').forEach(function(b){b.onclick=function(){
+      var was=st.playing;st.rate=parseFloat(b.getAttribute('data-rate'));
+      if(was){try{synth.cancel()}catch(e){}}
+      v.querySelectorAll('.hb-r').forEach(function(x){x.classList.remove('on')});b.classList.add('on');
+      if(was){st.chunk=0;st.chunks=itemChunks(st.items[st.idx]);speakNext()}
+    }});
+    paint();if('wakeLock' in navigator)keepAwake();
+  }
+  function detailHtml(it){
+    if(!it||it.kind!=='q'||!it.right||!it.right.length)return '';
+    var h='<div class="hb-right"><span class="hb-rl">Richtig '+(it.right.length===1?'ist':'sind')+'</span>'
+      +it.right.map(function(r){return '<div class="hb-ra"><b>'+safeText(r.letter)+'</b><span>'+safeText(r.text)+'</span></div>'}).join('')
+      +'</div>';
+    if(it.solution)h+='<div class="hb-why"><b>Begründung</b><span>'+safeText(it.solution)+'</span></div>';
+    else h+='<div class="hb-why is-empty"><b>Begründung</b><span>Noch keine hinterlegt – kommt mit der nächsten Korrekturrunde.</span></div>';
+    if(it.note)h+='<div class="question-note"><b>Merksatz</b><span>'+safeText(it.note)+'</span></div>';
+    return h;
+  }
+  function paint(){
+    var det=$('#hbDetail');
+    if(det)det.innerHTML=detailHtml(st.items[st.idx]);
+    var b=$('#hbPlay');if(b)b.textContent=st.playing?'⏸ Pause':(st.paused?'▶ Weiter':'▶ Abspielen');
+    var s=$('#hbStatus');if(s&&st.playing)s.textContent='Läuft … '+(st.idx+1)+' von '+st.items.length;
+    var p=$('#hbPos');if(p)p.textContent=Math.min(st.idx+1,st.items.length)+' / '+st.items.length;
+    var t=$('#hbTitle'),x=$('#hbText'),it=st.items[st.idx];
+    if(t&&x&&it){t.textContent=it.kind==='title'?it.text:(it.num||'');x.textContent=it.kind==='title'?'':(it.text||'')}
+  }
+  function openView(){['homeView','quizView','wissenView','diaryView','merkView','skriptView'].forEach(function(id){var el=document.getElementById(id);if(el)el.hidden=true});listView()}
+  function close(){stop();var v=document.getElementById('hoerbuchView');if(v)v.hidden=true;var h=document.getElementById('homeView');if(h)h.hidden=false;if(typeof render==='function')render();window.scrollTo(0,0)}
+  window.openHoerbuch=openView;
+  document.addEventListener('visibilitychange',function(){if(!document.hidden&&st.playing&&!st.paused){try{synth.resume()}catch(e){}}});
+  document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('quickAudio');if(b)b.onclick=openView});
+  if(document.readyState!=='loading'){var b2=document.getElementById('quickAudio');if(b2)b2.onclick=openView}
+  var _sw=showWissen;showWissen=function(){var v=document.getElementById('hoerbuchView');if(v)v.hidden=true;_sw()};
+  var _sd=showDiary;showDiary=function(){var v=document.getElementById('hoerbuchView');if(v)v.hidden=true;_sd()};
 })();
