@@ -37,7 +37,7 @@
    },
    {
     "id": "frage-002",
-    "type": "multiple",
+    "type": "single",
     "prompt": "Helga Maler (36) arbeitet seit Ende ihrer Ausbildung als Speditionskauffrau in einem großen Logistikunternehmen. Aufgrund der aktuellen Rentendiskussion ist Frau Maler an einer zusätzlichen Altersvorsorge interessiert. Sie beraten Ihre Kundin unter anderem zu einer Rentenversicherung im Rahmen der Zulagenförderung nach § 10a EStG.\nFrau Maler fragt, wie ihre Beiträge in diesem Fall steuerlich behandelt werden.\nDie Beiträge können…",
     "points": 1,
     "options": [
@@ -99,7 +99,7 @@
    },
    {
     "id": "frage-004",
-    "type": "multiple",
+    "type": "single",
     "prompt": "Sie beraten Frau Lenz zu einer privaten kapitalgedeckten Leibrentenversicherung (Basisrente). Welche Zusatzversicherung können Sie Frau Lenz anbieten und was ist zu beachten, damit der Gesamtbeitrag steuerlich abzugsfähig ist?",
     "points": 1,
     "options": [
@@ -290,7 +290,7 @@
      }
     ],
     "answerIds": [
-     "a"
+     "c"
     ],
     "solution": "Richtige Antwort: A.",
     "manualGrade": false,
@@ -299,7 +299,7 @@
    },
    {
     "id": "frage-012",
-    "type": "text",
+    "type": "single",
     "prompt": "Claudia Schubert will bei Ihnen eine Berufsunfähigkeitsversicherung beantragen. Sie weisen sie darauf hin, dass auch ein Pflegefall Leistungen auslöst.\nIn diesem Zusammenhang fragt Frau Schubert, nach welchem Bewertungsmaßstab der Pflegefall im Sinne der Berufsunfähigkeitsbedingungen eingestuft wird.\nDie Einstufung erfolgt nach…",
     "points": 1,
     "options": [
@@ -324,7 +324,9 @@
       "text": "dem „Neuen Begutachtungsassessment (NBA)“."
      }
     ],
-    "answerIds": [],
+    "answerIds": [
+     "a"
+    ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
     "topic": "Private Vorsorge durch Lebens-, Renten- und Berufsunfähigkeitsversicherung",
@@ -368,7 +370,7 @@
      }
     ],
     "answerIds": [
-     "c"
+     "a"
     ],
     "solution": "Richtige Antwort: C.",
     "manualGrade": false,
@@ -460,7 +462,7 @@
    },
    {
     "id": "frage-019",
-    "type": "multiple",
+    "type": "single",
     "prompt": "Im Beratungsgespräch zu einer kapitalbildenden Lebensversicherung erwähnt Holger Niegel, dass er in Kürze geschäftlich in ein Kriegsgebiet reisen muss.\nHerr Niegel möchte von Ihnen wissen, was die Bezugsberechtigten erhalten, wenn er dort vor Ort aufgrund der Ereignisse ums Leben kommt.",
     "points": 1,
     "options": [
@@ -482,7 +484,7 @@
      }
     ],
     "answerIds": [
-     "d"
+     "b"
     ],
     "solution": "Richtige Antwort: D, E.",
     "manualGrade": false,
@@ -580,7 +582,7 @@
      }
     ],
     "answerIds": [
-     "b"
+     "a"
     ],
     "solution": "Richtige Antwort: B.",
     "manualGrade": false,
@@ -626,7 +628,7 @@
    },
    {
     "id": "frage-025",
-    "type": "text",
+    "type": "single",
     "prompt": "Till Balte (20) ist Auszubildender im 3. Ausbildungsjahr. Bei der Ausübung seines Hobbys verunglückt er schwer und wird dadurch teilweise erwerbsgemindert.\nHerr Balte fragt, ob er einen Anspruch auf eine Rente wegen Erwerbsminderung hat.",
     "points": 1,
     "options": [
@@ -647,7 +649,9 @@
       "text": "Nein, weil er in den letzten 60 Monaten keine 36 Pflichtbeiträge gezahlt hat."
      }
     ],
-    "answerIds": [],
+    "answerIds": [
+     "c"
+    ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
     "topic": "Gesetzliche Rentenversicherung",
@@ -677,7 +681,7 @@
      }
     ],
     "answerIds": [
-     "c"
+     "b"
     ],
     "solution": "Richtige Antwort: C.",
     "manualGrade": false,
@@ -757,7 +761,7 @@
    },
    {
     "id": "frage-029",
-    "type": "text",
+    "type": "single",
     "prompt": "Für Ralf Schwarz (29) besteht seit 2 Jahren bei Ihrer Gesellschaft eine Direktversicherung durch Entgeltumwandlung (bAV). Er möchte jetzt den Arbeitgeber wechseln. Von einem Bekannten hat er die Information erhalten, dass der Versicherungsvertrag mit allen Rechten und Pflichten beim bisherigen Arbeitgeber verbleibt.\nIst diese Aussage richtig?",
     "points": 1,
     "options": [
@@ -778,7 +782,9 @@
       "text": "Ja, weil die Unverfallbarkeit nach dem Betriebsrentengesetz noch nicht eingetreten ist."
      }
     ],
-    "answerIds": [],
+    "answerIds": [
+     "c"
+    ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
     "topic": "Betriebliche Altersversorgung",
@@ -808,7 +814,7 @@
      }
     ],
     "answerIds": [
-     "a"
+     "d"
     ],
     "solution": "Richtige Antwort: A.",
     "manualGrade": false,
@@ -817,7 +823,7 @@
    },
    {
     "id": "frage-031",
-    "type": "multiple",
+    "type": "single",
     "prompt": "Der angestellte Zahntechniker Peter Heinzel (40) möchte eine Direktversicherung durch Entgeltumwandlung nach § 3 Nr. 63 EStG abschließen und die Auszahlung mit dem vollendeten 67. Lebensjahr beantragen. Dabei interessiert ihn auch die vorzeitige Inanspruchnahme, wenn er zu diesem Zeitpunkt noch voll berufstätig sein sollte.\nBei der Antragsaufnahme fragt er Sie, ob er die Erlebensfallleistung in einem solchen Fall bereits zum 63. Lebensjahr erhalten kann.",
     "points": 1,
     "options": [
@@ -862,7 +868,7 @@
    },
    {
     "id": "frage-033",
-    "type": "multiple",
+    "type": "single",
     "prompt": "Ihre Kundin Ruth Maisei hat bei Ihrer Gesellschaft eine Direktversicherung durch Entgeltumwandlung nach § 40b EStG. Sie werden von Ihrer Kundin auf die Besteuerung der Kapitalleistungen im Rentenbezugsalter angesprochen.\nWelche Information hierzu ist richtig?\nKapitalleistungen werden…",
     "points": 1,
     "options": [
@@ -884,7 +890,7 @@
      }
     ],
     "answerIds": [
-     "b"
+     "a"
     ],
     "solution": "Richtige Antwort: B, D.",
     "manualGrade": false,
@@ -914,7 +920,9 @@
       "text": "Leistungen in vereinbarter Höhe."
      }
     ],
-    "answerIds": [],
+    "answerIds": [
+     "d"
+    ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
     "topic": "Unfallversicherung",
@@ -943,7 +951,9 @@
       "text": "in diesem Fall Versicherungsschutz aus der Gesetzlichen Unfallversicherung."
      }
     ],
-    "answerIds": [],
+    "answerIds": [
+     "d"
+    ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
     "topic": "Unfallversicherung",
@@ -951,7 +961,7 @@
    },
    {
     "id": "frage-036",
-    "type": "text",
+    "type": "single",
     "prompt": "Fritz Miegel ist am vergangenen Sonntag dem Aufruf des Deutschen Roten Kreuzes zur Blutspende gefolgt. Auf dem Rückweg ist er beim Überqueren einer Straße von einem Radfahrer angefahren worden. Er stürzte und erlitt erhebliche Verletzungen.\nKann Herr Miegel in diesem Fall mit Leistungen aus der Gesetzlichen Unfallversicherung rechnen?",
     "points": 1,
     "options": [
@@ -1095,7 +1105,7 @@
    },
    {
     "id": "frage-041",
-    "type": "text",
+    "type": "single",
     "prompt": "Josef Steinhuber bezog dieses Jahr aufgrund eines Arbeitsunfalls Verletztengeld von der Berufsgenossenschaft in Höhe von 1.800,00 €.\nEr fragt Sie, wie diese Leistung steuerlich behandelt wird.\nDas Verletztengeld…",
     "points": 1,
     "options": [
@@ -1116,7 +1126,9 @@
       "text": "ist voll zu besteuern."
      }
     ],
-    "answerIds": [],
+    "answerIds": [
+     "a"
+    ],
     "solution": "Kein verlässlicher Lösungsschlüssel in den vorliegenden Quellen erkannt. Die Musterlösung ist nicht sicher bestätigt; gleiche sie bitte mit euren Unterlagen ab.",
     "manualGrade": true,
     "topic": "Unfallversicherung",
@@ -1254,7 +1266,7 @@
    },
    {
     "id": "frage-046",
-    "type": "text",
+    "type": "single",
     "prompt": "Frau Rother ist bei Ihrer Krankenversicherung familienversichert. In den Sommerferien wird sie vom 15.06. bis 31.07. eine Aushilfstätigkeit in einem Bekleidungsgeschäft annehmen. Ihr Einkommen in dieser Zeit wird 2.600,00 € betragen.\nInwieweit hat die Tätigkeit von Frau Rother Auswirkungen auf ihren Status als Familienversicherte?\nDie Tätigkeit von Frau Rother hat keine Auswirkungen, da…",
     "points": 1,
     "options": [
@@ -1321,7 +1333,7 @@
    },
    {
     "id": "frage-048",
-    "type": "text",
+    "type": "single",
     "prompt": "Felix Manke ist freiwillig bei einer Betriebskrankenkasse (GKV) versichert. Nun möchte er sich bei Ihnen über eine Krankheitskostenvollversicherung (PKV) bei der Proximus AG informieren.\nIn diesem Zusammenhang fragt er, wie hoch dann der Arbeitgeberzuschuss sein wird.\nDer Anspruch auf Arbeitgeberzuschuss beträgt die Hälfte…",
     "points": 1,
     "options": [
@@ -1459,7 +1471,7 @@
    },
    {
     "id": "frage-053",
-    "type": "text",
+    "type": "single",
     "prompt": "Ihr Kunde möchte seine Krankenversicherung (GKV) kündigen und in die private Krankenversicherung (PKV) wechseln. Seine Ehefrau wird weiterhin für 510,00 € monatlich beschäftigt bleiben.\nEr fragt Sie, wie seine Ehefrau dann versichert ist.\nSeine Ehefrau…",
     "points": 1,
     "options": [
