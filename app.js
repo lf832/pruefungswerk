@@ -34,7 +34,7 @@ function importProgress(){const f=$('#progressFileInput').files[0];if(!f)return;
 function downloadTemplate(){download('pruefungswerk-vorlage.json',JSON.stringify(template,null,2));showToast('JSON-Vorlage heruntergeladen')}
 function showToast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
 init();
-const BUNDLED_VERSION=24;
+const BUNDLED_VERSION=27;
 if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(sk=>{if(Array.isArray(sk)){SKRIPTE=sk;try{window.renderSkriptCard&&window.renderSkriptCard()}catch(e){}}}).catch(()=>{});fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(exams=>{if(!Array.isArray(exams))return;if(data.exams.length&&(data.bundledVersion||0)>=BUNDLED_VERSION){tagExams();renderResumeCard();return}
   try{console.log('[Prüfungswerk] Prüfungsdaten werden erneuert, Version',BUNDLED_VERSION)}catch(e){}exams.forEach(validateExam);const own=data.exams.filter(e=>!exams.some(x=>x.examId===e.examId));const had=data.exams.length>0;data.exams=[...exams,...own];data.bundledVersion=BUNDLED_VERSION;save();tagExams();render();showToast(had?'Prüfungsinhalte wurden aktualisiert':'Sechs Prüfungen wurden bereitgestellt')}).catch(()=>{});
 if(location.protocol!=='file:')fetch('./wissen.json').then(r=>r.ok?r.json():null).then(s=>{if(Array.isArray(s))wissen=s}).catch(()=>{});
@@ -117,7 +117,7 @@ setInterval(()=>{const c=$('#quizClock');if(c)c.textContent=quizClockText();if(a
 
 /* ===== v13 ===== */
 function settings(){data.settings=data.settings||{};const s=data.settings;if(typeof s.fontScale!=='number')s.fontScale=0;if(!s.theme)s.theme='auto';if(!s.examMin)s.examMin=90;return s}
-function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v35';const v2=$('#appVersion2');if(v2)v2.textContent='v35'}
+function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v38';const v2=$('#appVersion2');if(v2)v2.textContent='v38'}
 function qkey(eid,qid){return String(eid)+'|'+String(qid)}
 function tagExams(){data.exams.forEach(e=>e.questions.forEach(q=>{q._eid=e.examId}))}
 function findQ(key){const i=String(key).indexOf('|');if(i<0)return null;const eid=String(key).slice(0,i),qid=String(key).slice(i+1);const e=data.exams.find(x=>x.examId===eid);const q=e&&e.questions.find(x=>x.id===qid);return e&&q?{e,q}:null}
