@@ -333,3 +333,8 @@ footer{padding-bottom:calc(83px + env(safe-area-inset-bottom,0px))}
 
 .text-hint{margin:8px 0 0;font-size:13px;line-height:1.45;color:var(--muted,#6d7a68)}
 .text-hint b{color:var(--ink,#22301e)}
+
+.question-title{white-space:pre-line}
+.sol-note span{white-space:pre-line}
+.sol-example{border-left-color:var(--coral,#c1665a)}
+.sol-example b{color:var(--coral,#c1665a)}
