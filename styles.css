@@ -338,3 +338,10 @@ footer{padding-bottom:calc(83px + env(safe-area-inset-bottom,0px))}
 .sol-note span{white-space:pre-line}
 .sol-example{border-left-color:var(--coral,#c1665a)}
 .sol-example b{color:var(--coral,#c1665a)}
+
+.q-fig{float:right;width:44%;max-width:330px;margin:0 0 14px 18px}.q-fig img{max-width:100%;height:auto;display:block;border:1px solid var(--line,#ded8cc);border-radius:10px;background:#fff}.q-fig figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.45}
+
+@media (max-width:600px){.q-fig{float:none;width:100%;max-width:none;margin:14px 0 18px}}
+.question-title{overflow-wrap:anywhere}
+.answer-list,.quiz-controls{clear:both}
+.review-body{overflow:hidden}
