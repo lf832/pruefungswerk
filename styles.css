@@ -345,3 +345,6 @@ footer{padding-bottom:calc(83px + env(safe-area-inset-bottom,0px))}
 .question-title{overflow-wrap:anywhere}
 .answer-list,.quiz-controls{clear:both}
 .review-body{overflow:hidden}
+
+.quiz-wrap{padding-bottom:96px}
+.quiz-view{padding-bottom:96px}
