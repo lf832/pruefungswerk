@@ -34,10 +34,22 @@ function importProgress(){const f=$('#progressFileInput').files[0];if(!f)return;
 function downloadTemplate(){download('pruefungswerk-vorlage.json',JSON.stringify(template,null,2));showToast('JSON-Vorlage heruntergeladen')}
 function showToast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
 init();
-const BUNDLED_VERSION=50;
-if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(sk=>{if(Array.isArray(sk)){SKRIPTE=sk;try{window.renderSkriptCard&&window.renderSkriptCard()}catch(e){}}}).catch(()=>{});fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(exams=>{if(!Array.isArray(exams))return;if(data.exams.length&&(data.bundledVersion||0)>=BUNDLED_VERSION){tagExams();renderResumeCard();return}
-  try{console.log('[Prüfungswerk] Prüfungsdaten werden erneuert, Version',BUNDLED_VERSION)}catch(e){}exams.forEach(validateExam);const own=data.exams.filter(e=>!exams.some(x=>x.examId===e.examId));const had=data.exams.length>0;data.exams=[...exams,...own];data.bundledVersion=BUNDLED_VERSION;save();tagExams();render();showToast(had?'Prüfungsinhalte wurden aktualisiert':'Sechs Prüfungen wurden bereitgestellt')}).catch(()=>{});
-if(location.protocol!=='file:')fetch('./wissen.json').then(r=>r.ok?r.json():null).then(s=>{if(Array.isArray(s))wissen=s}).catch(()=>{});
+const BUNDLED_VERSION=51;
+function examSig(list){return list.map(function(e){return e.examId+':'+(e.questions?e.questions.length:0)}).join('|')}
+function renderDataStand(){var el=document.getElementById('dataStand');if(!el)return;if(!data.exams||!data.exams.length){el.textContent='Datenstand: noch keine Prüfungsdaten geladen.';return}var short=function(t){return String(t).replace(/^IHK-Prüfung\s+/,'').split('–')[0].trim()};el.textContent='Datenstand: '+data.exams.map(function(e){return short(e.title)+' '+e.questions.length+' Fragen'}).join(' · ')}
+if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(sk=>{if(Array.isArray(sk)){SKRIPTE=sk;try{window.renderSkriptCard&&window.renderSkriptCard()}catch(e){}}}).catch(()=>{});fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(exams){
+  try{
+    if(!Array.isArray(exams)||!exams.length)return;
+    var bundled=exams.filter(function(e){return e&&e.examId&&e.questions});
+    var own=data.exams.filter(function(e){return !bundled.some(function(x){return x.examId===e.examId})});
+    var prev=new Map();data.exams.forEach(function(e){prev.set(e.examId,e.questions?e.questions.length:-1)});
+    var same=bundled.every(function(x){return prev.get(x.examId)===x.questions.length});
+    data.exams=bundled.concat(own);data.bundledVersion=BUNDLED_VERSION;data.dataSig=examSig(bundled);save();
+    if(typeof tagExams==='function')tagExams();
+    render();renderDataStand();
+    if(!same)showToast('Prüfungsinhalte wurden aktualisiert ('+BUNDLED_VERSION+')');
+  }catch(err){try{console.error('[Prüfungswerk] Datenupdate fehlgeschlagen',err)}catch(e){}renderDataStand()}
+}).catch(function(err){try{console.error('[Prüfungswerk] Daten konnten nicht geladen werden',err)}catch(e){}renderDataStand()});
 if('serviceWorker'in navigator&&location.protocol!=='file:')window.addEventListener('load',()=>{
  let hatteController=!!navigator.serviceWorker.controller;
  navigator.serviceWorker.register('./sw.js').then(r=>{try{r.update()}catch(e){}}).catch(()=>{});
@@ -117,7 +129,7 @@ setInterval(()=>{const c=$('#quizClock');if(c)c.textContent=quizClockText();if(a
 
 /* ===== v13 ===== */
 function settings(){data.settings=data.settings||{};const s=data.settings;if(typeof s.fontScale!=='number')s.fontScale=0;if(!s.theme)s.theme='auto';if(!s.examMin)s.examMin=90;return s}
-function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v61';const v2=$('#appVersion2');if(v2)v2.textContent='v61'}
+function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v62';const v2=$('#appVersion2');if(v2)v2.textContent='v62'}
 function qkey(eid,qid){return String(eid)+'|'+String(qid)}
 function tagExams(){data.exams.forEach(e=>e.questions.forEach(q=>{q._eid=e.examId}))}
 function findQ(key){const i=String(key).indexOf('|');if(i<0)return null;const eid=String(key).slice(0,i),qid=String(key).slice(i+1);const e=data.exams.find(x=>x.examId===eid);const q=e&&e.questions.find(x=>x.id===qid);return e&&q?{e,q}:null}
