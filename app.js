@@ -34,7 +34,7 @@ function importProgress(){const f=$('#progressFileInput').files[0];if(!f)return;
 function downloadTemplate(){download('pruefungswerk-vorlage.json',JSON.stringify(template,null,2));showToast('JSON-Vorlage heruntergeladen')}
 function showToast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
 init();
-const BUNDLED_VERSION=77;
+const BUNDLED_VERSION=79;
 function examSig(list){return list.map(function(e){return e.examId+':'+(e.questions?e.questions.length:0)}).join('|')}
 function renderDataStand(){var el=document.getElementById('dataStand');if(!el)return;if(!data.exams||!data.exams.length){el.textContent='Datenstand: noch keine Prüfungsdaten geladen.';return}var short=function(t){return String(t).replace(/^IHK-Prüfung\s+/,'').split('–')[0].trim()};el.textContent='Datenstand: '+data.exams.map(function(e){return short(e.title)+' '+e.questions.length+' Fragen'}).join(' · ')}
 if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(sk=>{if(Array.isArray(sk)){SKRIPTE=sk;try{window.renderSkriptCard&&window.renderSkriptCard()}catch(e){}}}).catch(()=>{});fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(exams){
@@ -1066,4 +1066,125 @@ var SKRIPTE=[];
   };
   var _sw=showWissen;showWissen=function(){var v=document.getElementById('hoerbuchView');if(v)v.hidden=true;_sw()};
   var _sd=showDiary;showDiary=function(){var v=document.getElementById('hoerbuchView');if(v)v.hidden=true;_sd()};
+})();
+
+/* ================= v78 · Rechenvideos ================= */
+/* VIDEO_MODUL */
+(function(){
+  var VIDS=[
+    {n:"V1",t:"Unfallversicherung",s:"Gliedertaxe, Invaliditätssumme, Progression",f:"videos/unfall.mp4",raw:"Berechnung - Unfallversicherung.mp4",tag:"Unfall · R1–R6"},
+    {n:"V2",t:"Krankengeld",s:"70 % brutto gegen 90 % netto",f:"videos/krankengeld.mp4",raw:"Berechnung - Krankengeld.mp4",tag:"Kranken · R7"},
+    {n:"V3",t:"Pflegeversicherung",s:"Pflegegrade und Leistungen",f:"videos/pflege.mp4",raw:"Berechnung - Pflegeversicherung.mp4",tag:"Pflege"},
+    {n:"V4",t:"Brutto-Netto bei 13 Gehältern",s:"Jahresbrutto, Monatswert, Abzüge",f:"videos/13gehaelter.mp4",raw:"Berechnung - Brutto- Netto-Gehalt bei 13 Gehältern.mp4",tag:"Gehalt · R18"},
+    {n:"V5",t:"Altersrente",s:"Entgeltpunkte, Zugangsfaktor, Rentenwert",f:"videos/altersrente.mp4",raw:"Berechnung - Altersrente.mp4",tag:"GRV · R16"},
+    {n:"V6",t:"Berufsunfähigkeitsversicherung",s:"Berufsunfähigkeit rechnen und prüfen",f:"videos/bu.mp4",raw:"Berechnung - Berufsunfähigkeitsversicherung.mp4",tag:"BU"},
+    {n:"V7",t:"Risikolebensversicherung",s:"ohne und mit Kapitalverzehr",f:"videos/risikoleben.mp4",raw:"Berechnung - Risikolebensversicherung - ohne + mit Kapitalverzehr.mp4",tag:"Leben · R15"}
+  ];
+  var SIMU={n:"B1",t:"Beratungssimulation",s:"Das komplette Kundengespräch von der Begrüßung bis zum Abschluss, ca. 20 Minuten",f:"videos/beratung.mp4",raw:"Beratungsgespräch - Simulation.mp4",tag:"Beratung · Praxis"};
+  function cands(x){
+    var c=[x.f];
+    if(x.raw){
+      var nfc=x.raw.normalize('NFC'), nfd=x.raw.normalize('NFD');
+      [nfc,nfd].forEach(function(nm){
+        c.push(encodeURI(nm));
+        c.push('videos/'+encodeURI(nm.replace(/^.*\//,'')));
+        c.push('videos/'+encodeURI(nm.replace(/^.*\//,'').replace(/ /g,'%20')));
+      });
+      c.push('videos/beratung.mp4');
+    }
+    return c;
+  }
+  function ensure(){
+    var v=document.getElementById('videoView');
+    if(v)return v;
+    v=document.createElement('section');v.id='videoView';v.className='view';v.hidden=true;
+    (document.getElementById('app')||document.body).appendChild(v);
+    return v;
+  }
+  function esc2(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+  function renderList(){
+    var v=ensure();
+    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="vidBack">← Übersicht</button>'
+      +'<div class="quiz-title">Rechenvideos</div><span class="quiz-mode">'+VIDS.length+' VIDEOS</span></div>'
+      +'<div class="merk-head"><p class="eyebrow">BERECHNUNGEN</p><h2>Rechenwege als Video</h2>'
+      +'<p class="note-small">Sieben Berechnungen aus dem Sachkundenachweis, Schritt für Schritt vorgerechnet. Tippe ein Video an – es läuft direkt in der App.</p></div>'
+      +'<p class="eyebrow muted" style="margin:26px 0 8px">BERATUNGSSIMULATION</p>'
+      +'<button class="vid-row vid-hero" data-sim="1"><span class="vid-n">'+esc2(SIMU.n)+'</span>'
+      +'<span class="vid-txt"><strong>'+esc2(SIMU.t)+'</strong><small>'+esc2(SIMU.s)+'</small></span>'
+      +'<span class="vid-tag">'+esc2(SIMU.tag)+'</span><span class="vid-play">▶</span></button>'
+      +'<p class="eyebrow muted" style="margin:26px 0 8px">BERECHNUNGEN · '+VIDS.length+' VIDEOS</p>'
+      +'<div class="vid-list">'+VIDS.map(function(x,i){
+        return '<button class="vid-row" data-i="'+i+'"><span class="vid-n">'+esc2(x.n)+'</span>'
+          +'<span class="vid-txt"><strong>'+esc2(x.t)+'</strong><small>'+esc2(x.s)+'</small></span>'
+          +'<span class="vid-tag">'+esc2(x.tag)+'</span><span class="vid-play">▶</span></button>';
+      }).join('')+'</div></div>';
+    v.querySelector('#vidBack').onclick=close;
+    Array.prototype.forEach.call(v.querySelectorAll('[data-i]'),function(b){
+      b.onclick=function(){play(parseInt(b.getAttribute('data-i'),10))};
+    });
+    var sb=v.querySelector('[data-sim]');
+    if(sb)sb.onclick=function(){playSim()};
+  }
+  function play(i){
+    var x=VIDS[i],v=ensure(),list=cands(x);
+    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="vidBack">← Alle Videos</button>'
+      +'<div class="quiz-title">'+esc2(x.t)+'</div><span class="quiz-mode">'+esc2(x.n)+'</span></div>'
+      +'<div class="vid-player"><video id="vidEl" controls playsinline preload="metadata" src="'+esc2(list[0])+'"></video></div>'
+      +'<p class="note-small" style="margin-top:12px">'+esc2(x.s)+' · '+esc2(x.tag)+'</p>'
+      +'<p class="note-small" id="vidHint">Tipp: Querformat und Vollbild zeigen die Zahlen am größten.</p></div>';
+    v.querySelector('#vidBack').onclick=renderList;
+    var el=v.querySelector('#vidEl'),k=0,hint=v.querySelector('#vidHint');
+    el.onerror=function(){
+      k++;
+      if(k<list.length){el.src=list[k];el.load();return}
+      hint.textContent='Video noch nicht im Repo. Lade „'+x.raw+'" mit hoch (Ordner videos/ oder Hauptordner) – dann läuft es hier.';
+    };
+    window.scrollTo(0,0);
+  }
+  function playSim(){
+    var x=SIMU,v=ensure(),list=cands(x);
+    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="vidBack">← Alle Videos</button>'
+      +'<div class="quiz-title">'+esc2(x.t)+'</div><span class="quiz-mode">'+esc2(x.n)+'</span></div>'
+      +'<div class="vid-player"><video id="vidEl" controls playsinline preload="metadata" src="'+esc2(list[0])+'"></video></div>'
+      +'<p class="note-small" style="margin-top:12px">'+esc2(x.s)+'</p>'
+      +'<p class="note-small" id="vidHint">Das ganze Gespräch am Stück – am besten im Querformat und mit Kopfhörern.</p></div>';
+    v.querySelector('#vidBack').onclick=renderList;
+    var el=v.querySelector('#vidEl'),k=0,hint=v.querySelector('#vidHint');
+    el.onerror=function(){k++;if(k<list.length){el.src=list[k];el.load();return}
+      hint.textContent='Video noch nicht im Repo. Lade „'+x.raw+'" (oder videos/beratung.mp4) mit hoch – dann läuft es hier.'};
+    window.scrollTo(0,0);
+  }
+  function open(){
+    var v=ensure();
+    ['homeView','quizView','wissenView','diaryView','merkView','skriptView'].forEach(function(id){var el=document.getElementById(id);if(el)el.hidden=true});
+    var sv=document.getElementById('skriptView');if(sv)sv.hidden=true;
+    v.hidden=false;renderList();window.scrollTo(0,0);
+  }
+  function close(){
+    var v=document.getElementById('videoView');if(v)v.hidden=true;
+    var h=document.getElementById('homeView');if(h)h.hidden=false;
+    if(typeof render==='function'){try{render()}catch(e){}}
+    window.scrollTo(0,0);
+  }
+  window.openVideos=open;
+  function mount(){
+    var home=document.getElementById('homeView');if(!home)return;
+    if(document.getElementById('vidCard'))return;
+    var card=document.createElement('section');card.id='vidCard';card.className='merk-card';
+    card.innerHTML='<p class="eyebrow muted">BERECHNUNGEN</p><h2>Rechenvideos</h2>'
+      +'<p class="note-small">Sieben Berechnungen vorgerechnet – Unfall, Krankengeld, Pflege, Gehalt, Rente, BU und Risikoleben. Tippe ein Video an.</p>'
+      +'<div class="merk-grid"><button class="merk-chip merk-chip-wide" data-vid="sim"><span class="merk-n">'+esc2(SIMU.n)+'</span><span>Beratungssimulation · 20 Min</span></button>'
+      +VIDS.map(function(x,i){
+        return '<button class="merk-chip" data-vid="'+i+'"><span class="merk-n">'+esc2(x.n)+'</span><span>'+esc2(x.t)+'</span></button>';
+      }).join('')+'</div>';
+    var tools=home.querySelector('.bottom-tools');
+    if(tools)home.insertBefore(card,tools);else home.appendChild(card);
+    Array.prototype.forEach.call(card.querySelectorAll('[data-vid]'),function(b){
+      b.onclick=function(){var id=b.getAttribute('data-vid');open();if(id==='sim'){playSim()}else{play(parseInt(id,10))}};
+    });
+  }
+  if(document.readyState!=='loading')mount();
+  document.addEventListener('DOMContentLoaded',mount);
+  var _r=window.render;
+  if(typeof _r==='function'){window.render=function(){_r();try{mount()}catch(e){}}}
 })();
