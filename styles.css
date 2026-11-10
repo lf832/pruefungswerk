@@ -348,3 +348,14 @@ footer{padding-bottom:calc(83px + env(safe-area-inset-bottom,0px))}
 
 .quiz-wrap{padding-bottom:96px}
 .quiz-view{padding-bottom:96px}
+
+/* v68 - Original-Folien als Bildseiten */
+.sk-tip{margin:10px 0 14px;padding:10px 12px;border-left:3px solid var(--moss);background:var(--card);font-size:12px;line-height:1.5;color:var(--muted)}
+.sk-tip b{color:var(--ink)}
+.sk-pages{display:flex;flex-direction:column;gap:10px;margin-bottom:96px}
+.sk-page{width:100%;display:block;height:auto;border:1px solid var(--line);border-radius:2px;background:#fff}
+.sk-page:active{opacity:.85}
+#skZoom{position:fixed;inset:0;z-index:9999;background:#000;display:none;overflow:auto;-webkit-overflow-scrolling:touch}
+#skZoom.on{display:block}
+#skZoom img{width:100%;max-width:none;display:block}
+#skZoomX{position:fixed;top:14px;right:14px;z-index:10000;width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#111;font-size:18px;line-height:1}

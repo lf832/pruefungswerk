@@ -34,7 +34,7 @@ function importProgress(){const f=$('#progressFileInput').files[0];if(!f)return;
 function downloadTemplate(){download('pruefungswerk-vorlage.json',JSON.stringify(template,null,2));showToast('JSON-Vorlage heruntergeladen')}
 function showToast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
 init();
-const BUNDLED_VERSION=55;
+const BUNDLED_VERSION=58;
 function examSig(list){return list.map(function(e){return e.examId+':'+(e.questions?e.questions.length:0)}).join('|')}
 function renderDataStand(){var el=document.getElementById('dataStand');if(!el)return;if(!data.exams||!data.exams.length){el.textContent='Datenstand: noch keine Prüfungsdaten geladen.';return}var short=function(t){return String(t).replace(/^IHK-Prüfung\s+/,'').split('–')[0].trim()};el.textContent='Datenstand: '+data.exams.map(function(e){return short(e.title)+' '+e.questions.length+' Fragen'}).join(' · ')}
 if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(sk=>{if(Array.isArray(sk)){SKRIPTE=sk;try{window.renderSkriptCard&&window.renderSkriptCard()}catch(e){}}}).catch(()=>{});fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(exams){
@@ -129,7 +129,7 @@ setInterval(()=>{const c=$('#quizClock');if(c)c.textContent=quizClockText();if(a
 
 /* ===== v13 ===== */
 function settings(){data.settings=data.settings||{};const s=data.settings;if(typeof s.fontScale!=='number')s.fontScale=0;if(!s.theme)s.theme='auto';if(!s.examMin)s.examMin=90;return s}
-function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v66';const v2=$('#appVersion2');if(v2)v2.textContent='v66'}
+function applySettings(){const s=settings();let th=s.theme||'auto';if(th==='auto')th=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';document.documentElement.setAttribute('data-theme',th);const h=document.documentElement;h.classList.remove('fs0','fs1','fs2');h.classList.add('fs'+(s.fontScale||0));const v=$('#appVersion');if(v)v.textContent='v69';const v2=$('#appVersion2');if(v2)v2.textContent='v69'}
 function qkey(eid,qid){return String(eid)+'|'+String(qid)}
 function tagExams(){data.exams.forEach(e=>e.questions.forEach(q=>{q._eid=e.examId}))}
 function findQ(key){const i=String(key).indexOf('|');if(i<0)return null;const eid=String(key).slice(0,i),qid=String(key).slice(i+1);const e=data.exams.find(x=>x.examId===eid);const q=e&&e.questions.find(x=>x.id===qid);return e&&q?{e,q}:null}
@@ -585,10 +585,34 @@ function bumpDaily(q,ans,sec,auto){const d=dailyStat();d.answered++;if(sec>0){d.
   var _sd=showDiary;showDiary=function(){var v=document.getElementById('merkView');if(v)v.hidden=true;_sd()};
 })();
 
-/* ================= v23 · Skripte & Folien ================= */
+/* ================= v23 · Lern-Folien ================= */
 var SKRIPTE=[];
 (function(){
   var curDeck=null,curSlide=0,query='';
+  var PAGES={},PAGE_TRY={};
+  function loadPages(d,cb){
+    if(PAGES[d.id]){cb(PAGES[d.id]);return}
+    fetch('./folien_'+d.id+'.json?v='+BUNDLED_VERSION,{cache:'no-store'})
+      .then(function(r){return r.ok?r.json():null})
+      .then(function(j){
+        var arr=(j&&j.pages&&j.pages.length)?j.pages:null;
+        PAGES[d.id]=arr||[];cb(PAGES[d.id]);
+      })
+      .catch(function(){PAGES[d.id]=[];cb(PAGES[d.id])});
+  }
+  function zoom(src,idx){
+    var z=document.getElementById('skZoom');
+    if(!z){
+      z=document.createElement('div');z.id='skZoom';
+      z.innerHTML='<button id="skZoomX" aria-label="Schließen">✕</button><img alt="">';
+      document.body.appendChild(z);
+      z.querySelector('#skZoomX').onclick=function(){z.classList.remove('on')};
+      z.onclick=function(e){if(e.target===z)z.classList.remove('on')};
+    }
+    var im=z.querySelector('img');im.src=src;im.alt='Folie '+((+idx||0)+1);
+    z.classList.add('on');z.scrollTop=0;
+  }
+  window.skZoom=zoom;
   function deckView(){
     var v=document.getElementById('skriptView');
     if(!v){v=document.createElement('section');v.id='skriptView';v.className='view';v.hidden=true;(document.getElementById('app')||document.body).appendChild(v)}
@@ -603,8 +627,8 @@ var SKRIPTE=[];
     if(q){
       SKRIPTE.forEach(function(d){d.slides.forEach(function(s){if(hay(s,d).indexOf(q)>=0)hits.push({d:d,s:s})})});
     }
-    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="skBack">← Übersicht</button><div class="quiz-title">Skripte & Folien</div><span class="quiz-mode">'+SKRIPTE.length+' BLÖCKE · '+total+' FOLIEN</span></div>'
-      +'<div class="merk-head"><p class="eyebrow">DEIN UNTERRICHTSSTOFF</p><h2>Folien zum Nachlesen</h2><p class="note-small">Die Originalfolien deines Ausbilders, durchsuchbar. Tippe einen Block an oder such direkt.</p></div>'
+    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="skBack">← Übersicht</button><div class="quiz-title">Lern-Folien</div><span class="quiz-mode">'+SKRIPTE.length+' BLÖCKE · '+total+' FOLIEN</span></div>'
+      +'<div class="merk-head"><p class="eyebrow">DEIN UNTERRICHTSSTOFF</p><h2>Lern-Folien</h2><p class="note-small">Alle 146 Originalfolien aus Block 1 und Block 2 deines Ausbilders – durchsuchbar, nach Prüfungsthemen sortiert. Tippe einen Block an oder such direkt.</p></div>'
       +'<input class="wissen-search" id="skSearch" type="search" placeholder="In allen Folien suchen – z. B. BBG, Sparanteil, Quotenvorrecht …" value="'+(query||'').replace(/"/g,'&quot;')+'">'
       +'<div id="skBody"></div></div>';
     var body=v.querySelector('#skBody');
@@ -626,19 +650,38 @@ var SKRIPTE=[];
     window.scrollTo(0,0);
   }
   function openDeck(d){curDeck=d;curSlide=0;renderSlide()}
-  function openSlide(d,i){curDeck=d;curSlide=i;renderSlide()}
+  function openSlide(d,i){
+    curDeck=d;curSlide=i;renderSlide();
+    if(PAGES[d.id]&&PAGES[d.id].length){
+      var go=function(){var im=document.querySelector('.sk-page[data-i="'+i+'"]');if(im)im.scrollIntoView({block:'start'})};
+      setTimeout(go,60);setTimeout(go,400);
+    }
+  }
   function renderSlide(){
-    var v=deckView(),d=curDeck,s=d.slides[curSlide];
+    var v=deckView(),d=curDeck,pg=PAGES[d.id];
+    if(pg===undefined&&!PAGE_TRY[d.id]){PAGE_TRY[d.id]=1;loadPages(d,function(){if(curDeck===d)renderSlide()})}
+    if(pg&&pg.length){
+      v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="skList">\u2190 Alle Bl\u00f6cke</button><div class="quiz-title">'+safeText(d.title)+'</div><span class="quiz-mode">'+pg.length+' FOLIEN</span></div>'
+        +'<p class="question-topic">'+safeText(d.topic)+' \u00b7 '+safeText(d.range)+'</p>'
+        +'<div class="sk-tip"><b>Original-Folien</b> \u2013 tippen = Vollbild. Handy quer drehen und einfach durchscrollen.</div>'
+        +'<div class="sk-pages">'+pg.map(function(u,i){return '<img class="sk-page" data-i="'+i+'" src="'+u+'" alt="Folie '+(i+1)+' von '+pg.length+'" loading="lazy">'}).join('')+'</div></div>';
+      v.querySelector('#skList').onclick=listView;
+      Array.prototype.forEach.call(v.querySelectorAll('.sk-page'),function(im){
+        im.onclick=function(){zoom(im.getAttribute('src'),im.getAttribute('data-i'))};
+      });
+      window.scrollTo(0,0);return;
+    }
+    var s=d.slides[curSlide];
     var prev=curSlide>0,next=curSlide<d.slides.length-1;
     var body=safeText(s.text||'').replace(/\n/g,'<br>');
-    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="skList">← Alle Blöcke</button><div class="quiz-title">'+safeText(d.title)+'</div><span class="quiz-mode">'+(curSlide+1)+' / '+d.slides.length+'</span></div>'
-      +'<p class="question-topic">'+safeText(d.topic)+' · '+safeText(d.range)+'</p>'
+    v.innerHTML='<div class="quiz-wrap"><div class="quiz-top"><button class="back-button" id="skList">\u2190 Alle Bl\u00f6cke</button><div class="quiz-title">'+safeText(d.title)+'</div><span class="quiz-mode">'+(curSlide+1)+' / '+d.slides.length+'</span></div>'
+      +'<p class="question-topic">'+safeText(d.topic)+' \u00b7 '+safeText(d.range)+'</p>'
       +'<h1 class="question-title">'+safeText(s.title)+'</h1>'
-      +'<div class="slide-body">'+(body||'<i>Diese Folie enthält nur Grafik – kein Text lesbar.</i>')+'</div>'
+      +'<div class="slide-body">'+(body||'<i>Diese Folie enth\u00e4lt nur Grafik \u2013 kein Text lesbar.</i>')+'</div>'
       +(s.notes?'<div class="question-note"><b>Notiz</b><span>'+safeText(s.notes).replace(/\n/g,'<br>')+'</span></div>':'')
       +'<div class="quiz-controls"><span class="points-label">FOLIE '+(curSlide+1)+'</span>'
-      +(prev?'<button class="button button-outline" id="skPrev">← Zurück</button>':'')
-      +(next?'<button class="button button-dark" id="skNext">Weiter →</button>':'<button class="button button-dark" id="skEnd">Ende</button>')
+      +(prev?'<button class="button button-outline" id="skPrev">\u2190 Zur\u00fcck</button>':'')
+      +(next?'<button class="button button-dark" id="skNext">Weiter \u2192</button>':'<button class="button button-dark" id="skEnd">Ende</button>')
       +'</div>'
       +'<div class="sk-dots">'+d.slides.map(function(_,i){return '<button class="sk-dot'+(i===curSlide?' on':'')+'" data-sl="'+i+'" aria-label="Folie '+(i+1)+'"></button>'}).join('')+'</div>'
       +'</div>';
@@ -656,8 +699,8 @@ var SKRIPTE=[];
     if(!SKRIPTE.length){el.hidden=true;return}
     el.hidden=false;
     var total=SKRIPTE.reduce(function(a,d){return a+d.count},0);
-    el.innerHTML='<p class="eyebrow muted">NACHLESEN</p><h2>Skripte & Folien</h2>'
-      +'<p class="note-small">'+total+' Originalfolien aus dem Unterricht – durchsuchbar und mit den Prüfungsthemen verknüpft.</p>'
+    el.innerHTML='<p class="eyebrow muted">NACHLESEN</p><h2>Lern-Folien</h2>'
+      +'<p class="note-small">'+total+' Originalfolien aus Block 1 und Block 2 – durchsuchbar und nach Prüfungsthemen sortiert.</p>'
       +'<div class="sk-grid">'+SKRIPTE.map(function(d,i){
         return '<button class="sk-card" data-skc="'+i+'"><span class="sk-num">'+safeText(d.range)+'</span><b>'+safeText(d.title)+'</b><small>'+d.count+' Folien</small></button>';
       }).join('')+'</div>';
