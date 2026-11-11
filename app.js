@@ -1,4 +1,4 @@
-var BUNDLED_VERSION=86;
+var BUNDLED_VERSION=87;
 const STORE='pruefungswerk.v1';
 const template={examId:'ihk-2025-01',title:'Abschlussprüfung – Teil 1',year:2025,questions:[{id:'aufgabe-1',type:'single',prompt:'Fragetext hier eintragen',points:2,options:[{id:'a',text:'Antwort A'},{id:'b',text:'Antwort B'}],answerIds:['b'],solution:'Hier die Lösung und eine kurze Erklärung eintragen.'}]};
 let data=loadData(),activeQuiz=null,toastTimer,wissen=null,wissenQuery='';
