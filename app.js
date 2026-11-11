@@ -1,9 +1,10 @@
-var BUNDLED_VERSION=85;
+var BUNDLED_VERSION=86;
 const STORE='pruefungswerk.v1';
 const template={examId:'ihk-2025-01',title:'Abschlussprüfung – Teil 1',year:2025,questions:[{id:'aufgabe-1',type:'single',prompt:'Fragetext hier eintragen',points:2,options:[{id:'a',text:'Antwort A'},{id:'b',text:'Antwort B'}],answerIds:['b'],solution:'Hier die Lösung und eine kurze Erklärung eintragen.'}]};
 let data=loadData(),activeQuiz=null,toastTimer,wissen=null,wissenQuery='';
 const $=s=>document.querySelector(s);
-function loadData(){try{const d=JSON.parse(localStorage.getItem(STORE));if(d&&Array.isArray(d.profiles)&&Array.isArray(d.exams))return d}catch(e){}return{profiles:[{id:crypto.randomUUID(),name:'Lernprofil 1',stats:{sessions:0,answered:0,correct:0,byExam:{},history:[]}}],activeProfile:null,exams:[]}}
+function loadData(){try{if(/[?&]reset=1/.test(location.search)){localStorage.removeItem(STORE);return null}}catch(e){}
+  try{const d=JSON.parse(localStorage.getItem(STORE));if(d&&Array.isArray(d.profiles)&&Array.isArray(d.exams)&&d.exams.length)return d}catch(e){}return{profiles:[{id:crypto.randomUUID(),name:'Lernprofil 1',stats:{sessions:0,answered:0,correct:0,byExam:{},history:[]}}],activeProfile:null,exams:[]}}
 if(!data.activeProfile||!data.profiles.some(p=>p.id===data.activeProfile))data.activeProfile=data.profiles[0].id;
 function save(){localStorage.setItem(STORE,JSON.stringify(data))}
 function profile(){return data.profiles.find(p=>p.id===data.activeProfile)||data.profiles[0]}
@@ -48,6 +49,7 @@ if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:
     if(typeof tagExams==='function')tagExams();
     render();renderDataStand();
     if(!same)showToast('Prüfungsinhalte wurden aktualisiert ('+BUNDLED_VERSION+')');
+    if(!data.exams.length){var es=document.getElementById('emptyState');if(es){es.hidden=false;es.innerHTML='<h2>Prüfungsdaten fehlen</h2><p class="note-small">Die Fragen konnten nicht geladen werden. Tippe auf „Daten reparieren“ – dein Lernstand bleibt erhalten.</p><button class="button button-dark" id="repairData">Daten reparieren</button>';var rb=document.getElementById('repairData');if(rb)rb.onclick=function(){try{localStorage.removeItem(STORE)}catch(e){}location.reload()}}}
   }catch(err){try{console.error('[Prüfungswerk] Datenupdate fehlgeschlagen',err)}catch(e){}renderDataStand()}
 }).catch(function(err){try{console.error('[Prüfungswerk] Daten konnten nicht geladen werden',err)}catch(e){}renderDataStand()});
 if('serviceWorker'in navigator&&location.protocol!=='file:')window.addEventListener('load',()=>{
