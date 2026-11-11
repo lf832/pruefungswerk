@@ -34,7 +34,7 @@ function importProgress(){const f=$('#progressFileInput').files[0];if(!f)return;
 function downloadTemplate(){download('pruefungswerk-vorlage.json',JSON.stringify(template,null,2));showToast('JSON-Vorlage heruntergeladen')}
 function showToast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
 init();
-const BUNDLED_VERSION=81;
+const BUNDLED_VERSION=83;
 function examSig(list){return list.map(function(e){return e.examId+':'+(e.questions?e.questions.length:0)}).join('|')}
 function renderDataStand(){var el=document.getElementById('dataStand');if(!el)return;if(!data.exams||!data.exams.length){el.textContent='Datenstand: noch keine Prüfungsdaten geladen.';return}var short=function(t){return String(t).replace(/^IHK-Prüfung\s+/,'').split('–')[0].trim()};el.textContent='Datenstand: '+data.exams.map(function(e){return short(e.title)+' '+e.questions.length+' Fragen'}).join(' · ')}
 if(location.protocol!=='file:')fetch('./skripte.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(r=>r.ok?r.json():null).then(sk=>{if(Array.isArray(sk)){SKRIPTE=sk;try{window.renderSkriptCard&&window.renderSkriptCard()}catch(e){}}}).catch(()=>{});fetch('./pruefungen-quiz.json?v='+BUNDLED_VERSION,{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(exams){
