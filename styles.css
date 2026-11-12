@@ -401,3 +401,26 @@ footer{padding-bottom:calc(83px + env(safe-area-inset-bottom,0px))}
 .vid-hero .vid-txt strong{font-size:15px}
 .vid-hero .vid-play{width:36px;height:36px;flex:0 0 36px;font-size:13px}
 .merk-chip-wide{grid-column:1/-1;justify-content:flex-start;gap:10px;border-color:var(--moss)}
+
+/* v89 · Fix: mobile-nav rutschte beim Scrollen mit und blieb haengen.
+   Ursache: will-change:transform + translateZ(0) auf einem position:fixed Element
+   zwingt iOS Safari in eine eigene Compositing-Ebene -> Leiste loest sich beim
+   Momentum-Scroll und bleibt mitten im Inhalt stehen. Transform raus, z-index hoch. */
+.mobile-nav{
+  position:fixed!important;
+  left:0;right:0;bottom:0;
+  transform:none!important;
+  will-change:auto!important;
+  -webkit-backface-visibility:visible!important;
+  backface-visibility:visible!important;
+  z-index:900!important;
+  padding-bottom:max(8px,env(safe-area-inset-bottom));
+}
+body{padding-bottom:calc(74px + env(safe-area-inset-bottom,0px))}
+@media(max-width:760px){
+  .quiz-controls{position:static!important}
+  .quiz-wrap{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+  .answer-list{padding-bottom:8px}
+  #solutionArea{padding-bottom:8px}
+}
+@media(min-width:761px){ .mobile-nav{display:none!important} body{padding-bottom:0} }
